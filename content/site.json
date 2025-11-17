@@ -1,0 +1,19 @@
+{
+  "company": "1031 Exchange San Antonio",
+  "phone": "210-791-0823",
+  "phoneDigits": "2107910823",
+  "email": "contact@1031exchangesanantonio.com",
+  "address": "613 NW Loop 410, San Antonio, TX 78216",
+  "website": "1031exchangesanantonio.com",
+  "mainCity": "San Antonio",
+  "state": "TX",
+  "services": [],
+  "servicesNav": [],
+  "locationsNav": [],
+  "extraLinks": [
+    {
+      "label": "Contact",
+      "href": "/contact"
+    }
+  ]
+}
