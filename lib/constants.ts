@@ -1,6 +1,6 @@
 import site from '@/content/site.json'
 
-export const SITE_URL = site.url
+export const SITE_URL = `https://www.${site.website}`
 export const SITE_EMAIL = site.email
 export const SITE_PHONE = site.phone
 export const SITE_PHONE_DIGITS = site.phoneDigits
