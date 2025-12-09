@@ -84,7 +84,7 @@ export async function sendInternalNotifications(brand: Brand, lead: Lead): Promi
   const notificationEmails = [
     brand.email,
     process.env.CONTRACTOR_EMAIL,
-  ].filter(Boolean)
+  ].filter((email): email is string => Boolean(email))
 
   if (notificationEmails.length === 0) {
     console.warn('No notification email addresses configured')
