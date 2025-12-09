@@ -55,7 +55,6 @@ export default function ContactForm({ prefillProjectType }: ContactFormProps) {
     estimatedCloseDate: "",
     timeline: "",
     details: "",
-    message: "",
   });
   const [projectTypeQuery, setProjectTypeQuery] = useState("");
   const [showSuggestions, setShowSuggestions] = useState(false);
@@ -345,41 +344,21 @@ export default function ContactForm({ prefillProjectType }: ContactFormProps) {
 
         <div>
           <label htmlFor="details" className="block text-sm font-medium text-heading mb-2">
-            Additional Details
+            Details
           </label>
           <textarea
             id="details"
             name="details"
-            rows={4}
+            rows={6}
             value={formData.details}
             onChange={handleInputChange}
-            placeholder="Outline goals, replacement preferences, or coordination needs (optional)"
-            className="w-full px-4 py-2 bg-paper border border-outline rounded-lg text-ink focus:outline-none focus:border-primary resize-none"
-          />
-        </div>
-
-        <div>
-          <label htmlFor="message" className="block text-sm font-medium text-heading mb-2">
-            Message
-          </label>
-          <textarea
-            id="message"
-            name="message"
-            rows={3}
-            value={formData.message}
-            onChange={handleInputChange}
-            placeholder="Any additional message or questions (optional) - trigger new deployment"
+            placeholder="Tell us about your 1031 exchange needs..."
             className="w-full px-4 py-2 bg-paper border border-outline rounded-lg text-ink focus:outline-none focus:border-primary resize-none"
           />
         </div>
 
         <div className="space-y-2">
           <div ref={captchaContainerRef} className="flex justify-center"></div>
-          {!turnstileSiteKey && (
-            <p className="text-sm text-red-500">
-              Turnstile site key missing. Add <code>NEXT_PUBLIC_TURNSTILE_SITEKEY</code> before launching the CAPTCHA.
-            </p>
-          )}
         </div>
 
         <button
