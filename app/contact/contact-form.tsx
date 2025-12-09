@@ -50,11 +50,12 @@ export default function ContactForm({ prefillProjectType }: ContactFormProps) {
     email: "",
     phone: "",
     projectType: "",
+    city: "",
     property: "",
     estimatedCloseDate: "",
-    city: "",
     timeline: "",
     details: "",
+    message: "",
   });
   const [projectTypeQuery, setProjectTypeQuery] = useState("");
   const [showSuggestions, setShowSuggestions] = useState(false);
