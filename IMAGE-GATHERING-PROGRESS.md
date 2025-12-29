@@ -23,12 +23,12 @@ All location images have been gathered and are in `public/locations/` with namin
 All property type images have been gathered and are in `public/property-types/` with naming format: `1031-exchange-{slug}-san-antonio-tx.jpg`
 
 **All Gathered in This Session:**
-1. ✅ `convenience-store-gas` - 1031-exchange-convenience-store-gas-san-antonio-tx.jpg (800x534)
+1. ✅ `convenience-store-gas` - 1031-exchange-convenience-store-gas-san-antonio-tx.jpg (1000x667) - **UPDATED: Now using Buc-ee's store front image from buc-ees.com**
 2. ✅ `drive-thru-qsr` - 1031-exchange-drive-thru-qsr-san-antonio-tx.jpg (2048x1357)
 3. ✅ `pharmacy` - 1031-exchange-pharmacy-san-antonio-tx.jpg (768x512)
 4. ✅ `dollar-store` - 1031-exchange-dollar-store-san-antonio-tx.jpg (1200x500)
 5. ✅ `coffee-drive-thru` - 1031-exchange-coffee-drive-thru-san-antonio-tx.jpg (2560x2048)
-6. ✅ `auto-parts-retail` - 1031-exchange-auto-parts-retail-san-antonio-tx.jpg (1344x756)
+6. ✅ `auto-parts-retail` - 1031-exchange-auto-parts-retail-san-antonio-tx.jpg (1200x826) - **UPDATED: Now using O'Reilly Auto Parts store image from Wikipedia**
 7. ✅ `hard-discount-grocer` - 1031-exchange-hard-discount-grocer-san-antonio-tx.jpg (2000x1333)
 8. ✅ `ground-lease-outparcel` - 1031-exchange-ground-lease-outparcel-san-antonio-tx.jpg (810x540)
 9. ✅ `urgent-care-medical` - 1031-exchange-urgent-care-medical-san-antonio-tx.jpg (570x400)
@@ -42,7 +42,7 @@ All property type images have been gathered and are in `public/property-types/` 
 17. ✅ `specialty-grocer` - 1031-exchange-specialty-grocer-san-antonio-tx.jpg (2560x1707)
 18. ✅ `casual-dining-drive-thru` - 1031-exchange-casual-dining-drive-thru-san-antonio-tx.jpg (1585x892)
 19. ✅ `telecom-wireless` - 1031-exchange-telecom-wireless-san-antonio-tx.jpg (1900x1425)
-20. ✅ `parcel-shipping-print` - 1031-exchange-parcel-shipping-print-san-antonio-tx.jpg (960x200)
+20. ✅ `parcel-shipping-print` - 1031-exchange-parcel-shipping-print-san-antonio-tx.jpg (1024x681) - **UPDATED: Now using professional parcel shipping facility image from postandparcel.com**
 
 ### Code Updates
 - ✅ Updated `SafeImage` component to try multiple extensions (.webp, .avif, .jpg, .jpeg, .png)
@@ -75,6 +75,7 @@ All property type images have been gathered and are in `public/property-types/` 
 - SafeImage component handles multiple file extensions automatically
 - All images are properly named and in correct directories
 - No empty subfolders remain
+- **Special Updates (Dec 29, 2025):** Convenience store gas image updated with Buc-ee's store front from buc-ees.com; Auto parts retail image updated with O'Reilly Auto Parts store from Wikipedia; Parcel shipping print image updated with professional facility from postandparcel.com
 
 ## ✅ Final Status
 
