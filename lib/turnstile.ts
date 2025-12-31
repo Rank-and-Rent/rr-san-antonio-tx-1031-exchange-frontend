@@ -1,8 +1,8 @@
 export async function verifyTurnstile(token: string, clientIp?: string): Promise<boolean> {
-  const secret = process.env.TURNSTILE_SECRET_KEY
+  const secret = process.env.TURNSTILE_SECRET || process.env.TURNSTILE_SECRET_KEY
 
   if (!secret) {
-    console.error('TURNSTILE_SECRET_KEY environment variable is not set')
+    console.error('Missing TURNSTILE_SECRET or TURNSTILE_SECRET_KEY environment variable')
     return false
   }
 

@@ -21,19 +21,42 @@ const timelineOptions: TimelineOption[] = [
   { value: "planning-phase", label: "Planning phase" },
 ];
 
+// Utility to load Turnstile script exactly once
+function loadTurnstile(): Promise<void> {
+  if (typeof window === "undefined") return Promise.resolve();
+  if ((window as Window & { _turnstileLoaded?: boolean })._turnstileLoaded) return Promise.resolve();
+
+  return new Promise<void>((resolve, reject) => {
+    const existing = document.querySelector<HTMLScriptElement>(
+      'script[src^="https://challenges.cloudflare.com/turnstile/v0/api.js"]'
+    );
+    if (existing) {
+      (window as Window & { _turnstileLoaded?: boolean })._turnstileLoaded = true;
+      return resolve();
+    }
+    const s = document.createElement("script");
+    s.src = "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit";
+    s.async = true;
+    s.defer = true;
+    s.onload = () => {
+      (window as Window & { _turnstileLoaded?: boolean })._turnstileLoaded = true;
+      resolve();
+    };
+    s.onerror = () => {
+      console.error("Failed to load Turnstile script");
+      reject(new Error("Turnstile script failed to load"));
+    };
+    document.head.appendChild(s);
+  });
+}
+
 declare global {
   interface Window {
+    _turnstileLoaded?: boolean;
     turnstile?: {
-      render: (
-        element: Element,
-        options: {
-          sitekey: string;
-          callback: (token: string) => void;
-          "expired-callback"?: () => void;
-          action?: string;
-        }
-      ) => number;
-      reset?: (widgetId: number) => void;
+      render: (element: Element, options: Record<string, unknown>) => string;
+      execute: (widgetId: string, options?: Record<string, unknown>) => Promise<string>;
+      reset: (widgetId: string) => void;
     };
   }
 }
@@ -42,7 +65,6 @@ export default function ContactForm({ prefillProjectType }: ContactFormProps) {
   const searchParams = useSearchParams();
   const formRef = useRef<HTMLFormElement>(null);
   const captchaContainerRef = useRef<HTMLDivElement>(null);
-  const widgetIdRef = useRef<number | null>(null);
 
   const [formData, setFormData] = useState({
     name: "",
@@ -58,13 +80,13 @@ export default function ContactForm({ prefillProjectType }: ContactFormProps) {
   });
   const [projectTypeQuery, setProjectTypeQuery] = useState("");
   const [showSuggestions, setShowSuggestions] = useState(false);
-  const [captchaToken, setCaptchaToken] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [scriptReady, setScriptReady] = useState(false);
   const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
   const [feedback, setFeedback] = useState("");
+  const [turnstileId, setTurnstileId] = useState<string | null>(null);
+  const [turnstileReady, setTurnstileReady] = useState(false);
 
-  const turnstileSiteKey = process.env.NEXT_PUBLIC_TURNSTILE_SITEKEY ?? process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY ?? "";
+  const siteKey = process.env.NEXT_PUBLIC_TURNSTILE_SITEKEY || process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY || "";
   const searchProjectType = searchParams.get("projectType") ?? "";
   const scrollToFormParam = searchParams.get("scrollToForm") ?? "";
 
@@ -83,51 +105,56 @@ export default function ContactForm({ prefillProjectType }: ContactFormProps) {
     }
   }, [scrollToFormParam]);
 
+  // Load Turnstile script
   useEffect(() => {
-    if (typeof window === "undefined") {
-      return;
-    }
+    let cancelled = false;
+    const initTimeout = setTimeout(async () => {
+      if (cancelled) return;
+      if (!siteKey) return;
 
-    if (window.turnstile) {
-      setScriptReady(true);
-      return;
-    }
+      try {
+        await loadTurnstile();
+        if (cancelled) return;
 
-    const interval = setInterval(() => {
-      if (window.turnstile) {
-        setScriptReady(true);
-        clearInterval(interval);
+        if (!window.turnstile) {
+          console.error("Turnstile API not available");
+          return;
+        }
+
+        if (!captchaContainerRef.current) {
+          console.error("Turnstile ref not mounted");
+          return;
+        }
+
+        const id: string = window.turnstile.render(captchaContainerRef.current, {
+          sitekey: siteKey,
+          size: "normal",
+          callback: () => {
+            setTurnstileReady(true);
+          },
+          "error-callback": () => {
+            console.warn("Turnstile error");
+            setTurnstileReady(false);
+          },
+          "timeout-callback": () => {
+            console.warn("Turnstile timeout");
+            setTurnstileReady(false);
+          },
+        });
+        setTurnstileId(id);
+        setTurnstileReady(true);
+        console.log("Turnstile initialized successfully");
+      } catch (error) {
+        console.error("Failed to initialize Turnstile:", error);
+        setTurnstileReady(false);
       }
-    }, 250);
-
-    return () => clearInterval(interval);
-  }, []);
-
-  useEffect(() => {
-    if (
-      !turnstileSiteKey ||
-      !scriptReady ||
-      !captchaContainerRef.current ||
-      widgetIdRef.current !== null
-    ) {
-      return;
-    }
-
-    if (!window.turnstile) {
-      return;
-    }
-
-    widgetIdRef.current = window.turnstile.render(captchaContainerRef.current, {
-      sitekey: turnstileSiteKey,
-      callback: (token) => setCaptchaToken(token),
-      "expired-callback": () => setCaptchaToken(""),
-      action: "contact_form",
-    });
+    }, 500);
 
     return () => {
-      widgetIdRef.current = null;
+      cancelled = true;
+      clearTimeout(initTimeout);
     };
-  }, [scriptReady, turnstileSiteKey]);
+  }, [siteKey]);
 
   const projectTypeSuggestions = useMemo(() => {
     if (!projectTypeQuery) {
@@ -162,17 +189,50 @@ export default function ContactForm({ prefillProjectType }: ContactFormProps) {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    if (!captchaToken) {
-      setFeedback("Please complete the security verification.");
-      setStatus("error");
-      return;
-    }
-
     setIsSubmitting(true);
     setStatus("submitting");
     setFeedback("");
 
     try {
+      // Verify Turnstile is ready
+      if (siteKey && (!turnstileReady || !window.turnstile || !turnstileId)) {
+        setFeedback("Please complete the security verification.");
+        setStatus("error");
+        setIsSubmitting(false);
+        return;
+      }
+
+      // Get Turnstile token - use execute() to get a fresh token
+      let turnstileToken = '';
+      if (siteKey && window.turnstile && turnstileId) {
+        try {
+          // Reset before executing to avoid "already executed" error
+          window.turnstile.reset(turnstileId);
+          turnstileToken = await new Promise<string>((resolve, reject) => {
+            if (!window.turnstile) {
+              reject(new Error("Turnstile not available"));
+              return;
+            }
+            window.turnstile.execute(turnstileId, {
+              async: true,
+              action: "form_submit",
+              callback: (t: string) => resolve(t),
+              "error-callback": () => reject(new Error("turnstile-error")),
+              "timeout-callback": () => reject(new Error("turnstile-timeout")),
+            });
+          });
+        } catch (err) {
+          console.error("Turnstile execution error:", err);
+          setFeedback("Security verification failed. Please try again.");
+          setStatus("error");
+          setIsSubmitting(false);
+          if (window.turnstile && turnstileId) {
+            window.turnstile.reset(turnstileId);
+          }
+          return;
+        }
+      }
+
       // Prepare phone number (digits only)
       const phoneDigits = formData.phone.replace(/\D/g, '');
 
@@ -191,7 +251,7 @@ export default function ContactForm({ prefillProjectType }: ContactFormProps) {
           company: formData.company,
           timeline: formData.timeline,
           details: formData.details,
-          'cf-turnstile-response': captchaToken,
+          'cf-turnstile-response': turnstileToken,
         }),
       });
 
@@ -209,23 +269,31 @@ export default function ContactForm({ prefillProjectType }: ContactFormProps) {
           details: "",
         });
         setProjectTypeQuery("");
+        // Reset turnstile
+        if (window.turnstile && turnstileId) {
+          window.turnstile.reset(turnstileId);
+        }
         setStatus("success");
         setFeedback("Thank you. A San Antonio exchange specialist will follow up within one business day.");
       } else {
         const errorData = await response.json().catch(() => ({ error: 'Failed to submit form' }));
         setFeedback(errorData.error || 'Failed to submit form. Please try again.');
         setStatus("error");
+        // Reset turnstile on error
+        if (window.turnstile && turnstileId) {
+          window.turnstile.reset(turnstileId);
+        }
       }
     } catch (error) {
       console.error('Error submitting form:', error);
       setFeedback("An error occurred. Please try again or contact us directly.");
       setStatus("error");
+      // Reset turnstile on error
+      if (window.turnstile && turnstileId) {
+        window.turnstile.reset(turnstileId);
+      }
     } finally {
       setIsSubmitting(false);
-      setCaptchaToken("");
-      if (typeof window !== "undefined" && widgetIdRef.current !== null) {
-        window.turnstile?.reset?.(widgetIdRef.current);
-      }
     }
   };
 
@@ -408,13 +476,16 @@ export default function ContactForm({ prefillProjectType }: ContactFormProps) {
           />
         </div>
 
-        <div className="space-y-2">
-          <div ref={captchaContainerRef} className="flex justify-center"></div>
-        </div>
+        {/* Turnstile Container */}
+        {siteKey && (
+          <div className="flex justify-center">
+            <div ref={captchaContainerRef} className="min-h-[78px]" />
+          </div>
+        )}
 
         <button
           type="submit"
-          disabled={!captchaToken || isSubmitting}
+          disabled={isSubmitting || !!(siteKey && !turnstileReady)}
           className="w-full px-8 py-3 bg-primary text-primaryfg rounded-full hover:opacity-90 transition-opacity font-medium disabled:opacity-50 disabled:cursor-not-allowed"
         >
           {isSubmitting ? "Sending..." : "Send Message"}
@@ -435,4 +506,3 @@ export default function ContactForm({ prefillProjectType }: ContactFormProps) {
     </form>
   );
 }
-
