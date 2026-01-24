@@ -21,7 +21,6 @@ const timelineOptions: TimelineOption[] = [
   { value: "planning-phase", label: "Planning phase" },
 ];
 
-// Utility to load Turnstile script exactly once
 function loadTurnstile(): Promise<void> {
   if (typeof window === "undefined") return Promise.resolve();
   if ((window as Window & { _turnstileLoaded?: boolean })._turnstileLoaded) return Promise.resolve();
@@ -105,7 +104,6 @@ export default function ContactForm({ prefillProjectType }: ContactFormProps) {
     }
   }, [scrollToFormParam]);
 
-  // Load Turnstile script
   useEffect(() => {
     let cancelled = false;
     const initTimeout = setTimeout(async () => {
@@ -194,7 +192,6 @@ export default function ContactForm({ prefillProjectType }: ContactFormProps) {
     setFeedback("");
 
     try {
-      // Verify Turnstile is ready
       if (siteKey && (!turnstileReady || !window.turnstile || !turnstileId)) {
         setFeedback("Please complete the security verification.");
         setStatus("error");
@@ -202,11 +199,9 @@ export default function ContactForm({ prefillProjectType }: ContactFormProps) {
         return;
       }
 
-      // Get Turnstile token - use execute() to get a fresh token
       let turnstileToken = '';
       if (siteKey && window.turnstile && turnstileId) {
         try {
-          // Reset before executing to avoid "already executed" error
           window.turnstile.reset(turnstileId);
           turnstileToken = await new Promise<string>((resolve, reject) => {
             if (!window.turnstile) {
@@ -233,10 +228,8 @@ export default function ContactForm({ prefillProjectType }: ContactFormProps) {
         }
       }
 
-      // Prepare phone number (digits only)
       const phoneDigits = formData.phone.replace(/\D/g, '');
 
-      // Submit to API
       const response = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -269,7 +262,6 @@ export default function ContactForm({ prefillProjectType }: ContactFormProps) {
           details: "",
         });
         setProjectTypeQuery("");
-        // Reset turnstile
         if (window.turnstile && turnstileId) {
           window.turnstile.reset(turnstileId);
         }
@@ -279,7 +271,6 @@ export default function ContactForm({ prefillProjectType }: ContactFormProps) {
         const errorData = await response.json().catch(() => ({ error: 'Failed to submit form' }));
         setFeedback(errorData.error || 'Failed to submit form. Please try again.');
         setStatus("error");
-        // Reset turnstile on error
         if (window.turnstile && turnstileId) {
           window.turnstile.reset(turnstileId);
         }
@@ -288,7 +279,6 @@ export default function ContactForm({ prefillProjectType }: ContactFormProps) {
       console.error('Error submitting form:', error);
       setFeedback("An error occurred. Please try again or contact us directly.");
       setStatus("error");
-      // Reset turnstile on error
       if (window.turnstile && turnstileId) {
         window.turnstile.reset(turnstileId);
       }
@@ -297,75 +287,82 @@ export default function ContactForm({ prefillProjectType }: ContactFormProps) {
     }
   };
 
+  const inputClasses = "w-full px-5 py-3 bg-white border border-outline/50 text-ink text-sm focus:outline-none focus:border-ink transition-colors";
+  const labelClasses = "block text-xs tracking-[0.15em] uppercase text-ink/70 mb-2";
+
   return (
     <form
       ref={formRef}
       onSubmit={handleSubmit}
-      className="bg-panel border border-outline rounded-lg p-8"
+      className="bg-secondary border border-outline/30 p-10"
     >
-      <h2 className="text-2xl font-semibold text-heading mb-6">Send Us a Message</h2>
+      <h2 className="text-2xl tracking-[0.1em] text-heading mb-8 text-center">SEND US A MESSAGE</h2>
       <div className="space-y-6">
-        <div>
-          <label htmlFor="name" className="block text-sm font-medium text-heading mb-2">
-            Name *
-          </label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            required
-            value={formData.name}
-            onChange={handleInputChange}
-            className="w-full px-4 py-2 bg-paper border border-outline rounded-lg text-ink focus:outline-none focus:border-primary"
-          />
+        <div className="grid md:grid-cols-2 gap-6">
+          <div>
+            <label htmlFor="name" className={labelClasses}>
+              Name *
+            </label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              value={formData.name}
+              onChange={handleInputChange}
+              className={inputClasses}
+            />
+          </div>
+
+          <div>
+            <label htmlFor="company" className={labelClasses}>
+              Company
+            </label>
+            <input
+              type="text"
+              id="company"
+              name="company"
+              value={formData.company}
+              onChange={handleInputChange}
+              className={inputClasses}
+            />
+          </div>
         </div>
 
-        <div>
-          <label htmlFor="company" className="block text-sm font-medium text-heading mb-2">
-            Company
-          </label>
-          <input
-            type="text"
-            id="company"
-            name="company"
-            value={formData.company}
-            onChange={handleInputChange}
-            className="w-full px-4 py-2 bg-paper border border-outline rounded-lg text-ink focus:outline-none focus:border-primary"
-          />
-        </div>
+        <div className="grid md:grid-cols-2 gap-6">
+          <div>
+            <label htmlFor="email" className={labelClasses}>
+              Email *
+            </label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              value={formData.email}
+              onChange={handleInputChange}
+              className={inputClasses}
+            />
+          </div>
 
-        <div>
-          <label htmlFor="email" className="block text-sm font-medium text-heading mb-2">
-            Email *
-          </label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            required
-            value={formData.email}
-            onChange={handleInputChange}
-            className="w-full px-4 py-2 bg-paper border border-outline rounded-lg text-ink focus:outline-none focus:border-primary"
-          />
-        </div>
-
-        <div>
-          <label htmlFor="phone" className="block text-sm font-medium text-heading mb-2">
-            Phone *
-          </label>
-          <input
-            type="tel"
-            id="phone"
-            name="phone"
-            required
-            value={formData.phone}
-            onChange={handleInputChange}
-            className="w-full px-4 py-2 bg-paper border border-outline rounded-lg text-ink focus:outline-none focus:border-primary"
-          />
+          <div>
+            <label htmlFor="phone" className={labelClasses}>
+              Phone *
+            </label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              required
+              value={formData.phone}
+              onChange={handleInputChange}
+              className={inputClasses}
+            />
+          </div>
         </div>
 
         <div className="relative">
-          <label htmlFor="projectType" className="block text-sm font-medium text-heading mb-2">
+          <label htmlFor="projectType" className={labelClasses}>
             Project Type *
           </label>
           <input
@@ -376,17 +373,17 @@ export default function ContactForm({ prefillProjectType }: ContactFormProps) {
             value={formData.projectType}
             onChange={handleInputChange}
             placeholder="Start typing to see suggestions..."
-            className="w-full px-4 py-2 bg-paper border border-outline rounded-lg text-ink focus:outline-none focus:border-primary"
+            className={inputClasses}
           />
           {showSuggestions && projectTypeSuggestions.length > 0 && (
-            <div className="absolute top-full left-0 right-0 mt-1 bg-paper border border-outline rounded-lg shadow-xl z-50 max-h-64 overflow-y-auto">
+            <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-outline/50 shadow-lg z-50 max-h-64 overflow-y-auto">
               <ul className="py-2">
                 {projectTypeSuggestions.map((service) => (
                   <li key={service.slug}>
                     <button
                       type="button"
                       onClick={() => handleSelectSuggestion(service.name)}
-                      className="w-full text-left px-4 py-2 hover:bg-panel text-ink transition-colors"
+                      className="w-full text-left px-5 py-3 hover:bg-secondary text-ink text-sm transition-colors"
                     >
                       {service.name}
                     </button>
@@ -397,86 +394,88 @@ export default function ContactForm({ prefillProjectType }: ContactFormProps) {
           )}
         </div>
 
-        <div>
-          <label htmlFor="timeline" className="block text-sm font-medium text-heading mb-2">
-            Timeline
-          </label>
-          <select
-            id="timeline"
-            name="timeline"
-            value={formData.timeline}
-            onChange={handleInputChange}
-            className="w-full px-4 py-2 bg-paper border border-outline rounded-lg text-ink focus:outline-none focus:border-primary"
-          >
-            {timelineOptions.map((option) => (
-              <option key={option.value} value={option.value}>
-                {option.label}
-              </option>
-            ))}
-          </select>
+        <div className="grid md:grid-cols-2 gap-6">
+          <div>
+            <label htmlFor="timeline" className={labelClasses}>
+              Timeline
+            </label>
+            <select
+              id="timeline"
+              name="timeline"
+              value={formData.timeline}
+              onChange={handleInputChange}
+              className={inputClasses}
+            >
+              {timelineOptions.map((option) => (
+                <option key={option.value} value={option.value}>
+                  {option.label}
+                </option>
+              ))}
+            </select>
+          </div>
+
+          <div>
+            <label htmlFor="city" className={labelClasses}>
+              City
+            </label>
+            <input
+              type="text"
+              id="city"
+              name="city"
+              value={formData.city}
+              onChange={handleInputChange}
+              placeholder="Primary metro or submarket"
+              className={inputClasses}
+            />
+          </div>
+        </div>
+
+        <div className="grid md:grid-cols-2 gap-6">
+          <div>
+            <label htmlFor="property" className={labelClasses}>
+              Property Being Sold
+            </label>
+            <input
+              type="text"
+              id="property"
+              name="property"
+              value={formData.property}
+              onChange={handleInputChange}
+              placeholder="Type, location, estimated value"
+              className={inputClasses}
+            />
+          </div>
+
+          <div>
+            <label htmlFor="estimatedCloseDate" className={labelClasses}>
+              Estimated Close Date
+            </label>
+            <input
+              type="date"
+              id="estimatedCloseDate"
+              name="estimatedCloseDate"
+              value={formData.estimatedCloseDate}
+              onChange={handleInputChange}
+              className={inputClasses}
+            />
+          </div>
         </div>
 
         <div>
-          <label htmlFor="city" className="block text-sm font-medium text-heading mb-2">
-            City
-          </label>
-          <input
-            type="text"
-            id="city"
-            name="city"
-            value={formData.city}
-            onChange={handleInputChange}
-            placeholder="Primary metro or submarket (optional)"
-            className="w-full px-4 py-2 bg-paper border border-outline rounded-lg text-ink focus:outline-none focus:border-primary"
-          />
-        </div>
-
-        <div>
-          <label htmlFor="property" className="block text-sm font-medium text-heading mb-2">
-            Property Being Sold
-          </label>
-          <input
-            type="text"
-            id="property"
-            name="property"
-            value={formData.property}
-            onChange={handleInputChange}
-            placeholder="Include property type, location, and estimated value (optional)"
-            className="w-full px-4 py-2 bg-paper border border-outline rounded-lg text-ink focus:outline-none focus:border-primary"
-          />
-        </div>
-
-        <div>
-          <label htmlFor="estimatedCloseDate" className="block text-sm font-medium text-heading mb-2">
-            Estimated Close Date
-          </label>
-          <input
-            type="date"
-            id="estimatedCloseDate"
-            name="estimatedCloseDate"
-            value={formData.estimatedCloseDate}
-            onChange={handleInputChange}
-            placeholder="Determines your 45 day and 180 day milestones (optional)"
-            className="w-full px-4 py-2 bg-paper border border-outline rounded-lg text-ink focus:outline-none focus:border-primary"
-          />
-        </div>
-
-        <div>
-          <label htmlFor="details" className="block text-sm font-medium text-heading mb-2">
+          <label htmlFor="details" className={labelClasses}>
             Details
           </label>
           <textarea
             id="details"
             name="details"
-            rows={6}
+            rows={5}
             value={formData.details}
             onChange={handleInputChange}
             placeholder="Tell us about your 1031 exchange needs..."
-            className="w-full px-4 py-2 bg-paper border border-outline rounded-lg text-ink focus:outline-none focus:border-primary resize-none"
+            className={`${inputClasses} resize-none`}
           />
         </div>
 
-        {/* Turnstile Container */}
         {siteKey && (
           <div className="flex justify-center">
             <div ref={captchaContainerRef} className="min-h-[78px]" />
@@ -486,7 +485,7 @@ export default function ContactForm({ prefillProjectType }: ContactFormProps) {
         <button
           type="submit"
           disabled={isSubmitting || !!(siteKey && !turnstileReady)}
-          className="w-full px-8 py-3 bg-primary text-primaryfg rounded-full hover:opacity-90 transition-opacity font-medium disabled:opacity-50 disabled:cursor-not-allowed"
+          className="w-full px-8 py-4 bg-ink text-white text-xs tracking-[0.25em] uppercase hover:bg-ink/90 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
         >
           {isSubmitting ? "Sending..." : "Send Message"}
         </button>
@@ -495,8 +494,8 @@ export default function ContactForm({ prefillProjectType }: ContactFormProps) {
           <p
             role="status"
             aria-live="polite"
-            className={`text-sm font-medium text-center ${
-              status === "success" ? "text-green-600" : "text-red-600"
+            className={`text-sm text-center italic ${
+              status === "success" ? "text-green-700" : "text-red-700"
             }`}
           >
             {feedback}
