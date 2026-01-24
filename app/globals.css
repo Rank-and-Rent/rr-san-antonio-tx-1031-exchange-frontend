@@ -2,7 +2,7 @@
 
 @theme {
   --color-paper: #ffffff;
-  --color-ink: #2c2c2c;
+  --color-ink: #1a1a1a;
   --color-heading: #1a1a1a;
   --color-primary: #1a1a1a;
   --color-primaryfg: #ffffff;
@@ -12,7 +12,8 @@
   --color-panel: #f8f8f6;
   --color-accent: #3d3d3d;
   --color-muted: #6b6b6b;
-  --color-overlay: rgba(0, 0, 0, 0.55);
+  --color-dark: #1a1a1a;
+  --color-darkpanel: #2a2a2a;
 }
 
 :root {
@@ -45,7 +46,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   letter-spacing: 0.15em;
   line-height: 1.3;
-  color: var(--color-heading);
   text-transform: uppercase;
 }
 
@@ -54,15 +54,6 @@ h1, h2, h3, h4, h5, h6 {
   font-style: italic;
   font-weight: 300;
   letter-spacing: 0.02em;
-}
-
-/* Section titles - Frontgate style */
-.section-title {
-  font-size: 0.75rem;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  color: var(--color-muted);
-  margin-bottom: 1rem;
 }
 
 /* Focus states */
@@ -99,42 +90,4 @@ a, button {
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--color-muted);
-}
-
-/* Frontgate-style bordered button */
-.btn-outline {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem 2rem;
-  border: 1px solid currentColor;
-  font-size: 0.75rem;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
-  transition: all 0.3s ease;
-}
-
-.btn-outline:hover {
-  background-color: var(--color-primary);
-  color: var(--color-primaryfg);
-  border-color: var(--color-primary);
-}
-
-/* Dark overlay cards */
-.card-overlay {
-  position: relative;
-  overflow: hidden;
-}
-
-.card-overlay::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.6) 100%);
-  z-index: 1;
-}
-
-.card-overlay > * {
-  position: relative;
-  z-index: 2;
 }

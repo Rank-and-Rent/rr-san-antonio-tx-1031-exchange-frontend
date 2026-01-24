@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import site from "@/content/site.json";
 import { servicesData, locationsData, propertyTypesData } from "@/data";
@@ -10,11 +9,6 @@ const tools = [
   { name: "Boot Calculator", href: "/tools/boot-calculator" },
   { name: "Exchange Cost Estimator", href: "/tools/exchange-cost-estimator" },
   { name: "Identification Rules Checker", href: "/tools/identification-rules-checker" },
-];
-
-const quickLinks = [
-  { label: "Blog", href: "/blog" },
-  { label: "About", href: "/about" },
 ];
 
 const mobileLinks = [
@@ -158,28 +152,35 @@ export default function Header() {
   const propertyTypePreview = propertyTypesData.slice(0, 6);
 
   return (
-    <header className="sticky top-0 z-50 bg-white shadow-sm">
-      <nav className="border-b border-outline/30">
+    <header className="sticky top-0 z-50">
+      {/* Main Navigation - Dark Background like Frontgate */}
+      <nav className="bg-[#1a1a1a]">
         <div className="container mx-auto px-6 py-5 flex items-center justify-between gap-8">
-          {/* Logo */}
+          {/* Logo - Text Based */}
           <Link
             href="/"
-            className="flex items-center flex-shrink-0 hover:opacity-80 transition-opacity"
+            className="flex items-center gap-3 flex-shrink-0 hover:opacity-80 transition-opacity"
             aria-label="Home"
           >
-            <Image
-              src="/1031-exchange-san-antonio-tx-logo.png"
-              alt={site.company}
-              width={180}
-              height={54}
-              className="h-12 w-auto"
-              priority
-              quality={95}
-            />
+            {/* Logo Mark - Three vertical bars like Frontgate */}
+            <div className="flex gap-[3px]">
+              <div className="w-[3px] h-8 bg-white"></div>
+              <div className="w-[3px] h-8 bg-white"></div>
+              <div className="w-[3px] h-8 bg-white"></div>
+            </div>
+            {/* Logo Text */}
+            <div className="flex flex-col">
+              <span className="text-white text-xs tracking-[0.3em] font-medium leading-tight">
+                1031 EXCHANGE
+              </span>
+              <span className="text-white/70 text-[10px] tracking-[0.25em] leading-tight">
+                SAN ANTONIO
+              </span>
+            </div>
           </Link>
 
-          {/* Desktop Navigation */}
-          <div className="hidden lg:flex flex-1 items-center justify-center gap-10">
+          {/* Desktop Navigation - White text on dark */}
+          <div className="hidden lg:flex flex-1 items-center justify-center gap-8">
             {/* Services Dropdown */}
             <div
               ref={servicesRef}
@@ -188,7 +189,7 @@ export default function Header() {
               onMouseLeave={handleServicesLeave}
             >
               <button
-                className="text-xs font-medium uppercase tracking-[0.2em] text-ink/80 hover:text-ink transition-colors"
+                className="text-xs font-medium uppercase tracking-[0.2em] text-white/80 hover:text-white transition-colors"
                 aria-expanded={servicesOpen}
                 aria-haspopup="true"
                 onFocus={() => setServicesOpen(true)}
@@ -203,14 +204,14 @@ export default function Header() {
               </button>
               {servicesOpen && (
                 <div
-                  className="absolute top-full left-1/2 -translate-x-1/2 mt-4 w-[28rem] bg-white border border-outline/50 shadow-xl p-6"
+                  className="absolute top-full left-1/2 -translate-x-1/2 mt-4 w-[28rem] bg-[#1a1a1a] border border-white/20 shadow-2xl p-6"
                   onMouseEnter={handleServicesEnter}
                   onMouseLeave={handleServicesLeave}
                 >
                   <div className="grid grid-cols-2 gap-6">
                     {Object.entries(servicesByCategory).map(([category, services]) => (
                       <div key={category}>
-                        <h3 className="text-[10px] text-muted tracking-[0.3em] uppercase mb-3 font-medium">
+                        <h3 className="text-[10px] text-white/50 tracking-[0.3em] uppercase mb-3 font-medium">
                           {category}
                         </h3>
                         <ul className="space-y-2">
@@ -218,7 +219,7 @@ export default function Header() {
                             <li key={service.slug}>
                               <Link
                                 href={service.route}
-                                className="block text-sm text-ink/80 hover:text-ink transition-colors"
+                                className="block text-sm text-white/80 hover:text-white transition-colors"
                                 onFocus={() => setServicesOpen(true)}
                                 onMouseEnter={handleServicesEnter}
                               >
@@ -230,10 +231,10 @@ export default function Header() {
                       </div>
                     ))}
                   </div>
-                  <div className="mt-5 pt-4 border-t border-outline/30">
+                  <div className="mt-5 pt-4 border-t border-white/20">
                     <Link
                       href="/services"
-                      className="text-xs uppercase tracking-[0.2em] text-ink font-medium hover:text-muted transition-colors"
+                      className="text-xs uppercase tracking-[0.2em] text-white font-medium hover:text-white/70 transition-colors"
                       onMouseEnter={handleServicesEnter}
                     >
                       View All Services
@@ -251,7 +252,7 @@ export default function Header() {
               onMouseLeave={handleLocationsLeave}
             >
               <button
-                className="text-xs font-medium uppercase tracking-[0.2em] text-ink/80 hover:text-ink transition-colors"
+                className="text-xs font-medium uppercase tracking-[0.2em] text-white/80 hover:text-white transition-colors"
                 aria-expanded={locationsOpen}
                 aria-haspopup="true"
                 onFocus={() => setLocationsOpen(true)}
@@ -266,14 +267,14 @@ export default function Header() {
               </button>
               {locationsOpen && (
                 <div
-                  className="absolute top-full left-1/2 -translate-x-1/2 mt-4 w-[26rem] bg-white border border-outline/50 shadow-xl p-6 max-h-[26rem] overflow-y-auto"
+                  className="absolute top-full left-1/2 -translate-x-1/2 mt-4 w-[26rem] bg-[#1a1a1a] border border-white/20 shadow-2xl p-6 max-h-[26rem] overflow-y-auto"
                   onMouseEnter={handleLocationsEnter}
                   onMouseLeave={handleLocationsLeave}
                 >
                   <div className="space-y-5">
                     {Object.entries(locationsByType).map(([type, locations]) => (
                       <div key={type}>
-                        <h3 className="text-[10px] text-muted tracking-[0.3em] uppercase mb-2 font-medium capitalize">
+                        <h3 className="text-[10px] text-white/50 tracking-[0.3em] uppercase mb-2 font-medium capitalize">
                           {type.replace("-", " ")}
                         </h3>
                         <div className="grid grid-cols-2 gap-2">
@@ -281,7 +282,7 @@ export default function Header() {
                             <Link
                               key={location.slug}
                               href={location.route}
-                              className="text-sm text-ink/80 hover:text-ink transition-colors"
+                              className="text-sm text-white/80 hover:text-white transition-colors"
                               onFocus={() => setLocationsOpen(true)}
                               onMouseEnter={handleLocationsEnter}
                             >
@@ -292,10 +293,10 @@ export default function Header() {
                       </div>
                     ))}
                   </div>
-                  <div className="mt-5 pt-4 border-t border-outline/30">
+                  <div className="mt-5 pt-4 border-t border-white/20">
                     <Link
                       href="/locations"
-                      className="text-xs uppercase tracking-[0.2em] text-ink font-medium hover:text-muted transition-colors"
+                      className="text-xs uppercase tracking-[0.2em] text-white font-medium hover:text-white/70 transition-colors"
                       onMouseEnter={handleLocationsEnter}
                     >
                       View All Locations
@@ -313,7 +314,7 @@ export default function Header() {
               onMouseLeave={handleToolsLeave}
             >
               <button
-                className="text-xs font-medium uppercase tracking-[0.2em] text-ink/80 hover:text-ink transition-colors"
+                className="text-xs font-medium uppercase tracking-[0.2em] text-white/80 hover:text-white transition-colors"
                 aria-expanded={toolsOpen}
                 aria-haspopup="true"
                 onFocus={() => setToolsOpen(true)}
@@ -328,7 +329,7 @@ export default function Header() {
               </button>
               {toolsOpen && (
                 <div
-                  className="absolute top-full left-1/2 -translate-x-1/2 mt-4 w-[18rem] bg-white border border-outline/50 shadow-xl p-6"
+                  className="absolute top-full left-1/2 -translate-x-1/2 mt-4 w-[18rem] bg-[#1a1a1a] border border-white/20 shadow-2xl p-6"
                   onMouseEnter={handleToolsEnter}
                   onMouseLeave={handleToolsLeave}
                 >
@@ -337,7 +338,7 @@ export default function Header() {
                       <li key={tool.href}>
                         <Link
                           href={tool.href}
-                          className="block text-sm text-ink/80 hover:text-ink transition-colors"
+                          className="block text-sm text-white/80 hover:text-white transition-colors"
                           onFocus={() => setToolsOpen(true)}
                           onMouseEnter={handleToolsEnter}
                         >
@@ -346,10 +347,10 @@ export default function Header() {
                       </li>
                     ))}
                   </ul>
-                  <div className="mt-5 pt-4 border-t border-outline/30">
+                  <div className="mt-5 pt-4 border-t border-white/20">
                     <Link
                       href="/tools"
-                      className="text-xs uppercase tracking-[0.2em] text-ink font-medium hover:text-muted transition-colors"
+                      className="text-xs uppercase tracking-[0.2em] text-white font-medium hover:text-white/70 transition-colors"
                       onMouseEnter={handleToolsEnter}
                     >
                       View All Tools
@@ -367,7 +368,7 @@ export default function Header() {
               onMouseLeave={handlePropertyTypesLeave}
             >
               <button
-                className="text-xs font-medium uppercase tracking-[0.2em] text-ink/80 hover:text-ink transition-colors"
+                className="text-xs font-medium uppercase tracking-[0.2em] text-white/80 hover:text-white transition-colors"
                 aria-expanded={propertyTypesOpen}
                 aria-haspopup="true"
                 onFocus={() => setPropertyTypesOpen(true)}
@@ -382,7 +383,7 @@ export default function Header() {
               </button>
               {propertyTypesOpen && (
                 <div
-                  className="absolute top-full left-1/2 -translate-x-1/2 mt-4 w-[20rem] bg-white border border-outline/50 shadow-xl p-6"
+                  className="absolute top-full left-1/2 -translate-x-1/2 mt-4 w-[20rem] bg-[#1a1a1a] border border-white/20 shadow-2xl p-6"
                   onMouseEnter={handlePropertyTypesEnter}
                   onMouseLeave={handlePropertyTypesLeave}
                 >
@@ -391,7 +392,7 @@ export default function Header() {
                       <Link
                         key={propertyType.slug}
                         href={propertyType.route}
-                        className="block text-sm text-ink/80 hover:text-ink transition-colors"
+                        className="block text-sm text-white/80 hover:text-white transition-colors"
                         onFocus={() => setPropertyTypesOpen(true)}
                         onMouseEnter={handlePropertyTypesEnter}
                       >
@@ -399,10 +400,10 @@ export default function Header() {
                       </Link>
                     ))}
                   </div>
-                  <div className="mt-5 pt-4 border-t border-outline/30">
+                  <div className="mt-5 pt-4 border-t border-white/20">
                     <Link
                       href="/property-types"
-                      className="text-xs uppercase tracking-[0.2em] text-ink font-medium hover:text-muted transition-colors"
+                      className="text-xs uppercase tracking-[0.2em] text-white font-medium hover:text-white/70 transition-colors"
                       onMouseEnter={handlePropertyTypesEnter}
                     >
                       View All Property Types
@@ -413,28 +414,31 @@ export default function Header() {
             </div>
 
             {/* Quick Links */}
-            {quickLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="text-xs font-medium uppercase tracking-[0.2em] text-ink/80 hover:text-ink transition-colors"
-              >
-                {link.label}
-              </Link>
-            ))}
+            <Link
+              href="/blog"
+              className="text-xs font-medium uppercase tracking-[0.2em] text-white/80 hover:text-white transition-colors"
+            >
+              Blog
+            </Link>
+            <Link
+              href="/about"
+              className="text-xs font-medium uppercase tracking-[0.2em] text-white/80 hover:text-white transition-colors"
+            >
+              About
+            </Link>
           </div>
 
           {/* Right Side - Phone & Contact */}
           <div className="hidden lg:flex items-center gap-6">
             <a 
               href={`tel:${site.phoneDigits}`} 
-              className="text-xs tracking-[0.15em] text-ink/70 hover:text-ink transition-colors font-medium"
+              className="text-xs tracking-[0.15em] text-white/70 hover:text-white transition-colors font-medium"
             >
               {site.phone}
             </a>
             <Link
               href="/contact"
-              className="px-6 py-3 border border-ink text-ink text-xs font-medium tracking-[0.2em] uppercase hover:bg-ink hover:text-white transition-all"
+              className="px-6 py-3 border border-white text-white text-xs font-medium tracking-[0.2em] uppercase hover:bg-white hover:text-[#1a1a1a] transition-all"
             >
               Contact Us
             </Link>
@@ -442,7 +446,7 @@ export default function Header() {
 
           {/* Mobile Menu Button */}
           <button
-            className="lg:hidden flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-ink/80 font-medium"
+            className="lg:hidden flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-white/80 font-medium"
             aria-label="Open navigation"
             aria-expanded={menuOpen}
             onClick={() => setMenuOpen((prev) => !prev)}
@@ -456,26 +460,32 @@ export default function Header() {
       {menuOpen && (
         <div className="fixed inset-0 z-50 flex">
           <div
-            className="fixed inset-0 bg-black/40"
+            className="fixed inset-0 bg-black/60"
             onClick={() => setMenuOpen(false)}
           />
-          <div className="ml-auto w-full max-w-sm bg-white border-l border-outline/30 p-8 overflow-y-auto">
+          <div className="ml-auto w-full max-w-sm bg-[#1a1a1a] border-l border-white/10 p-8 overflow-y-auto">
             <div className="flex items-center justify-between mb-10">
               <Link
                 href="/"
-                className="flex items-center"
+                className="flex items-center gap-3"
                 onClick={() => setMenuOpen(false)}
               >
-                <Image
-                  src="/1031-exchange-san-antonio-tx-logo.png"
-                  alt={site.company}
-                  width={150}
-                  height={45}
-                  className="h-10 w-auto"
-                />
+                <div className="flex gap-[3px]">
+                  <div className="w-[3px] h-6 bg-white"></div>
+                  <div className="w-[3px] h-6 bg-white"></div>
+                  <div className="w-[3px] h-6 bg-white"></div>
+                </div>
+                <div className="flex flex-col">
+                  <span className="text-white text-[10px] tracking-[0.3em] font-medium leading-tight">
+                    1031 EXCHANGE
+                  </span>
+                  <span className="text-white/70 text-[8px] tracking-[0.25em] leading-tight">
+                    SAN ANTONIO
+                  </span>
+                </div>
               </Link>
               <button
-                className="text-ink text-2xl leading-none"
+                className="text-white text-2xl leading-none"
                 aria-label="Close menu"
                 onClick={() => setMenuOpen(false)}
               >
@@ -487,22 +497,22 @@ export default function Header() {
                 <Link
                   key={`${link.label}-${link.href}`}
                   href={link.href}
-                  className="block text-sm uppercase tracking-[0.2em] text-ink/80 hover:text-ink transition-colors"
+                  className="block text-sm uppercase tracking-[0.2em] text-white/80 hover:text-white transition-colors"
                   onClick={() => setMenuOpen(false)}
                 >
                   {link.label}
                 </Link>
               ))}
             </div>
-            <div className="mt-10 pt-8 border-t border-outline/30 space-y-4">
-              <p className="text-[10px] tracking-[0.3em] text-muted uppercase font-medium">
+            <div className="mt-10 pt-8 border-t border-white/20 space-y-4">
+              <p className="text-[10px] tracking-[0.3em] text-white/50 uppercase font-medium">
                 Property Types
               </p>
               {propertyTypePreview.map((propertyType) => (
                 <Link
                   key={`mobile-${propertyType.slug}`}
                   href={propertyType.route}
-                  className="block text-sm text-ink hover:text-muted transition-colors"
+                  className="block text-sm text-white/80 hover:text-white transition-colors"
                   onClick={() => setMenuOpen(false)}
                 >
                   {propertyType.name}
@@ -510,20 +520,20 @@ export default function Header() {
               ))}
               <Link
                 href="/property-types"
-                className="block text-xs uppercase tracking-[0.2em] text-ink font-medium mt-4"
+                className="block text-xs uppercase tracking-[0.2em] text-white font-medium mt-4"
                 onClick={() => setMenuOpen(false)}
               >
                 Browse All Types
               </Link>
             </div>
-            <div className="mt-10 pt-8 border-t border-outline/30">
+            <div className="mt-10 pt-8 border-t border-white/20">
               <a
                 href={`tel:${site.phoneDigits}`}
-                className="block text-sm font-medium tracking-[0.15em] text-ink/80 hover:text-ink mb-2"
+                className="block text-sm font-medium tracking-[0.15em] text-white/80 hover:text-white mb-2"
               >
                 {site.phone}
               </a>
-              <p className="text-xs tracking-[0.1em] text-muted">
+              <p className="text-xs tracking-[0.1em] text-white/50">
                 {site.address}
               </p>
             </div>

@@ -287,16 +287,16 @@ export default function ContactForm({ prefillProjectType }: ContactFormProps) {
     }
   };
 
-  const inputClasses = "w-full px-5 py-3 bg-white border border-outline/50 text-ink text-sm focus:outline-none focus:border-ink transition-colors";
-  const labelClasses = "block text-xs tracking-[0.15em] uppercase text-ink/70 mb-2";
+  const inputClasses = "w-full px-5 py-4 bg-white border border-[#d4d4d4] text-[#1a1a1a] text-sm focus:outline-none focus:border-[#1a1a1a] transition-colors";
+  const labelClasses = "block text-xs tracking-[0.15em] uppercase text-[#1a1a1a]/60 mb-3";
 
   return (
     <form
       ref={formRef}
       onSubmit={handleSubmit}
-      className="bg-secondary border border-outline/30 p-10"
+      className="bg-[#f5f5f3] p-12"
     >
-      <h2 className="text-2xl tracking-[0.1em] text-heading mb-8 text-center">SEND US A MESSAGE</h2>
+      <h2 className="text-2xl tracking-[0.15em] text-[#1a1a1a] mb-10 text-center">SEND US A MESSAGE</h2>
       <div className="space-y-6">
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -376,14 +376,14 @@ export default function ContactForm({ prefillProjectType }: ContactFormProps) {
             className={inputClasses}
           />
           {showSuggestions && projectTypeSuggestions.length > 0 && (
-            <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-outline/50 shadow-lg z-50 max-h-64 overflow-y-auto">
+            <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-[#d4d4d4] shadow-lg z-50 max-h-64 overflow-y-auto">
               <ul className="py-2">
                 {projectTypeSuggestions.map((service) => (
                   <li key={service.slug}>
                     <button
                       type="button"
                       onClick={() => handleSelectSuggestion(service.name)}
-                      className="w-full text-left px-5 py-3 hover:bg-secondary text-ink text-sm transition-colors"
+                      className="w-full text-left px-5 py-3 hover:bg-[#f5f5f3] text-[#1a1a1a] text-sm transition-colors"
                     >
                       {service.name}
                     </button>
@@ -485,7 +485,7 @@ export default function ContactForm({ prefillProjectType }: ContactFormProps) {
         <button
           type="submit"
           disabled={isSubmitting || !!(siteKey && !turnstileReady)}
-          className="w-full px-8 py-4 bg-ink text-white text-xs tracking-[0.25em] uppercase hover:bg-ink/90 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+          className="w-full px-8 py-4 bg-[#1a1a1a] text-white text-xs tracking-[0.25em] uppercase hover:bg-[#1a1a1a]/90 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
         >
           {isSubmitting ? "Sending..." : "Send Message"}
         </button>

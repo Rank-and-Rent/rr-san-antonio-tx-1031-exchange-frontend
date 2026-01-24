@@ -94,12 +94,12 @@ export default function SearchInput({
           onFocus={() => setIsOpen(true)}
           onKeyDown={handleKeyDown}
           placeholder={placeholder}
-          className="w-full px-5 py-3 bg-white border border-outline/50 text-ink text-sm placeholder:text-ink/40 focus:outline-none focus:border-ink transition-colors"
+          className="w-full px-5 py-4 bg-white border border-[#d4d4d4] text-[#1a1a1a] text-sm placeholder:text-[#1a1a1a]/40 focus:outline-none focus:border-[#1a1a1a] transition-colors"
         />
         {query && (
           <button
             onClick={handleClear}
-            className="absolute right-4 top-1/2 -translate-y-1/2 text-ink/40 hover:text-ink text-lg"
+            className="absolute right-4 top-1/2 -translate-y-1/2 text-[#1a1a1a]/40 hover:text-[#1a1a1a] text-lg"
             aria-label="Clear search"
           >
             x
@@ -107,13 +107,13 @@ export default function SearchInput({
         )}
       </div>
       {isOpen && filteredItems.length > 0 && (
-        <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-outline/50 shadow-lg z-50 max-h-64 overflow-y-auto">
+        <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-[#d4d4d4] shadow-lg z-50 max-h-64 overflow-y-auto">
           <ul className="py-2">
             {filteredItems.map((item) => (
               <li key={item.slug}>
                 <button
                   onClick={() => handleSelect(item)}
-                  className="w-full text-left px-5 py-3 hover:bg-secondary text-ink text-sm transition-colors"
+                  className="w-full text-left px-5 py-3 hover:bg-[#f5f5f3] text-[#1a1a1a] text-sm transition-colors"
                 >
                   {item.name}
                 </button>
@@ -123,12 +123,12 @@ export default function SearchInput({
         </div>
       )}
       {isOpen && query.trim() !== "" && filteredItems.length === 0 && (
-        <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-outline/50 shadow-lg z-50 p-5">
-          <p className="text-ink text-sm mb-3">No results found for &quot;{query}&quot;</p>
+        <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-[#d4d4d4] shadow-lg z-50 p-5">
+          <p className="text-[#1a1a1a] text-sm mb-3">No results found for &quot;{query}&quot;</p>
           {onNoResults && (
             <button
               onClick={() => onNoResults(query)}
-              className="text-ink text-sm underline hover:text-muted transition-colors"
+              className="text-[#1a1a1a] text-sm underline hover:text-[#1a1a1a]/60 transition-colors"
             >
               Contact us about &quot;{query}&quot;
             </button>
