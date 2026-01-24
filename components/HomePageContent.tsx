@@ -1,8 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
-import { Suspense, useState, useEffect } from "react";
+import { Suspense } from "react";
 import { useRouter } from "next/navigation";
 import site from "@/content/site.json";
 import { servicesData, locationsData, propertyTypesData, inventoryCategories } from "@/data";
@@ -11,23 +10,8 @@ import ContactForm from "@/app/contact/contact-form";
 import SafeImage from "@/components/SafeImage";
 import { getLocationImagePath, getPropertyTypeImagePath } from "@/lib/image-utils";
 
-const heroImages = [
-  "/san-antonio-tx-1031-exchange-riverwalk-skyline.jpg",
-  "/san-antonio-tx-1031-exchange-twilight-skyline.jpg",
-  "/san-antonio-tx-1031-exchange-cityscape.jpg",
-];
-
 export default function HomePageContent() {
   const router = useRouter();
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentImageIndex((prev) => (prev + 1) % heroImages.length);
-    }, 5000);
-
-    return () => clearInterval(interval);
-  }, []);
   
   const featuredPropertyTypes = propertyTypesData.slice(0, 6);
   
@@ -50,28 +34,20 @@ export default function HomePageContent() {
 
   return (
     <main className="min-h-screen">
-      {/* Hero Section - Full screen with dark overlay */}
+      {/* Hero Section - Video Background */}
       <section className="relative h-screen min-h-[700px] overflow-hidden">
-        {/* Background Images with Rotation */}
+        {/* Video Background */}
         <div className="absolute inset-0">
-          {heroImages.map((image, index) => (
-            <div
-              key={image}
-              className={`absolute inset-0 transition-opacity duration-1000 ${
-                index === currentImageIndex ? "opacity-100" : "opacity-0"
-              }`}
-            >
-              <Image
-                src={image}
-                alt={`San Antonio, Texas ${index + 1}`}
-                fill
-                className="object-cover"
-                priority={index === 0}
-                sizes="100vw"
-              />
-              <div className="absolute inset-0 bg-black/50" />
-            </div>
-          ))}
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="absolute inset-0 w-full h-full object-cover"
+          >
+            <source src="/wemby city.mp4" type="video/mp4" />
+          </video>
+          <div className="absolute inset-0 bg-black/50" />
         </div>
         
         {/* Hero Content - Centered white text */}
@@ -79,14 +55,11 @@ export default function HomePageContent() {
           <p className="text-white/80 text-xs tracking-[0.5em] uppercase mb-8">
             Technology + Marketing =
           </p>
-          <h1 className="text-white text-6xl md:text-7xl lg:text-8xl font-light tracking-[0.15em] mb-8">
-            RESULTS
+          <h1 className="text-white text-5xl md:text-6xl lg:text-7xl font-light tracking-[0.1em] mb-8">
+            1031 EXCHANGE<br />SAN ANTONIO
           </h1>
-          <p className="text-white/80 text-lg md:text-xl font-light italic max-w-2xl mb-4">
+          <p className="text-white/80 text-lg md:text-xl font-light italic max-w-2xl mb-12">
             Search our exclusive listings.
-          </p>
-          <p className="text-white/70 text-sm italic mb-12">
-            {site.company} | San Antonio, TX
           </p>
           <Link
             href="/property-types"
@@ -94,22 +67,6 @@ export default function HomePageContent() {
           >
             Search All Properties
           </Link>
-        </div>
-        
-        {/* Image Indicators */}
-        <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 z-10 flex gap-3">
-          {heroImages.map((_, index) => (
-            <button
-              key={index}
-              onClick={() => setCurrentImageIndex(index)}
-              className={`h-2 w-2 rounded-full transition-all ${
-                index === currentImageIndex
-                  ? "bg-white"
-                  : "bg-white/40 hover:bg-white/60"
-              }`}
-              aria-label={`Go to image ${index + 1}`}
-            />
-          ))}
         </div>
       </section>
 
@@ -147,62 +104,6 @@ export default function HomePageContent() {
             className="object-cover"
             sizes="(max-width: 1024px) 100vw, 50vw"
           />
-        </div>
-      </section>
-
-      {/* Stats Section - Dark overlay on image */}
-      <section className="relative py-28">
-        <div className="absolute inset-0">
-          <SafeImage
-            src="/san-antonio-tx-1031-exchange-twilight-skyline.jpg"
-            alt="San Antonio twilight"
-            fill
-            className="object-cover"
-            sizes="100vw"
-          />
-          <div className="absolute inset-0 bg-black/70" />
-        </div>
-        <div className="relative z-10 container mx-auto px-6">
-          <h2 className="text-white text-3xl md:text-4xl tracking-[0.2em] text-center mb-20">
-            WHY NNN PROPERTIES?
-          </h2>
-          <div className="grid md:grid-cols-3 gap-0 max-w-5xl mx-auto text-center">
-            <div className="border-r border-white/20 px-8 py-6">
-              <p className="text-white text-5xl md:text-6xl font-light mb-4">NNN</p>
-              <p className="text-white/70 text-xs tracking-[0.25em] uppercase">
-                Zero Management Headaches
-              </p>
-            </div>
-            <div className="border-r border-white/20 px-8 py-6">
-              <p className="text-white text-5xl md:text-6xl font-light mb-4">50</p>
-              <p className="text-white/70 text-xs tracking-[0.25em] uppercase">
-                States Covered Nationwide
-              </p>
-            </div>
-            <div className="px-8 py-6">
-              <p className="text-white text-5xl md:text-6xl font-light mb-4">1031</p>
-              <p className="text-white/70 text-xs tracking-[0.25em] uppercase">
-                Tax-Deferred Exchanges
-              </p>
-            </div>
-          </div>
-          <div className="grid md:grid-cols-3 gap-0 max-w-5xl mx-auto text-center mt-8">
-            <div className="border-r border-white/20 px-8 py-6">
-              <p className="text-white/60 text-sm leading-relaxed italic">
-                Tenants handle property taxes, insurance, and maintenance. You collect rent without day-to-day responsibilities.
-              </p>
-            </div>
-            <div className="border-r border-white/20 px-8 py-6">
-              <p className="text-white/60 text-sm leading-relaxed italic">
-                Access to single tenant retail properties in every state. We find replacements matching your timeline.
-              </p>
-            </div>
-            <div className="px-8 py-6">
-              <p className="text-white/60 text-sm leading-relaxed italic">
-                Long-term leases with creditworthy tenants provide stable, predictable income for wealth building.
-              </p>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -337,7 +238,7 @@ export default function HomePageContent() {
         </div>
       </section>
 
-      {/* Locations Grid - Image cards */}
+      {/* Locations Grid - No title, just image cards */}
       <section>
         <div className="grid grid-cols-2 md:grid-cols-4">
           {featuredLocations.map((location) => {
@@ -437,7 +338,7 @@ export default function HomePageContent() {
         </div>
       </section>
 
-      {/* Education Section - Light background */}
+      {/* Understanding NNN Structures + Why NNN Properties Combined */}
       <section className="py-24 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
@@ -448,6 +349,64 @@ export default function HomePageContent() {
               Learn how single tenant triple net lease properties work for hands-off ownership and tax-deferred exchanges.
             </p>
           </div>
+
+          {/* Why NNN Properties - Stats */}
+          <div className="relative py-16 mb-16 rounded-sm overflow-hidden">
+            <div className="absolute inset-0">
+              <SafeImage
+                src="/san-antonio-tx-1031-exchange-twilight-skyline.jpg"
+                alt="San Antonio twilight"
+                fill
+                className="object-cover"
+                sizes="100vw"
+              />
+              <div className="absolute inset-0 bg-black/70" />
+            </div>
+            <div className="relative z-10">
+              <h3 className="text-white text-2xl md:text-3xl tracking-[0.2em] text-center mb-12">
+                WHY NNN PROPERTIES?
+              </h3>
+              <div className="grid md:grid-cols-3 gap-0 max-w-5xl mx-auto text-center">
+                <div className="border-r border-white/20 px-8 py-6">
+                  <p className="text-white text-5xl md:text-6xl font-light mb-4">NNN</p>
+                  <p className="text-white/70 text-xs tracking-[0.25em] uppercase">
+                    Zero Management Headaches
+                  </p>
+                </div>
+                <div className="border-r border-white/20 px-8 py-6">
+                  <p className="text-white text-5xl md:text-6xl font-light mb-4">50</p>
+                  <p className="text-white/70 text-xs tracking-[0.25em] uppercase">
+                    States Covered Nationwide
+                  </p>
+                </div>
+                <div className="px-8 py-6">
+                  <p className="text-white text-5xl md:text-6xl font-light mb-4">1031</p>
+                  <p className="text-white/70 text-xs tracking-[0.25em] uppercase">
+                    Tax-Deferred Exchanges
+                  </p>
+                </div>
+              </div>
+              <div className="grid md:grid-cols-3 gap-0 max-w-5xl mx-auto text-center mt-8">
+                <div className="border-r border-white/20 px-8 py-6">
+                  <p className="text-white/60 text-sm leading-relaxed italic">
+                    Tenants handle property taxes, insurance, and maintenance. You collect rent without day-to-day responsibilities.
+                  </p>
+                </div>
+                <div className="border-r border-white/20 px-8 py-6">
+                  <p className="text-white/60 text-sm leading-relaxed italic">
+                    Access to single tenant retail properties in every state. We find replacements matching your timeline.
+                  </p>
+                </div>
+                <div className="px-8 py-6">
+                  <p className="text-white/60 text-sm leading-relaxed italic">
+                    Long-term leases with creditworthy tenants provide stable, predictable income for wealth building.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Education Cards */}
           <div className="grid md:grid-cols-2 gap-px bg-[#d4d4d4] max-w-5xl mx-auto">
             <div className="bg-[#f5f5f3] p-10">
               <h3 className="text-xl tracking-[0.15em] text-[#1a1a1a] mb-5">TRIPLE NET LEASE (NNN)</h3>
