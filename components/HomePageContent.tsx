@@ -161,7 +161,7 @@ export default function HomePageContent() {
         </div>
       </section>
 
-      {/* Property Types Grid - Communities Style with image backgrounds */}
+      {/* Property Types Grid */}
       <section>
         <div className="grid grid-cols-1 md:grid-cols-3">
           {/* Title Card - Dark background */}
@@ -206,73 +206,7 @@ export default function HomePageContent() {
         </div>
       </section>
 
-      {/* More Property Types - 3 column grid */}
-      <section>
-        <div className="grid grid-cols-1 md:grid-cols-3">
-          {featuredPropertyTypes.slice(5, 8).map((property) => {
-            const imagePath = getPropertyTypeImagePath(property.slug);
-            return (
-              <Link
-                key={property.slug}
-                href={property.route}
-                className="relative h-[280px] group overflow-hidden"
-              >
-                {imagePath && (
-                  <SafeImage
-                    src={imagePath}
-                    alt={`${property.name} properties`}
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-700"
-                    sizes="(max-width: 768px) 100vw, 33vw"
-                  />
-                )}
-                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors" />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <h3 className="text-white text-xl md:text-2xl tracking-[0.2em] text-center px-4">
-                    {property.name.toUpperCase()}
-                  </h3>
-                </div>
-              </Link>
-            );
-          })}
-        </div>
-      </section>
-
-      {/* Locations Grid - No title, just image cards */}
-      <section>
-        <div className="grid grid-cols-2 md:grid-cols-4">
-          {featuredLocations.map((location) => {
-            const imagePath = getLocationImagePath(location.slug);
-            return (
-              <Link
-                key={location.slug}
-                href={location.route}
-                className="relative h-[260px] group overflow-hidden"
-              >
-                {imagePath ? (
-                  <SafeImage
-                    src={imagePath}
-                    alt={`1031 exchange properties in ${location.name}`}
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-700"
-                    sizes="(max-width: 768px) 50vw, 25vw"
-                  />
-                ) : (
-                  <div className="absolute inset-0 bg-[#2a2a2a]" />
-                )}
-                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors" />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <h3 className="text-white text-lg md:text-xl tracking-[0.2em] text-center px-4">
-                    {location.name.toUpperCase()}
-                  </h3>
-                </div>
-              </Link>
-            );
-          })}
-        </div>
-      </section>
-
-      {/* Work With Us Section - Dark overlay */}
+      {/* Work With Us Section - SEPARATES Property Types from Cities */}
       <section className="relative py-28">
         <div className="absolute inset-0">
           <SafeImage
@@ -302,6 +236,84 @@ export default function HomePageContent() {
               Contact Us
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* Cities/Locations Grid - WITH TITLE CARD */}
+      <section>
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5">
+          {/* Title Card - Dark background */}
+          <div className="col-span-2 md:col-span-1 bg-[#1a1a1a] flex flex-col items-center justify-center p-10 text-center min-h-[260px]">
+            <h2 className="text-white text-2xl md:text-3xl tracking-[0.2em] mb-8">
+              COMMUNITIES
+            </h2>
+            <Link
+              href="/locations"
+              className="inline-flex items-center justify-center px-6 py-3 border border-white text-white text-xs tracking-[0.25em] uppercase hover:bg-white hover:text-[#1a1a1a] transition-all"
+            >
+              View All
+            </Link>
+          </div>
+          {/* Location Cards */}
+          {featuredLocations.slice(0, 7).map((location) => {
+            const imagePath = getLocationImagePath(location.slug);
+            return (
+              <Link
+                key={location.slug}
+                href={location.route}
+                className="relative h-[260px] group overflow-hidden"
+              >
+                {imagePath ? (
+                  <SafeImage
+                    src={imagePath}
+                    alt={`1031 exchange properties in ${location.name}`}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-700"
+                    sizes="(max-width: 768px) 50vw, 20vw"
+                  />
+                ) : (
+                  <div className="absolute inset-0 bg-[#2a2a2a]" />
+                )}
+                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors" />
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <h3 className="text-white text-lg md:text-xl tracking-[0.2em] text-center px-4">
+                    {location.name.toUpperCase()}
+                  </h3>
+                </div>
+              </Link>
+            );
+          })}
+        </div>
+        {/* Second row of locations */}
+        <div className="grid grid-cols-2 md:grid-cols-4">
+          {featuredLocations.slice(7, 11).map((location) => {
+            const imagePath = getLocationImagePath(location.slug);
+            return (
+              <Link
+                key={location.slug}
+                href={location.route}
+                className="relative h-[260px] group overflow-hidden"
+              >
+                {imagePath ? (
+                  <SafeImage
+                    src={imagePath}
+                    alt={`1031 exchange properties in ${location.name}`}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-700"
+                    sizes="(max-width: 768px) 50vw, 25vw"
+                  />
+                ) : (
+                  <div className="absolute inset-0 bg-[#2a2a2a]" />
+                )}
+                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors" />
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <h3 className="text-white text-lg md:text-xl tracking-[0.2em] text-center px-4">
+                    {location.name.toUpperCase()}
+                  </h3>
+                </div>
+              </Link>
+            );
+          })}
         </div>
       </section>
 
