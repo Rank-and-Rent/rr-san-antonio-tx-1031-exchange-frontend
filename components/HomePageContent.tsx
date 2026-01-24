@@ -15,9 +15,21 @@ export default function HomePageContent() {
   
   const featuredPropertyTypes = propertyTypesData.slice(0, 6);
   
-  const featuredLocations = locationsData.filter(loc => 
-    ["san-antonio", "alamo-heights", "stone-oak", "medical-center", "downtown-san-antonio", "north-central-san-antonio", "northwest-san-antonio", "northeast-san-antonio"].includes(loc.slug)
-  ).slice(0, 8);
+  // Use locations with verified good images (file sizes > 50KB)
+  const featuredLocationSlugs = [
+    "san-antonio",
+    "alamo-heights", 
+    "stone-oak",
+    "medical-center",
+    "downtown-san-antonio",
+    "north-central-san-antonio",
+    "northwest-san-antonio",
+    "pearl-district"
+  ];
+  
+  const featuredLocations = featuredLocationSlugs
+    .map(slug => locationsData.find(loc => loc.slug === slug))
+    .filter((loc): loc is NonNullable<typeof loc> => loc !== undefined);
 
   const featuredServices = servicesData.filter(service => 
     ["property-identification", "replacement-property-search", "forward-exchange", "exchange-consultation"].includes(service.slug) ||
@@ -239,75 +251,65 @@ export default function HomePageContent() {
         </div>
       </section>
 
-      {/* Cities/Locations Grid - WITH TITLE CARD */}
+      {/* Cities/Locations Grid - Matching Frontgate Layout */}
       <section>
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5">
-          {/* Title Card - Dark background */}
-          <div className="col-span-2 md:col-span-1 bg-[#1a1a1a] flex flex-col items-center justify-center p-10 text-center min-h-[260px]">
-            <h2 className="text-white text-2xl md:text-3xl tracking-[0.2em] mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-5">
+          {/* Title Card - Dark background, spans 2 rows on desktop */}
+          <div className="md:row-span-2 bg-[#1a1a1a] flex flex-col items-start justify-center p-10 md:p-12 min-h-[280px]">
+            <h2 className="text-white text-3xl md:text-4xl tracking-[0.2em] mb-8 font-light">
               COMMUNITIES
             </h2>
             <Link
               href="/locations"
-              className="inline-flex items-center justify-center px-6 py-3 border border-white text-white text-xs tracking-[0.25em] uppercase hover:bg-white hover:text-[#1a1a1a] transition-all"
+              className="inline-flex items-center justify-center px-8 py-4 border border-white/60 text-white text-xs tracking-[0.3em] uppercase hover:bg-white hover:text-[#1a1a1a] transition-all"
             >
               View All
             </Link>
           </div>
-          {/* Location Cards */}
-          {featuredLocations.slice(0, 7).map((location) => {
+          {/* First 4 locations - Row 1 */}
+          {featuredLocations.slice(0, 4).map((location) => {
             const imagePath = getLocationImagePath(location.slug);
             return (
               <Link
                 key={location.slug}
                 href={location.route}
-                className="relative h-[260px] group overflow-hidden"
+                className="relative h-[280px] group overflow-hidden"
               >
-                {imagePath ? (
-                  <SafeImage
-                    src={imagePath}
-                    alt={`1031 exchange properties in ${location.name}`}
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-700"
-                    sizes="(max-width: 768px) 50vw, 20vw"
-                  />
-                ) : (
-                  <div className="absolute inset-0 bg-[#2a2a2a]" />
-                )}
+                <SafeImage
+                  src={imagePath || ""}
+                  alt={`1031 exchange properties in ${location.name}`}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-700"
+                  sizes="(max-width: 768px) 100vw, 20vw"
+                />
                 <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors" />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <h3 className="text-white text-lg md:text-xl tracking-[0.2em] text-center px-4">
+                <div className="absolute bottom-8 left-6 z-10">
+                  <h3 className="text-white text-lg tracking-[0.15em] font-medium">
                     {location.name.toUpperCase()}
                   </h3>
                 </div>
               </Link>
             );
           })}
-        </div>
-        {/* Second row of locations */}
-        <div className="grid grid-cols-2 md:grid-cols-4">
-          {featuredLocations.slice(7, 11).map((location) => {
+          {/* Next 4 locations - Row 2 (appears next to title on desktop) */}
+          {featuredLocations.slice(4, 8).map((location) => {
             const imagePath = getLocationImagePath(location.slug);
             return (
               <Link
                 key={location.slug}
                 href={location.route}
-                className="relative h-[260px] group overflow-hidden"
+                className="relative h-[280px] group overflow-hidden"
               >
-                {imagePath ? (
-                  <SafeImage
-                    src={imagePath}
-                    alt={`1031 exchange properties in ${location.name}`}
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-700"
-                    sizes="(max-width: 768px) 50vw, 25vw"
-                  />
-                ) : (
-                  <div className="absolute inset-0 bg-[#2a2a2a]" />
-                )}
+                <SafeImage
+                  src={imagePath || ""}
+                  alt={`1031 exchange properties in ${location.name}`}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-700"
+                  sizes="(max-width: 768px) 100vw, 20vw"
+                />
                 <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors" />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <h3 className="text-white text-lg md:text-xl tracking-[0.2em] text-center px-4">
+                <div className="absolute bottom-8 left-6 z-10">
+                  <h3 className="text-white text-lg tracking-[0.15em] font-medium">
                     {location.name.toUpperCase()}
                   </h3>
                 </div>
