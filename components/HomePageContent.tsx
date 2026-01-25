@@ -4,27 +4,25 @@ import Link from "next/link";
 import { Suspense } from "react";
 import { useRouter } from "next/navigation";
 import site from "@/content/site.json";
-import { servicesData, locationsData, propertyTypesData, inventoryCategories } from "@/data";
+import { servicesData, locationsData, inventoryCategories } from "@/data";
 import SearchInput from "@/components/SearchInput";
 import ContactForm from "@/app/contact/contact-form";
 import SafeImage from "@/components/SafeImage";
-import { getLocationImagePath, getPropertyTypeImagePath } from "@/lib/image-utils";
+import { getLocationImagePath } from "@/lib/image-utils";
 
 export default function HomePageContent() {
   const router = useRouter();
   
-  const featuredPropertyTypes = propertyTypesData.slice(0, 6);
-  
-  // Use locations with verified good images (file sizes > 50KB)
+  // Use locations with verified UNIQUE good images (different file sizes)
   const featuredLocationSlugs = [
-    "san-antonio",
-    "alamo-heights", 
-    "stone-oak",
-    "medical-center",
-    "downtown-san-antonio",
-    "north-central-san-antonio",
-    "northwest-san-antonio",
-    "pearl-district"
+    "san-antonio",         // 599893 bytes
+    "alamo-heights",       // 204394 bytes
+    "medical-center",      // 377178 bytes
+    "downtown-san-antonio", // 163935 bytes
+    "north-central-san-antonio", // 179141 bytes
+    "pearl-district",      // 146070 bytes
+    "new-braunfels",       // 1356204 bytes
+    "olmos-park"           // 345219 bytes
   ];
   
   const featuredLocations = featuredLocationSlugs
@@ -173,52 +171,7 @@ export default function HomePageContent() {
         </div>
       </section>
 
-      {/* Property Types Grid */}
-      <section>
-        <div className="grid grid-cols-1 md:grid-cols-3">
-          {/* Title Card - Dark background */}
-          <div className="bg-[#1a1a1a] flex flex-col items-center justify-center p-12 text-center min-h-[280px]">
-            <h2 className="text-white text-2xl md:text-3xl tracking-[0.2em] mb-8">
-              PROPERTY<br />TYPES
-            </h2>
-            <Link
-              href="/property-types"
-              className="inline-flex items-center justify-center px-8 py-3 border border-white text-white text-xs tracking-[0.25em] uppercase hover:bg-white hover:text-[#1a1a1a] transition-all"
-            >
-              View All
-            </Link>
-          </div>
-          {/* Property Type Cards with images */}
-          {featuredPropertyTypes.slice(0, 5).map((property) => {
-            const imagePath = getPropertyTypeImagePath(property.slug);
-            return (
-              <Link
-                key={property.slug}
-                href={property.route}
-                className="relative h-[280px] group overflow-hidden"
-              >
-                {imagePath && (
-                  <SafeImage
-                    src={imagePath}
-                    alt={`${property.name} properties`}
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-700"
-                    sizes="(max-width: 768px) 100vw, 33vw"
-                  />
-                )}
-                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors" />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <h3 className="text-white text-xl md:text-2xl tracking-[0.2em] text-center px-4">
-                    {property.name.toUpperCase()}
-                  </h3>
-                </div>
-              </Link>
-            );
-          })}
-        </div>
-      </section>
-
-      {/* Work With Us Section - SEPARATES Property Types from Cities */}
+      {/* Work With Us Section */}
       <section className="relative py-28">
         <div className="absolute inset-0">
           <SafeImage
@@ -253,10 +206,11 @@ export default function HomePageContent() {
 
       {/* Cities/Locations Grid - Matching Frontgate Layout */}
       <section>
+        {/* Row 1: Title + 4 images */}
         <div className="grid grid-cols-1 md:grid-cols-5">
-          {/* Title Card - Dark background, spans 2 rows on desktop */}
-          <div className="md:row-span-2 bg-[#1a1a1a] flex flex-col items-start justify-center p-10 md:p-12 min-h-[280px]">
-            <h2 className="text-white text-3xl md:text-4xl tracking-[0.2em] mb-8 font-light">
+          {/* Title Card - Dark background */}
+          <div className="bg-[#1a1a1a] flex flex-col items-start justify-center p-10 md:p-14 min-h-[280px]">
+            <h2 className="text-white text-3xl md:text-4xl tracking-[0.25em] mb-8 font-light whitespace-nowrap">
               COMMUNITIES
             </h2>
             <Link
@@ -266,7 +220,7 @@ export default function HomePageContent() {
               View All
             </Link>
           </div>
-          {/* First 4 locations - Row 1 */}
+          {/* First 4 locations */}
           {featuredLocations.slice(0, 4).map((location) => {
             const imagePath = getLocationImagePath(location.slug);
             return (
@@ -291,7 +245,9 @@ export default function HomePageContent() {
               </Link>
             );
           })}
-          {/* Next 4 locations - Row 2 (appears next to title on desktop) */}
+        </div>
+        {/* Row 2: 4 more images */}
+        <div className="grid grid-cols-1 md:grid-cols-4">
           {featuredLocations.slice(4, 8).map((location) => {
             const imagePath = getLocationImagePath(location.slug);
             return (
@@ -305,7 +261,7 @@ export default function HomePageContent() {
                   alt={`1031 exchange properties in ${location.name}`}
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-700"
-                  sizes="(max-width: 768px) 100vw, 20vw"
+                  sizes="(max-width: 768px) 100vw, 25vw"
                 />
                 <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors" />
                 <div className="absolute bottom-8 left-6 z-10">
@@ -330,14 +286,14 @@ export default function HomePageContent() {
               Browse our curated selection of net lease property listings organized by investment category.
             </p>
           </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-[#d4d4d4] max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
             {inventoryCategories.map((category) => (
               <Link
                 key={category.slug}
                 href={category.route}
-                className="group p-10 bg-white hover:bg-[#1a1a1a] transition-colors"
+                className="group p-8 bg-white border border-[#e5e5e5] hover:bg-[#1a1a1a] hover:border-[#1a1a1a] transition-colors"
               >
-                <h3 className="text-lg tracking-[0.15em] text-[#1a1a1a] group-hover:text-white mb-3 transition-colors">
+                <h3 className="text-base tracking-[0.15em] text-[#1a1a1a] group-hover:text-white mb-3 transition-colors">
                   {category.name.toUpperCase()}
                 </h3>
                 {category.note && (

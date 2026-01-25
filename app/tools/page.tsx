@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import site from "@/content/site.json";
-import Breadcrumbs from "@/components/Breadcrumbs";
+import SafeImage from "@/components/SafeImage";
 
 export const metadata: Metadata = {
   title: "1031 Exchange Tools & Calculators | San Antonio",
@@ -37,11 +37,6 @@ const tools = [
 ];
 
 export default function ToolsPage() {
-  const breadcrumbItems = [
-    { label: "Home", href: "/" },
-    { label: "Tools" },
-  ];
-
   const breadcrumbStructuredData = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -79,93 +74,137 @@ export default function ToolsPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionStructuredData) }}
       />
-      <main className="min-h-screen bg-paper">
-        <div className="container mx-auto px-4 py-12 md:px-8 md:py-20">
-          <Breadcrumbs items={breadcrumbItems} />
-          <div className="max-w-6xl mx-auto">
-            <h1 className="text-4xl md:text-5xl font-bold text-heading mb-6">
-              1031 Exchange Tools & Calculators
-            </h1>
-            <p className="text-xl text-ink/80 mb-12 max-w-3xl">
-              Free tools and calculators to help you plan and execute your 1031 exchange. 
-              Calculate boot, estimate costs, validate identification rules, and more.
-            </p>
+      <main className="min-h-screen">
+        {/* Hero Section */}
+        <section className="relative h-[50vh] min-h-[400px] overflow-hidden">
+          <SafeImage
+            src="/san-antonio-tx-1031-exchange-cityscape.jpg"
+            alt="San Antonio cityscape"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-black/60" />
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="text-center px-6">
+              <p className="text-white/60 text-xs tracking-[0.5em] uppercase mb-4">
+                Free Resources
+              </p>
+              <h1 className="text-white text-4xl md:text-5xl lg:text-6xl tracking-[0.15em] font-light">
+                1031 EXCHANGE TOOLS
+              </h1>
+            </div>
+          </div>
+        </section>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+        {/* Intro Section */}
+        <section className="py-16 bg-white">
+          <div className="container mx-auto px-6">
+            <div className="max-w-4xl mx-auto text-center">
+              <p className="text-[#1a1a1a]/70 text-lg leading-relaxed italic">
+                Free tools and calculators to help you plan and execute your 1031 exchange. 
+                Calculate boot, estimate costs, validate identification rules, and more.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Tools Grid */}
+        <section className="py-16 bg-[#f5f5f3]">
+          <div className="container mx-auto px-6">
+            <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
               {tools.map((tool) => (
                 <Link
                   key={tool.slug}
                   href={`/tools/${tool.slug}`}
-                  className="bg-panel border border-outline rounded-2xl p-6 hover:border-primary transition-colors group shadow-lg"
+                  className="group p-10 bg-white border border-[#e5e5e5] hover:bg-[#1a1a1a] hover:border-[#1a1a1a] transition-colors text-center"
                 >
-                  <h2 className="text-xl font-semibold text-heading mb-2 group-hover:text-primary transition-colors">
-                    {tool.name}
+                  <h2 className="text-lg tracking-[0.15em] text-[#1a1a1a] group-hover:text-white mb-4 transition-colors">
+                    {tool.name.toUpperCase()}
                   </h2>
-                  <p className="text-sm text-ink/70 mb-4">{tool.description}</p>
-                  <span className="text-sm text-primary font-medium group-hover:underline">
-                    Use Tool →
+                  <p className="text-sm text-[#1a1a1a]/50 group-hover:text-white/60 italic mb-6 transition-colors">
+                    {tool.description}
+                  </p>
+                  <span className="text-xs tracking-[0.2em] uppercase text-[#1a1a1a]/60 group-hover:text-white/80 transition-colors">
+                    Use Tool
                   </span>
                 </Link>
               ))}
             </div>
+          </div>
+        </section>
 
-            <div className="mt-12 border-t border-outline pt-8">
-              <h2 className="text-2xl font-bold text-heading mb-4">
-                About These Tools
+        {/* About Tools Section */}
+        <section className="py-16 bg-white">
+          <div className="container mx-auto px-6">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-2xl tracking-[0.2em] text-[#1a1a1a] mb-6 text-center">
+                ABOUT THESE TOOLS
               </h2>
-              <p className="text-ink/80 mb-4">
+              <p className="text-[#1a1a1a]/70 leading-relaxed italic mb-4 text-center">
                 These calculators and tools are designed to help you understand various aspects of 1031 exchanges. 
                 They provide estimates and educational information to assist with planning your exchange.
               </p>
-              <p className="text-ink/80 mb-6">
-                <strong className="text-heading">Important:</strong> These tools are for educational purposes only 
+              <p className="text-[#1a1a1a]/70 leading-relaxed italic text-center">
+                <strong className="text-[#1a1a1a]">Important:</strong> These tools are for educational purposes only 
                 and do not constitute tax, legal, or investment advice. Always consult with a qualified intermediary 
                 and tax advisor before making decisions about your 1031 exchange.
               </p>
+            </div>
+          </div>
+        </section>
 
-              <div className="bg-panel border border-outline rounded-lg p-6">
-                <h3 className="text-lg font-semibold text-heading mb-3">
-                  Need Expert Guidance?
-                </h3>
-                <p className="text-ink/80 mb-4">
-                  Our team can help you navigate the complexities of 1031 exchanges and identify 
-                  replacement properties that match your requirements.
-                </p>
+        {/* CTA Section */}
+        <section className="relative py-24">
+          <div className="absolute inset-0 bg-[#1a1a1a]" />
+          <div className="relative z-10 container mx-auto px-6 text-center">
+            <h2 className="text-white text-2xl md:text-3xl tracking-[0.2em] mb-6">
+              NEED EXPERT GUIDANCE?
+            </h2>
+            <p className="text-white/60 text-lg italic mb-10 max-w-2xl mx-auto">
+              Our team can help you navigate the complexities of 1031 exchanges and identify 
+              replacement properties that match your requirements.
+            </p>
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center px-12 py-4 border border-white text-white text-xs tracking-[0.3em] uppercase hover:bg-white hover:text-[#1a1a1a] transition-all"
+            >
+              Contact Us
+            </Link>
+          </div>
+        </section>
+
+        {/* Related Resources */}
+        <section className="py-16 bg-[#f5f5f3]">
+          <div className="container mx-auto px-6">
+            <div className="max-w-4xl mx-auto text-center">
+              <h2 className="text-2xl tracking-[0.2em] text-[#1a1a1a] mb-8">
+                RELATED RESOURCES
+              </h2>
+              <div className="flex flex-wrap gap-4 justify-center">
                 <Link
-                  href="/contact"
-                  className="inline-flex items-center justify-center px-6 py-3 bg-primary text-primaryfg rounded-full hover:opacity-90 transition-opacity font-medium"
+                  href="/services"
+                  className="inline-flex items-center justify-center px-8 py-3 border border-[#1a1a1a] text-[#1a1a1a] text-xs tracking-[0.2em] uppercase hover:bg-[#1a1a1a] hover:text-white transition-all"
                 >
-                  Contact Us
+                  View All Services
+                </Link>
+                <Link
+                  href="/locations"
+                  className="inline-flex items-center justify-center px-8 py-3 border border-[#1a1a1a] text-[#1a1a1a] text-xs tracking-[0.2em] uppercase hover:bg-[#1a1a1a] hover:text-white transition-all"
+                >
+                  Browse Locations
+                </Link>
+                <Link
+                  href="/blog"
+                  className="inline-flex items-center justify-center px-8 py-3 border border-[#1a1a1a] text-[#1a1a1a] text-xs tracking-[0.2em] uppercase hover:bg-[#1a1a1a] hover:text-white transition-all"
+                >
+                  Read Our Blog
                 </Link>
               </div>
             </div>
-
-            <div className="mt-12 border-t border-outline pt-8">
-              <h2 className="text-2xl font-bold text-heading mb-4">
-                Related Resources
-              </h2>
-              <ul className="space-y-2">
-                <li>
-                  <Link href="/services" className="text-primary hover:underline">
-                    View All Services
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/locations" className="text-primary hover:underline">
-                    Browse Locations
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/blog" className="text-primary hover:underline">
-                    Read Our Blog
-                  </Link>
-                </li>
-              </ul>
-            </div>
           </div>
-        </div>
+        </section>
       </main>
     </>
   );
 }
-
