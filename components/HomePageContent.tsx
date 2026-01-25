@@ -13,16 +13,16 @@ import { getLocationImagePath } from "@/lib/image-utils";
 export default function HomePageContent() {
   const router = useRouter();
   
-  // Use locations with verified UNIQUE good images (different file sizes)
+  // Use locations with CLEAN images (no signs/text visible in photos)
   const featuredLocationSlugs = [
-    "san-antonio",         // 599893 bytes
-    "alamo-heights",       // 204394 bytes
-    "medical-center",      // 377178 bytes
-    "downtown-san-antonio", // 163935 bytes
-    "north-central-san-antonio", // 179141 bytes
-    "pearl-district",      // 146070 bytes
-    "new-braunfels",       // 1356204 bytes
-    "olmos-park"           // 345219 bytes
+    "alamo-heights",       // 204394 bytes - clean aerial
+    "medical-center",      // 377178 bytes - clean aerial
+    "downtown-san-antonio", // 163935 bytes - clean riverwalk
+    "helotes",             // 420824 bytes - clean landscape
+    "north-central-san-antonio", // 179141 bytes - clean buildings
+    "new-braunfels",       // 1356204 bytes - clean river
+    "converse",            // 936338 bytes - clean area
+    "fair-oaks-ranch"      // 675675 bytes - clean residential
   ];
   
   const featuredLocations = featuredLocationSlugs
@@ -57,7 +57,7 @@ export default function HomePageContent() {
           >
             <source src="/wemby city.mp4" type="video/mp4" />
           </video>
-          <div className="absolute inset-0 bg-black/50" />
+              <div className="absolute inset-0 bg-black/50" />
         </div>
         
         {/* Hero Content - Centered white text */}
@@ -67,17 +67,17 @@ export default function HomePageContent() {
           </p>
           <h1 className="text-white text-5xl md:text-6xl lg:text-7xl font-light tracking-[0.1em] mb-8">
             1031 EXCHANGE<br />SAN ANTONIO
-          </h1>
+            </h1>
           <p className="text-white/80 text-lg md:text-xl font-light italic max-w-2xl mb-12">
             Search our exclusive listings.
           </p>
-          <Link
+              <Link
             href="/property-types"
             className="inline-flex items-center justify-center px-12 py-4 border border-white text-white text-xs tracking-[0.3em] uppercase hover:bg-white hover:text-[#1a1a1a] transition-all"
-          >
+              >
             Search All Properties
-          </Link>
-        </div>
+              </Link>
+            </div>
       </section>
 
       {/* About Section - Split Layout (Light bg left, Image right) */}
@@ -117,13 +117,13 @@ export default function HomePageContent() {
         </div>
       </section>
 
-      {/* Two CTA Split Section - Both with dark overlay */}
+      {/* Two CTA Split Section - 1031 Exchange Jargon */}
       <section className="grid md:grid-cols-2">
-        {/* Left - Selling Property */}
+        {/* Left - Relinquished Property */}
         <div className="relative h-[550px] group overflow-hidden">
           <SafeImage
             src="/san-antonio-tx-1031-exchange-cityscape.jpg"
-            alt="Selling property"
+            alt="Relinquished property"
             fill
             className="object-cover group-hover:scale-105 transition-transform duration-700"
             sizes="(max-width: 768px) 100vw, 50vw"
@@ -131,24 +131,24 @@ export default function HomePageContent() {
           <div className="absolute inset-0 bg-black/50 group-hover:bg-black/40 transition-colors" />
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-10 z-10">
             <h3 className="text-white text-3xl md:text-4xl tracking-[0.2em] mb-6">
-              SELLING A<br />HOME?
+              RELINQUISHED<br />PROPERTY?
             </h3>
             <p className="text-white/70 text-sm italic mb-10 max-w-sm">
-              Find out what your home is really worth.
+              Selling your investment property? Start a tax-deferred 1031 exchange today.
             </p>
             <Link
               href="/services/forward-exchange"
               className="inline-flex items-center justify-center px-10 py-4 border border-white text-white text-xs tracking-[0.3em] uppercase hover:bg-white hover:text-[#1a1a1a] transition-all"
             >
-              Get Home Value
+              Start Exchange
             </Link>
           </div>
-        </div>
-        {/* Right - Buying Property */}
+            </div>
+        {/* Right - Replacement Property */}
         <div className="relative h-[550px] group overflow-hidden">
           <SafeImage
             src="/san-antonio-tx-1031-exchange-riverwalk-skyline.jpg"
-            alt="Buying property"
+            alt="Replacement property"
             fill
             className="object-cover group-hover:scale-105 transition-transform duration-700"
             sizes="(max-width: 768px) 100vw, 50vw"
@@ -156,16 +156,16 @@ export default function HomePageContent() {
           <div className="absolute inset-0 bg-black/50 group-hover:bg-black/40 transition-colors" />
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-10 z-10">
             <h3 className="text-white text-3xl md:text-4xl tracking-[0.2em] mb-6">
-              BUYING A<br />HOME?
+              REPLACEMENT<br />PROPERTY?
             </h3>
             <p className="text-white/70 text-sm italic mb-10 max-w-sm">
-              Listings updated every 15 minutes. Use our advanced home search now!
+              Find NNN properties nationwide to complete your 1031 exchange.
             </p>
             <Link
-              href="/property-types"
+              href="/inventory"
               className="inline-flex items-center justify-center px-10 py-4 border border-white text-white text-xs tracking-[0.3em] uppercase hover:bg-white hover:text-[#1a1a1a] transition-all"
             >
-              Find Your Home
+              Browse Properties
             </Link>
           </div>
         </div>
@@ -243,10 +243,10 @@ export default function HomePageContent() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl tracking-[0.2em] text-[#1a1a1a] mb-6">
               UNDERSTANDING NNN STRUCTURES
-            </h2>
+              </h2>
             <p className="text-[#1a1a1a]/60 text-lg italic max-w-2xl mx-auto">
-              Learn how single tenant triple net lease properties work for hands-off ownership and tax-deferred exchanges.
-            </p>
+                Learn how single tenant triple net lease properties work for hands-off ownership and tax-deferred exchanges.
+              </p>
           </div>
 
           {/* Why NNN Properties - Stats */}
@@ -310,61 +310,61 @@ export default function HomePageContent() {
             <div className="bg-[#f5f5f3] p-10">
               <h3 className="text-xl tracking-[0.15em] text-[#1a1a1a] mb-5">TRIPLE NET LEASE (NNN)</h3>
               <p className="text-[#1a1a1a]/60 leading-relaxed mb-4 italic">
-                In a triple net lease, tenants pay base rent plus property taxes, insurance, and maintenance costs. This structure provides landlords with predictable net income and minimal management responsibilities.
-              </p>
+                  In a triple net lease, tenants pay base rent plus property taxes, insurance, and maintenance costs. This structure provides landlords with predictable net income and minimal management responsibilities.
+                </p>
               <p className="text-[#1a1a1a]/60 leading-relaxed italic">
-                Ideal for 1031 exchange buyers seeking passive income from established retail brands like convenience stores, quick service restaurants, and pharmacies.
-              </p>
-            </div>
+                  Ideal for 1031 exchange buyers seeking passive income from established retail brands like convenience stores, quick service restaurants, and pharmacies.
+                </p>
+              </div>
             <div className="bg-[#f5f5f3] p-10">
               <h3 className="text-xl tracking-[0.15em] text-[#1a1a1a] mb-5">SALE LEASEBACKS & GROUND LEASES</h3>
               <p className="text-[#1a1a1a]/60 leading-relaxed mb-4 italic">
-                Sale leaseback transactions allow business owners to sell their property and lease it back, creating immediate liquidity while maintaining operational control.
-              </p>
+                  Sale leaseback transactions allow business owners to sell their property and lease it back, creating immediate liquidity while maintaining operational control.
+                </p>
               <p className="text-[#1a1a1a]/60 leading-relaxed italic">
                 Ground leases provide long-term land ownership with tenant-owned improvements, offering stable income with minimal landlord obligations.
-              </p>
-            </div>
+                </p>
+              </div>
             <div className="bg-[#f5f5f3] p-10">
               <h3 className="text-xl tracking-[0.15em] text-[#1a1a1a] mb-5">ZERO CASH FLOW OPTIONS</h3>
               <p className="text-[#1a1a1a]/60 leading-relaxed mb-4 italic">
-                Some investors structure 1031 exchanges to minimize or eliminate cash flow in favor of long-term appreciation and tax deferral benefits.
-              </p>
+                  Some investors structure 1031 exchanges to minimize or eliminate cash flow in favor of long-term appreciation and tax deferral benefits.
+                </p>
               <p className="text-[#1a1a1a]/60 leading-relaxed italic">
-                We help identify replacement properties that align with your specific financial goals, whether prioritizing current income or future growth potential.
-              </p>
-            </div>
+                  We help identify replacement properties that align with your specific financial goals, whether prioritizing current income or future growth potential.
+                </p>
+              </div>
             <div className="bg-[#f5f5f3] p-10">
               <h3 className="text-xl tracking-[0.15em] text-[#1a1a1a] mb-5">NATIONWIDE PROPERTY SOURCING</h3>
               <p className="text-[#1a1a1a]/60 leading-relaxed mb-4 italic">
-                Our network spans all 50 states, allowing us to identify replacement properties that match your timeline, credit strength requirements, lease term preferences, and yield targets.
-              </p>
+                  Our network spans all 50 states, allowing us to identify replacement properties that match your timeline, credit strength requirements, lease term preferences, and yield targets.
+                </p>
               <p className="text-[#1a1a1a]/60 leading-relaxed italic">
                 Whether you&apos;re looking locally in San Antonio or nationwide, we source high-quality single tenant NNN retail properties for motivated 1031 exchange buyers.
-              </p>
+                </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Cities/Locations Grid - Matching Frontgate Layout */}
+      {/* Cities/Locations Grid */}
       <section>
-        {/* Row 1: Title + 4 images */}
+        {/* Row 1: Title (spans 2 cols) + 3 images = 5 cols total */}
         <div className="grid grid-cols-1 md:grid-cols-5">
-          {/* Title Card - Dark background, wider for text */}
-          <div className="bg-[#1a1a1a] flex flex-col items-start justify-center p-8 md:p-10 min-h-[280px]">
-            <h2 className="text-white text-2xl md:text-3xl tracking-[0.15em] mb-8 font-light">
+          {/* Title Card - Dark background, spans 2 columns for full title */}
+          <div className="md:col-span-2 bg-[#1a1a1a] flex flex-col items-start justify-center p-10 md:p-14 min-h-[280px]">
+            <h2 className="text-white text-3xl md:text-4xl tracking-[0.2em] mb-8 font-light">
               COMMUNITIES
             </h2>
             <Link
               href="/locations"
-              className="inline-flex items-center justify-center px-6 py-3 border border-white/60 text-white text-xs tracking-[0.2em] uppercase hover:bg-white hover:text-[#1a1a1a] transition-all"
+              className="inline-flex items-center justify-center px-8 py-4 border border-white/60 text-white text-xs tracking-[0.3em] uppercase hover:bg-white hover:text-[#1a1a1a] transition-all"
             >
               View All
             </Link>
           </div>
-          {/* First 4 locations */}
-          {featuredLocations.slice(0, 4).map((location) => {
+          {/* First 3 locations */}
+          {featuredLocations.slice(0, 3).map((location) => {
             const imagePath = getLocationImagePath(location.slug);
             return (
               <Link
@@ -389,9 +389,9 @@ export default function HomePageContent() {
             );
           })}
         </div>
-        {/* Row 2: 4 more images */}
-        <div className="grid grid-cols-1 md:grid-cols-4">
-          {featuredLocations.slice(4, 8).map((location) => {
+        {/* Row 2: 5 more images */}
+        <div className="grid grid-cols-1 md:grid-cols-5">
+          {featuredLocations.slice(3, 8).map((location) => {
             const imagePath = getLocationImagePath(location.slug);
             return (
               <Link
@@ -404,7 +404,7 @@ export default function HomePageContent() {
                   alt={`1031 exchange properties in ${location.name}`}
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-700"
-                  sizes="(max-width: 768px) 100vw, 25vw"
+                  sizes="(max-width: 768px) 100vw, 20vw"
                 />
                 <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors" />
                 <div className="absolute bottom-8 left-6 z-10">
