@@ -204,77 +204,6 @@ export default function HomePageContent() {
         </div>
       </section>
 
-      {/* Cities/Locations Grid - Matching Frontgate Layout */}
-      <section>
-        {/* Row 1: Title + 4 images */}
-        <div className="grid grid-cols-1 md:grid-cols-5">
-          {/* Title Card - Dark background */}
-          <div className="bg-[#1a1a1a] flex flex-col items-start justify-center p-10 md:p-14 min-h-[280px]">
-            <h2 className="text-white text-3xl md:text-4xl tracking-[0.25em] mb-8 font-light whitespace-nowrap">
-              COMMUNITIES
-            </h2>
-            <Link
-              href="/locations"
-              className="inline-flex items-center justify-center px-8 py-4 border border-white/60 text-white text-xs tracking-[0.3em] uppercase hover:bg-white hover:text-[#1a1a1a] transition-all"
-            >
-              View All
-            </Link>
-          </div>
-          {/* First 4 locations */}
-          {featuredLocations.slice(0, 4).map((location) => {
-            const imagePath = getLocationImagePath(location.slug);
-            return (
-              <Link
-                key={location.slug}
-                href={location.route}
-                className="relative h-[280px] group overflow-hidden"
-              >
-                <SafeImage
-                  src={imagePath || ""}
-                  alt={`1031 exchange properties in ${location.name}`}
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-700"
-                  sizes="(max-width: 768px) 100vw, 20vw"
-                />
-                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors" />
-                <div className="absolute bottom-8 left-6 z-10">
-                  <h3 className="text-white text-lg tracking-[0.15em] font-medium">
-                    {location.name.toUpperCase()}
-                  </h3>
-                </div>
-              </Link>
-            );
-          })}
-        </div>
-        {/* Row 2: 4 more images */}
-        <div className="grid grid-cols-1 md:grid-cols-4">
-          {featuredLocations.slice(4, 8).map((location) => {
-            const imagePath = getLocationImagePath(location.slug);
-            return (
-              <Link
-                key={location.slug}
-                href={location.route}
-                className="relative h-[280px] group overflow-hidden"
-              >
-                <SafeImage
-                  src={imagePath || ""}
-                  alt={`1031 exchange properties in ${location.name}`}
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-700"
-                  sizes="(max-width: 768px) 100vw, 25vw"
-                />
-                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors" />
-                <div className="absolute bottom-8 left-6 z-10">
-                  <h3 className="text-white text-lg tracking-[0.15em] font-medium">
-                    {location.name.toUpperCase()}
-                  </h3>
-                </div>
-              </Link>
-            );
-          })}
-        </div>
-      </section>
-
       {/* Inventory Categories Section - Light background */}
       <section className="py-24 bg-[#f5f5f3]">
         <div className="container mx-auto px-6">
@@ -415,6 +344,77 @@ export default function HomePageContent() {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Cities/Locations Grid - Matching Frontgate Layout */}
+      <section>
+        {/* Row 1: Title + 4 images */}
+        <div className="grid grid-cols-1 md:grid-cols-5">
+          {/* Title Card - Dark background, wider for text */}
+          <div className="bg-[#1a1a1a] flex flex-col items-start justify-center p-8 md:p-10 min-h-[280px]">
+            <h2 className="text-white text-2xl md:text-3xl tracking-[0.15em] mb-8 font-light">
+              COMMUNITIES
+            </h2>
+            <Link
+              href="/locations"
+              className="inline-flex items-center justify-center px-6 py-3 border border-white/60 text-white text-xs tracking-[0.2em] uppercase hover:bg-white hover:text-[#1a1a1a] transition-all"
+            >
+              View All
+            </Link>
+          </div>
+          {/* First 4 locations */}
+          {featuredLocations.slice(0, 4).map((location) => {
+            const imagePath = getLocationImagePath(location.slug);
+            return (
+              <Link
+                key={location.slug}
+                href={location.route}
+                className="relative h-[280px] group overflow-hidden"
+              >
+                <SafeImage
+                  src={imagePath || ""}
+                  alt={`1031 exchange properties in ${location.name}`}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-700"
+                  sizes="(max-width: 768px) 100vw, 20vw"
+                />
+                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors" />
+                <div className="absolute bottom-8 left-6 z-10">
+                  <h3 className="text-white text-lg tracking-[0.15em] font-medium">
+                    {location.name.toUpperCase()}
+                  </h3>
+                </div>
+              </Link>
+            );
+          })}
+        </div>
+        {/* Row 2: 4 more images */}
+        <div className="grid grid-cols-1 md:grid-cols-4">
+          {featuredLocations.slice(4, 8).map((location) => {
+            const imagePath = getLocationImagePath(location.slug);
+            return (
+              <Link
+                key={location.slug}
+                href={location.route}
+                className="relative h-[280px] group overflow-hidden"
+              >
+                <SafeImage
+                  src={imagePath || ""}
+                  alt={`1031 exchange properties in ${location.name}`}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-700"
+                  sizes="(max-width: 768px) 100vw, 25vw"
+                />
+                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors" />
+                <div className="absolute bottom-8 left-6 z-10">
+                  <h3 className="text-white text-lg tracking-[0.15em] font-medium">
+                    {location.name.toUpperCase()}
+                  </h3>
+                </div>
+              </Link>
+            );
+          })}
         </div>
       </section>
 
