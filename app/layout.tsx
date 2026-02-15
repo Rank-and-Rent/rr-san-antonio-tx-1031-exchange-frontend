@@ -19,7 +19,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Single Tenant NNN Retail Properties for 1031 Exchange | San Antonio & Nationwide",
+  title: "1031 Exchange San Antonio | NNN Retail Properties Nationwide",
   description: "Find high-quality single tenant net lease properties for 1031 exchange across all 50 states. NNN investment property for sale, net lease property listings, and 1031 exchange NNN properties. Expert guidance for unrepresented buyers. Call 210-791-0823.",
   keywords: [
     "single tenant retail for sale",
@@ -53,14 +53,14 @@ export const metadata: Metadata = {
   },
   manifest: "/favicon/site.webmanifest",
   openGraph: {
-    title: "Single Tenant NNN Retail Properties for 1031 Exchange | Nationwide",
+    title: "1031 Exchange San Antonio | NNN Retail Properties Nationwide",
     description: "Find high-quality single tenant net lease properties for 1031 exchange across all 50 states. Expert guidance for unrepresented buyers.",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Single Tenant NNN Retail Properties for 1031 Exchange",
+    title: "1031 Exchange San Antonio | NNN Retail Properties",
     description: "Find high-quality single tenant net lease properties for 1031 exchange across all 50 states.",
   },
   alternates: {
