@@ -4,6 +4,7 @@ import { propertyTypesData } from "@/data";
 import SearchInput from "@/components/SearchInput";
 import ContactForm from "@/app/contact/contact-form";
 import SafeImage from "@/components/SafeImage";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import { getPropertyTypeImagePath } from "@/lib/image-utils";
 
 export const metadata = {
@@ -35,6 +36,11 @@ export default function PropertyTypesPage() {
           </div>
         </div>
       </section>
+
+      {/* Breadcrumbs */}
+      <div className="container mx-auto px-6 pt-6">
+        <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Property Types" }]} />
+      </div>
 
       {/* Intro Section */}
       <section className="py-16 bg-white">

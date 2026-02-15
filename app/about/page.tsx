@@ -1,6 +1,7 @@
 import Link from "next/link";
 import site from "@/content/site.json";
 import SafeImage from "@/components/SafeImage";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata = {
   title: "About Us | 1031 Exchange Property Identification Services",
@@ -31,6 +32,11 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      {/* Breadcrumbs */}
+      <div className="container mx-auto px-6 pt-6">
+        <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "About" }]} />
+      </div>
 
       {/* Content Section */}
       <section className="py-20 bg-white">

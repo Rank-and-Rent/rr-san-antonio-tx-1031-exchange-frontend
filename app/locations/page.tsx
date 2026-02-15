@@ -4,6 +4,7 @@ import Link from "next/link";
 import { locationsData } from "@/data";
 import SearchInput from "@/components/SearchInput";
 import SafeImage from "@/components/SafeImage";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import { getLocationImagePath } from "@/lib/image-utils";
 import { useRouter } from "next/navigation";
 
@@ -44,6 +45,11 @@ export default function LocationsPage() {
           </div>
         </div>
       </section>
+
+      {/* Breadcrumbs */}
+      <div className="container mx-auto px-6 pt-6">
+        <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Service Areas" }]} />
+      </div>
 
       {/* Intro Section */}
       <section className="py-16 bg-white">

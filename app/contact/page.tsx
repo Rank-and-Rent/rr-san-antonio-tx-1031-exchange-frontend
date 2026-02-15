@@ -2,6 +2,7 @@ import { Suspense } from "react";
 import site from "@/content/site.json";
 import ContactForm from "./contact-form";
 import SafeImage from "@/components/SafeImage";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export default function ContactPage() {
   const mapEmbedUrl = `https://www.google.com/maps?q=${encodeURIComponent(site.address)}&output=embed`;
@@ -29,6 +30,11 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+
+      {/* Breadcrumbs */}
+      <div className="container mx-auto px-6 pt-6">
+        <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Contact" }]} />
+      </div>
 
       {/* Contact Info & Map */}
       <section className="py-16 bg-white">

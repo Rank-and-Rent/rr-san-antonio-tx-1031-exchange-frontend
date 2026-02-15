@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import site from "@/content/site.json";
 import SafeImage from "@/components/SafeImage";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "1031 Exchange Tools & Calculators | San Antonio",
@@ -96,6 +97,11 @@ export default function ToolsPage() {
             </div>
           </div>
         </section>
+
+        {/* Breadcrumbs */}
+        <div className="container mx-auto px-6 pt-6">
+          <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Tools" }]} />
+        </div>
 
         {/* Intro Section */}
         <section className="py-16 bg-white">

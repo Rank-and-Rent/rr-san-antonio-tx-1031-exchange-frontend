@@ -1,5 +1,6 @@
 import Link from "next/link";
 import SafeImage from "@/components/SafeImage";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata = {
   title: "Blog | 1031 Exchange Resources and Insights",
@@ -44,6 +45,11 @@ export default function BlogPage({
           </div>
         </div>
       </section>
+
+      {/* Breadcrumbs */}
+      <div className="container mx-auto px-6 pt-6">
+        <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Blog" }]} />
+      </div>
 
       {/* Content Section */}
       <section className="py-16 bg-white">

@@ -6,6 +6,7 @@ import { servicesData } from "@/data";
 import SearchInput from "@/components/SearchInput";
 import ContactForm from "@/app/contact/contact-form";
 import SafeImage from "@/components/SafeImage";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import { useRouter } from "next/navigation";
 
 export default function ServicesPage() {
@@ -45,6 +46,11 @@ export default function ServicesPage() {
           </div>
         </div>
       </section>
+
+      {/* Breadcrumbs */}
+      <div className="container mx-auto px-6 pt-6">
+        <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Services" }]} />
+      </div>
 
       {/* Intro Section */}
       <section className="py-16 bg-white">

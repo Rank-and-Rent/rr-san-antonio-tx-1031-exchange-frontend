@@ -2,6 +2,7 @@ import Link from "next/link";
 import { inventoryCategories, servicesData } from "@/data";
 import site from "@/content/site.json";
 import SafeImage from "@/components/SafeImage";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -37,6 +38,11 @@ export default function InventoryPage() {
           </div>
         </div>
       </section>
+
+      {/* Breadcrumbs */}
+      <div className="container mx-auto px-6 pt-6">
+        <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Inventory" }]} />
+      </div>
 
       {/* Intro Section */}
       <section className="py-16 bg-white">
