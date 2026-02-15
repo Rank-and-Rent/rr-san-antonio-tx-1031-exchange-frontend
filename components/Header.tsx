@@ -1,9 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import site from "@/content/site.json";
-import { servicesData, locationsData, propertyTypesData } from "@/data";
+import { propertyTypesData } from "@/data";
 
 const tools = [
   { name: "Boot Calculator", href: "/tools/boot-calculator" },
@@ -12,93 +12,21 @@ const tools = [
 ];
 
 const mobileLinks = [
+  { label: "Properties", href: "/property-types" },
   { label: "Services", href: "/services" },
   { label: "Locations", href: "/locations" },
   { label: "Tools", href: "/tools" },
-  { label: "Property Types", href: "/property-types" },
   { label: "Blog", href: "/blog" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
 ];
 
 export default function Header() {
-  const [servicesOpen, setServicesOpen] = useState(false);
-  const [locationsOpen, setLocationsOpen] = useState(false);
-  const [toolsOpen, setToolsOpen] = useState(false);
-  const [propertyTypesOpen, setPropertyTypesOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-  const servicesRef = useRef<HTMLDivElement>(null);
-  const locationsRef = useRef<HTMLDivElement>(null);
-  const toolsRef = useRef<HTMLDivElement>(null);
-  const propertyTypesRef = useRef<HTMLDivElement>(null);
-  const servicesTimeoutRef = useRef<NodeJS.Timeout | null>(null);
-  const locationsTimeoutRef = useRef<NodeJS.Timeout | null>(null);
-  const toolsTimeoutRef = useRef<NodeJS.Timeout | null>(null);
-  const propertyTypesTimeoutRef = useRef<NodeJS.Timeout | null>(null);
-
-  const handleServicesEnter = () => {
-    if (servicesTimeoutRef.current) {
-      clearTimeout(servicesTimeoutRef.current);
-      servicesTimeoutRef.current = null;
-    }
-    setServicesOpen(true);
-  };
-
-  const handleServicesLeave = () => {
-    servicesTimeoutRef.current = setTimeout(() => {
-      setServicesOpen(false);
-    }, 150);
-  };
-
-  const handleLocationsEnter = () => {
-    if (locationsTimeoutRef.current) {
-      clearTimeout(locationsTimeoutRef.current);
-      locationsTimeoutRef.current = null;
-    }
-    setLocationsOpen(true);
-  };
-
-  const handleLocationsLeave = () => {
-    locationsTimeoutRef.current = setTimeout(() => {
-      setLocationsOpen(false);
-    }, 150);
-  };
-
-  const handleToolsEnter = () => {
-    if (toolsTimeoutRef.current) {
-      clearTimeout(toolsTimeoutRef.current);
-      toolsTimeoutRef.current = null;
-    }
-    setToolsOpen(true);
-  };
-
-  const handleToolsLeave = () => {
-    toolsTimeoutRef.current = setTimeout(() => {
-      setToolsOpen(false);
-    }, 150);
-  };
-
-  const handlePropertyTypesEnter = () => {
-    if (propertyTypesTimeoutRef.current) {
-      clearTimeout(propertyTypesTimeoutRef.current);
-      propertyTypesTimeoutRef.current = null;
-    }
-    setPropertyTypesOpen(true);
-  };
-
-  const handlePropertyTypesLeave = () => {
-    propertyTypesTimeoutRef.current = setTimeout(() => {
-      setPropertyTypesOpen(false);
-    }, 150);
-  };
 
   useEffect(() => {
     const handleEscape = (e: KeyboardEvent) => {
       if (e.key === "Escape") {
-        setServicesOpen(false);
-        setLocationsOpen(false);
-        setToolsOpen(false);
-        setPropertyTypesOpen(false);
         setMenuOpen(false);
       }
     };
@@ -106,390 +34,114 @@ export default function Header() {
     return () => window.removeEventListener("keydown", handleEscape);
   }, []);
 
-  useEffect(() => {
-    return () => {
-      if (servicesTimeoutRef.current) clearTimeout(servicesTimeoutRef.current);
-      if (locationsTimeoutRef.current) clearTimeout(locationsTimeoutRef.current);
-      if (toolsTimeoutRef.current) clearTimeout(toolsTimeoutRef.current);
-      if (propertyTypesTimeoutRef.current) clearTimeout(propertyTypesTimeoutRef.current);
-    };
-  }, []);
-
-  useEffect(() => {
-    const handleClickOutside = (e: MouseEvent) => {
-      const target = e.target as Node;
-      if (servicesRef.current && !servicesRef.current.contains(target)) {
-        setServicesOpen(false);
-      }
-      if (locationsRef.current && !locationsRef.current.contains(target)) {
-        setLocationsOpen(false);
-      }
-      if (toolsRef.current && !toolsRef.current.contains(target)) {
-        setToolsOpen(false);
-      }
-      if (propertyTypesRef.current && !propertyTypesRef.current.contains(target)) {
-        setPropertyTypesOpen(false);
-      }
-    };
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, []);
-
-  const servicesByCategory = servicesData.reduce((acc, service) => {
-    const category = service.category || "Other";
-    if (!acc[category]) acc[category] = [];
-    acc[category].push(service);
-    return acc;
-  }, {} as Record<string, typeof servicesData>);
-
-  const locationsByType = locationsData.reduce((acc, location) => {
-    const type = location.type;
-    if (!acc[type]) acc[type] = [];
-    acc[type].push(location);
-    return acc;
-  }, {} as Record<string, typeof locationsData>);
-
   const propertyTypePreview = propertyTypesData.slice(0, 6);
 
   return (
     <header className="sticky top-0 z-50">
-      {/* Main Navigation - Dark Background like Frontgate */}
-      <nav className="bg-[#1a1a1a]">
-        <div className="container mx-auto px-6 py-5 flex items-center justify-between gap-8">
-          {/* Logo - Text Based */}
+      {/* Main Navigation - White Background like C&H */}
+      <nav className="bg-white border-b border-[#e5e5e5]">
+        <div className="container mx-auto px-6 py-4 flex items-center justify-between gap-6">
+          {/* Logo - C&H Style Monogram */}
           <Link
             href="/"
             className="flex items-center gap-3 flex-shrink-0 hover:opacity-80 transition-opacity"
             aria-label="Home"
           >
-            {/* Logo Mark - Three vertical bars like Frontgate */}
-            <div className="flex gap-[3px]">
-              <div className="w-[3px] h-8 bg-white"></div>
-              <div className="w-[3px] h-8 bg-white"></div>
-              <div className="w-[3px] h-8 bg-white"></div>
+            {/* Monogram */}
+            <div className="flex items-baseline font-[family-name:var(--font-cormorant)]">
+              <span className="text-[#1a1a1a] text-3xl md:text-4xl font-light tracking-tight">1031</span>
             </div>
             {/* Logo Text */}
-            <div className="flex flex-col">
-              <span className="text-white text-xs tracking-[0.3em] font-medium leading-tight">
-                1031 EXCHANGE
+            <div className="flex flex-col border-l border-[#d4d4d4] pl-3">
+              <span className="text-[#1a1a1a] text-[9px] tracking-[0.25em] font-medium leading-tight uppercase">
+                Exchange
               </span>
-              <span className="text-white/70 text-[10px] tracking-[0.25em] leading-tight">
-                SAN ANTONIO
+              <span className="text-[#1a1a1a]/60 text-[8px] tracking-[0.2em] leading-tight uppercase">
+                San Antonio
               </span>
             </div>
           </Link>
 
-          {/* Desktop Navigation - White text on dark */}
-          <div className="hidden lg:flex flex-1 items-center justify-center gap-8">
-            {/* Services Dropdown */}
-            <div
-              ref={servicesRef}
-              className="relative"
-              onMouseEnter={handleServicesEnter}
-              onMouseLeave={handleServicesLeave}
-            >
-              <button
-                className="text-xs font-medium uppercase tracking-[0.2em] text-white/80 hover:text-white transition-colors"
-                aria-expanded={servicesOpen}
-                aria-haspopup="true"
-                onFocus={() => setServicesOpen(true)}
-                onKeyDown={(e) => {
-                  if (e.key === "Enter" || e.key === " ") {
-                    e.preventDefault();
-                    setServicesOpen(!servicesOpen);
-                  }
-                }}
-              >
-                Services
-              </button>
-              {servicesOpen && (
-                <div
-                  className="absolute top-full left-1/2 -translate-x-1/2 mt-4 w-[28rem] bg-[#1a1a1a] border border-white/20 shadow-2xl p-6"
-                  onMouseEnter={handleServicesEnter}
-                  onMouseLeave={handleServicesLeave}
-                >
-                  <div className="grid grid-cols-2 gap-6">
-                    {Object.entries(servicesByCategory).map(([category, services]) => (
-                      <div key={category}>
-                        <h3 className="text-[10px] text-white/50 tracking-[0.3em] uppercase mb-3 font-medium">
-                          {category}
-                        </h3>
-                        <ul className="space-y-2">
-                          {services.map((service) => (
-                            <li key={service.slug}>
-                              <Link
-                                href={service.route}
-                                className="block text-sm text-white/80 hover:text-white transition-colors"
-                                onFocus={() => setServicesOpen(true)}
-                                onMouseEnter={handleServicesEnter}
-                              >
-                                {service.name}
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    ))}
-                  </div>
-                  <div className="mt-5 pt-4 border-t border-white/20">
-                    <Link
-                      href="/services"
-                      className="text-xs uppercase tracking-[0.2em] text-white font-medium hover:text-white/70 transition-colors"
-                      onMouseEnter={handleServicesEnter}
-                    >
-                      View All Services
-                    </Link>
-                  </div>
-                </div>
-              )}
-            </div>
-
-            {/* Locations Dropdown */}
-            <div
-              ref={locationsRef}
-              className="relative"
-              onMouseEnter={handleLocationsEnter}
-              onMouseLeave={handleLocationsLeave}
-            >
-              <button
-                className="text-xs font-medium uppercase tracking-[0.2em] text-white/80 hover:text-white transition-colors"
-                aria-expanded={locationsOpen}
-                aria-haspopup="true"
-                onFocus={() => setLocationsOpen(true)}
-                onKeyDown={(e) => {
-                  if (e.key === "Enter" || e.key === " ") {
-                    e.preventDefault();
-                    setLocationsOpen(!locationsOpen);
-                  }
-                }}
-              >
-                Locations
-              </button>
-              {locationsOpen && (
-                <div
-                  className="absolute top-full left-1/2 -translate-x-1/2 mt-4 w-[26rem] bg-[#1a1a1a] border border-white/20 shadow-2xl p-6 max-h-[26rem] overflow-y-auto"
-                  onMouseEnter={handleLocationsEnter}
-                  onMouseLeave={handleLocationsLeave}
-                >
-                  <div className="space-y-5">
-                    {Object.entries(locationsByType).map(([type, locations]) => (
-                      <div key={type}>
-                        <h3 className="text-[10px] text-white/50 tracking-[0.3em] uppercase mb-2 font-medium capitalize">
-                          {type.replace("-", " ")}
-                        </h3>
-                        <div className="grid grid-cols-2 gap-2">
-                          {locations.slice(0, 6).map((location) => (
-                            <Link
-                              key={location.slug}
-                              href={location.route}
-                              className="text-sm text-white/80 hover:text-white transition-colors"
-                              onFocus={() => setLocationsOpen(true)}
-                              onMouseEnter={handleLocationsEnter}
-                            >
-                              {location.name}
-                            </Link>
-                          ))}
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                  <div className="mt-5 pt-4 border-t border-white/20">
-                    <Link
-                      href="/locations"
-                      className="text-xs uppercase tracking-[0.2em] text-white font-medium hover:text-white/70 transition-colors"
-                      onMouseEnter={handleLocationsEnter}
-                    >
-                      View All Locations
-                    </Link>
-                  </div>
-                </div>
-              )}
-            </div>
-
-            {/* Tools Dropdown */}
-            <div
-              ref={toolsRef}
-              className="relative"
-              onMouseEnter={handleToolsEnter}
-              onMouseLeave={handleToolsLeave}
-            >
-              <button
-                className="text-xs font-medium uppercase tracking-[0.2em] text-white/80 hover:text-white transition-colors"
-                aria-expanded={toolsOpen}
-                aria-haspopup="true"
-                onFocus={() => setToolsOpen(true)}
-                onKeyDown={(e) => {
-                  if (e.key === "Enter" || e.key === " ") {
-                    e.preventDefault();
-                    setToolsOpen(!toolsOpen);
-                  }
-                }}
-              >
-                Tools
-              </button>
-              {toolsOpen && (
-                <div
-                  className="absolute top-full left-1/2 -translate-x-1/2 mt-4 w-[18rem] bg-[#1a1a1a] border border-white/20 shadow-2xl p-6"
-                  onMouseEnter={handleToolsEnter}
-                  onMouseLeave={handleToolsLeave}
-                >
-                  <ul className="space-y-3">
-                    {tools.map((tool) => (
-                      <li key={tool.href}>
-                        <Link
-                          href={tool.href}
-                          className="block text-sm text-white/80 hover:text-white transition-colors"
-                          onFocus={() => setToolsOpen(true)}
-                          onMouseEnter={handleToolsEnter}
-                        >
-                          {tool.name}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                  <div className="mt-5 pt-4 border-t border-white/20">
-                    <Link
-                      href="/tools"
-                      className="text-xs uppercase tracking-[0.2em] text-white font-medium hover:text-white/70 transition-colors"
-                      onMouseEnter={handleToolsEnter}
-                    >
-                      View All Tools
-                    </Link>
-                  </div>
-                </div>
-              )}
-            </div>
-
-            {/* Property Types Dropdown */}
-            <div
-              ref={propertyTypesRef}
-              className="relative"
-              onMouseEnter={handlePropertyTypesEnter}
-              onMouseLeave={handlePropertyTypesLeave}
-            >
-              <button
-                className="text-xs font-medium uppercase tracking-[0.2em] text-white/80 hover:text-white transition-colors"
-                aria-expanded={propertyTypesOpen}
-                aria-haspopup="true"
-                onFocus={() => setPropertyTypesOpen(true)}
-                onKeyDown={(e) => {
-                  if (e.key === "Enter" || e.key === " ") {
-                    e.preventDefault();
-                    setPropertyTypesOpen(!propertyTypesOpen);
-                  }
-                }}
-              >
-                Property Types
-              </button>
-              {propertyTypesOpen && (
-                <div
-                  className="absolute top-full left-1/2 -translate-x-1/2 mt-4 w-[20rem] bg-[#1a1a1a] border border-white/20 shadow-2xl p-6"
-                  onMouseEnter={handlePropertyTypesEnter}
-                  onMouseLeave={handlePropertyTypesLeave}
-                >
-                  <div className="space-y-3">
-                    {propertyTypePreview.map((propertyType) => (
-                      <Link
-                        key={propertyType.slug}
-                        href={propertyType.route}
-                        className="block text-sm text-white/80 hover:text-white transition-colors"
-                        onFocus={() => setPropertyTypesOpen(true)}
-                        onMouseEnter={handlePropertyTypesEnter}
-                      >
-                        {propertyType.name}
-                      </Link>
-                    ))}
-                  </div>
-                  <div className="mt-5 pt-4 border-t border-white/20">
-                    <Link
-                      href="/property-types"
-                      className="text-xs uppercase tracking-[0.2em] text-white font-medium hover:text-white/70 transition-colors"
-                      onMouseEnter={handlePropertyTypesEnter}
-                    >
-                      View All Property Types
-                    </Link>
-                  </div>
-                </div>
-              )}
-            </div>
-
-            {/* Quick Links */}
+          {/* Desktop Navigation */}
+          <div className="hidden lg:flex items-center gap-6 flex-shrink-0">
             <Link
-              href="/blog"
-              className="text-xs font-medium uppercase tracking-[0.2em] text-white/80 hover:text-white transition-colors"
+              href="/property-types"
+              className="text-xs font-medium uppercase tracking-[0.15em] text-[#1a1a1a]/80 hover:text-[#1a1a1a] transition-colors whitespace-nowrap"
             >
-              Blog
+              Properties
             </Link>
             <Link
-              href="/about"
-              className="text-xs font-medium uppercase tracking-[0.2em] text-white/80 hover:text-white transition-colors"
+              href="/services"
+              className="text-xs font-medium uppercase tracking-[0.15em] text-[#1a1a1a]/80 hover:text-[#1a1a1a] transition-colors whitespace-nowrap"
             >
-              About
+              Services
             </Link>
-          </div>
-
-          {/* Right Side - Phone & Contact */}
-          <div className="hidden lg:flex items-center gap-6">
-            <a 
-              href={`tel:${site.phoneDigits}`} 
-              className="text-xs tracking-[0.15em] text-white/70 hover:text-white transition-colors font-medium"
+            <Link
+              href="/locations"
+              className="text-xs font-medium uppercase tracking-[0.15em] text-[#1a1a1a]/80 hover:text-[#1a1a1a] transition-colors whitespace-nowrap"
             >
-              {site.phone}
-            </a>
+              Service Areas
+            </Link>
             <Link
               href="/contact"
-              className="px-6 py-3 border border-white text-white text-xs font-medium tracking-[0.2em] uppercase hover:bg-white hover:text-[#1a1a1a] transition-all"
+              className="text-xs font-medium uppercase tracking-[0.15em] text-[#1a1a1a]/80 hover:text-[#1a1a1a] transition-colors whitespace-nowrap"
             >
               Contact Us
             </Link>
+            <a
+              href={`tel:${site.phoneDigits}`}
+              className="text-xs tracking-[0.15em] text-[#1a1a1a]/70 hover:text-[#1a1a1a] transition-colors font-medium whitespace-nowrap"
+            >
+              {site.phone}
+            </a>
           </div>
 
-          {/* Mobile Menu Button */}
+          {/* Hamburger Menu Button - mobile only */}
           <button
-            className="lg:hidden flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-white/80 font-medium"
+            className="lg:hidden flex flex-col gap-[5px] p-2 hover:opacity-70 transition-opacity"
             aria-label="Open navigation"
             aria-expanded={menuOpen}
             onClick={() => setMenuOpen((prev) => !prev)}
           >
-            Menu
+            <span className="block w-6 h-[1.5px] bg-[#1a1a1a]"></span>
+            <span className="block w-6 h-[1.5px] bg-[#1a1a1a]"></span>
+            <span className="block w-6 h-[1.5px] bg-[#1a1a1a]"></span>
           </button>
         </div>
       </nav>
 
-      {/* Mobile Menu */}
+      {/* Mobile/Full Menu - Slide-in Drawer */}
       {menuOpen && (
-        <div className="fixed inset-0 z-50 flex">
+        <div className="fixed inset-0 z-[60] flex">
           <div
-            className="fixed inset-0 bg-black/60"
+            className="fixed inset-0 bg-black/60 z-[60]"
             onClick={() => setMenuOpen(false)}
           />
-          <div className="ml-auto w-full max-w-sm bg-[#1a1a1a] border-l border-white/10 p-8 overflow-y-auto">
+          <div className="relative z-[70] ml-auto w-full max-w-sm bg-white border-l border-[#e5e5e5] p-8 overflow-y-auto">
             <div className="flex items-center justify-between mb-10">
               <Link
                 href="/"
                 className="flex items-center gap-3"
                 onClick={() => setMenuOpen(false)}
               >
-                <div className="flex gap-[3px]">
-                  <div className="w-[3px] h-6 bg-white"></div>
-                  <div className="w-[3px] h-6 bg-white"></div>
-                  <div className="w-[3px] h-6 bg-white"></div>
+                <div className="flex items-baseline font-[family-name:var(--font-cormorant)]">
+                  <span className="text-[#1a1a1a] text-2xl font-light tracking-tight">1031</span>
                 </div>
-                <div className="flex flex-col">
-                  <span className="text-white text-[10px] tracking-[0.3em] font-medium leading-tight">
-                    1031 EXCHANGE
+                <div className="flex flex-col border-l border-[#d4d4d4] pl-3">
+                  <span className="text-[#1a1a1a] text-[8px] tracking-[0.25em] font-medium leading-tight uppercase">
+                    Exchange
                   </span>
-                  <span className="text-white/70 text-[8px] tracking-[0.25em] leading-tight">
-                    SAN ANTONIO
+                  <span className="text-[#1a1a1a]/60 text-[7px] tracking-[0.2em] leading-tight uppercase">
+                    San Antonio
                   </span>
                 </div>
               </Link>
               <button
-                className="text-white text-2xl leading-none"
+                className="text-[#1a1a1a] text-2xl leading-none hover:opacity-60 transition-opacity"
                 aria-label="Close menu"
                 onClick={() => setMenuOpen(false)}
               >
-                x
+                &times;
               </button>
             </div>
             <div className="space-y-6">
@@ -497,22 +149,22 @@ export default function Header() {
                 <Link
                   key={`${link.label}-${link.href}`}
                   href={link.href}
-                  className="block text-sm uppercase tracking-[0.2em] text-white/80 hover:text-white transition-colors"
+                  className="block text-sm uppercase tracking-[0.2em] text-[#1a1a1a]/80 hover:text-[#1a1a1a] transition-colors"
                   onClick={() => setMenuOpen(false)}
                 >
                   {link.label}
                 </Link>
               ))}
             </div>
-            <div className="mt-10 pt-8 border-t border-white/20 space-y-4">
-              <p className="text-[10px] tracking-[0.3em] text-white/50 uppercase font-medium">
+            <div className="mt-10 pt-8 border-t border-[#e5e5e5] space-y-4">
+              <p className="text-[10px] tracking-[0.3em] text-[#1a1a1a]/50 uppercase font-medium">
                 Property Types
               </p>
               {propertyTypePreview.map((propertyType) => (
                 <Link
                   key={`mobile-${propertyType.slug}`}
                   href={propertyType.route}
-                  className="block text-sm text-white/80 hover:text-white transition-colors"
+                  className="block text-sm text-[#1a1a1a]/80 hover:text-[#1a1a1a] transition-colors"
                   onClick={() => setMenuOpen(false)}
                 >
                   {propertyType.name}
@@ -520,20 +172,35 @@ export default function Header() {
               ))}
               <Link
                 href="/property-types"
-                className="block text-xs uppercase tracking-[0.2em] text-white font-medium mt-4"
+                className="block text-xs uppercase tracking-[0.2em] text-[#1a1a1a] font-medium mt-4"
                 onClick={() => setMenuOpen(false)}
               >
                 Browse All Types
               </Link>
             </div>
-            <div className="mt-10 pt-8 border-t border-white/20">
+            <div className="mt-10 pt-8 border-t border-[#e5e5e5] space-y-4">
+              <p className="text-[10px] tracking-[0.3em] text-[#1a1a1a]/50 uppercase font-medium">
+                Tools
+              </p>
+              {tools.map((tool) => (
+                <Link
+                  key={tool.href}
+                  href={tool.href}
+                  className="block text-sm text-[#1a1a1a]/80 hover:text-[#1a1a1a] transition-colors"
+                  onClick={() => setMenuOpen(false)}
+                >
+                  {tool.name}
+                </Link>
+              ))}
+            </div>
+            <div className="mt-10 pt-8 border-t border-[#e5e5e5]">
               <a
                 href={`tel:${site.phoneDigits}`}
-                className="block text-sm font-medium tracking-[0.15em] text-white/80 hover:text-white mb-2"
+                className="block text-sm font-medium tracking-[0.15em] text-[#1a1a1a]/80 hover:text-[#1a1a1a] mb-2"
               >
                 {site.phone}
               </a>
-              <p className="text-xs tracking-[0.1em] text-white/50">
+              <p className="text-xs tracking-[0.1em] text-[#1a1a1a]/50">
                 {site.address}
               </p>
             </div>

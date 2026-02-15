@@ -10,7 +10,7 @@
   --color-secondaryfg: #1a1a1a;
   --color-outline: #d4d4d4;
   --color-panel: #f8f8f6;
-  --color-accent: #3d3d3d;
+  --color-accent: #c9a96e;
   --color-muted: #6b6b6b;
   --color-dark: #1a1a1a;
   --color-darkpanel: #2a2a2a;
@@ -41,7 +41,7 @@ main {
   @apply flex-1;
 }
 
-/* Typography - Frontgate style with letter-spacing */
+/* Typography - C&H / Frontgate style with letter-spacing */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   letter-spacing: 0.15em;
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
-/* Elegant subtitle/intro text - italic style */
+/* Elegant subtitle/intro text - italic Cormorant style */
 .text-elegant {
   font-style: italic;
   font-weight: 300;

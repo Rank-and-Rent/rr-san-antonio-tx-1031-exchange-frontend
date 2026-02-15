@@ -14,8 +14,8 @@ export default function Footer() {
   return (
     <footer className="bg-[#1a1a1a]">
       <div className="container mx-auto px-6 py-16">
-        <div className="grid md:grid-cols-5 gap-10 mb-12">
-          <div>
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-8 md:gap-10 mb-12">
+          <div className="col-span-2 md:col-span-1 min-w-0">
             {/* Logo */}
             <div className="flex items-center gap-3 mb-6">
               <div className="flex gap-[3px]">
@@ -39,7 +39,7 @@ export default function Footer() {
               </a>
             </p>
             <p className="text-white/60 text-sm mb-3">
-              <a href={`mailto:${site.email}`} className="hover:text-white transition-colors whitespace-nowrap">
+              <a href={`mailto:${site.email}`} className="hover:text-white transition-colors break-all">
                 {site.email}
               </a>
             </p>
