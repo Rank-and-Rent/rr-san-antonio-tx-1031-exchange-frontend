@@ -1,4 +1,11 @@
-export async function verifyTurnstile(token: string, clientIp?: string): Promise<boolean> {
+// Cloudflare Turnstile utilities
+export const TURNSTILE_SITE_KEY = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY || '';
+
+export function isTurnstileEnabled(): boolean {
+  return Boolean(TURNSTILE_SITE_KEY);
+}
+
+export async function verifyTurnstile(token: string, remoteip?: string) {
   const secret = process.env.TURNSTILE_SECRET || process.env.TURNSTILE_SECRET_KEY
 
   if (!secret) {
@@ -7,33 +14,22 @@ export async function verifyTurnstile(token: string, clientIp?: string): Promise
   }
 
   try {
+    const formData = new FormData()
+    formData.append('secret', secret)
+    formData.append('response', token)
+    if (remoteip) {
+      formData.append('remoteip', remoteip)
+    }
+
     const response = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/x-www-form-urlencoded',
-      },
-      body: new URLSearchParams({
-        secret,
-        response: token,
-        ...(clientIp && { remoteip: clientIp }),
-      }),
+      body: formData,
     })
 
-    if (!response.ok) {
-      console.error('Turnstile verification request failed:', response.status)
-      return false
-    }
-
-    const data = await response.json()
-
-    if (!data.success) {
-      console.error('Turnstile verification failed:', data['error-codes'])
-      return false
-    }
-
-    return true
+    const data = (await response.json()) as { success?: boolean }
+    return data.success === true
   } catch (error) {
-    console.error('Error verifying Turnstile token:', error)
+    console.error('Failed to verify Turnstile', error)
     return false
   }
 }

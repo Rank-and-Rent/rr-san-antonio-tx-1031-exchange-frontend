@@ -1,59 +1,59 @@
+import { NextRequest } from 'next/server'
+
 interface RateLimitResult {
   allowed: boolean
   remaining: number
   resetTime: number
 }
 
-class RateLimiter {
-  private attempts: Map<string, { count: number; resetTime: number }> = new Map()
-  private readonly maxAttempts: number
-  private readonly windowMs: number
+class ApiRateLimiter {
+  private requests = new Map<string, { count: number; resetTime: number }>()
+  private readonly limit = 5
+  private readonly windowMs = 15 * 60 * 1000 // 15 minutes
 
-  constructor(maxAttempts = 5, windowMs = 15 * 60 * 1000) { // 5 attempts per 15 minutes
-    this.maxAttempts = maxAttempts
-    this.windowMs = windowMs
-  }
-
-  isAllowed(identifier: string | { headers: { get: (key: string) => string | null } }): RateLimitResult {
-    const key = this.getKey(identifier)
-
+  isAllowed(request: NextRequest): RateLimitResult {
+    const ip = this.getClientIP(request)
     const now = Date.now()
-    const record = this.attempts.get(key)
+    const windowStart = now - this.windowMs
 
-    if (!record || now > record.resetTime) {
-      // First attempt or window has expired
+    this.cleanup(windowStart)
+
+    const key = ip
+    const current = this.requests.get(key)
+
+    if (!current || current.resetTime <= now) {
       const resetTime = now + this.windowMs
-      this.attempts.set(key, { count: 1, resetTime })
-      return { allowed: true, remaining: this.maxAttempts - 1, resetTime }
+      this.requests.set(key, { count: 1, resetTime })
+      return { allowed: true, remaining: this.limit - 1, resetTime }
     }
 
-    if (record.count >= this.maxAttempts) {
-      return { allowed: false, remaining: 0, resetTime: record.resetTime }
+    if (current.count >= this.limit) {
+      return { allowed: false, remaining: 0, resetTime: current.resetTime }
     }
 
-    record.count++
-    return { allowed: true, remaining: this.maxAttempts - record.count, resetTime: record.resetTime }
+    current.count++
+    this.requests.set(key, current)
+    return { allowed: true, remaining: this.limit - current.count, resetTime: current.resetTime }
   }
 
-  private getKey(identifier: string | { headers: { get: (key: string) => string | null } }): string {
-    if (typeof identifier === 'string') {
-      return identifier
+  private getClientIP(request: NextRequest): string {
+    const forwarded = request.headers.get('x-forwarded-for')
+    const realIP = request.headers.get('x-real-ip')
+    const cfConnecting = request.headers.get('cf-connecting-ip')
+
+    if (forwarded) return forwarded.split(',')[0].trim()
+    if (realIP) return realIP
+    if (cfConnecting) return cfConnecting
+    return 'unknown'
+  }
+
+  private cleanup(windowStart: number): void {
+    for (const [key, value] of this.requests.entries()) {
+      if (value.resetTime <= windowStart) {
+        this.requests.delete(key)
+      }
     }
-
-    // Extract IP address from request headers
-    const xForwardedFor = identifier.headers.get('x-forwarded-for')
-    const xRealIp = identifier.headers.get('x-real-ip')
-    const xClientIp = identifier.headers.get('x-client-ip')
-    const cfConnectingIp = identifier.headers.get('cf-connecting-ip')
-
-    const ip = xForwardedFor?.split(',')[0]?.trim() ||
-               xRealIp ||
-               xClientIp ||
-               cfConnectingIp ||
-               'unknown'
-
-    return ip
   }
 }
 
-export const apiRateLimiter = new RateLimiter()
+export const apiRateLimiter = new ApiRateLimiter()
