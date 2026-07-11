@@ -1,0 +1,58 @@
+{
+ "slug": "replacement-property-identification",
+ "taxonomy": "services",
+ "title": "Replacement Property Identification",
+ "name": "Replacement Property Identification",
+ "metaTitle": "Replacement Property Identification in San Antonio, TX",
+ "metaDescription": "Building a defensible replacement property shortlist across San Antonio asset classes, matched to exchange value and drafted for the identification notice.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Replacement property identification is the process of turning a broad San Antonio property search into a short, specific list that meets the exchange's value and like-kind requirements, written up in the form the qualified intermediary needs for the identification notice. The work is different for a multifamily building than for a retail pad or an industrial flex property, even though the deadline is the same for every asset class.</p>"
+  },
+  {
+   "heading": "Matching Candidates to Exchange Value",
+   "html": "<p>Every candidate on a San Antonio identification list has to be measured against the same two numbers: the value of the relinquished property and the debt being replaced. A property that scores well on location or tenant quality but falls short on either number creates boot exposure, so the shortlist is filtered by these financial tests before it is filtered by anything else.</p><p>Because asset classes trade differently across the metro, the same exchange value can point toward very different property types in San Antonio, from a single net-lease pad to a small apartment building to a fractional interest in a larger asset.</p><p>Investors sometimes combine two or more smaller San Antonio properties to reach the required exchange value in a single closing, which adds coordination complexity but can widen the pool of realistic candidates in a category where few single assets hit the target value on their own.</p>"
+  },
+  {
+   "heading": "Cross-Asset-Class Comparison",
+   "html": "<p>Comparing a medical office candidate against a multifamily candidate against an industrial flex building requires normalizing very different diligence categories onto one decision framework, since the investor is choosing between property types rather than between addresses alone. San Antonio's mix of military, medical, and distribution-driven demand means credible candidates can come from more than one asset class in the same search.</p><ul><li>Exchange value and debt-replacement fit</li><li>Lease term and tenant credit strength</li><li>Physical condition and near-term capital needs</li><li>Financing timeline versus the 45-day window</li><li>Long-term hold fit for the investor's strategy</li></ul>"
+  },
+  {
+   "heading": "Drafting the Identification Notice",
+   "html": "<p>Once candidates are ranked, the identification notice itself has to name each property with enough specificity, either a legal description or an unambiguous street address, to satisfy the qualified intermediary's requirements and IRS timing rules. Errors here, such as an incomplete address on a San Antonio property with multiple parcels, are corrected before the notice is signed, not after the deadline passes.</p><p>The notice is typically delivered to the qualified intermediary in writing and dated on delivery, with a copy retained by the investor, since the burden of proving timely identification falls on the investor if the exchange is ever questioned.</p>"
+  },
+  {
+   "heading": "Revising the List as Diligence Progresses",
+   "html": "<p>Identification is not always a one-time event; investors using the three-property or 200% rule can adjust or revoke identifications within the 45-day window as diligence on San Antonio candidates progresses, provided any revision is documented in writing before the deadline closes. A revision made even a day after the deadline generally does not count.</p>"
+  },
+  {
+   "heading": "Working From a Wide Search to a Short List",
+   "html": "<p>The practical work behind identification usually starts with a broad search across San Antonio submarkets and asset classes, narrowed in stages as financing, tenant credit, and physical condition findings eliminate weaker candidates. A wide initial search matters most in thinner categories, such as medical office or larger industrial buildings, where few properties trade at any given time.</p><p>By the time the 45-day window is halfway through, the list should already be down to a handful of serious San Antonio candidates with financing and diligence well underway, leaving the final days for paperwork rather than new searching.</p><p>Tracking each candidate's status against a shared timeline, rather than relying on memory or scattered notes, keeps the narrowing process organized as the deadline approaches for a San Antonio exchange with several moving pieces.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "How many properties can be identified on a San Antonio exchange?",
+   "a": "Investors generally identify up to three properties regardless of value under the three-property rule, or more than three if their combined value stays within 200% of the relinquished property's value, under the 200% rule. Specific limits should be confirmed with the qualified intermediary before the list is finalized."
+  },
+  {
+   "q": "Can the identification list mix different property types, like a retail pad and an apartment building?",
+   "a": "Yes. Like-kind treatment for real estate is broad, so an identification list can include different asset classes as long as each candidate is properly described and meets the exchange's value requirements."
+  },
+  {
+   "q": "What happens if an identified San Antonio property turns out to have title or survey issues?",
+   "a": "If discovered within the 45-day window, the investor can typically revise or replace that identification with a documented alternative, provided the change is made and communicated before the deadline. After the window closes, the original list generally controls."
+  },
+  {
+   "q": "How specific does the identification notice need to be about a property's address?",
+   "a": "The notice needs enough detail, either a legal description or an unambiguous street address, to distinguish the property from any other, which matters especially on San Antonio properties that span multiple parcels or share a similar address on the same block."
+  },
+  {
+   "q": "Does identifying a property guarantee the investor will close on it?",
+   "a": "No. Identification is a procedural requirement for the exchange, not a purchase obligation. The investor can still fail to close on an identified property, which is why backup candidates are typically named alongside the lead choice and pursued in parallel rather than sequentially."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 862
+}

@@ -1,0 +1,58 @@
+{
+ "slug": "qualified-intermediary-coordination",
+ "taxonomy": "services",
+ "title": "Qualified Intermediary Coordination",
+ "name": "Qualified Intermediary Coordination",
+ "metaTitle": "Qualified Intermediary Coordination in San Antonio, TX",
+ "metaDescription": "Coordination between the investor, title company, and qualified intermediary on San Antonio 1031 exchanges, keeping exchange funds and documents on schedule.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A qualified intermediary holds exchange proceeds and prepares the exchange agreement that keeps a San Antonio investor from taking constructive receipt of sale funds between closings. Coordination work means making sure the QI, the title company, and both closing attorneys are working from the same instructions well before the relinquished property sale, so nothing has to be improvised at the closing table.</p>"
+  },
+  {
+   "heading": "Exchange Agreement and Escrow Setup",
+   "html": "<p>Before the relinquished property closes, the qualified intermediary needs an executed exchange agreement and assignment of the sale contract, along with escrow instructions that route net proceeds directly to a segregated exchange account. Title companies in San Antonio generally have experience with this handoff, but the paperwork still has to be confirmed line by line rather than assumed correct from a template.</p><p>Any error in the assignment language or escrow instructions at this stage can jeopardize the exchange entirely, since constructive receipt of funds by the investor, even briefly, disqualifies the transaction. Reviewing the signed documents against the QI's checklist before closing day, rather than at the closing table, gives everyone time to fix a problem if one turns up.</p>"
+  },
+  {
+   "heading": "Clock Start and Deadline Tracking",
+   "html": "<p>The 45-day identification period and 180-day exchange period both start on the day the relinquished property closes, not when the investor decides to exchange. Coordinating with the qualified intermediary to confirm the exact closing date and calendar both deadlines in writing removes ambiguity that can otherwise surface late in a San Antonio transaction, particularly when the relinquished property is outside San Antonio and the replacement is local.</p>"
+  },
+  {
+   "heading": "Identification Notice and Fund Release Instructions",
+   "html": "<p>Once replacement property is selected, the qualified intermediary needs a written identification notice meeting IRS timing and content requirements, followed by clear instructions for releasing exchange funds to the replacement closing. San Antonio title companies typically require the QI's wired funds and a closing statement that matches the identification notice before they will fund.</p><p>Any discrepancy between the property named in the identification notice and the property named on the closing statement, a common issue when a San Antonio address changes slightly between contract and closing, should be resolved with the QI before the closing date, not discovered at the closing table.</p><ul><li>Executed exchange agreement and assignment of both contracts</li><li>Segregated exchange account confirmation</li><li>Written identification notice within the 45-day window</li><li>Fund release authorization tied to the replacement closing statement</li><li>Final accounting reconciling proceeds, debt, and any boot</li></ul>"
+  },
+  {
+   "heading": "Coordinating a QI Change Mid-Exchange",
+   "html": "<p>Occasionally a San Antonio investor needs to change qualified intermediaries after a relinquished property has already closed, which requires careful handling of the existing exchange agreement and account transfer. This situation is uncommon but should be handled through counsel and the current QI rather than informally, since a mishandled transfer can create constructive receipt exposure for a San Antonio exchange already in progress.</p>"
+  },
+  {
+   "heading": "Communication Cadence Across the 180 Days",
+   "html": "<p>A San Antonio exchange file typically involves the investor, the qualified intermediary, closing attorneys on both sides, a lender, and sometimes a tax advisor, and keeping that group aligned over the full 180-day period takes a deliberate communication cadence rather than ad hoc updates. Missed handoffs are more common near the identification deadline and again near final closing, which are the two points where a short weekly check-in with the QI tends to pay off the most.</p><p>Written confirmation of key milestones, including identification filed, funds wired, and closing scheduled, gives every party in a San Antonio transaction the same record to work from if a question comes up later.</p><p>A single point of contact coordinating updates across the group, rather than each party emailing separately, reduces the chance of a detail being missed in a busy San Antonio transaction with multiple moving pieces.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Why can't a San Antonio investor just hold their own sale proceeds during an exchange?",
+   "a": "Direct or indirect receipt of the funds, even for a short time, is treated as constructive receipt and disqualifies the exchange. A qualified intermediary holds the proceeds in a segregated account specifically to avoid that outcome and to document the transaction properly."
+  },
+  {
+   "q": "When exactly do the 45-day and 180-day clocks start?",
+   "a": "Both periods begin on the date the relinquished property closes, regardless of when the investor first engaged a qualified intermediary or began searching for replacement property. Confirming that date in writing with the QI avoids later disputes."
+  },
+  {
+   "q": "Can a San Antonio title company act as the qualified intermediary?",
+   "a": "Generally no, if that title company or its affiliates have acted as the investor's agent in the prior two years, since the IRS disqualifies certain related parties from serving as QI. Investors should confirm eligibility with their tax advisor and the QI directly before the relationship is finalized."
+  },
+  {
+   "q": "What happens if the identification notice is sent even one day late?",
+   "a": "A late identification notice generally disqualifies the exchange for tax purposes, which is why deadline tracking is calendared in writing at the start of the transaction rather than estimated from memory, with reminders set well ahead of the actual cutoff date."
+  },
+  {
+   "q": "Who prepares the final accounting at the end of the exchange?",
+   "a": "The qualified intermediary typically prepares a closing accounting reconciling proceeds received, funds disbursed, and any residual cash or boot, which the investor's tax advisor uses to complete the exchange's tax reporting. Keeping that accounting alongside the identification notice creates a clean record for the investor's file."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 866
+}

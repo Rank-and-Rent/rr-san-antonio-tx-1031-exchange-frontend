@@ -1,0 +1,62 @@
+{
+ "slug": "45-day-identification-strategy",
+ "taxonomy": "services",
+ "title": "45-Day Identification Strategy",
+ "name": "45-Day Identification Strategy",
+ "metaTitle": "45-Day Identification Strategy in San Antonio, TX",
+ "metaDescription": "45-day identification strategy for San Antonio 1031 exchanges: notice mechanics, pipeline building, and rule selection ahead of the IRS deadline.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The 45-day identification window opens on the date the relinquished property closes and does not pause for anything - not a slow title search, not a lender delay, not a holiday week. In a market like San Antonio, where strong in-migration keeps competition steady across multifamily, industrial, and medical office product, the investors who fare best in that window are the ones who started building a candidate list before the relinquished sale ever closed.</p><p>What follows describes the identification process and its documentation requirements; it is not tax advice, and investors should confirm rule selection with their tax advisor and qualified intermediary.</p>"
+  },
+  {
+   "heading": "Meeting the Written, Signed, and Delivered Standard",
+   "html": "<p>An identification is only valid if it is in writing, signed by the investor, and delivered to a party involved in the exchange who is not a disqualified person before midnight on day 45 - typically the qualified intermediary. A verbal mention to a broker or an email to oneself does not satisfy the requirement; delivery has to reach the QI or another eligible party of record.</p><p>Each property named needs an unambiguous legal description - a street address, a legal description from title records, or a distinguishable parcel identifier - so there is no dispute later about what was actually identified.</p>"
+  },
+  {
+   "heading": "Building an Identification Pipeline Before the Clock Starts",
+   "html": "<p>Because 45 days runs out quickly once escrow, financing, and physical inspection needs are layered on top, most successful San Antonio exchanges begin sourcing candidate replacement properties while the relinquished sale is still under contract, not after it closes. That means having a broker or sourcing relationship already engaged on industrial product along I-35 and I-10, multifamily near the medical center, or NNN retail in outer-loop growth corridors before the identification clock is running.</p><p>A pre-built pipeline also gives the investor room to walk away from a marginal deal inside the window rather than identifying it out of time pressure.</p>"
+  },
+  {
+   "heading": "Choosing Among the Three Identification Rules",
+   "html": "<p>Every identification list operates under one of three IRS safe-harbor rules, and the choice shapes how much flexibility the investor keeps after day 45. The decision generally comes down to:</p><ul><li>How many candidate properties the investor actually wants to preserve as options</li><li>Whether the total value of the candidate list is likely to exceed twice the relinquished sale price</li><li>How much of the identified value the investor is prepared to actually close on if plans change</li></ul><p>Locking in the wrong rule for the investor's actual strategy is one of the more common and avoidable exchange failures.</p>"
+  },
+  {
+   "heading": "Revoking and Amending an Identification Before Day 45",
+   "html": "<p>An identification can be revoked or replaced at any point before the 45-day deadline expires, using the same written, signed, and delivered standard as the original notice. Once day 45 passes, the list is locked - no additions, no substitutions, regardless of how a deal is progressing.</p><p>Investors working multiple San Antonio submarkets at once often file an initial, conservative identification early in the window and refine it as due diligence on specific properties firms up, right up until the deadline.</p>"
+  },
+  {
+   "heading": "San Antonio Market Pressures on Identification Timing",
+   "html": "<p>Industrial product along the I-10 and I-35 distribution corridors and medical office near the South Texas Medical Center tend to move quickly once listed, given steady demand tied to JBSA-adjacent and healthcare employment. That pace argues for having a broker relationship and financing pre-approval in place before the relinquished sale closes, so the 45-day window is spent confirming and documenting rather than starting a search from zero.</p>"
+  },
+  {
+   "heading": "Working With a Broker Team During the Identification Window",
+   "html": "<p>A broker engaged before the relinquished property closes can circulate candidate properties, pull comparable sales, and flag which listings are likely to move quickly, all of which compresses the amount of work that has to happen inside the 45 days themselves. That lead time matters most for asset classes where San Antonio inventory turns over fast, including well-located industrial buildings near I-35 and stabilized multifamily near the Pearl and downtown redevelopment corridor.</p><p>Coordination between the broker, the qualified intermediary, and the investor's tax advisor during this window generally focuses on keeping the identification list realistic - properties the investor can actually close on within the remaining exchange period - rather than an aspirational list assembled without regard to financing or diligence timelines.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "When does the 45-day identification clock actually start running?",
+   "a": "It starts on the calendar day the relinquished property closes, and it runs on consecutive calendar days with no extension for weekends, holidays, or delays in the sale process."
+  },
+  {
+   "q": "Does an identification have to name a specific address, or can it describe a type of property?",
+   "a": "It must identify a specific, unambiguous property - typically by street address or legal description - not a general category like industrial space in a given corridor."
+  },
+  {
+   "q": "Can I identify a property I have not yet inspected or put under contract?",
+   "a": "Yes. Identification only requires the written, signed, delivered notice naming the property; a purchase contract and inspection can follow after identification, within the remaining exchange period."
+  },
+  {
+   "q": "What happens if I miss the 45-day identification deadline entirely?",
+   "a": "The exchange fails; the qualified intermediary is required to release the held proceeds, which then become taxable to the investor for that tax year."
+  },
+  {
+   "q": "Can I change which identification rule I am using partway through the 45 days?",
+   "a": "The rule is determined by what has actually been identified as of day 45, so an investor can effectively shift strategy by adjusting the list before the deadline, but not after it closes."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 873
+}

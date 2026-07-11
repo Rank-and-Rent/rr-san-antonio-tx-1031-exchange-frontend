@@ -1,0 +1,58 @@
+{
+ "slug": "three-property-rule-strategy",
+ "taxonomy": "services",
+ "title": "Three-Property Rule Strategy",
+ "name": "Three-Property Rule Strategy",
+ "metaTitle": "Three-Property Rule Strategy in San Antonio, TX",
+ "metaDescription": "Structuring a San Antonio identification list around the three-property rule, sequencing a lead candidate and backups across the 45-day window.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The three-property rule lets a San Antonio investor identify up to three replacement properties of any value within the 45-day window, regardless of how that value compares to the relinquished property. For most single-asset exchanges in the metro, it is the simplest identification path, provided the investor genuinely intends to close on one or more of the three, rather than naming candidates purely to keep options open.</p>"
+  },
+  {
+   "heading": "Choosing a Lead Candidate and Two Backups",
+   "html": "<p>Rather than treating the three slots as equal options, most San Antonio investors use them as a lead candidate plus two fallback positions: a strong first choice under contract or in active negotiation, and two alternatives that could realistically close if the lead falls through during financing or diligence.</p><p>The backups do not need to be equally attractive on paper; a slightly weaker but faster-to-close San Antonio property can be a more useful backup than a marginally better one with a longer closing timeline, particularly when little time remains before the 45-day deadline.</p>"
+  },
+  {
+   "heading": "When the Rule Fits Better Than the 200% Alternative",
+   "html": "<p>Investors considering more than three candidates, such as a portfolio of smaller San Antonio properties, sometimes weigh the three-property rule against the 200% rule, which allows unlimited candidates as long as combined value stays within twice the relinquished property's value. For a single lead-plus-backups strategy, the three-property rule is usually simpler to document and track.</p><p>The choice often comes down to how confident the investor is in a single lead candidate: with a strong lead already lined up, the simpler three-property rule tends to fit; with no clear frontrunner yet in a thin San Antonio category, the wider net of the 200% rule can be worth the added documentation.</p><ul><li>Lead candidate under contract or in active negotiation</li><li>First backup with realistic closing timeline</li><li>Second backup as a documented fallback position</li><li>Written identification notice naming all three by the 45-day deadline</li><li>Revisions documented in writing if a candidate is swapped before the deadline</li></ul>"
+  },
+  {
+   "heading": "Revising the List Within the Window",
+   "html": "<p>Because the rule only limits how many properties are named at any point, not how many times the list can change, a San Antonio investor can swap a backup candidate for a different one as diligence develops, as long as the change is made and documented before the 45-day deadline closes.</p><p>A written revision, delivered to the qualified intermediary the same way the original identification was delivered, keeps a clear record of exactly which three properties were identified at the moment the deadline passed, which matters if the exchange is ever reviewed later.</p>"
+  },
+  {
+   "heading": "What Happens After the Deadline Passes",
+   "html": "<p>Once the 45-day window closes, the identified list is generally locked for purposes of the exchange, so any San Antonio property not on the final list cannot be substituted in later, even if a better opportunity surfaces during the remaining 180-day period. This is the main reason the identification list should be treated as a real decision rather than a placeholder exercise.</p>"
+  },
+  {
+   "heading": "Coordinating the List With Financing Timelines",
+   "html": "<p>Because only one of the three identified San Antonio properties needs to close, financing effort is usually concentrated on the lead candidate while the backups receive a lighter preliminary review, enough to confirm they are realistically financeable, without running full underwriting on properties the investor does not expect to need.</p><p>If the lead candidate's financing stalls partway through the 45-day window, having already confirmed basic lender interest in a backup avoids starting the financing conversation from zero with limited time left before the deadline. This lighter-touch review is usually enough to keep a backup viable without the cost of underwriting all three candidates fully.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does the three-property rule limit how expensive the identified properties can be?",
+   "a": "No. Up to three properties can be identified regardless of their combined value, which is the main advantage over the 200% rule when an investor already has a clear lead candidate and a couple of realistic San Antonio backup options."
+  },
+  {
+   "q": "How many of the three identified properties does a San Antonio investor need to close on?",
+   "a": "Only one needs to close for the exchange to proceed, provided it satisfies the value and like-kind requirements, but investors generally need to make a genuine, good-faith effort to acquire identified property rather than naming candidates with no real intent to close on any of them."
+  },
+  {
+   "q": "Can a backup candidate be swapped out after the initial identification is filed?",
+   "a": "Yes, as long as the change is documented in writing and completed before the 45-day window closes. Once the deadline passes, the list generally cannot be revised any further."
+  },
+  {
+   "q": "When would the 200% rule make more sense than the three-property rule for a San Antonio exchange?",
+   "a": "The 200% rule is more useful when an investor wants to keep more than three candidates open, such as when acquiring several smaller replacement properties, as long as their combined value stays within twice the relinquished property's value at the time of identification."
+  },
+  {
+   "q": "What happens if all three identified properties fall through?",
+   "a": "If none of the identified properties close, the exchange generally fails for tax purposes and the transaction is treated as a taxable sale, which is why realistic backups matter as much as the lead candidate. Investors should discuss this risk with their tax advisor before relying on marginal backup options for a San Antonio exchange."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 851
+}

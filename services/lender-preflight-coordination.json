@@ -1,0 +1,58 @@
+{
+ "slug": "lender-preflight-coordination",
+ "taxonomy": "services",
+ "title": "Lender Preflight Coordination",
+ "name": "Lender Preflight Coordination",
+ "metaTitle": "Lender Preflight Coordination in San Antonio, TX",
+ "metaDescription": "Lender preflight coordination for San Antonio 1031 exchanges: underwriting, debt-replacement matching, and rate-lock timing ahead of the 180-day deadline.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A replacement property loan that has not cleared underwriting before the identification window closes is one of the more common ways an exchange runs out of time, and lender preflight coordination exists to catch that risk early. In San Antonio, where no state income tax and steady in-migration keep investor demand for financed replacement product high, lenders active in the market still need a full package - appraisal, environmental, rent roll, or construction budget - before they commit to a closing date.</p><p>This describes the financing coordination process, not tax or lending advice; loan terms should be confirmed directly with the lender and the exchange strategy with a tax advisor.</p>"
+  },
+  {
+   "heading": "Why Lender Preflight Has to Start Before Identification, Not After",
+   "html": "<p>Getting preliminary underwriting terms from a lender - loan-to-value range, likely rate, required third-party reports - before the 45-day identification window opens means the investor can identify a property with real confidence the financing will close inside day 180. Starting the lender conversation after identification, once a specific property and a tight timeline are already locked in, leaves far less room to negotiate terms or switch lenders if underwriting stalls.</p><p>Preflight coordination also gives the investor a realistic sense of loan-to-value and pricing across San Antonio submarkets before identification, which shapes which candidate properties are actually financeable within the exchange budget rather than being discovered too late in the window.</p>"
+  },
+  {
+   "heading": "Matching Loan Terms to the Debt-Replacement Requirement",
+   "html": "<p>To avoid mortgage boot, new debt on the replacement property generally needs to equal or exceed the debt paid off on the relinquished property, unless the investor plans to contribute additional cash to cover any gap. Lender preflight coordination confirms early whether the loan amount a lender will actually underwrite matches that target, rather than discovering a shortfall once the appraisal comes back below expectation.</p><p>This matching exercise is done alongside the qualified intermediary and the investor's tax advisor, since the target loan amount depends on the exact debt figure being paid off at the relinquished-property closing, which should be confirmed rather than estimated.</p>"
+  },
+  {
+   "heading": "Underwriting Items That Commonly Slow a San Antonio Exchange Closing",
+   "html": "<p>Certain underwriting items tend to be the pacing factor on exchange-driven closings more often than the rest of the loan file, and flagging them at application rather than mid-process keeps the timeline from slipping unexpectedly:</p><ul><li>Appraisal turnaround, particularly on industrial and specialized medical office product</li><li>Phase I environmental review on sites with prior industrial or energy-service use</li><li>Rent roll and lease abstract verification on occupied multifamily or retail acquisitions</li><li>Title exceptions requiring lender counsel sign-off before loan documents are finalized</li></ul>"
+  },
+  {
+   "heading": "Coordinating Rate Locks and Appraisal Timing Against the 180-Day Deadline",
+   "html": "<p>Because the exchange deadline is fixed and non-negotiable while loan processing timelines can flex, rate locks and appraisal orders are generally scheduled backward from the day-180 date rather than forward from when the loan application is submitted. Lenders familiar with 1031 timelines in the San Antonio market can often prioritize appraisal and report ordering once they understand the exchange deadline driving the schedule, which is worth communicating explicitly at application.</p><p>A rate lock that expires before the exchange deadline is reached puts the investor at risk of a repricing right before closing, so the lock period should be set against the later of the anticipated closing date or the 180-day deadline, with a buffer for the diligence items most likely to slip.</p>"
+  },
+  {
+   "heading": "Backup Financing Options When a Primary Lender Underwriting Stalls",
+   "html": "<p>If a primary lender's underwriting stalls close to the exchange deadline - a required third-party report delayed, a credit committee decision pushed back a cycle - having a backup lender relationship already in preliminary discussions gives the investor an alternative path rather than watching the 180-day clock run out on a single point of failure. This backup relationship does not need full underwriting completed in advance, but a preliminary conversation about loan-to-value range and typical closing timeline is worth having before it is needed.</p><p>San Antonio investors financing replacement property through community banks or regional lenders active in the market sometimes find a second lender relationship useful specifically because local underwriting capacity and appetite for a given asset class can vary meaningfully between institutions.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "How early should I contact a lender relative to my 45-day identification window?",
+   "a": "Before the window opens, if possible - ideally while the relinquished property is still under contract, so preliminary loan terms are in hand before a specific replacement property is identified."
+  },
+  {
+   "q": "Does the lender need to know the transaction is part of a 1031 exchange?",
+   "a": "Yes. The lender should be told upfront, since the 180-day deadline affects appraisal, environmental, and closing scheduling priorities compared to a standard purchase."
+  },
+  {
+   "q": "What happens if the appraisal comes back lower than expected and creates a debt-replacement shortfall?",
+   "a": "The investor can contribute additional cash to close the gap and avoid mortgage boot, or adjust the identified property list if time remains within the 45-day window."
+  },
+  {
+   "q": "Can a rate lock be extended if the exchange closing is delayed?",
+   "a": "Some lenders offer extension options at a cost; this should be confirmed with the specific lender before the exchange timeline is finalized, since not all rate locks accommodate extension."
+  },
+  {
+   "q": "Do all San Antonio lenders have experience with 1031 exchange timelines?",
+   "a": "Experience varies; working with a lender or loan officer who has closed exchange-driven transactions before generally reduces the risk of underwriting delays against a fixed deadline."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 850
+}

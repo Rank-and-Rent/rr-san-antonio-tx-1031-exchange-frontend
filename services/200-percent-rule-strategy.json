@@ -1,0 +1,58 @@
+{
+ "slug": "200-percent-rule-strategy",
+ "taxonomy": "services",
+ "title": "200% Rule Identification Strategy",
+ "name": "200% Rule Identification Strategy",
+ "metaTitle": "200% Rule Identification Strategy in San Antonio, TX",
+ "metaDescription": "200% rule identification strategy for San Antonio 1031 exchanges: how to name unlimited replacement properties within the fair-market-value ceiling.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The 200% rule lets an investor identify any number of replacement properties within the 45-day window, provided the combined fair market value of everything named does not exceed 200% of what the relinquished property sold for. In San Antonio, where per-square-foot pricing still runs below Austin and Dallas, that ceiling often permits a longer identification list than the same sale proceeds would support in a pricier metro.</p><p>Getting the calculation right at the outset avoids a scramble on day 44. This is a description of how the rule is structured and coordinated, not tax guidance; investors should verify their specific fair market value figures with their tax advisor.</p>"
+  },
+  {
+   "heading": "How the 200% Ceiling Is Calculated Against the Relinquished Sale Price",
+   "html": "<p>The ceiling is set at closing: take the gross sale price of the relinquished property, double it, and that figure becomes the maximum combined fair market value of every property named on the identification list, valued as of the date each is identified. Debt encumbering the identified properties is not subtracted out for this test - it is fair market value in, full stop.</p><p>Because the calculation locks in at the relinquished sale price, investors selling San Antonio assets near the medical center or downtown Pearl district - where recent comparable sales support higher valuations - sometimes have more room under the 200% ceiling than a straight replacement-cost estimate would suggest.</p>"
+  },
+  {
+   "heading": "Pairing the 200% Rule With the 95% Acquisition Requirement",
+   "html": "<p>Naming a long list under the 200% rule carries a trade-off: if the combined value of everything identified exceeds 200%, the safe harbor collapses into the 95% rule, which requires acquiring at least 95% of the total value identified. Most investors who choose the 200% rule are doing so specifically because they want breadth in the identification list without being forced to close on nearly everything named.</p><p>Coordination between the qualified intermediary and the investor's advisor at the point of identification confirms which rule the list is actually operating under before day 45 passes, since the two rules produce very different acquisition obligations.</p>"
+  },
+  {
+   "heading": "Where the 200% Rule Fits San Antonio Portfolio Diversification",
+   "html": "<p>Investors exchanging out of a single larger asset - a downtown office building or a large industrial parcel along I-10 - often use the 200% rule to identify a spread of smaller replacement properties across San Antonio submarkets rather than a single large one. Typical identification lists built under this rule include:</p><ul><li>A multifamily property near the medical center employment base</li><li>An industrial or flex building along the I-35 corridor</li><li>A retail or NNN pad in an outer-loop growth corridor</li><li>A small office or medical office asset near JBSA-adjacent demand</li></ul><p>Spreading identification across property types and submarkets under the 200% ceiling gives the investor optionality if one deal falls through before closing.</p>"
+  },
+  {
+   "heading": "Common Missteps That Break the 200% Calculation",
+   "html": "<p>The most frequent error is identifying properties by rough estimate rather than documented fair market value, which leaves the exchange exposed if the aggregate turns out to exceed 200% after the fact. A second common mistake is failing to re-check the running total each time a property is added or substituted within the 45-day window, since substitutions and additions are both permitted until the deadline but each changes the math.</p><p>A qualified intermediary tracking the identification list in writing, with a documented value for each property as of its identification date, is the standard safeguard against both errors.</p>"
+  },
+  {
+   "heading": "Documenting the 200% Calculation for the Exchange File",
+   "html": "<p>Because the 200% ceiling is a bright-line test measured against the relinquished sale price, the supporting documentation needs to show the math plainly: the sale price at closing, the fair market value assigned to each identified property as of the date it was named, and a running total updated every time the list changes. Relying on memory or an informal spreadsheet kept outside the exchange file is a common way this calculation gets disputed later, particularly when a list is revised close to the 45-day deadline.</p><p>San Antonio investors working across several submarkets at once - a multifamily asset near downtown alongside an industrial building along I-35, for example - benefit from having the qualified intermediary maintain the authoritative version of this calculation, updated and re-circulated each time a property is added, removed, or re-valued, so there is never a question about which version of the list was operative on day 45.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Is there a limit to how many properties I can identify under the 200% rule?",
+   "a": "No numeric limit exists under the 200% rule itself; the only constraint is that the combined fair market value of everything identified cannot exceed 200% of the relinquished property's sale price."
+  },
+  {
+   "q": "Does debt on the identified properties reduce the 200% calculation?",
+   "a": "No. The test uses fair market value of each identified property, not equity or value net of financing, so encumbered properties still count at full value."
+  },
+  {
+   "q": "What happens if my identified list accidentally exceeds 200% of the sale price?",
+   "a": "The exchange then falls under the 95% rule, requiring the investor to acquire at least 95% of the value identified, which is a materially different obligation and should be reviewed with a tax advisor immediately."
+  },
+  {
+   "q": "Can I add or remove properties from a 200% rule list before day 45?",
+   "a": "Yes. Additions, removals, and substitutions are permitted at any point before the 45-day identification deadline, as long as the running total stays within the ceiling."
+  },
+  {
+   "q": "Why would an investor choose the 200% rule over the three-property rule?",
+   "a": "The three-property rule caps identification at three properties regardless of value, while the 200% rule allows more properties as long as the value ceiling holds, which suits investors diversifying across several smaller San Antonio assets."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 900
+}

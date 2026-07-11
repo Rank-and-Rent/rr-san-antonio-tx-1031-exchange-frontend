@@ -1,0 +1,58 @@
+{
+ "slug": "market-comparable-analysis",
+ "taxonomy": "services",
+ "title": "Market Comparable Analysis",
+ "name": "Market Comparable Analysis",
+ "metaTitle": "Market Comparable Analysis in San Antonio, TX",
+ "metaDescription": "Market comparable analysis for San Antonio 1031 exchanges: documenting fair market value to support identification math and replacement offer pricing.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Every identification decision under the 200% and 95% rules depends on a documented fair market value for each property named, and that figure has to hold up if the exchange is ever reviewed. Market comparable analysis for San Antonio investors means assembling recent, verifiable sale comparables for both the relinquished and candidate replacement properties before those values get relied on in an identification notice.</p><p>This describes how comparable analysis supports the exchange process; it is not an appraisal or tax advice, and a formal appraisal should still be obtained where the lender or exchange strategy requires one.</p><p>Because San Antonio spans corridors with meaningfully different pricing - downtown redevelopment, medical center employment, and outer industrial growth areas among them - a comparable set has to be pulled from the right slice of the metro rather than a citywide average that would understate or overstate a specific property's value.</p>"
+  },
+  {
+   "heading": "Building a Comparable Set for Replacement Property Valuation",
+   "html": "<p>A usable comparable set generally draws from closed sales within the same submarket and asset class, adjusted for size, age, and condition, rather than list prices or broker opinion alone. For San Antonio industrial product along I-35 or I-10, that means pulling recent closed sales in the same corridor segment rather than blending in data from unrelated parts of the metro where pricing dynamics differ.</p><p>A comparable set of three to five closed transactions, each with a documented sale date, price, and size, generally gives enough support for an identification value without pulling in outdated or thinly traded data that would weaken the analysis.</p>"
+  },
+  {
+   "heading": "Using Comparables to Support the 200% and 95% Rule Calculations",
+   "html": "<p>Because the 200% ceiling and the 95% acquisition threshold are both measured against documented fair market value, a comparable-supported value for each identified property gives the qualified intermediary and the investor's advisor a defensible basis for the running calculation, rather than a rough estimate that could later prove wrong in either direction. This matters most when an identification list sits close to the 200% line, where a value dispute could shift the exchange into a different rule entirely.</p><p>Updating the comparable set each time a property is added to or removed from the identification list keeps the running total current, rather than relying on a single valuation pulled at the start of the 45-day window and never revisited.</p>"
+  },
+  {
+   "heading": "Comparable Data Sources Across San Antonio Submarkets",
+   "html": "<p>Reliable comparable data for San Antonio replacement property analysis typically draws from several sources cross-checked against each other rather than relying on any single feed:</p><ul><li>Recorded deed and transfer records for closed sales in the target submarket</li><li>Broker-reported closed transaction data for industrial, medical office, and multifamily product</li><li>County appraisal district records for assessed value trends</li><li>Recent appraisals on comparable assets where available through lender or broker relationships</li></ul>"
+  },
+  {
+   "heading": "Reconciling Comparable Analysis With Appraised Value at Closing",
+   "html": "<p>A comparable analysis prepared during the identification window is a planning tool, not a substitute for the formal appraisal a lender will require before closing, and the two figures do not always match exactly. When a discrepancy shows up - a lender's appraisal coming in below the comparable-supported identification value, for instance - that gap needs to be reconciled quickly against the debt-replacement and 95% or 200% calculations before the closing date is finalized.</p><p>Sharing the comparable set with the lender's appraiser ahead of the appraisal visit, where the lender permits it, can help surface a disagreement over comparables earlier in the process rather than after the report is delivered close to the closing date.</p>"
+  },
+  {
+   "heading": "Adjusting Comparables for Corridor-Specific Demand Drivers",
+   "html": "<p>Raw comparable sale prices need adjustment for what is actually driving demand in a given San Antonio corridor before they can support an identification value. A distribution building comparable pulled from the I-35 corridor, where cross-border trade movement and Austin-adjacent growth support pricing, does not translate directly to an I-10 west parcel where Eagle Ford energy-cycle demand moves differently. Similarly, medical office comparables near the South Texas Medical Center reflect employment stability tied to healthcare and JBSA-adjacent institutions that a comparable pulled from a suburban office park would not capture.</p><p>Adjusting for these corridor-specific and use-specific factors, rather than applying a single blended per-square-foot figure across the metro, is what keeps a comparable analysis defensible when it is used to support an identification value close to the 200% ceiling.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Is a comparable analysis the same thing as a formal appraisal?",
+   "a": "No. A comparable analysis supports planning and identification decisions, while a formal appraisal is typically required separately by the lender before closing and carries more weight for that purpose."
+  },
+  {
+   "q": "How recent do comparable sales need to be to support an identification value?",
+   "a": "Generally the most recent closed sales available in the same submarket and asset class, since older comparables carry more risk of not reflecting current market conditions."
+  },
+  {
+   "q": "What happens if the lender's appraisal comes in lower than my comparable-based identification value?",
+   "a": "The gap should be reconciled against the debt-replacement and identification-rule calculations promptly, since it can affect boot exposure or push the exchange toward a different identification rule."
+  },
+  {
+   "q": "Can comparable analysis help decide between two candidate replacement properties?",
+   "a": "Yes, comparing documented value, price trend, and submarket demand across candidates is one of the more direct uses of comparable analysis during the identification window."
+  },
+  {
+   "q": "Where does comparable sale data for San Antonio commercial property typically come from?",
+   "a": "Recorded deed and transfer records, broker-reported closed transaction data, and county appraisal district records are the standard sources used together."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 870
+}

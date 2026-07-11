@@ -1,0 +1,58 @@
+{
+ "slug": "rent-roll-analysis",
+ "taxonomy": "services",
+ "title": "Rent Roll Analysis",
+ "name": "Rent Roll Analysis",
+ "metaTitle": "Rent Roll Analysis in San Antonio, TX",
+ "metaDescription": "Rent roll and collections review for San Antonio replacement property, verifying income assumptions before identification and lender underwriting.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Rent roll analysis on a San Antonio replacement candidate checks whether the income a broker or seller advertises actually matches tenant-by-tenant lease files and trailing collections. The gap between a posted rent roll and what a property truly collects shows up most often on older multifamily and small multi-tenant retail buildings across San Antonio, and it directly affects both the offer price and the achievable loan amount.</p>"
+  },
+  {
+   "heading": "Reconciling Posted Rents Against Collections",
+   "html": "<p>A rent roll that lists market or lease rent without a corresponding collections history can overstate income by a meaningful margin, especially in San Antonio submarkets where concessions and short-term discounting are common on newer lease-up properties. Pulling trailing 90-day bank deposits or a property management ledger against the rent roll is the fastest way to surface that gap before an offer is finalized.</p><p>Delinquency and non-renewal patterns also matter: a rent roll showing full occupancy but a high rate of month-to-month tenants signals turnover risk that a snapshot document will not reveal on its own. Requesting the underlying property management software export, rather than a summary printout, usually surfaces this pattern faster than working from the rent roll alone.</p>"
+  },
+  {
+   "heading": "Lease-by-Lease Verification",
+   "html": "<p>Beyond the summary numbers, individual lease files need to be pulled for at least a sample of tenants to confirm renewal options, concession burn-off schedules, and any side letters that modify the printed rent roll terms. San Antonio properties that changed ownership or management in the last two years are worth extra scrutiny here, since rent roll data can degrade during a transition.</p><p>A sample of ten to twenty percent of tenant files, weighted toward the largest units and the most recent lease signings, usually surfaces most discrepancies without requiring a full audit of every lease in the building.</p><ul><li>Trailing 90-day collections versus posted rent roll figures</li><li>Lease expiration schedule and renewal option terms</li><li>Concession burn-off and effective versus face rent</li><li>Delinquency, month-to-month, and non-renewal tenants</li><li>Utility reimbursement and other recovery income</li></ul>"
+  },
+  {
+   "heading": "Feeding Verified Income Into Debt Sizing",
+   "html": "<p>Lenders financing a San Antonio replacement property will run their own trailing income analysis, so reconciling the rent roll before the offer is submitted reduces the chance of a mid-underwriting surprise that shrinks the loan amount and creates a debt-replacement shortfall against the relinquished property.</p><p>Appraisers assigned to a San Antonio replacement candidate also lean heavily on the rent roll and its supporting collections data, so a reconciliation that has already resolved discrepancies tends to produce a smoother, faster valuation than one where the appraiser has to chase down the same questions independently.</p><p>A well-documented reconciliation package handed to both the lender and the appraiser at the same time, rather than separately, tends to shorten the overall underwriting timeline on a San Antonio replacement property.</p>"
+  },
+  {
+   "heading": "Documenting Findings for the Identification File",
+   "html": "<p>A clean rent roll reconciliation, kept alongside the identification notice and purchase contract, gives the investor's team a documented basis for a San Antonio property's value within the exchange file, which matters if the transaction is ever questioned during tax preparation or an audit.</p>"
+  },
+  {
+   "heading": "Comparing Rent Rolls Across Candidate Properties",
+   "html": "<p>When more than one San Antonio property is under consideration for identification, putting each rent roll through the same reconciliation process, covering trailing collections, delinquency rate, and concession exposure, makes the candidates genuinely comparable rather than ranked on posted numbers that carry different amounts of hidden risk.</p><p>A property with a lower posted rent roll but cleaner, fully reconciled collections can be a stronger replacement candidate than one with a higher headline number and a wide gap between what is advertised and what is actually collected each month. This comparison is often more useful for ranking San Antonio candidates than comparing cap rates alone.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Why does a rent roll sometimes overstate a San Antonio property's real income?",
+   "a": "Posted rent rolls often reflect lease or market rent rather than what tenants actually pay after concessions, delinquencies, or informal rent reductions, which is why trailing collections data is checked against the document rather than accepted on its own for a replacement candidate."
+  },
+  {
+   "q": "How far back should collections history be reviewed?",
+   "a": "A trailing 90-day to 12-month collections history generally gives enough pattern to spot chronic delinquency or seasonal softness, though older or recently transitioned San Antonio properties may warrant a longer look, especially where ownership or management changed hands within the review period."
+  },
+  {
+   "q": "Does rent roll analysis affect the identification deadline?",
+   "a": "It should be completed before a property is added to the identification list where possible, since discovering a material income gap after identification can force a late substitution or leave the investor relying on a weaker backup candidate for the San Antonio exchange."
+  },
+  {
+   "q": "What red flags in a rent roll matter most for lender underwriting?",
+   "a": "A high share of month-to-month tenants, unreconciled utility reimbursements, and gaps between posted and collected rent are the items most likely to reduce a lender's income assumptions and shrink achievable loan proceeds on a San Antonio replacement property."
+  },
+  {
+   "q": "Who typically performs rent roll verification on a replacement property?",
+   "a": "The investor's broker or acquisitions team usually pulls the initial reconciliation, with the lender and, where relevant, a third-party underwriter completing an independent pass before closing. Having both reviews agree gives the investor more confidence in the numbers backing the exchange value."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 851
+}

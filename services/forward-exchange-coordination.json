@@ -1,0 +1,58 @@
+{
+ "slug": "forward-exchange-coordination",
+ "taxonomy": "services",
+ "title": "Forward Exchange Coordination",
+ "name": "Forward Exchange Coordination",
+ "metaTitle": "Forward Exchange Coordination in San Antonio, TX",
+ "metaDescription": "Forward exchange coordination for San Antonio 1031 transactions: sequencing the sale, the qualified intermediary, identification, and replacement closing.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A forward exchange - selling the relinquished property before acquiring the replacement - is the structure most San Antonio investors use, and it is also the one where the sequence of contracts, notices, and closings has to line up cleanly from the first signature. Forward exchange coordination means setting up the qualified intermediary relationship before the relinquished sale closes and carrying that coordination through identification and the replacement purchase.</p><p>This describes how a forward exchange is structured and coordinated; it is not tax advice, and the underlying strategy should be confirmed with a tax advisor before the relinquished property goes under contract.</p>"
+  },
+  {
+   "heading": "The Sequence: Sale Closes Before Purchase",
+   "html": "<p>In a forward exchange, the relinquished property closes first, proceeds move to the qualified intermediary rather than the investor, and the replacement property closes afterward using those held funds. Every subsequent deadline - the 45-day identification window and the 180-day exchange period - runs from that first closing date, which is why the QI relationship and exchange agreement need to be in place before the relinquished sale, not arranged after the fact.</p><p>An investor selling a San Antonio property with an already-scheduled closing date should confirm the exchange agreement is fully executed and the QI has received the assignment before that date arrives, since a delay in setting up the exchange structure can force the closing to be rescheduled.</p>"
+  },
+  {
+   "heading": "Role of the Qualified Intermediary in a Forward Exchange",
+   "html": "<p>The qualified intermediary is assigned the investor's rights under both the relinquished-property sale contract and the replacement-property purchase contract, holds the sale proceeds in a segregated account, and disburses those funds directly to the replacement closing without the investor ever taking possession. That structure is what allows the transaction to be treated as an exchange of properties rather than a sale followed by a separate purchase.</p><p>Choosing a qualified intermediary with experience closing San Antonio commercial transactions, rather than only residential exchanges, generally smooths coordination with local title companies and closing attorneys familiar with the corridor-specific diligence items that come up on industrial, medical office, and multifamily deals.</p>"
+  },
+  {
+   "heading": "Coordinating Forward Exchanges Across San Antonio Property Types",
+   "html": "<p>The coordination sequence generally follows the same shape regardless of asset class, though the specifics differ by property type and the particular diligence items relevant to each San Antonio submarket:</p><ul><li>Engage the qualified intermediary and sign the exchange agreement before the relinquished property closes</li><li>Assign the relinquished-property sale contract to the QI and deliver buyer notice</li><li>Close the relinquished sale and confirm proceeds transfer to the QI's segregated account</li><li>Identify replacement property in writing within the 45-day window</li><li>Assign the replacement purchase contract to the QI and close within the 180-day period</li></ul>"
+  },
+  {
+   "heading": "When a Forward Exchange Is the Right Structure",
+   "html": "<p>A forward exchange fits investors who can sell before they need to own the replacement property outright, which describes most San Antonio dispositions - a downtown office sale ahead of an industrial acquisition along the I-10 corridor, or a multifamily sale ahead of a medical office purchase near the medical center. Where the replacement property needs to be secured before the sale can close, a reverse exchange structure is typically used instead.</p><p>Most investors default to the forward structure simply because it is more widely available and less costly to set up than a reverse exchange, which requires the additional step of an exchange accommodation titleholder to hold one of the two properties temporarily.</p>"
+  },
+  {
+   "heading": "Communication Cadence Between the Investor, QI, and Closing Team",
+   "html": "<p>A forward exchange running smoothly generally involves regular, scheduled check-ins between the investor, the qualified intermediary, the closing attorney, and any lender involved, rather than communication only happening when a deadline is imminent. Establishing that cadence at the outset - a standing update once the relinquished property is under contract, another once identification begins - keeps every party aware of where the transaction stands relative to the 45-day and 180-day markers.</p><p>For San Antonio exchanges moving between property types, where diligence timelines can differ meaningfully between an industrial acquisition and a multifamily one, that regular communication is what surfaces a slipping deadline early enough to address it rather than discovering it during the final week of the exchange period.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does the qualified intermediary need to be engaged before the relinquished property is even listed?",
+   "a": "It should be engaged before the relinquished property closes at the latest, though earlier engagement gives more time to prepare the exchange agreement and assignment documents cleanly."
+  },
+  {
+   "q": "Can the investor touch the sale proceeds at any point in a forward exchange?",
+   "a": "No. Proceeds must move directly from the closing to the qualified intermediary's segregated account; investor receipt of the funds, even briefly, can disqualify the exchange."
+  },
+  {
+   "q": "What is the main difference between a forward exchange and a reverse exchange?",
+   "a": "In a forward exchange the relinquished property sells first; in a reverse exchange the replacement property is acquired first, which requires a different holding structure since the investor cannot yet own both properties directly."
+  },
+  {
+   "q": "How early should replacement property searching begin in a forward exchange?",
+   "a": "Ideally before the relinquished property closes, since the 45-day identification window starts on that closing date and does not pause for a search that has not yet begun."
+  },
+  {
+   "q": "Can a forward exchange include more than one relinquished or replacement property?",
+   "a": "Yes. Multiple relinquished properties can be exchanged into one or more replacement properties, coordinated through the same qualified intermediary and identification list."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 855
+}

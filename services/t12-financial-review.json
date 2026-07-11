@@ -1,0 +1,58 @@
+{
+ "slug": "t12-financial-review",
+ "taxonomy": "services",
+ "title": "T12 Financial Review",
+ "name": "T12 Financial Review",
+ "metaTitle": "T12 Financial Review in San Antonio, TX",
+ "metaDescription": "Trailing-12-month financial statement review for San Antonio replacement property, normalizing income and expenses before identification and loan sizing.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A trailing-12-month financial review checks a San Antonio replacement candidate's actual operating history against the proforma a seller or broker presents, line by line, before that property is added to an identification list. Sellers routinely present forward-looking numbers; the T12 shows what the property actually produced. The gap between the two is often where the real underwriting work begins.</p>"
+  },
+  {
+   "heading": "Normalizing Seller-Reported Expenses",
+   "html": "<p>Seller-provided operating statements sometimes understate recurring expenses like management fees, reserves, or seasonal utility spikes, either through owner-operator arrangements that don't reflect market-rate costs or through simple omission. Rebuilding the T12 with market-rate expense assumptions gives a more realistic net operating income figure for a San Antonio candidate than the seller's proforma alone.</p><p>One-time items, including a large capital repair, a lease termination fee, or a one-quarter vacancy spike from a renovation, should be flagged and separated from recurring operations rather than averaged into the trailing twelve months as if they were typical.</p><p>Property tax reassessment is another common blind spot in San Antonio T12 statements, since a sale often triggers a reassessment that can raise the tax line meaningfully above the seller's trailing figure, and that adjusted number, not the seller's historical tax expense, is what should feed into the buyer's underwriting.</p>"
+  },
+  {
+   "heading": "Income Verification Beyond the Summary Statement",
+   "html": "<p>The T12 summary is a starting point, not an endpoint; bank statements, tenant ledgers, or property management software exports are pulled to confirm that reported income actually cleared, particularly on San Antonio properties where the T12 was prepared by the seller rather than a third-party manager.</p><p>A gap between reported and cleared income is not automatically disqualifying, but it should be understood and explained before it is built into the offer, since an unexplained gap tends to reappear as a negotiating point later in the transaction.</p><ul><li>Recurring versus one-time expense line items</li><li>Management fee basis and whether it reflects market rate</li><li>Capital reserve adequacy versus deferred maintenance findings</li><li>Seasonal revenue or expense patterns across the 12 months</li><li>Reconciliation against bank deposits or ledger exports</li></ul>"
+  },
+  {
+   "heading": "Comparing T12 Results Across Property Types",
+   "html": "<p>A normalized T12 lets an investor compare a San Antonio multifamily candidate against a retail or storage candidate on a genuinely comparable net operating income basis, which is often more useful during the identification phase than comparing purchase price or cap rate headlines alone.</p><p>Because expense categories differ by property type, comparing a retail center's common area maintenance recovery against a multifamily property's utility reimbursement structure requires normalizing both to a consistent net figure before any side-by-side ranking across San Antonio candidates means anything.</p>"
+  },
+  {
+   "heading": "Handing Off Verified Numbers to the Lender",
+   "html": "<p>Lenders will run their own income analysis, but arriving with a pre-reconciled T12 for a San Antonio replacement candidate shortens underwriting turnaround and reduces the chance of a late reduction in loan proceeds relative to the debt being replaced from the relinquished property.</p>"
+  },
+  {
+   "heading": "Trending Multiple Years Rather Than One Snapshot",
+   "html": "<p>A single trailing-12-month statement can flatter or understate a San Antonio property depending on where it falls in a seasonal or leasing cycle, so pulling two or three years of annual statements alongside the current T12 shows whether recent performance reflects a genuine trend or a temporary swing.</p><p>Year-over-year expense growth that outpaces rent growth is a pattern worth flagging even when the current T12 looks acceptable on its own, since it can signal margin compression that a single trailing period won't reveal by itself.</p><p>Requesting the underlying general ledger detail behind each annual statement, rather than only the summary totals, helps confirm that expense categories were classified consistently from year to year on a San Antonio candidate, since inconsistent categorization can make a multi-year trend look cleaner than it actually is.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What is a T12 and why does it matter more than a seller's proforma?",
+   "a": "A T12 is the trailing twelve months of actual operating income and expenses. Unlike a forward-looking proforma, it reflects what a San Antonio property genuinely produced, which is a more reliable basis for exchange value and financing decisions than an aspirational forecast prepared by a broker."
+  },
+  {
+   "q": "How should one-time expenses be handled in a T12 review?",
+   "a": "Large, non-recurring items like a capital repair or a lease termination payment should be identified and separated out rather than blended into ongoing operating expenses, since including them would distort the property's true recurring performance and its net operating income figure."
+  },
+  {
+   "q": "Why do management fees need adjustment in some T12 statements?",
+   "a": "Owner-managed San Antonio properties sometimes report below-market or no management fee, which overstates net operating income relative to what a new owner using third-party management would actually experience after taking title to the property."
+  },
+  {
+   "q": "Does T12 review apply to properties other than multifamily?",
+   "a": "Yes. Retail, self-storage, medical office, and other income-producing property types all benefit from the same trailing-twelve-month reconciliation process, adjusted for the specific expense categories relevant to that asset class, whether that is CAM recovery, unit-mix detail, or tenant credit strength and guarantor quality."
+  },
+  {
+   "q": "Can a T12 review affect which property gets identified first?",
+   "a": "It often does. A candidate that looks strong on a seller's proforma can rank lower once expenses are normalized, which is why T12 review is typically completed before, not after, a San Antonio property is placed on the identification list, especially when two candidates look similar on the surface at first glance."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 854
+}

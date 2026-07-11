@@ -1,0 +1,58 @@
+{
+ "slug": "dst-placement-coordination",
+ "taxonomy": "services",
+ "title": "DST Placement Coordination",
+ "name": "DST Placement Coordination",
+ "metaTitle": "DST Placement Coordination in San Antonio, TX",
+ "metaDescription": "Delaware Statutory Trust placement coordination for San Antonio 1031 exchanges: identification, offering document review, and closing sequencing.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A Delaware Statutory Trust interest can qualify as like-kind replacement property under a 1031 exchange, giving San Antonio investors a path to complete a deal within the 45-day window when a direct property acquisition is not ready to close in time. DST placement coordination covers identifying the interest correctly, reviewing sponsor offering documents, and sequencing the closing through the qualified intermediary alongside any other replacement property.</p><p>This describes the mechanics of DST placement, not an investment recommendation; any DST offering should be reviewed with the investor's tax advisor and, where applicable, a securities professional before funds are committed.</p>"
+  },
+  {
+   "heading": "How a DST Satisfies Like-Kind Replacement Property Requirements",
+   "html": "<p>A properly structured DST holds title to real property directly, with investors owning a beneficial interest in the trust rather than a direct deed interest, which the IRS has recognized as qualifying for like-kind exchange treatment under specific structural requirements. Those requirements limit what trustees can do once the offering closes - no new capital contributions from beneficiaries, no renegotiating existing loans, and limited discretion over major property decisions - so the offering documents need to be reviewed against those constraints before the interest is identified.</p>"
+  },
+  {
+   "heading": "Coordinating DST Placement Within the 45-Day Window",
+   "html": "<p>DST interests are frequently used as a fallback identification when a direct San Antonio property acquisition - industrial along I-10, medical office near the medical center corridor - is progressing but carries closing risk. Because a DST offering can often close on short notice compared to a negotiated direct purchase, naming a specific DST interest alongside a primary property target gives the exchange a completion path if the primary deal slips inside the 180-day period.</p><p>Coordination at this stage means confirming the specific offering has capacity available for the investor's exchange proceeds before it is named on the identification list, since a DST offering can close to new investment once its raise target is reached, which would leave a late-window identification without a viable placement.</p>"
+  },
+  {
+   "heading": "DST Sponsor and Offering Documentation Review",
+   "html": "<p>Before an identification is finalized, the sponsor's offering package is reviewed for the items that determine whether the placement will actually close cleanly, since a DST offering that is under-subscribed or over-leveraged can carry more risk than the fixed structure suggests at first glance:</p><ul><li>Confirmation the trust holds direct real property title rather than a leveraged fund interest</li><li>Minimum and maximum investment amounts against the investor's actual exchange proceeds</li><li>Existing debt on the underlying property and how it is allocated to beneficial interests</li><li>Trustee restrictions on future capital calls or property-level decisions</li><li>Anticipated hold period and any early-exit limitations</li></ul>"
+  },
+  {
+   "heading": "When a DST Fits a San Antonio Exchange Strategy",
+   "html": "<p>DST placement tends to fit investors exchanging out of an actively managed San Antonio asset - a multifamily property near downtown, for example - who want to preserve tax deferral without taking on new day-to-day management responsibility, or who need a reliable completion path for a portion of exchange proceeds while a larger direct acquisition finishes its own timeline. It is one option among several, not a default choice, and works best when reviewed early enough in the identification window to compare against direct acquisition candidates.</p><p>Investors coming out of a large San Antonio disposition sometimes split proceeds between a direct acquisition in one submarket and a DST placement holding assets elsewhere in the country, which can add geographic diversification the local market alone would not otherwise provide.</p>"
+  },
+  {
+   "heading": "Comparing DST Placement Against a Direct Replacement Purchase",
+   "html": "<p>A direct purchase gives the investor full control over financing, leasing, and disposition decisions, while a DST interest trades that control for a fixed structure managed by the trustee and sponsor, generally at a lower minimum investment threshold. For a San Antonio investor splitting exchange proceeds between a direct industrial acquisition along I-10 and a smaller DST placement, the comparison usually comes down to how much of the proceeds need a guaranteed completion path versus how much the investor wants to actively manage going forward.</p><p>Fees embedded in the sponsor's offering, the trust's existing leverage, and the anticipated hold period should all be reviewed against a direct purchase alternative before committing exchange proceeds to either structure, since the two paths carry meaningfully different ongoing obligations for the investor.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does a DST interest have to be identified the same way as a direct property purchase?",
+   "a": "Yes. A DST interest must be named in writing, signed, and delivered within the 45-day window using the same unambiguous description standard as any other identified property."
+  },
+  {
+   "q": "Can I add cash to a DST after the initial placement closes?",
+   "a": "Generally no. Most DST structures prohibit additional capital contributions from beneficiaries after the offering closes, which is part of what qualifies them as passive like-kind interests."
+  },
+  {
+   "q": "Is a DST a good fit if I still want some direct property in my replacement mix?",
+   "a": "Yes, DST interests and direct property acquisitions can both be identified and closed within the same exchange, which is a common way to complete a multi-property replacement plan."
+  },
+  {
+   "q": "How is debt on the underlying DST property treated for exchange purposes?",
+   "a": "Existing debt on the trust property is generally allocated proportionally to beneficial interests and can help satisfy debt-replacement requirements, but this should be confirmed against the specific offering terms."
+  },
+  {
+   "q": "Who reviews the DST offering documents before the interest is identified?",
+   "a": "The investor's tax and, where relevant, securities advisor should review the offering package alongside the qualified intermediary to confirm the structure fits the exchange timeline and replacement requirements."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 870
+}

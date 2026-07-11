@@ -1,0 +1,58 @@
+{
+ "slug": "reverse-exchange-coordination",
+ "taxonomy": "services",
+ "title": "Reverse Exchange Coordination",
+ "name": "Reverse Exchange Coordination",
+ "metaTitle": "Reverse Exchange Coordination in San Antonio, TX",
+ "metaDescription": "Exchange accommodation titleholder setup and parking-arrangement coordination for San Antonio reverse exchanges, sequenced under the 180-day safe harbor.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A reverse exchange lets a San Antonio investor acquire replacement property before the relinquished property sells, which solves a real problem in a competitive market but adds a layer of structure most forward exchanges never need: an exchange accommodation titleholder holding title to one property while the other side of the trade closes. It is more expensive and more document-heavy than a forward exchange, so it tends to get used selectively rather than as a default approach.</p>"
+  },
+  {
+   "heading": "Exchange Accommodation Titleholder Structure",
+   "html": "<p>Under the safe-harbor structure most practitioners rely on, an exchange accommodation titleholder takes and holds title to either the replacement property or the relinquished property while the investor arranges financing and sale on the other side. For a San Antonio replacement property acquired ahead of a sale, the EAT typically holds title until the relinquished property closes and the exchange can be completed. Selecting an EAT with experience in this specific structure, rather than a generic entity formed for the purpose, tends to smooth the process considerably.</p><p>Setting this up requires a qualified exchange accommodation agreement, financing arranged in the EAT's name or with the investor as guarantor, and title and insurance work structured around a temporary holding entity rather than the investor directly.</p>"
+  },
+  {
+   "heading": "The 180-Day Parking Period",
+   "html": "<p>The safe harbor gives the investor up to 180 days to complete the exchange while the EAT holds parked title, which mirrors the standard exchange period but starts from a different trigger point than a forward exchange. Coordinating this timeline against the sale of the relinquished property in San Antonio requires realistic marketing and closing estimates going in, since there is no extension if the sale runs long.</p><p>A realistic marketing timeline for the relinquished property should account for typical days-on-market in its specific San Antonio submarket and asset class, not an optimistic best case, since the parking period's fixed 180-day limit leaves little room to recover from an overly aggressive listing timeline.</p>"
+  },
+  {
+   "heading": "Financing and Lender Coordination",
+   "html": "<p>Lenders financing a parked replacement property in San Antonio need to underwrite the EAT structure itself in addition to the investor's credit, which can add time to loan approval compared with a standard purchase. Confirming lender familiarity with reverse exchange financing before selecting the EAT avoids delays once the transaction is already underway.</p><p>Not every lender active in San Antonio is comfortable financing a title-holding entity rather than the investor directly, so a short list of lenders with prior reverse exchange experience is worth assembling before a specific replacement property is even under contract.</p><ul><li>Qualified exchange accommodation agreement execution</li><li>Financing structured through or guaranteed for the EAT</li><li>Identification of the property to be relinquished within 45 days</li><li>180-day outside deadline for completing the exchange</li><li>Coordination between title, lender, and qualified intermediary counsel</li></ul>"
+  },
+  {
+   "heading": "Unwinding the Parking Arrangement",
+   "html": "<p>Once the relinquished property sells, title to the parked San Antonio property transfers from the EAT to the investor, and the transaction is documented to complete the exchange within the safe harbor. This final step needs the same document precision as the initial setup, since a mishandled transfer can undermine the exchange after most of the work is already done.</p>"
+  },
+  {
+   "heading": "When a Reverse Exchange Makes Sense in a Competitive Market",
+   "html": "<p>San Antonio submarkets with limited inventory in a specific asset class — certain medical office corridors or well-located net-lease pads, for example — are where a reverse exchange earns its added cost and complexity, since the alternative is risking the loss of a hard-to-replace property while waiting on the relinquished sale to close.</p><p>In slower-moving categories with steadier supply, a forward exchange is usually simpler and less costly, so the decision to use a reverse structure should weigh the specific San Antonio property's scarcity against the extra time and expense of setting up the EAT.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Why would a San Antonio investor use a reverse exchange instead of a forward exchange?",
+   "a": "A reverse exchange lets the investor lock in a desirable replacement property before the relinquished property has sold, which can matter in a competitive market where waiting to sell first risks losing the replacement deal."
+  },
+  {
+   "q": "What is an exchange accommodation titleholder and why is it needed?",
+   "a": "The EAT is an entity that holds title to either the replacement or relinquished property during the transition period, since an investor cannot hold title to both properties directly and still qualify for the reverse exchange safe harbor."
+  },
+  {
+   "q": "How long can a property stay parked with the EAT?",
+   "a": "The safe harbor generally allows up to 180 days to complete the exchange, though the specific facts and any extensions should be confirmed with the qualified intermediary and tax advisor handling the transaction well before that period runs out."
+  },
+  {
+   "q": "Does a reverse exchange still require identifying a property within 45 days?",
+   "a": "Yes, in the typical structure the investor identifies which property is being relinquished within 45 days of the EAT taking title, mirroring the identification requirement in a forward exchange."
+  },
+  {
+   "q": "Are reverse exchanges harder to finance in San Antonio than standard purchases?",
+   "a": "Financing can take longer since lenders need to underwrite the parking structure itself, so confirming a lender's familiarity with reverse exchanges before selecting the EAT and beginning the transaction is worth the extra step. Some lenders decline to finance parked property at all, which is worth ruling out early."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 851
+}

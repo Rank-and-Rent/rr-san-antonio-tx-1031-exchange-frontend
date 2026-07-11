@@ -1,0 +1,58 @@
+{
+ "slug": "95-percent-rule-strategy",
+ "taxonomy": "services",
+ "title": "95% Rule Acquisition Strategy",
+ "name": "95% Rule Acquisition Strategy",
+ "metaTitle": "95% Rule Acquisition Strategy in San Antonio, TX",
+ "metaDescription": "95% rule acquisition strategy for San Antonio 1031 exchanges: no identification value ceiling, but the investor must close on nearly everything named.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The 95% rule removes the value ceiling that governs the 200% rule entirely - an investor can identify any number of properties worth any combined amount - but in exchange, the investor must actually acquire at least 95% of the total fair market value identified. In San Antonio exchanges, this rule shows up less often by design and more often by accident, when an identification list drifts past the 200% ceiling without anyone recalculating the running total.</p><p>This page describes how the rule works and how it gets triggered, not tax guidance; investors should review their identification strategy with a tax advisor before relying on any particular safe harbor.</p>"
+  },
+  {
+   "heading": "The Trade-Off: No Value Ceiling, Near-Total Acquisition Obligation",
+   "html": "<p>Where the 200% rule trades a value cap for acquisition flexibility, the 95% rule inverts that trade: there is no limit on what can be identified, but almost everything identified has to close. An investor who names six properties across San Antonio submarkets under the 95% rule needs to close on the value equivalent of roughly five and three-quarters of them to stay compliant - a very different commitment than naming the same six under the 200% rule.</p><p>Because that obligation is so demanding, the 95% rule is rarely chosen as a first strategy; it is more often the rule an investor ends up under after a list grows past the 200% ceiling.</p>"
+  },
+  {
+   "heading": "Why Investors Choose the 95% Rule Deliberately (Rare) vs By Accident (Common)",
+   "html": "<p>The deliberate case usually involves an investor confident they can close on nearly every property named - for example, a portfolio buyer assembling several small multifamily assets near the medical center corridor where financing and due diligence are already largely complete before identification. The accidental case is far more common: a broad identification list built for optionality quietly exceeds 200% of the relinquished sale price, and the investor discovers only at closing that the exchange now requires acquiring 95% of everything on the list.</p><p>Distinguishing between the two cases early matters, because a deliberate 95% rule strategy is usually paired with financing and diligence work started well ahead of identification, while an accidental shift into the 95% rule often catches the investor without that groundwork in place, raising the odds of a shortfall by day 180.</p>"
+  },
+  {
+   "heading": "Calculating the 95% Acquisition Threshold",
+   "html": "<p>The calculation runs against the total fair market value of every property on the identification list as of its identification date, not the number of properties. Coordinating this figure typically involves:</p><ul><li>Confirming a documented fair market value for each identified property at the time it was named</li><li>Summing those values to establish the acquisition target at 95%</li><li>Tracking closed acquisitions against that running total in real time as each deal completes</li><li>Flagging any shortfall early enough to add closing capacity before day 180</li></ul>"
+  },
+  {
+   "heading": "Recovering When a 95% Rule Exchange Falls Short",
+   "html": "<p>If closings fall short of the 95% threshold before the 180-day period ends, the exchange does not fail outright, but the portion of value that was not acquired is treated as unexchanged and becomes taxable. Investors who see a shortfall developing early - typically because a financing contingency on one identified property is dragging - have more options to redirect proceeds toward a property that can close faster, provided it was among those already identified.</p>"
+  },
+  {
+   "heading": "Monitoring Acquisition Progress Against the 95% Threshold in Real Time",
+   "html": "<p>Because the 95% rule leaves little margin for a missed closing, tracking acquisition progress against the total identified value has to happen continuously through the exchange period rather than as a single check near day 180. A qualified intermediary managing a 95% rule exchange for a San Antonio investor typically maintains a running ledger showing which identified properties have closed, which are under contract with financing in process, and which remain unaddressed, updated each time a closing occurs.</p><p>That ledger becomes the early warning system for a shortfall - if the properties on track to close will not reach 95% of identified value, the investor and advisor have time to accelerate a lagging deal, add cash to close a gap on a financed acquisition, or reassess which identified property should be prioritized before the deadline arrives.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "How does an exchange end up under the 95% rule without the investor choosing it?",
+   "a": "It happens when the combined fair market value of an identification list exceeds 200% of the relinquished sale price, which automatically shifts the exchange out of the 200% safe harbor and into the 95% rule."
+  },
+  {
+   "q": "Does the 95% rule require closing on 95% of the number of properties identified?",
+   "a": "No. The threshold is measured by fair market value, not by count, so closing on fewer, higher-value properties can still satisfy the 95% test."
+  },
+  {
+   "q": "What happens to the unexchanged portion if I only close on 80% of identified value?",
+   "a": "The portion below the 95% threshold is treated as not having qualified for exchange treatment and becomes taxable; a tax advisor should assess the specific exposure."
+  },
+  {
+   "q": "Can I identify additional properties mid-exchange to help meet the 95% threshold?",
+   "a": "Only if done before the 45-day identification deadline. After that date, the list is fixed and no new properties can be added to help reach the threshold."
+  },
+  {
+   "q": "Is the 95% rule ever the better strategic choice for a San Antonio investor?",
+   "a": "It can be, for an investor with a large, well-underwritten pipeline of properties they are confident closing on, since it removes the value ceiling that limits the 200% rule."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 863
+}

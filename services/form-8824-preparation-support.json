@@ -1,0 +1,58 @@
+{
+ "slug": "form-8824-preparation-support",
+ "taxonomy": "services",
+ "title": "Form 8824 Preparation Support",
+ "name": "Form 8824 Preparation Support",
+ "metaTitle": "Form 8824 Preparation Support in San Antonio, TX",
+ "metaDescription": "Form 8824 preparation support for San Antonio 1031 exchanges: organizing closing figures for realized gain, deferred gain, and carryover basis reporting.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>IRS Form 8824 is where a 1031 exchange gets reported to the IRS, and it requires figures pulled directly from both the relinquished and replacement closing statements - sale price, adjusted basis, exchange expenses, debt relief, and cash received. Form 8824 preparation support for San Antonio investors means assembling that closing data into an organized package the investor's CPA can use to complete the form accurately, rather than the CPA reconstructing figures from raw settlement statements under deadline pressure.</p><p>This describes the data assembly process, not tax preparation itself; the form must be completed and filed by the investor's CPA or tax preparer.</p><p>Investors who wait until the filing deadline to organize this data often find themselves reconstructing figures from memory or scattered emails, which is exactly the situation a documented closing file, assembled at the time of each transaction, is meant to prevent.</p>"
+  },
+  {
+   "heading": "What Form 8824 Requires From the Closing File",
+   "html": "<p>The form asks for a description of both the relinquished and replacement properties, the dates each was identified and acquired, and a reconciliation of fair market value, adjusted basis, liabilities assumed or relieved, and any cash or non-like-kind property received. Every figure traces back to a specific line on a closing statement, so the accuracy of the form depends entirely on how completely the closing file was assembled at the time of each transaction.</p><p>For San Antonio exchanges involving an improvement exchange or a DST placement, the form also needs supporting detail specific to that structure - construction costs completed within the exchange period for an improvement exchange, or the sponsor's reported allocation for a DST interest - which should be gathered from those transactions separately rather than assumed to match a standard direct purchase closing statement.</p>"
+  },
+  {
+   "heading": "Realized Gain, Recognized Gain, and Deferred Gain",
+   "html": "<p>Realized gain is the full economic gain on the relinquished property sale; recognized gain is the portion actually taxed in the current year, generally limited to boot received; and deferred gain is the remainder that carries forward into the replacement property's basis. These three figures are distinct lines on Form 8824, and confusing them is one of the more common preparation errors, particularly when a San Antonio exchange involves both cash boot and mortgage boot calculated separately.</p><p>Keeping a clear written record of how each figure was derived - which closing statement line supports the sale price, which supports the debt figures - gives the CPA a defensible basis for each number entered on the form, rather than a set of totals with no supporting trail.</p>"
+  },
+  {
+   "heading": "Carryover Basis Calculation for the Replacement Property",
+   "html": "<p>The replacement property's basis for future depreciation and eventual sale is not simply its purchase price; it is calculated from the relinquished property's adjusted basis carried forward, adjusted for the specific inputs on the form. Getting this figure right matters well beyond the current filing, since it sets the depreciation schedule and gain calculation for as long as the replacement property is held. Assembling this calculation typically requires:</p><ul><li>Adjusted basis of the relinquished property at the time of sale</li><li>Any recognized gain or loss reported on the current exchange</li><li>Purchase price and any additional cash invested in the replacement property</li><li>Exchange expenses paid through the qualified intermediary</li></ul>"
+  },
+  {
+   "heading": "Coordinating Form 8824 With the Investor's Tax Return",
+   "html": "<p>Form 8824 has to be filed with the tax return for the year the relinquished property closed, even if the replacement acquisition closes in the following tax year under the 180-day rule. Getting the closing data organized and delivered to the CPA well ahead of the filing deadline - rather than the week the return is due - is what keeps the form accurate and the exchange documentation consistent with what was reported.</p>"
+  },
+  {
+   "heading": "Handling Multiple Relinquished or Replacement Properties on One Form",
+   "html": "<p>When a San Antonio investor exchanges one relinquished property into several replacement properties, or several relinquished properties into one replacement, the reporting generally requires allocating the exchange figures proportionally across each individual transaction, by value, rather than treating the whole exchange as a single combined line item. Getting that allocation wrong is a common source of preparation error, particularly when properties were identified under the 200% rule and closed at different times within the exchange period.</p><p>Organizing closing figures by individual transaction - rather than as a combined total - before handing the file to the CPA generally makes this allocation more straightforward and reduces the back-and-forth needed to complete the form correctly.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Which tax year does Form 8824 get filed for if the exchange spans two calendar years?",
+   "a": "It is filed with the return for the year the relinquished property was sold, even if the replacement property closes in the following year under the 180-day period."
+  },
+  {
+   "q": "Who actually completes and files Form 8824?",
+   "a": "The investor's CPA or tax preparer completes and files the form; documentation assembly organizes the closing figures the preparer needs to do that accurately."
+  },
+  {
+   "q": "Is recognized gain the same as the total gain on the sale?",
+   "a": "No. Recognized gain is generally limited to boot received, while the remaining gain is deferred and carried into the replacement property's basis rather than taxed currently."
+  },
+  {
+   "q": "What closing documents does a CPA need to complete Form 8824 accurately?",
+   "a": "Settlement statements from both the relinquished and replacement closings, the qualified intermediary's accounting, and records of any debt assumed or relieved on each side."
+  },
+  {
+   "q": "Does Form 8824 need to be filed if the exchange included some boot?",
+   "a": "Yes. Form 8824 is filed for the exchange as a whole, with the boot portion reported as recognized gain on the same form rather than reported separately."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 889
+}

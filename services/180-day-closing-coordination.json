@@ -1,0 +1,58 @@
+{
+ "slug": "180-day-closing-coordination",
+ "taxonomy": "services",
+ "title": "180-Day Closing Coordination",
+ "name": "180-Day Closing Coordination",
+ "metaTitle": "180-Day Closing Coordination in San Antonio, TX",
+ "metaDescription": "180-day exchange period closing coordination for San Antonio investors: title, escrow, and qualified intermediary sequencing to meet the IRS deadline.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The 180-day exchange period sets the outer boundary for completing a 1031 transaction, and in San Antonio that clock runs against a market where in-migration and value pricing relative to Austin, Dallas, and Houston keep deal flow steady but title and escrow queues can still slip. Closing coordination means tracking the count from day one, sequencing title, escrow, and lender sign-off, and keeping the qualified intermediary informed at every step so the exchange proceeds move on schedule.</p><p>Investors who treat the 180-day window as a soft target rather than a hard deadline are the ones who lose the exchange. The process described here is about documentation discipline, not tax advice; investors should confirm deadline mechanics with their tax advisor and qualified intermediary.</p>"
+  },
+  {
+   "heading": "Calendar Discipline From the Relinquished-Property Closing",
+   "html": "<p>The 180-day count begins on the date the relinquished property closes, or the due date of the investor's tax return for that year, whichever comes first. There is no administrative extension available outside of relief formally issued for a federally declared disaster affecting the investor or the property location. Every milestone that follows - the 45-day identification, the replacement contract, the title commitment, the loan approval - has to be plotted backward from that fixed date, not forward from a hoped-for closing.</p><p>In practice this means building a closing calendar the week the relinquished sale closes, not the week identification is due. San Antonio closings on properties near JBSA or the medical center corridor often carry environmental or use-restriction reviews that eat calendar days quietly if they are not flagged at the outset.</p>"
+  },
+  {
+   "heading": "Coordinating Title, Escrow, and the Qualified Intermediary",
+   "html": "<p>The qualified intermediary holds the exchange proceeds and must receive clear closing instructions before the escrow officer can disburse funds for the replacement acquisition. That means the exchange agreement, assignment of contract rights, and QI wiring instructions all need to be in the closing file before the title company schedules a closing date, not delivered the morning of.</p><p>Escrow officers in San Antonio handling exchange closings coordinate a three-way confirmation between the QI, the title company, and the lender's closing department so that funds move directly between accounts without passing through the investor, which is what constructive receipt rules require.</p>"
+  },
+  {
+   "heading": "Closing Sequencing Across San Antonio Asset Classes",
+   "html": "<p>Closing timelines vary by asset type and by which San Antonio submarket the replacement property sits in. Coordination plans typically account for:</p><ul><li>Industrial and flex space along the I-35 and I-10 corridors, where lender due diligence on rail or highway access can extend title review</li><li>Medical office near the South Texas Medical Center, where tenant estoppels and CON-related use restrictions add a review step</li><li>Multifamily near downtown and the Pearl redevelopment area, where municipal permit history gets pulled into due diligence</li><li>Retail and NNN product along outer-loop corridors, where anchor tenant lease assignment consents can be the pacing item</li><li>Land held for future development near Eagle Ford-adjacent industrial users, where mineral rights and easement review take longer than a standard title commitment</li></ul>"
+  },
+  {
+   "heading": "Contingency Planning When a Closing Slips",
+   "html": "<p>When a replacement closing date moves, the first move is to notify the qualified intermediary and confirm whether the identification list still supports an alternate closing date inside day 180. A back-up identified property, if one was named within the 45-day window, becomes the fallback path rather than a scramble to identify something new, which is not permitted after the identification period closes.</p><p>San Antonio investors coordinating multiple identified properties - common in reverse and multi-asset exchanges - keep a standing communication line open between the QI, escrow, and lender counsel so that a slip on one property does not cascade into a missed deadline on the whole exchange.</p>"
+  },
+  {
+   "heading": "Post-Closing Confirmation and File Closeout",
+   "html": "<p>Once the replacement property closes, coordination does not end at the signing table. The qualified intermediary issues a final accounting showing every dollar received, held, and disbursed across both the relinquished and replacement transactions, and that accounting has to reconcile exactly against the two settlement statements before the file is considered closed. Any discrepancy between the QI's ledger and the title company's closing statement should be resolved immediately, while the closing team and escrow officer are still engaged, rather than months later when the return is being prepared.</p><p>For San Antonio investors running exchanges into industrial, medical office, or multifamily replacement property, the closeout package typically gets forwarded to the tax preparer well before the filing deadline, along with confirmation that recorded deeds, the loan closing package, and the QI's final statement all agree on sale price, debt, and cash figures. Building that habit into every closing - rather than only reaching for the file when a question comes up - keeps the documentation defensible if the exchange is ever reviewed.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Can the 180-day exchange period be extended past its statutory deadline?",
+   "a": "Generally no. The only exceptions are formal extensions issued for a federally declared disaster affecting the investor or the property. Investors should confirm current relief provisions with their tax advisor or qualified intermediary before relying on any extension."
+  },
+  {
+   "q": "What happens if my back-up identified property also falls out of contract before day 180?",
+   "a": "If no identified property closes within the exchange period, the exchange fails as to the unclosed portion and the held proceeds become taxable upon return to the investor. A tax advisor should be consulted before that point is reached."
+  },
+  {
+   "q": "Does the 180-day count include weekends and holidays?",
+   "a": "Yes. The count runs on consecutive calendar days from the relinquished-property closing, with no pause for weekends or federal holidays, so closing calendars need to build in buffer around those dates."
+  },
+  {
+   "q": "Who confirms my closing statement satisfies exchange requirements before I sign?",
+   "a": "The qualified intermediary, working with the closing attorney or escrow officer, reviews the settlement statement to confirm exchange proceeds flow directly through the exchange account rather than to the investor."
+  },
+  {
+   "q": "Can I close on the replacement property before day 180 if the deal is ready?",
+   "a": "Yes. Nothing requires waiting until day 180; the exchange can close as soon as due diligence, title, and financing conditions are satisfied."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 977
+}

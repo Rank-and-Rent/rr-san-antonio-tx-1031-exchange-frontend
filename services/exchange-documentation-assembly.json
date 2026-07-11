@@ -1,0 +1,58 @@
+{
+ "slug": "exchange-documentation-assembly",
+ "taxonomy": "services",
+ "title": "Exchange Documentation Assembly",
+ "name": "Exchange Documentation Assembly",
+ "metaTitle": "Exchange Documentation Assembly in San Antonio, TX",
+ "metaDescription": "Exchange documentation assembly for San Antonio 1031 transactions: agreements, assignment notices, and closing records organized to survive an audit.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A 1031 exchange stands or falls on paper as much as on timing - the exchange agreement, the assignment of contract rights, the notices delivered to buyers and sellers, and the closing statements all have to line up and be retained in a form that supports the position taken on the tax return. Exchange documentation assembly for San Antonio investors means building that file correctly from the relinquished-property contract forward, rather than reconstructing it after the fact.</p><p>This describes the document set and its organization, not tax advice; the underlying tax position should be reviewed with the investor's advisor.</p>"
+  },
+  {
+   "heading": "The Core Exchange Agreement and Assignment Package",
+   "html": "<p>The exchange agreement between the investor and the qualified intermediary establishes the QI's role holding proceeds and limits the investor's access to those funds, which is what preserves the exchange's tax treatment. Alongside it, the assignment of the relinquished-property sale contract and the assignment of the replacement-property purchase contract transfer the investor's contractual rights to the QI for purposes of the closing, without the QI taking title itself in most structures.</p><p>These three documents form the spine of the exchange file, and every other document assembled afterward - identification notices, settlement statements, accounting records - is understood in reference to the terms set out in the exchange agreement itself.</p>"
+  },
+  {
+   "heading": "Assignment Notices to Buyers and Sellers",
+   "html": "<p>Both the buyer of the relinquished property and the seller of the replacement property need to receive written notice that the contract has been assigned to a qualified intermediary as part of a 1031 exchange. In San Antonio transactions this notice is typically delivered by the closing attorney or title company alongside the standard closing package, and it needs to be signed and dated before the respective closing, not slipped in afterward.</p><p>A counterparty who has not received this notice can raise questions later about whether the exchange structure was properly disclosed at the time of contract, which is why confirming delivery and obtaining a signed acknowledgment are treated as standard steps rather than optional formalities.</p>"
+  },
+  {
+   "heading": "Building the Closing Binder",
+   "html": "<p>A complete exchange file assembled around each closing typically includes, at minimum, the following documents gathered together in one place rather than scattered across several professionals' files:</p><ul><li>The exchange agreement with the qualified intermediary</li><li>Assignment of the relinquished-property sale contract and buyer notice</li><li>The written 45-day identification notice as delivered to the QI</li><li>Assignment of the replacement-property purchase contract and seller notice</li><li>Settlement statements for both the relinquished and replacement closings</li><li>QI accounting of funds held and disbursed between the two closings</li></ul>"
+  },
+  {
+   "heading": "Retention and Access After Closing",
+   "html": "<p>Exchange records should be retained for as long as the replacement property is held plus the period needed to support the eventual disposition, since the deferred gain carries forward into the replacement property's basis and may be examined years later. San Antonio investors working with a qualified intermediary typically receive a final accounting and full document set at closing, which should be stored alongside the property's ownership records rather than filed separately where it can be misplaced.</p><p>Digital copies stored with the same organizing structure used at closing - one folder per closing, one subfolder per document type - tend to hold up better over a multi-year hold period than a single unsorted archive, particularly if the property later changes hands between family members or entities and the documentation needs to be handed off.</p>"
+  },
+  {
+   "heading": "Coordinating Document Assembly With the Investor's CPA and Attorney",
+   "html": "<p>The closing attorney, the qualified intermediary, and the investor's CPA each hold a different piece of the exchange record - the attorney the contracts and assignment notices, the QI the accounting of funds held and disbursed, and the CPA the figures that ultimately populate the tax return - and assembly works best when one party is designated to compile the complete file rather than assuming each professional will forward their piece unprompted.</p><p>For San Antonio exchanges involving multiple closings, such as a multi-property identification under the 200% rule, this coordination becomes more important as the number of contracts, notices, and settlement statements grows, since a single missing assignment notice across several transactions can be harder to trace down after the fact than it would be to confirm at the time of closing.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Who is responsible for delivering the assignment notice to the buyer and seller?",
+   "a": "Typically the closing attorney or title company handles delivery as part of the standard closing package, coordinated with the qualified intermediary."
+  },
+  {
+   "q": "How long should exchange documentation be retained after closing?",
+   "a": "At minimum for as long as the replacement property is held, since the deferred gain and adjusted basis carry forward and may be reviewed at a future disposition."
+  },
+  {
+   "q": "Does the qualified intermediary provide a final accounting of funds held during the exchange?",
+   "a": "Yes, a standard practice is for the QI to issue a written accounting showing funds received, held, and disbursed across both closings."
+  },
+  {
+   "q": "What happens if an assignment notice is missing from the closing file?",
+   "a": "A missing notice does not automatically void the exchange, but it weakens the documentation supporting the exchange structure and should be corrected or supplemented as soon as it is identified."
+  },
+  {
+   "q": "Should exchange documents be stored with the property records or separately?",
+   "a": "They should be kept together with the replacement property's ownership and basis records, since the two are directly connected for tax purposes at the next disposition."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 858
+}

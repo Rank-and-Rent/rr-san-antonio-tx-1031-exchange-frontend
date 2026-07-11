@@ -1,0 +1,58 @@
+{
+ "slug": "tax-advisor-and-cpa-coordination",
+ "taxonomy": "services",
+ "title": "Tax Advisor and CPA Coordination",
+ "name": "Tax Advisor and CPA Coordination",
+ "metaTitle": "Tax Advisor and CPA Coordination in San Antonio, TX",
+ "metaDescription": "Coordinating property data and exchange documents with a San Antonio investor's tax advisor and CPA, without stepping into tax advice or return preparation.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Coordinating with a San Antonio investor's tax advisor or CPA means making sure the property-level data, closing statements, and qualified intermediary paperwork reach the right person in a usable format, at the right point in the exchange timeline. This work supports the advisor's analysis; it does not substitute for it, and every investor should confirm final tax treatment directly with their own advisor before relying on it.</p>"
+  },
+  {
+   "heading": "What Gets Handed to the Tax Advisor",
+   "html": "<p>A tax advisor evaluating a San Antonio exchange needs the relinquished property's basis history, the closing statement from that sale, the identification notice, and the replacement property's closing statement once available. Assembling these documents in a consistent format as they become available, rather than all at once at year-end, gives the advisor more time to flag issues while there is still time to address them, rather than discovering a problem after the return is already due.</p>"
+  },
+  {
+   "heading": "Where the Coordination Boundary Sits",
+   "html": "<p>Sourcing, diligence, and QI coordination on a San Antonio exchange do not include advising on the investor's specific tax position, basis calculations, or whether an exchange makes sense given their broader portfolio; those determinations belong to the investor's CPA and tax advisor. Keeping this boundary clear protects the investor from getting informal guidance where a documented professional opinion is what actually matters.</p><p>Investors working with a new advisor for the first time on a San Antonio exchange should confirm the advisor has handled 1031 transactions before, since the reporting mechanics differ meaningfully from a standard property sale.</p><p>A short intake conversation early in the process, covering the investor's basis history and general portfolio goals, lets the advisor flag any concerns about the specific San Antonio transaction well before documents start moving.</p><ul><li>Relinquished property basis and depreciation history</li><li>Closing statements from both sides of the exchange</li><li>Identification notice and any amendments filed with the QI</li><li>Debt replacement figures for boot calculation by the advisor</li><li>Form 8824 supporting detail requested by the CPA</li></ul>"
+  },
+  {
+   "heading": "Timing Handoffs Around the 180-Day Period",
+   "html": "<p>Because the exchange has to close within the 180-day period and the investor's tax return deadline can arrive before that period ends, coordinating with the CPA early on filing extensions and estimated payment planning for a San Antonio transaction avoids a rushed conversation in the final weeks of the exchange.</p><p>This is particularly relevant for exchanges initiated late in the calendar year, where the 180-day period can run well past the standard filing deadline, making an extension a routine part of the plan rather than a last-minute scramble.</p>"
+  },
+  {
+   "heading": "Keeping a Clean Record for the Advisor's File",
+   "html": "<p>A well-organized exchange file — contracts, identification notices, closing statements, and QI correspondence for the San Antonio properties involved — gives the tax advisor a complete record to work from when preparing the return, which reduces back-and-forth and the risk of a detail being missed.</p>"
+  },
+  {
+   "heading": "Recurring Points of Confusion Worth Flagging Early",
+   "html": "<p>Investors coordinating their first exchange in San Antonio sometimes assume the qualified intermediary and the tax advisor are handling overlapping parts of the same task, when in practice the QI manages funds and timing while the advisor interprets tax consequences. Flagging that division of labor at the outset, rather than after a document request falls between the two, keeps the transaction moving without duplicated or missed work.</p><p>Multi-property or partial exchanges add another layer the advisor needs early visibility into, since combining a San Antonio replacement purchase with cash proceeds retained outside the exchange changes the boot calculation in ways that are easier to plan for than to unwind after closing. Raising this scenario with the advisor as soon as it becomes a possibility, rather than after the replacement contract is signed, gives the advisor time to model the consequences properly.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does the qualified intermediary or sourcing team give tax advice on a San Antonio exchange?",
+   "a": "No. They coordinate documents, timing, and property-level data. Determinations about basis, tax treatment, and whether an exchange fits the investor's overall situation are made by the investor's own tax advisor or CPA, not by the sourcing team or the qualified intermediary."
+  },
+  {
+   "q": "What documents should go to the CPA first?",
+   "a": "The relinquished property's basis history and the sale closing statement are typically needed earliest, since they establish the starting figures the advisor will use for the rest of the exchange's ongoing tax analysis and reporting."
+  },
+  {
+   "q": "Why might filing an extension matter for a San Antonio investor mid-exchange?",
+   "a": "If the 180-day exchange period extends past the normal tax filing deadline, the investor's return may need to reflect the exchange's actual outcome rather than an estimate, which is a scheduling question best raised with the CPA well before the filing deadline actually arrives on the calendar."
+  },
+  {
+   "q": "Who calculates boot on a San Antonio exchange?",
+   "a": "The investor's tax advisor typically calculates boot using the debt-replacement and cash-proceeds figures assembled during the transaction; sourcing and QI coordination provide the underlying numbers rather than performing that calculation themselves for the investor."
+  },
+  {
+   "q": "Is Form 8824 prepared by the sourcing team or the CPA?",
+   "a": "The CPA or tax preparer completes Form 8824 as part of the investor's return. Supporting detail on the transaction can be assembled and organized to make that preparation more efficient, but the form itself is the advisor's responsibility, and investors should rely on their advisor's review rather than a generic template found online."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 852
+}

@@ -1,0 +1,58 @@
+{
+ "slug": "boot-calculation-support",
+ "taxonomy": "services",
+ "title": "Boot Calculation Support",
+ "name": "Boot Calculation Support",
+ "metaTitle": "Boot Calculation Support in San Antonio, TX",
+ "metaDescription": "Boot calculation support for San Antonio 1031 exchanges: identifying cash boot and mortgage boot before closing so the taxable exposure is not a surprise.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Boot is the portion of an exchange that falls outside like-kind treatment - cash not reinvested, debt relief not replaced, or non-like-kind property received alongside the real estate - and it becomes taxable in the year of the exchange regardless of how the rest of the transaction qualifies. San Antonio investors moving between asset classes, say exiting a downtown retail building for industrial space along the I-35 corridor, run into boot most often at the financing stage, not the property selection stage.</p><p>What follows explains how boot gets calculated and documented; it is not tax advice, and any specific boot exposure should be confirmed with a tax advisor before closing.</p><p>Boot calculation support generally means building the comparison between the relinquished and replacement closing statements early enough in the transaction that any exposure can still be addressed with additional cash or a debt adjustment, rather than discovering it after both closings have already occurred.</p>"
+  },
+  {
+   "heading": "Cash Boot: Proceeds That Aren't Reinvested",
+   "html": "<p>Cash boot arises whenever exchange proceeds are not fully reinvested into replacement property - a small balance left with the qualified intermediary after closing, funds pulled out for a repair reserve, or proceeds diverted to pay down an unrelated debt. Even a modest amount held back triggers boot treatment on that amount, independent of how much of the overall exchange qualifies.</p><p>Investors who want to pull some equity out of a San Antonio sale for reasons unrelated to the replacement purchase need to plan for that portion being taxable, rather than assuming the exchange shelters the entire sale proceeds automatically.</p>"
+  },
+  {
+   "heading": "Mortgage Boot: Net Debt Relief Not Offset by New Cash",
+   "html": "<p>Mortgage boot occurs when the debt paid off on the relinquished property exceeds the debt taken on for the replacement property, and the investor does not offset that reduction with additional cash invested into the replacement deal. This is the boot category that trips up investors most often, because it can arise even when every dollar of sale proceeds is reinvested, simply because the replacement property carries less leverage than the one sold.</p><p>A common pattern in San Antonio exchanges involves selling a heavily leveraged multifamily asset for an all-cash industrial purchase; the debt reduction itself becomes boot unless additional cash is contributed to cover the gap.</p>"
+  },
+  {
+   "heading": "Avoiding Boot Through Equal or Greater Value and Debt Replacement",
+   "html": "<p>The standard approach to minimizing boot exposure follows a straightforward sequence:</p><ul><li>Confirm the replacement property's purchase price equals or exceeds the relinquished property's net sale price</li><li>Confirm new debt on the replacement property equals or exceeds debt paid off on the relinquished property, or add cash to cover any shortfall</li><li>Reinvest all exchange proceeds rather than holding back any portion for unrelated use</li><li>Exclude non-like-kind personal property from the exchange calculation rather than assuming it rolls in automatically</li></ul>"
+  },
+  {
+   "heading": "Documenting Boot Exposure Before Closing",
+   "html": "<p>Because boot is calculated from the closing statements on both the relinquished and replacement transactions, the qualified intermediary and closing team typically prepare a side-by-side comparison of sale price, debt paid off, debt assumed, and cash contributed before the replacement closing is finalized. Catching a boot exposure at that stage, rather than after the return is filed, gives the investor room to adjust financing or contribute additional cash before the transaction closes.</p><p>That side-by-side comparison typically gets circulated to the investor's tax advisor before the replacement closing is scheduled, so any recommended adjustment to cash contribution or loan amount can still be made without reopening a signed purchase contract at the last minute.</p>"
+  },
+  {
+   "heading": "Boot From Non-Like-Kind Property in a Mixed-Use Exchange",
+   "html": "<p>A San Antonio exchange that includes items outside real property - equipment conveyed with an industrial building, furniture and fixtures included in a multifamily sale, or a business operation bundled with the real estate - can generate boot on the non-like-kind portion even when the real property itself exchanges cleanly. Allocating value between the real property and any personal property at both the relinquished and replacement closings is what allows the like-kind portion to be isolated from the taxable portion.</p><p>Sale and purchase contracts that clearly break out an allocation between real property and personal property, agreed to by both buyer and seller, give the qualified intermediary and the investor's tax advisor a documented basis for that allocation rather than leaving it to be estimated after the fact.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does receiving any cash back at closing automatically disqualify the whole exchange?",
+   "a": "No. Only the cash actually received as boot is taxable; the remainder of the transaction can still qualify for like-kind deferral if structured properly."
+  },
+  {
+   "q": "Can I avoid mortgage boot by simply adding more cash to the replacement purchase?",
+   "a": "In most cases, yes - contributing enough additional cash to offset the reduction in debt is the standard way to eliminate mortgage boot exposure."
+  },
+  {
+   "q": "Does boot include personal property received along with real estate, like furniture or equipment?",
+   "a": "Personal property is generally treated separately from the real property exchange and can create boot or a separate taxable event; it should be identified and valued independently."
+  },
+  {
+   "q": "How is boot calculated when both cash and debt relief are involved?",
+   "a": "Boot exposure is generally the greater of the cash not reinvested or the net debt relief not offset by new cash, calculated from the combined closing statements."
+  },
+  {
+   "q": "Should boot calculations be done before or after the replacement closing?",
+   "a": "Before. Reviewing projected boot exposure ahead of the replacement closing allows time to adjust financing or cash contribution before the numbers are locked in."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 869
+}
