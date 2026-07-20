@@ -1,0 +1,75 @@
+{
+ "slug": "inherited-property-capital-gains",
+ "taxonomy": "upstream-funnel",
+ "title": "Capital Gains on Inherited Property",
+ "name": "Capital Gains on Inherited Property",
+ "metaTitle": "Capital Gains on Inherited Property in San Antonio, TX",
+ "metaDescription": "How the stepped up basis rule changes the capital gains math for heirs who sell an inherited San Antonio property, compared to a lifetime sale.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Inheriting real estate, whether a family home in San Antonio or a rental property left by a parent, triggers a different set of capital gains rules than a lifetime sale by the original owner. Under current federal law, an heir generally receives a stepped up basis in the inherited property equal to its fair market value on the date of the original owner's death, rather than the decedent's original purchase price. This step up can eliminate most or all of the capital gain that had built up during the decedent's lifetime, which is one of the most significant tax benefits available in the federal tax code for inherited assets.</p>"
+  },
+  {
+   "heading": "How the Stepped Up Basis Works in Practice",
+   "html": "<p>If a parent purchased a San Antonio home decades ago for sixty thousand dollars and it is worth four hundred thousand dollars on the date of death, the heir's basis becomes four hundred thousand dollars, not sixty thousand dollars. If the heir sells shortly after inheriting for close to that same value, there is little or no taxable gain, even though the property appreciated by more than three hundred thousand dollars during the decedent's ownership. This is a fundamentally different outcome than if the original owner had sold the property during their lifetime and paid capital gains tax on the full appreciation.</p>"
+  },
+  {
+   "heading": "Establishing Date of Death Value",
+   "html": "<p>The stepped up basis depends on accurately establishing fair market value as of the date of death, which typically requires a qualified appraisal or, in some cases, reliable comparable sales data from around that date. Heirs who wait years to sell an inherited San Antonio property should still document that date of death value promptly, since reconstructing it long after the fact is more difficult and can create disputes with the IRS if the eventual sale price is used as a proxy without contemporaneous support.</p>"
+  },
+  {
+   "heading": "Gain or Loss After Inheritance",
+   "html": "<p>Once the stepped up basis is established, any further appreciation or decline in value between the date of death and the eventual sale is treated as ordinary capital gain or loss for the heir. An heir who holds the inherited property for several years while it continues to appreciate, renting it out along the way, will owe capital gains tax and face depreciation recapture on whatever depreciation the heir personally claims after inheriting, calculated from the stepped up basis forward, not from the original owner's basis.</p>"
+  },
+  {
+   "heading": "Multiple Heirs and Shared Ownership",
+   "html": "<p>When a San Antonio property passes to several heirs jointly, each heir typically receives a proportional stepped up basis in their share. Disagreements among heirs about whether to sell, rent, or occupy the property are common and can delay a sale long enough that meaningful appreciation accrues after the date of death, at which point that additional appreciation is taxable to the heirs in proportion to their ownership share. Resolving these decisions early, and documenting the date of death valuation while records are fresh, avoids complications later.</p>"
+  },
+  {
+   "heading": "Can an Heir Use a 1031 Exchange on an Inherited Property",
+   "html": "<p>Yes, once an heir owns inherited property and holds it for investment or business purposes rather than immediate resale, that property can qualify as relinquished property in a 1031 exchange under the same rules that apply to any other investment property owner. Because the stepped up basis already erased most or all of the pre-death gain, the exchange primarily defers tax on appreciation that occurs after the heir takes ownership, plus any depreciation the heir later claims and later recaptures.</p>"
+  },
+  {
+   "heading": "Estate Tax Versus Capital Gains Tax",
+   "html": "<p>It is worth distinguishing the stepped up basis rule from the separate federal estate tax, since confusing the two leads to poor planning decisions. The federal estate tax applies, if at all, at the estate level based on the total value of everything the decedent owned, with a large exemption amount that shields the vast majority of estates from owing anything. The stepped up basis rule, by contrast, applies to the heir's later capital gains calculation on individual assets like a San Antonio property, regardless of whether the estate itself owed any estate tax at all. Most heirs who inherit a single family home or a small rental property will never interact with the estate tax but will still benefit from the basis step up.</p><p>Because the two provisions are calculated independently, an heir should not assume that avoiding estate tax also means avoiding capital gains tax on a later sale, or the reverse. Each requires its own documentation, and the appraisal used to establish date of death value for basis purposes can often serve double duty for estate tax filing purposes when a filing is required.</p>"
+  },
+  {
+   "heading": "Selling Versus Keeping an Inherited San Antonio Property",
+   "html": "<p>Heirs deciding whether to sell an inherited property outright, rent it out, or move into it themselves should weigh the tax picture alongside the practical realities of ownership. Selling shortly after inheriting, when the sale price is close to the stepped up basis, typically produces the smallest capital gains bill but forfeits any future appreciation. Renting the property preserves upside but starts a new depreciation clock from the stepped up basis and introduces the same landlord responsibilities, insurance considerations, and management demands that apply to any San Antonio rental property, along with future recapture exposure on whatever depreciation the heir claims going forward. Moving into the inherited property as a primary residence resets the calculation again, since the heir would then be working toward the Section 121 ownership and use tests rather than the depreciation and recapture rules that apply to a rental.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does an heir pay capital gains tax on the appreciation that occurred during the decedent's lifetime?",
+   "a": "Generally no. The stepped up basis rule resets the property's basis to its fair market value on the date of death, which typically eliminates the capital gain that accrued before the owner's death."
+  },
+  {
+   "q": "How is the fair market value for stepped up basis established?",
+   "a": "Typically through a qualified appraisal or documented comparable sales as of the date of death. This value should be established promptly, even if the heir does not plan to sell right away."
+  },
+  {
+   "q": "If an heir sells an inherited San Antonio property quickly, is there usually much tax owed?",
+   "a": "Often very little, since the sale price is generally close to the stepped up basis if the sale happens shortly after death, before significant additional appreciation accrues."
+  },
+  {
+   "q": "Can an heir do a 1031 exchange with an inherited property?",
+   "a": "Yes, provided the heir holds the property for investment or business use rather than immediate personal use or resale, the same 1031 exchange rules apply as for any other investment property owner."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "capital-gains-on-rental-property",
+   "label": "Capital Gains on Rental Property"
+  },
+  {
+   "slug": "depreciation-recapture-explained",
+   "label": "Depreciation Recapture Explained"
+  },
+  {
+   "slug": "how-to-reduce-capital-gains-tax",
+   "label": "How to Reduce Capital Gains Tax on Real Estate"
+  }
+ ],
+ "wordCount": 880
+}

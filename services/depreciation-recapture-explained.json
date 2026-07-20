@@ -1,0 +1,79 @@
+{
+ "slug": "depreciation-recapture-explained",
+ "taxonomy": "upstream-funnel",
+ "title": "Depreciation Recapture Explained",
+ "name": "Depreciation Recapture Explained",
+ "metaTitle": "Depreciation Recapture Explained for San Antonio Property Owners",
+ "metaDescription": "Why depreciation claimed on a rental or commercial property is taxed separately from appreciation when the property sells, and how the rate compares to standard capital gains.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Depreciation recapture is the portion of federal tax owed on the sale of investment real estate that specifically relates to depreciation deductions the owner claimed over the holding period, rather than to price appreciation. For a San Antonio investor who has owned a rental duplex or a small commercial building for a decade or more, depreciation recapture can represent a substantial share of the total tax bill on sale, separate from and layered on top of ordinary capital gains tax on appreciation.</p>"
+  },
+  {
+   "heading": "Why Depreciation Creates a Later Tax Liability",
+   "html": "<p>Depreciation lets an owner deduct a portion of a building's cost each year against rental income, reducing taxable income during the holding period on the theory that the building is wearing out over time. Residential rental property is depreciated over twenty seven and one half years and nonresidential commercial property over thirty nine years. Land is never depreciated. Every dollar of depreciation claimed reduces the property's adjusted basis, which increases the taxable gain dollar for dollar when the property is eventually sold, effectively converting a series of past tax deductions into a future tax liability.</p>"
+  },
+  {
+   "heading": "The Unrecaptured Section 1250 Rate",
+   "html": "<p>The portion of gain attributable to depreciation on real property is taxed under Internal Revenue Code Section 1250 at a maximum federal rate of twenty five percent, regardless of the taxpayer's ordinary capital gains bracket. This is often higher than the fifteen percent long term capital gains rate that applies to many taxpayers on the appreciation portion of the same sale, which means the recapture dollars are frequently taxed at a meaningfully higher effective rate than the rest of the gain.</p>"
+  },
+  {
+   "heading": "Calculating the Recapture Amount",
+   "html": "<p>The recapture amount equals the lesser of the total depreciation claimed or the total gain on sale, so a property sold at a loss, or one where the gain is smaller than accumulated depreciation, limits the recapture to the actual gain recognized. A San Antonio investor who claimed ninety thousand dollars of depreciation on a property that ultimately sold for a total gain of seventy thousand dollars would face recapture tax on only the seventy thousand dollars of actual gain, not the full ninety thousand dollars of depreciation claimed.</p>"
+  },
+  {
+   "heading": "Recapture and the 1031 Exchange",
+   "html": "<p>A properly structured 1031 exchange defers both the depreciation recapture and the standard capital gains portion of the tax, since neither is recognized when the exchange qualifies under Section 1031. The deferred depreciation carries forward into the replacement property's basis and remains subject to recapture if that replacement property is later sold outside of another exchange, which means a long chain of exchanges can carry forward a growing recapture liability across multiple properties over many years.</p>"
+  },
+  {
+   "heading": "Recordkeeping to Support the Recapture Calculation",
+   "html": "<p>An accurate recapture calculation depends on a complete depreciation schedule covering the entire holding period, including any cost segregation study that accelerated depreciation on specific components of the building. Investors who used cost segregation to front-load deductions in early years should expect a correspondingly larger recapture calculation at sale, since Section 1250 recapture generally applies to straight line depreciation while any additional accelerated depreciation claimed can be subject to different, sometimes less favorable, recapture treatment depending on the asset class involved.</p>"
+  },
+  {
+   "heading": "Comparing Recapture Exposure Across Properties",
+   "html": "<p>An investor who owns several San Antonio properties with different acquisition dates and improvement histories often finds that recapture exposure varies significantly from one property to the next, even among properties of similar current value. A building acquired two years ago with little depreciation claimed so far carries a much smaller recapture exposure than a similar building held for twenty years, even if both are now worth roughly the same amount. This makes recapture exposure, not just total gain, an important factor when deciding which property in a portfolio to sell outright and which to carry forward through a 1031 exchange.</p><p>Reviewing depreciation schedules across an entire portfolio before making a sale decision, rather than evaluating one property at a time in isolation, often reveals that the properties with the smallest total gain sometimes carry the largest proportional recapture exposure, since a long depreciation history can dominate a modest overall gain on an older, slower-appreciating asset.</p>"
+  },
+  {
+   "heading": "Depreciation Recapture in a Partial or Multi-Property Exchange",
+   "html": "<p>When an exchange involves multiple relinquished or replacement properties, or when only part of the proceeds from a sale is reinvested, depreciation recapture can be triggered on the unreinvested portion even while the rest of the transaction qualifies for deferral. This partial recognition is generally referred to as boot, and the recapture component of any recognized boot is still taxed under the twenty five percent Section 1250 rules rather than at the general capital gains rate, which means even a small amount of boot in an otherwise well structured San Antonio exchange can carry a disproportionate tax cost if it happens to be sourced from the depreciation-heavy portion of the gain rather than the appreciation portion.</p>"
+  },
+  {
+   "heading": "Discussing Recapture Exposure Before Listing",
+   "html": "<p>Because the recapture calculation is fixed by the depreciation actually claimed, not by market conditions at the time of sale, it is one of the more predictable pieces of a San Antonio property seller's tax exposure and can be estimated well in advance of listing. Reviewing that estimate alongside the broader capital gains projection, before choosing between an outright sale and a 1031 exchange, gives a clearer picture of the true after tax proceeds under each path.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What is the maximum federal tax rate on depreciation recapture for real property?",
+   "a": "Twenty five percent under the unrecaptured Section 1250 rules, applied to the portion of gain attributable to depreciation claimed, separate from the standard long term capital gains rate on the remaining appreciation."
+  },
+  {
+   "q": "Does depreciation recapture apply if the property is sold at a loss?",
+   "a": "Recapture is limited to the lesser of total depreciation claimed or total gain recognized on the sale, so a sale with little or no gain generally produces little or no recapture, even after years of depreciation deductions."
+  },
+  {
+   "q": "Can a 1031 exchange defer depreciation recapture?",
+   "a": "Yes, a properly structured exchange defers recognition of both the depreciation recapture and standard capital gains portions of the transaction, carrying the deferred amounts forward into the replacement property's basis."
+  },
+  {
+   "q": "Does land get depreciated along with the building?",
+   "a": "No. Only the building and qualifying improvements are depreciated. Land value is excluded from depreciation calculations and therefore is never subject to depreciation recapture."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "capital-gains-on-rental-property",
+   "label": "Capital Gains on Rental Property"
+  },
+  {
+   "slug": "capital-gains-on-investment-property",
+   "label": "Capital Gains on Investment Property"
+  },
+  {
+   "slug": "boot-calculation",
+   "label": "Boot Calculation and Minimization"
+  }
+ ],
+ "wordCount": 856
+}

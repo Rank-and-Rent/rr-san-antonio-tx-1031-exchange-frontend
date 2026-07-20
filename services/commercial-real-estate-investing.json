@@ -1,0 +1,79 @@
+{
+ "slug": "commercial-real-estate-investing",
+ "taxonomy": "upstream-funnel",
+ "title": "Commercial Real Estate Investing Explained",
+ "name": "Commercial Real Estate Investing Explained",
+ "metaTitle": "Commercial Real Estate Investing Explained for San Antonio, TX",
+ "metaDescription": "An overview of the commercial property types available to a San Antonio investor, from retail and industrial to office and multifamily, and how each is generally underwritten.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Commercial real estate covers property held for business or investment purposes rather than as a personal residence, spanning retail, office, industrial, multifamily, hospitality, and specialized asset types such as self storage and medical office. For a San Antonio investor moving beyond residential rentals, understanding how each commercial category is typically underwritten, leased, and financed helps clarify which asset type fits their capital, risk tolerance, and management capacity.</p>"
+  },
+  {
+   "heading": "Retail and Single Tenant Net Lease Property",
+   "html": "<p>Retail property ranges from a single tenant net lease building, such as a pharmacy or fast food location, to a large multi-tenant shopping center anchored by a grocery store. Single tenant net lease property, particularly with an investment grade corporate tenant on a long term lease, is often considered among the lowest management-intensity commercial asset types, since the tenant typically covers taxes, insurance, and maintenance, though that stability comes with a fixed rent stream and limited upside compared to a multi-tenant center where individual leases can be renewed at market rates over time.</p>"
+  },
+  {
+   "heading": "Industrial and Warehouse Property",
+   "html": "<p>Industrial property, including warehouse, distribution, and flex space that combines office and warehouse functions, has seen strong demand growth tied to logistics and e-commerce distribution needs. San Antonio's position along the I-35 and I-10 corridors, connecting to major Texas metros and the Mexican border at Laredo, has supported industrial development and leasing activity in submarkets on the city's south and southeast sides. Industrial leases are often structured as triple net, similar to single tenant retail, shifting most operating costs to the tenant.</p>"
+  },
+  {
+   "heading": "Office Property",
+   "html": "<p>Office property has faced more uneven demand nationally in recent years, with class A buildings in strong locations generally outperforming older, less amenitized class B and C space. Office leases and underwriting require attention to tenant improvement costs, which can be substantial for new leases, and to how remote and hybrid work trends are affecting the specific submarket and building class under consideration, whether in downtown San Antonio, the Medical Center area, or the northern suburban office corridors.</p>"
+  },
+  {
+   "heading": "Multifamily Property",
+   "html": "<p>Multifamily property, from small four to eight unit buildings up through large garden-style or mid-rise apartment communities, is generally underwritten on a per-unit basis and financed through conventional commercial loans or, for larger stabilized properties, agency financing through Fannie Mae or Freddie Mac programs. San Antonio's continued population growth has supported multifamily demand across a wide range of vintages and price points, from newer construction in growth corridors to older, value-add opportunities closer to the urban core.</p>"
+  },
+  {
+   "heading": "Self Storage, Medical Office, and Other Specialized Assets",
+   "html": "<p>Specialized commercial categories such as self storage facilities and medical office buildings carry their own underwriting considerations distinct from the more traditional asset classes above. Self storage tends to have lower operating complexity and can perform relatively well through economic cycles, while medical office typically involves tenant improvement costs tailored to specific healthcare uses and leases tied to a provider's practice, both of which are covered in more detail in dedicated guides on those asset types.</p>"
+  },
+  {
+   "heading": "Financing and Underwriting Fundamentals Across Categories",
+   "html": "<p>Regardless of category, commercial property underwriting generally centers on net operating income, the capitalization rate implied by the purchase price, debt service coverage ratio requirements from the lender, and the quality and duration of in-place leases. A San Antonio investor comparing across asset types should model each on these common metrics side by side, since a compelling cap rate in one asset class may reflect materially different risk than the same cap rate in another, given differences in lease structure, tenant credit, and capital expenditure requirements.</p>"
+  },
+  {
+   "heading": "Commercial Property as 1031 Replacement Property",
+   "html": "<p>Every category described above, retail, industrial, office, multifamily, and specialized asset types such as self storage and medical office, can qualify as like kind replacement property for a 1031 exchange, since all involve direct ownership of real property held for investment or business use. This gives a San Antonio investor exiting one commercial category considerable flexibility to pivot into a different one entirely, for example exchanging out of an aging office building and into a newer industrial property, provided the replacement is identified within the forty five day window and closed within one hundred eighty days through a qualified intermediary.</p><p>That flexibility is one of the more underappreciated features of Section 1031 for commercial investors: the exchange does not require staying within the same property type, only that both the relinquished and replacement assets are real property held for investment or business purposes, which opens the door to reallocating an entire portfolio's asset class mix through the exchange process rather than through a series of separately taxed sales.</p>"
+  },
+  {
+   "heading": "Getting Started With a First Commercial Purchase",
+   "html": "<p>An investor moving from residential to commercial property in San Antonio for the first time generally benefits from starting with a smaller, simpler asset such as a single tenant net lease building or a small multi-tenant retail strip, both of which involve fewer moving parts than a large multifamily complex or a specialized medical office building. Building relationships with a commercial broker, lender, and property manager familiar with the specific asset type and San Antonio submarket under consideration typically pays off well beyond the first transaction, since commercial underwriting and leasing conventions differ enough from residential that local, asset-specific experience meaningfully reduces the learning curve. Comparing at least a few properties within the same category before making an offer also helps establish a realistic sense of market pricing and lease terms for that specific asset type in San Antonio.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Which commercial property type generally requires the least hands-on management?",
+   "a": "Single tenant net lease retail and industrial property, particularly with a triple net lease structure and a creditworthy tenant, generally require the least landlord involvement, since the tenant covers most operating expenses and maintenance."
+  },
+  {
+   "q": "Why has San Antonio industrial property attracted investor interest?",
+   "a": "Its position along the I-35 and I-10 corridors supports logistics and distribution demand, and submarkets on the south and southeast sides of the city have seen industrial development tied to that connectivity."
+  },
+  {
+   "q": "How is commercial property typically financed compared to residential property?",
+   "a": "Commercial financing generally involves shorter amortization periods, different underwriting focused on the property's net operating income and debt service coverage ratio, and, for larger multifamily assets, potential access to agency financing programs not available for smaller residential rentals."
+  },
+  {
+   "q": "What is a capitalization rate and why does it matter when comparing commercial property types?",
+   "a": "The capitalization rate is the property's net operating income divided by its purchase price, expressed as a percentage. Comparing cap rates across property types requires accounting for differences in lease structure and tenant risk, since the same rate can reflect very different underlying risk levels."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "industrial-real-estate-investing",
+   "label": "Industrial Real Estate Investing Explained"
+  },
+  {
+   "slug": "multifamily-investing",
+   "label": "Multifamily Investing Explained"
+  },
+  {
+   "slug": "triple-net-lease-nnn",
+   "label": "Triple Net Lease (NNN) Explained"
+  }
+ ],
+ "wordCount": 879
+}

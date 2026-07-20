@@ -1,0 +1,79 @@
+{
+ "slug": "fractional-real-estate-investing",
+ "taxonomy": "upstream-funnel",
+ "title": "Fractional Real Estate Investing Explained",
+ "name": "Fractional Real Estate Investing Explained",
+ "metaTitle": "Fractional Real Estate Investing Explained: DST, TIC, and Fund Structures",
+ "metaDescription": "The difference between fractional ownership structures that can qualify as 1031 replacement property, such as DSTs and TICs, and those that cannot.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Fractional real estate investing allows an investor to own a share of a property rather than the whole asset, spreading the capital required and, often, the risk across multiple owners. The term covers a range of structures with very different legal and tax characteristics, and for a San Antonio investor weighing a 1031 exchange, the distinction between structures that involve direct or beneficial title to real property and structures that involve an entity interest is the single most important factor in deciding which fractional option fits their situation.</p>"
+  },
+  {
+   "heading": "Tenancy in Common: Fractional Deed Ownership",
+   "html": "<p>A tenancy in common structure gives each investor an undivided fractional deed interest in the property itself, recorded individually, which means each TIC owner holds direct title to real property, just a fractional share of it, alongside a small number of other co-owners, typically capped at thirty five for exchange purposes under IRS guidance. Because each investor holds direct title, a TIC interest can qualify as like kind replacement property in a 1031 exchange when the arrangement is structured to meet the requirements the IRS has laid out for undivided fractional interests.</p>"
+  },
+  {
+   "heading": "Delaware Statutory Trust: Fractional Beneficial Ownership",
+   "html": "<p>A Delaware Statutory Trust holds title to the property at the trust level, with investors owning a beneficial interest in the trust rather than a direct deed interest. Because the IRS has recognized a properly structured DST beneficial interest as qualifying for like kind treatment, DST offerings are widely used for 1031 replacement property, particularly for investors seeking a larger, professionally managed property, such as a multifamily portfolio or a net lease retail package, without the deed-level coordination that a TIC arrangement requires among its co-owners.</p>"
+  },
+  {
+   "heading": "Fund and Syndication Fractional Interests: Entity Ownership",
+   "html": "<p>Other fractional structures, including real estate syndications and many crowdfunding platform offerings, give investors a fractional interest in an entity, typically a limited liability company or limited partnership, that in turn owns the property. Because the investor's interest runs through the entity rather than through direct or beneficial title to the real property, these fractional interests generally do not qualify as like kind replacement property under Section 1031, a distinction that trips up investors who assume any fractional real estate structure works the same way for exchange purposes.</p>"
+  },
+  {
+   "heading": "Minimum Investment and Diversification Tradeoffs",
+   "html": "<p>Fractional structures generally lower the minimum capital needed to access a given property type or market, letting a San Antonio investor split exchange proceeds across several DST offerings rather than concentrating in a single directly owned replacement property, which can add geographic and asset class diversification within a single exchange. That diversification comes at the cost of reduced control over any single asset and, in most fractional structures, no ability to force a sale or refinancing on the investor's own timeline, since those decisions rest with the trustee, manager, or majority of co-owners depending on the structure.</p>"
+  },
+  {
+   "heading": "Securities Considerations",
+   "html": "<p>DST interests, TIC interests offered through a sponsor, syndication interests, and crowdfunding positions are all generally treated as securities offerings, sold only by prospectus or private placement memorandum to investors who meet applicable eligibility standards. This is true even for the structures that qualify for 1031 exchange treatment, since the securities classification and the like kind property classification are separate legal questions. This discussion is educational only, not investment or tax advice, and any specific fractional offering should be reviewed with a tax advisor and a licensed securities professional before capital is committed.</p>"
+  },
+  {
+   "heading": "Choosing Between Fractional Structures",
+   "html": "<p>An investor whose primary goal is deferring capital gains tax on a San Antonio property sale while gaining passive, diversified exposure to real estate generally looks toward DST offerings, given their broader availability and typically lower minimum investment than a comparable TIC deal. An investor who wants direct deed ownership, even in fractional form, alongside a small group of co-owners, may prefer a TIC structure. An investor not working within a 1031 exchange timeline, simply looking for fractional real estate exposure generally, has a wider field of options including syndications and crowdfunding, understanding that those routes generally close off 1031 eligibility for that capital.</p>"
+  },
+  {
+   "heading": "Confirming Structure Before the Forty Five Day Window Closes",
+   "html": "<p>Because the identification window in a 1031 exchange runs only forty five days from the closing of the relinquished property, a San Antonio investor considering a fractional replacement interest should confirm the specific offering's structure, DST, TIC, or entity-based fund, well before that window opens if possible, rather than discovering mid-exchange that a preferred offering does not qualify. Sponsors of DST and TIC offerings can typically confirm structural qualification quickly, but capacity in a specific offering can also close if the raise reaches its target, which adds another reason to start the review early rather than waiting until late in the identification period.</p>"
+  },
+  {
+   "heading": "Documentation Fractional Structures Typically Require",
+   "html": "<p>A TIC offering typically requires each co-owner to execute a tenancy in common agreement governing decision-making among the co-owners, alongside the standard purchase and financing documents. A DST offering typically involves a trust agreement and a private placement memorandum describing the property, financing, and trustee's authority. Reviewing these documents, ideally with a tax advisor familiar with 1031 exchange structuring, before signing an identification letter helps confirm the offering actually functions the way the sponsor's marketing materials describe. A tax advisor experienced in exchange transactions can usually flag structural issues quickly, before capital is committed rather than after.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does every fractional real estate structure qualify for a 1031 exchange?",
+   "a": "No. A properly structured DST or TIC interest, which involves direct or beneficial title to real property, can qualify. Syndication and crowdfunding interests, which involve an interest in an entity that owns the property, generally do not qualify."
+  },
+  {
+   "q": "How many co-owners can a tenancy in common arrangement have and still work for exchange purposes?",
+   "a": "IRS guidance on undivided fractional interests generally caps a TIC arrangement intended for exchange purposes at thirty five co-owners, along with other structural requirements that should be confirmed with the offering sponsor and a tax advisor."
+  },
+  {
+   "q": "Are DST and TIC interests considered securities?",
+   "a": "Yes, generally. They are typically offered under securities regulations to investors who meet applicable eligibility standards, even though they can separately qualify as like kind real property for 1031 exchange purposes."
+  },
+  {
+   "q": "Can fractional interests be combined with a directly owned replacement property in the same exchange?",
+   "a": "Yes. An investor can identify and close on a mix of a directly owned property and one or more DST or TIC interests within the same exchange, subject to the standard forty five day identification and one hundred eighty day closing deadlines."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "delaware-statutory-trust",
+   "label": "Delaware Statutory Trust Exchange"
+  },
+  {
+   "slug": "tenant-in-common",
+   "label": "Tenant in Common Exchange"
+  },
+  {
+   "slug": "real-estate-syndication-explained",
+   "label": "Real Estate Syndication Explained"
+  }
+ ],
+ "wordCount": 858
+}

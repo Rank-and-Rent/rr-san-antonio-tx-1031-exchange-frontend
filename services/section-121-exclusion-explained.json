@@ -1,0 +1,75 @@
+{
+ "slug": "section-121-exclusion-explained",
+ "taxonomy": "upstream-funnel",
+ "title": "The Section 121 Exclusion Explained",
+ "name": "The Section 121 Exclusion Explained",
+ "metaTitle": "The Section 121 Home Sale Exclusion Explained",
+ "metaDescription": "The federal rules that let a homeowner exclude up to two hundred fifty thousand dollars, or five hundred thousand dollars for a married couple, of gain on a primary residence sale.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Section 121 of the Internal Revenue Code allows a homeowner who sells a primary residence to exclude a significant amount of capital gain from federal tax, without any requirement to reinvest the proceeds into another home. For a San Antonio homeowner, the exclusion is up to two hundred fifty thousand dollars of gain for a single filer and up to five hundred thousand dollars for a married couple filing a joint return, making it one of the most generous tax provisions available to individual taxpayers.</p>"
+  },
+  {
+   "heading": "The Ownership and Use Tests",
+   "html": "<p>To qualify, a seller must satisfy two separate tests during the five year period ending on the date of sale: the ownership test, requiring the seller to have owned the home for at least two years, and the use test, requiring the seller to have used the home as a main home for at least two years. The two year periods do not need to run concurrently or be continuous, but both generally must be satisfied within the same five year lookback window before the exclusion applies in full.</p>"
+  },
+  {
+   "heading": "The Once Every Two Years Limit",
+   "html": "<p>The exclusion generally applies only once every two years, meaning a taxpayer who used it for a prior home sale must wait until two years have passed before claiming it again on a new sale. A San Antonio homeowner selling a second property sooner than two years after using the exclusion on a prior sale may still qualify for a reduced exclusion under specific exceptions related to a job change, health issue, or other unforeseen circumstance, but should confirm eligibility with a tax advisor before assuming the full exclusion applies again.</p>"
+  },
+  {
+   "heading": "Partial Exclusion Exceptions",
+   "html": "<p>Even if the full two year ownership and use tests are not met, a taxpayer may still qualify for a reduced exclusion, calculated on a pro rata basis, if the sale is due to a change in place of employment, a health condition, or another unforeseen circumstance recognized by the IRS. This reduced exclusion is calculated by prorating the standard two hundred fifty thousand or five hundred thousand dollar limit based on the fraction of the two year period actually satisfied, rather than denying the exclusion entirely.</p>"
+  },
+  {
+   "heading": "How Depreciation Affects the Exclusion",
+   "html": "<p>If a homeowner claimed depreciation on the property for any period, such as when part of the home was used as a rental or for a qualifying home office, that depreciation is not covered by the Section 121 exclusion and must be recaptured separately as ordinary income, up to the twenty five percent unrecaptured Section 1250 rate. This is a common issue for homeowners who rented a portion of a San Antonio property, such as an accessory dwelling unit, while still using the rest of the home as their main residence.</p>"
+  },
+  {
+   "heading": "Section 121 Compared to 1031 Exchange Treatment",
+   "html": "<p>Section 121 and Section 1031 serve different purposes and generally do not apply to the same property at the same time. Section 121 excludes gain on a personal residence outright, with no reinvestment requirement, while Section 1031 defers gain on investment or business property only if the proceeds are reinvested into replacement property through a qualified intermediary. A property that was used partly as a rental and partly as a primary residence can, in narrow circumstances, combine both provisions, but that scenario requires a careful allocation between personal and investment use and should be reviewed with a tax professional before the sale closes.</p>"
+  },
+  {
+   "heading": "A Mixed Use Example",
+   "html": "<p>Consider a San Antonio duplex where the owner lives in one unit and rents the other. On sale, the property is generally divided into two components for tax purposes: the owner-occupied unit, which can qualify for the Section 121 exclusion on its share of the gain, and the rental unit, which is treated as investment property subject to standard capital gains and depreciation recapture rules, and which could potentially be paired with a 1031 exchange if the owner wants to defer tax on that portion rather than recognize it immediately.</p><p>Allocating the sale price, basis, and any depreciation between the two units requires a reasonable method, often based on relative square footage or fair rental value, and should be documented at the time of sale rather than reconstructed later if the IRS questions the split. Because Section 121 and Section 1031 have different documentation requirements and different deadlines, a mixed use sale generally needs to be planned well in advance, particularly if the investment portion is intended to move into a 1031 exchange, which requires a qualified intermediary to be in place before the property closes.</p>"
+  },
+  {
+   "heading": "Confirming Eligibility Before Relying on the Exclusion",
+   "html": "<p>Because the ownership and use tests, the once every two years limit, and the depreciation carve-out all interact, a San Antonio seller should confirm eligibility for the Section 121 exclusion with a tax advisor before assuming it will offset the full gain, particularly for a property with a mixed personal and rental history or a recent prior use of the exclusion on another home. Getting this confirmation early also leaves time to pursue a 1031 exchange on any rental portion if the exclusion turns out to cover less of the gain than expected. A qualified intermediary generally must be engaged before that rental portion closes, since the exchange requirement that proceeds never pass through the seller's hands applies just as strictly in a mixed use sale as in any other exchange.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "How much gain can Section 121 exclude from federal tax?",
+   "a": "Up to two hundred fifty thousand dollars for a single filer or up to five hundred thousand dollars for a married couple filing jointly, provided the ownership and use tests are satisfied."
+  },
+  {
+   "q": "Do the two years of ownership and two years of use need to be the same two years?",
+   "a": "They need to fall within the same five year period before the sale but do not need to be continuous or run at exactly the same time, as long as both totals of at least two years are met."
+  },
+  {
+   "q": "Can a homeowner use Section 121 again within two years of a prior sale?",
+   "a": "Generally no for the full exclusion, though a reduced, prorated exclusion may be available under specific unforeseen circumstance exceptions recognized by the IRS."
+  },
+  {
+   "q": "Does Section 121 cover depreciation claimed on a home office or rented portion of the house?",
+   "a": "No. Any depreciation claimed must be recaptured separately as ordinary income up to the applicable rate; Section 121 does not exclude that portion of the gain."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "home-sale-capital-gains",
+   "label": "Capital Gains on the Sale of a Home"
+  },
+  {
+   "slug": "second-home-capital-gains-tax",
+   "label": "Capital Gains Tax on a Second Home"
+  },
+  {
+   "slug": "how-to-reduce-capital-gains-tax",
+   "label": "How to Reduce Capital Gains Tax on Real Estate"
+  }
+ ],
+ "wordCount": 865
+}

@@ -1,0 +1,79 @@
+{
+ "slug": "real-estate-syndication-explained",
+ "taxonomy": "upstream-funnel",
+ "title": "Real Estate Syndication Explained",
+ "name": "Real Estate Syndication Explained",
+ "metaTitle": "Real Estate Syndication Explained: Structure and 1031 Exchange Limits",
+ "metaDescription": "How a syndication pools investor capital into a single property under a sponsor, and why syndication equity generally does not qualify for 1031 exchange treatment.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A real estate syndication pools capital from multiple investors, often called limited partners, to acquire a single property or a small portfolio, with a sponsor, often called the general partner or manager, handling acquisition, financing, operations, and eventual sale. Syndications are a common way for a San Antonio investor to gain exposure to a larger commercial property, such as a multifamily complex or an industrial park, than they could acquire alone, in exchange for giving up direct control over the asset.</p>"
+  },
+  {
+   "heading": "How a Syndication Is Structured",
+   "html": "<p>Investors in a syndication typically receive an interest in a limited liability company or limited partnership formed specifically to hold the target property, rather than a deed interest in the real estate itself. The sponsor generally contributes a smaller amount of capital, often five to ten percent of the total raise, and receives fees for acquisition, asset management, and, frequently, a share of profits above a set return threshold once the property performs well, a structure commonly described as a promote or carried interest.</p>"
+  },
+  {
+   "heading": "Why Syndication Equity Generally Does Not Qualify for 1031 Exchange Treatment",
+   "html": "<p>Because a syndication investor holds an equity or partnership interest in the entity that owns the property, rather than direct or beneficial title to real property itself, that interest generally does not satisfy the like kind requirement under Section 1031, which requires the relinquished and replacement property to both be real property interests, not partnership or membership interests in an entity. This is a firm distinction under current law: a San Antonio investor cannot generally use 1031 exchange proceeds to purchase a syndication interest, and cannot generally use a 1031 exchange to exit a syndication interest, because the interest itself does not qualify as like kind real property in either direction.</p>"
+  },
+  {
+   "heading": "How This Differs From a DST or TIC Interest",
+   "html": "<p>A Delaware Statutory Trust or a properly structured tenancy in common arrangement is different from a syndication in a structurally important way: in a qualifying DST or TIC, investors hold a direct or beneficial interest in the real property itself, satisfying the like kind requirement, while in a syndication, investors hold an interest in the entity that owns the property. An investor who wants 1031 exchange eligibility alongside passive ownership should look specifically at DST or TIC structures rather than syndications, and should confirm that a specific offering is in fact structured to meet the applicable requirements before assuming exchange eligibility.</p>"
+  },
+  {
+   "heading": "Risk and Return Considerations",
+   "html": "<p>Syndication investments carry sponsor risk, in that returns depend heavily on the sponsor's acquisition judgment, operational execution, and alignment with limited partner interests, alongside standard real estate market risk. Distributions are not guaranteed and depend on the property's actual performance. Because syndication interests are securities, they are sold only by prospectus or private placement memorandum to investors who meet applicable eligibility standards, typically accredited investor status for private syndications, and this discussion is educational only, not investment or tax advice; any specific syndication should be reviewed with a tax advisor and a licensed securities professional before capital is committed.</p>"
+  },
+  {
+   "heading": "When a Syndication Might Fit a San Antonio Investor's Plan",
+   "html": "<p>A syndication can make sense for an investor who wants exposure to a larger commercial asset class, such as a multifamily portfolio or an industrial park, without directly managing the property, and who is not relying on that specific capital to remain eligible for 1031 exchange treatment. An investor currently mid-exchange, with a forty five day identification window running on a San Antonio property sale, should generally look elsewhere, such as a DST placement, if preserving exchange eligibility for that specific capital is the goal.</p>"
+  },
+  {
+   "heading": "Reviewing Sponsor Track Record and Fee Structure",
+   "html": "<p>Because syndication returns depend so heavily on sponsor execution, diligence generally focuses on the sponsor's history with similar property types and markets, the fee structure, including acquisition, asset management, and disposition fees, and how the sponsor's promote or carried interest is structured relative to investor return thresholds. A syndication targeting a San Antonio multifamily property, for example, benefits from a sponsor with specific experience underwriting and operating apartment assets in Texas growth markets, rather than a generalist track record across unrelated property types.</p><p>Offering documents typically disclose these terms in detail, along with projected hold periods and distribution timing, and reviewing them alongside a tax advisor before committing capital remains the most reliable way to understand both the return potential and the risks specific to a given syndication.</p>"
+  },
+  {
+   "heading": "Liquidity and Exit Timing",
+   "html": "<p>Syndication interests are generally illiquid for the duration of the sponsor's projected hold period, which can run from three to ten years or longer depending on the strategy, with limited or no secondary market to sell an interest early if the investor's circumstances change. This differs from directly owned San Antonio property, which the owner can list and sell on their own timeline subject to market conditions, and from publicly traded REIT shares, which trade daily. An investor evaluating a syndication should treat the capital as committed for the full projected hold period and should not plan on an early exit as part of the investment thesis.</p>"
+  },
+  {
+   "heading": "Syndications as Part of a Broader San Antonio Portfolio",
+   "html": "<p>Some investors use syndications specifically to gain exposure to property types or scale they could not access through direct ownership, such as a large multifamily community or a regional industrial portfolio, while keeping their directly owned San Antonio holdings, and any 1031 exchange activity, entirely separate. Treating a syndication as one component of a broader real estate allocation, rather than the sole vehicle for a large capital deployment, helps manage the concentration and liquidity risk that comes with committing significant capital to a single sponsor's platform.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Can 1031 exchange proceeds be used to buy into a real estate syndication?",
+   "a": "Generally no. A syndication interest is typically a partnership or membership interest in the entity that owns the property, not direct or beneficial title to real property, so it generally does not satisfy the like kind requirement under Section 1031."
+  },
+  {
+   "q": "What is the difference between a syndication and a DST for exchange purposes?",
+   "a": "A properly structured DST gives investors a direct or beneficial interest in the real property itself, which can qualify as like kind replacement property. A syndication gives investors an interest in the entity that owns the property, which generally does not qualify."
+  },
+  {
+   "q": "Who manages the property in a real estate syndication?",
+   "a": "The sponsor, sometimes called the general partner or manager, handles acquisition, financing, day to day operations, and the eventual sale, while limited partner investors have no direct operational control."
+  },
+  {
+   "q": "Are syndication returns guaranteed?",
+   "a": "No. Distributions depend on the property's actual performance and the sponsor's execution. Syndications are securities that carry investment risk, and any specific offering should be reviewed with a tax advisor and a licensed securities professional."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "delaware-statutory-trust",
+   "label": "Delaware Statutory Trust Exchange"
+  },
+  {
+   "slug": "tenant-in-common",
+   "label": "Tenant in Common Exchange"
+  },
+  {
+   "slug": "fractional-real-estate-investing",
+   "label": "Fractional Real Estate Investing Explained"
+  }
+ ],
+ "wordCount": 883
+}

@@ -1,0 +1,75 @@
+{
+ "slug": "how-to-invest-in-real-estate",
+ "taxonomy": "upstream-funnel",
+ "title": "How to Invest in Real Estate",
+ "name": "How to Invest in Real Estate",
+ "metaTitle": "How to Invest in Real Estate: A San Antonio Investor's Overview",
+ "metaDescription": "An overview of the main paths into real estate investing, from direct ownership to passive structures, for a San Antonio investor weighing where to start.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Real estate investing covers a wide range of approaches, from buying a single rental house in a San Antonio neighborhood and managing it directly, to placing capital passively into a professionally managed fund or trust with no day to day involvement at all. Each path carries a different balance of control, minimum investment size, liquidity, and tax treatment, and understanding those differences up front helps a new or experienced investor choose an approach that actually fits their time, capital, and goals rather than defaulting to whatever structure is most heavily marketed.</p>"
+  },
+  {
+   "heading": "Direct Ownership of Rental Property",
+   "html": "<p>The most traditional path is direct ownership: buying a single family home, duplex, or small multifamily property and either self-managing or hiring a property manager. This approach gives the investor full control over financing, tenant selection, and eventual sale timing, along with full responsibility for maintenance, vacancy risk, and local landlord-tenant compliance. San Antonio's range of price points, from smaller homes near the urban core to newer construction in the northern suburbs, makes direct ownership accessible to a wide range of budgets compared to higher cost Texas metros such as Austin.</p>"
+  },
+  {
+   "heading": "Commercial Property Ownership",
+   "html": "<p>Moving beyond residential rentals, direct ownership of commercial property, such as a single tenant retail building, a small industrial warehouse, or a medical office, generally requires more capital and more specialized underwriting knowledge but can offer longer lease terms and, in a triple net structure, fewer landlord responsibilities than residential rental ownership. Commercial financing terms, loan-to-value ratios, and lease structures differ meaningfully from residential property, which is worth understanding before moving from residential to commercial ownership.</p>"
+  },
+  {
+   "heading": "Passive Structures: REITs, Funds, and Securities",
+   "html": "<p>An investor who wants real estate exposure without direct management can buy shares in a publicly traded real estate investment trust, invest in a private real estate fund, or participate in a syndication or crowdfunding offering. These structures are generally securities, sold under applicable securities regulations, and most do not qualify as like kind property for 1031 exchange purposes because the investor holds an interest in an entity or trust rather than direct or beneficial title to real property in the way a Delaware Statutory Trust interest can. Securities offerings such as private funds, syndications, and crowdfunded interests are sold only by prospectus or private placement memorandum to investors who meet applicable eligibility requirements, and any such investment should be reviewed with a tax advisor and, where relevant, a licensed securities professional before capital is committed.</p>"
+  },
+  {
+   "heading": "Structures That Can Qualify for 1031 Exchange Treatment",
+   "html": "<p>For an investor who already owns real property and wants to defer capital gains tax while moving into a more passive structure, a Delaware Statutory Trust interest or a tenancy in common interest can, when properly structured, qualify as like kind replacement property because each involves direct or beneficial ownership of real property rather than an equity or partnership interest in an entity. This is a meaningful distinction from syndication equity or crowdfunding equity, which generally does not qualify for exchange treatment because the investor holds an interest in the sponsor's entity rather than in the real property itself.</p>"
+  },
+  {
+   "heading": "Matching the Structure to the Goal",
+   "html": "<p>An investor prioritizing full control and willing to manage tenants and maintenance is generally better served by direct ownership, whether residential or commercial. An investor who has recently sold appreciated property in San Antonio and wants to defer the resulting capital gains tax while stepping back from active management may look toward a DST or TIC placement as replacement property. An investor without an existing 1031 exchange in progress, simply looking to add real estate exposure to a broader portfolio, may be better served by a publicly traded REIT or a reviewed private fund, understanding that those positions are securities and carry the risks associated with any securities investment.</p>"
+  },
+  {
+   "heading": "Building Toward a Full Real Estate Strategy",
+   "html": "<p>Many investors do not settle on a single structure and instead build a portfolio that blends approaches over time, starting with a directly owned San Antonio rental to build experience and equity, later exchanging into a larger commercial property or a DST placement as the portfolio matures and the investor's appetite for hands-on management changes. There is no single correct sequence; the right combination depends on the investor's available time, risk tolerance, and long-term goals, and often shifts as those factors change across a career or a retirement transition.</p><p>Whatever combination is chosen, understanding the tax treatment specific to each structure, particularly which ones preserve 1031 exchange eligibility and which do not, should factor into the decision from the start rather than being discovered only when a sale or reinvestment is already underway.</p>"
+  },
+  {
+   "heading": "Financing Considerations Across Structures",
+   "html": "<p>Direct ownership generally allows the widest range of financing options, from conventional residential mortgages on a San Antonio rental to commercial term loans or agency financing on a larger property, with the investor personally responsible for underwriting and, often, a personal guarantee. DST and TIC structures typically arrive with financing already arranged by the sponsor or trustee, non-recourse to the individual investor, which removes the financing decision from the investor's hands but also removes the ability to negotiate terms directly. Securities-based structures such as REITs and syndications generally involve entity-level financing that the individual investor has no direct exposure to or control over, beyond how that leverage affects the entity's overall risk profile and return potential.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What is the simplest way to start investing in real estate in San Antonio?",
+   "a": "Direct ownership of a single rental property is the most traditional starting point, offering full control at the cost of hands-on management responsibility. Passive structures such as REITs offer a lower effort alternative but come with less control and are securities investments."
+  },
+  {
+   "q": "Do all real estate investment structures qualify for a 1031 exchange?",
+   "a": "No. Direct property ownership, and in specific structured cases DST or TIC interests, can qualify as like kind replacement property. Syndication equity, crowdfunding equity, and REIT shares generally do not qualify because they represent an interest in an entity rather than direct or beneficial title to real property."
+  },
+  {
+   "q": "Is commercial property investing accessible to a first time investor?",
+   "a": "It can be, though it generally requires more capital and more specialized underwriting knowledge than residential rental ownership. Many investors build experience with residential property before moving into commercial assets."
+  },
+  {
+   "q": "Are syndications and crowdfunding platforms a good starting point for a new investor?",
+   "a": "They can provide diversified real estate exposure without direct management, but they are securities offerings sold only to investors who meet applicable eligibility requirements, and should be reviewed with a tax and, where relevant, a securities professional before committing capital."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "passive-real-estate-income",
+   "label": "Passive Real Estate Income Explained"
+  },
+  {
+   "slug": "commercial-real-estate-investing",
+   "label": "Commercial Real Estate Investing Explained"
+  },
+  {
+   "slug": "is-a-rental-a-good-investment",
+   "label": "Is a Rental Property a Good Investment"
+  }
+ ],
+ "wordCount": 860
+}

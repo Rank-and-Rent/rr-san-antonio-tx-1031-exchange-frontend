@@ -1,0 +1,83 @@
+{
+ "slug": "multifamily-investing",
+ "taxonomy": "upstream-funnel",
+ "title": "Multifamily Investing Explained",
+ "name": "Multifamily Investing Explained",
+ "metaTitle": "Multifamily Investing Explained for San Antonio, TX",
+ "metaDescription": "How apartment properties are underwritten and financed, and why San Antonio's population growth affects multifamily investment demand across the metro.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Multifamily investing covers everything from a duplex or fourplex to a large garden-style or mid-rise apartment community, unified by the common thread of multiple rental units generating income from a single property. San Antonio's sustained population growth, driven by relative affordability compared to Austin and Dallas, no state income tax, and a diversified employment base spanning healthcare, military, and manufacturing, has supported multifamily demand across a wide range of vintages and unit counts throughout the metro.</p>"
+  },
+  {
+   "heading": "Small Multifamily Versus Larger Apartment Communities",
+   "html": "<p>Properties with two to four units are generally financed similarly to single family residential property, with conventional residential mortgage products available to owner-occupants and investors alike, while properties with five or more units are classified as commercial real estate and financed through commercial underwriting standards, including debt service coverage ratio requirements and, for stabilized properties, potential access to agency financing through Fannie Mae or Freddie Mac programs.</p>"
+  },
+  {
+   "heading": "Underwriting Multifamily Property",
+   "html": "<p>Multifamily underwriting centers on the actual rent roll and trailing collections rather than advertised or asking rents, unit mix and current occupancy by floor plan, and a capital needs assessment separating deferred maintenance from routine turnover costs. San Antonio properties built before the mid-1990s often carry roof, plumbing, or electrical systems approaching the end of their useful life, which should be priced into the offer before closing rather than discovered during final underwriting.</p>"
+  },
+  {
+   "heading": "Growth Corridors and Submarket Differences",
+   "html": "<p>Growth corridors along the northern I-35 spine toward Schertz and Cibolo have absorbed newer construction and command premium rents tied to new amenities and proximity to employment centers, while older garden-style stock closer to the urban core continues to trade primarily on cap rate and value-add potential rather than a rent growth story. Understanding which submarket dynamic applies to a specific San Antonio property, growth and rent appreciation versus stabilized cash flow and renovation upside, should shape both the acquisition price and the business plan.</p>"
+  },
+  {
+   "heading": "Debt Sizing and Financing",
+   "html": "<p>Multifamily financing terms vary meaningfully by property size and condition: agency financing for a stabilized, larger property can offer favorable proceeds and rate but involves a longer underwriting timeline, while a local bank loan for a smaller or value-add property may close faster but on less favorable terms. For an investor working within a 1031 exchange's forty five day identification and one hundred eighty day closing windows, financing timeline can be as important a factor as rate when choosing a lender and a specific replacement property.</p>"
+  },
+  {
+   "heading": "Property Management Considerations",
+   "html": "<p>Multifamily property generally requires more active management than a triple net retail or industrial asset, whether through an in-house team for a larger property or a third-party manager for a smaller one, and management quality directly affects collections, occupancy, and resident turnover costs. A San Antonio multifamily acquisition rarely comes with the buyer's existing management team already in place, so a transition plan should be developed before closing rather than improvised afterward.</p>"
+  },
+  {
+   "heading": "Multifamily as 1031 Replacement Property",
+   "html": "<p>Multifamily property qualifies as like kind replacement property for a 1031 exchange, and San Antonio's comparatively lower per-unit pricing relative to Austin or Dallas has made it a common destination for exchange investors relocating capital from higher cost Texas metros, often acquiring more unit count or newer construction for the same replacement value than would be available in those other markets.</p>"
+  },
+  {
+   "heading": "Diligence Items Specific to Multifamily Acquisitions",
+   "html": "<p>Multifamily diligence generally includes a full unit-by-unit inspection or a representative sample walkthrough, a trailing twelve month financial review comparing actual collections to the advertised rent roll, verification of utility billing methodology and reimbursement recovery rates, and a review of any existing service contracts or capital improvement plans in progress. A San Antonio buyer should also confirm the property's flood zone status and, where relevant, its proximity to any planned infrastructure or zoning changes that could affect future value or insurance costs.</p>"
+  },
+  {
+   "heading": "Long Term Hold Versus Value-Add Strategy",
+   "html": "<p>Multifamily investors generally pursue one of two broad strategies: acquiring a stabilized property for steady cash flow with minimal renovation, or acquiring an underperforming property with a specific renovation and repositioning plan intended to raise rents and value over a defined hold period. San Antonio's mix of newer stabilized product in growth corridors and older, renovation-candidate stock closer to the urban core supports both strategies, and an investor should match the acquisition to their available capital for renovation, risk tolerance, and target hold period before committing to either approach.</p>"
+  },
+  {
+   "heading": "How Interest Rates Affect Multifamily Values",
+   "html": "<p>Multifamily valuations are generally sensitive to prevailing interest rates, since cap rates tend to move directionally with the cost of debt over time, and a higher rate environment can compress achievable leverage even for a property with strong in-place cash flow. A San Antonio investor underwriting a multifamily acquisition should stress test the purchase against a range of refinancing rate scenarios for any loan maturing during the expected hold period, rather than assuming current rates will hold constant through a sale or refinance years later. This is particularly relevant for a bridge or short-term loan used to fund a value-add renovation program, which typically must be refinanced or repaid within a few years of acquisition. Building that refinancing risk into the initial underwriting avoids relying on a best-case rate assumption for a loan that will not be permanent. A conservative refinancing assumption also helps confirm the acquisition still makes sense if rates remain elevated through the renovation period.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "How does financing differ between a small multifamily property and a large apartment community?",
+   "a": "Properties with two to four units are generally financed with conventional residential mortgage products, while properties with five or more units require commercial underwriting, including debt service coverage requirements and, for stabilized assets, potential agency financing."
+  },
+  {
+   "q": "Why do exchange investors move capital into San Antonio multifamily from other Texas metros?",
+   "a": "San Antonio multifamily typically prices lower per unit than comparable Austin or Dallas assets, letting an investor acquire more unit count or newer construction for the same replacement value while still meeting like kind and debt replacement requirements."
+  },
+  {
+   "q": "What condition issues are common in older San Antonio apartment properties?",
+   "a": "Buildings from before the mid-1990s frequently carry roof, plumbing, or electrical systems nearing the end of their useful life, which should be priced into the offer before identification to avoid surprises during final underwriting."
+  },
+  {
+   "q": "Does multifamily property require more active management than other commercial asset types?",
+   "a": "Generally yes, compared to a triple net lease property where the tenant handles most expenses. Multifamily requires ongoing leasing, maintenance, and resident management, whether handled in-house or through a third-party property manager."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "multifamily-property-identification",
+   "label": "Multifamily Property Identification"
+  },
+  {
+   "slug": "multifamily-replacement-sourcing",
+   "label": "Multifamily Replacement Sourcing"
+  },
+  {
+   "slug": "apartment-building-investing",
+   "label": "Apartment Building Investing Explained"
+  }
+ ],
+ "wordCount": 867
+}

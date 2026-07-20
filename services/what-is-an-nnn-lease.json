@@ -1,0 +1,87 @@
+{
+ "slug": "what-is-an-nnn-lease",
+ "taxonomy": "upstream-funnel",
+ "title": "What Is an NNN Lease",
+ "name": "What Is an NNN Lease",
+ "metaTitle": "What Is an NNN Lease: Single, Double, and Triple Net Explained",
+ "metaDescription": "A plain language walkthrough of the single, double, and triple net lease structures and what each obligates the tenant to pay compared to a standard gross lease.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>An NNN lease, short for triple net lease, is one point on a spectrum of commercial lease structures that differ in how much of a property's operating expenses are shifted from the landlord to the tenant. Understanding where a specific lease falls on that spectrum, single net, double net, triple net, or a full gross lease, is essential for a San Antonio investor comparing commercial properties, since two buildings with identical rent figures can produce very different net income for the landlord depending on which expenses the lease actually assigns to the tenant.</p>"
+  },
+  {
+   "heading": "Gross Lease: The Landlord Pays Most Expenses",
+   "html": "<p>At one end of the spectrum, a full service gross lease has the tenant pay a flat rent that already includes the landlord's cost of taxes, insurance, and maintenance, with the landlord responsible for managing and paying all of those expenses directly. Gross leases are common in office buildings with multiple tenants sharing common spaces, since it is simpler to bundle those costs into rent than to allocate shared expenses like lobby maintenance or elevator service among several tenants individually.</p>"
+  },
+  {
+   "heading": "Single Net Lease (N)",
+   "html": "<p>A single net lease has the tenant pay base rent plus property taxes, while the landlord remains responsible for insurance and maintenance. This structure is less common in modern commercial leasing than double or triple net arrangements but still appears in some retail and office settings, particularly where the landlord wants to retain control over building insurance and maintenance standards.</p>"
+  },
+  {
+   "heading": "Double Net Lease (NN)",
+   "html": "<p>A double net lease has the tenant pay base rent plus property taxes and insurance, while the landlord typically retains responsibility for structural maintenance, such as the roof and exterior walls. Double net leases are common in multi-tenant retail and light industrial settings where individual tenant spaces are separately metered and insurable but the building's structural systems are shared or more efficiently managed by the landlord.</p>"
+  },
+  {
+   "heading": "Triple Net Lease (NNN)",
+   "html": "<p>A triple net lease has the tenant pay base rent plus taxes, insurance, and maintenance, and in an absolute NNN lease, the tenant also assumes responsibility for structural and roof repairs, leaving the landlord with the most passive of the standard net lease structures. This is the structure most commonly associated with single tenant retail properties such as pharmacies, quick service restaurants, and dollar stores, the property type most frequently marketed as NNN investment property in San Antonio and nationally.</p>"
+  },
+  {
+   "heading": "Why the Distinction Matters for Underwriting",
+   "html": "<p>Because the same quoted rent figure can carry very different landlord obligations depending on which net lease structure applies, comparing two properties by rent or cap rate alone without confirming the underlying lease structure can lead to a mistaken comparison. A property advertised with a higher cap rate under a double net lease may actually deliver similar or lower net income than a triple net property with a lower headline cap rate, once the landlord's retained maintenance obligations are factored in.</p>"
+  },
+  {
+   "heading": "Reading the Actual Lease Rather Than Relying on Labels",
+   "html": "<p>Because these terms are used inconsistently across the industry, with some brokers labeling a lease NNN even when the landlord retains certain structural responsibilities, the only reliable way to confirm a property's true expense allocation is to review the actual lease document rather than relying on the marketing description. A San Antonio investor evaluating any net lease property, whether for direct purchase or as 1031 exchange replacement property, should confirm the specific responsibility allocation for taxes, insurance, roof, structure, and common area maintenance before finalizing an offer.</p>"
+  },
+  {
+   "heading": "How Net Lease Structure Affects Valuation",
+   "html": "<p>Because the net lease structure directly determines the landlord's net income for a given rent figure, appraisers and buyers generally value comparable NNN, double net, and single net properties differently even at similar headline rents, adjusting the effective income downward for any expense category the landlord retains. A San Antonio buyer comparing two similarly priced retail buildings should build a normalized net income comparison across each lease structure rather than relying on cap rate alone, since an apparently attractive cap rate on a lease with more landlord obligations can understate the true ongoing cost of ownership.</p>"
+  },
+  {
+   "heading": "Common Area Maintenance in Multi-Tenant Net Leases",
+   "html": "<p>In a multi-tenant retail center operating under net lease terms, common area maintenance charges, covering parking lot upkeep, landscaping, and shared lighting, are typically billed to tenants proportionally based on their leased square footage relative to the total center. Reconciling actual common area maintenance costs against amounts collected from tenants is an ongoing landlord responsibility even in an otherwise well structured net lease arrangement, and any shortfall between collected and actual costs falls to the landlord unless the lease specifically caps tenant obligations below actual cost.</p>"
+  },
+  {
+   "heading": "Net Lease Terminology Across Property Types",
+   "html": "<p>The single, double, and triple net framework applies across retail, industrial, and, less commonly, office property, though industry usage varies somewhat by asset class and region. An industrial lease described as triple net in San Antonio generally follows the same tenant-pays structure as a triple net retail lease, but the specific expense categories negotiated, particularly around structural and roof responsibility, should still be confirmed lease by lease rather than assumed from the property type alone.</p>"
+  },
+  {
+   "heading": "Starting Point for a San Antonio Buyer or Exchange Investor",
+   "html": "<p>For a San Antonio buyer new to net lease property, the practical starting point is simple: read the lease before relying on any marketing label, confirm exactly which expenses the tenant covers and which the landlord retains, and compare properties on normalized net income rather than headline rent or cap rate alone. That discipline applies equally whether the purchase is a first commercial acquisition or a 1031 exchange replacement property under a forty five day identification deadline.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What is the main difference between a double net and a triple net lease?",
+   "a": "A double net lease has the tenant pay taxes and insurance while the landlord typically retains structural maintenance responsibility. A triple net lease adds maintenance, and often structural repairs in an absolute NNN lease, to the tenant's obligations."
+  },
+  {
+   "q": "Is a gross lease ever a better fit than a net lease for a commercial landlord?",
+   "a": "It can be for multi-tenant properties, such as office buildings, where bundling shared expenses into rent is simpler than allocating them individually among tenants. Net leases are more common for single tenant or larger anchor tenant retail and industrial properties."
+  },
+  {
+   "q": "Why do two properties with the same rent sometimes produce different net income for the landlord?",
+   "a": "Because the net lease structure determines which expenses the landlord retains. A property with more landlord-retained obligations, such as roof maintenance under a double net lease, generally produces lower net income than a comparable triple net property at the same rent."
+  },
+  {
+   "q": "Should a buyer rely on a property being labeled NNN in marketing materials?",
+   "a": "No. Labels are used inconsistently across the industry. The actual lease document should be reviewed to confirm exactly which expenses, including structural and roof items, are assigned to the tenant versus retained by the landlord."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "triple-net-lease-nnn",
+   "label": "Triple Net Lease (NNN) Explained"
+  },
+  {
+   "slug": "nnn-and-stnl-property-sourcing",
+   "label": "NNN and STNL Property Sourcing"
+  },
+  {
+   "slug": "retail-property-identification",
+   "label": "Retail Property Identification"
+  }
+ ],
+ "wordCount": 884
+}

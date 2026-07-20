@@ -1,0 +1,79 @@
+{
+ "slug": "home-sale-capital-gains",
+ "taxonomy": "upstream-funnel",
+ "title": "Capital Gains on the Sale of a Home",
+ "name": "Capital Gains on the Sale of a Home",
+ "metaTitle": "Capital Gains on the Sale of a Home in San Antonio, TX",
+ "metaDescription": "How the Section 121 primary residence exclusion works, and why it differs sharply from the deferral rules that apply to investment property sales.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Selling a primary residence in San Antonio is treated very differently under federal tax law than selling a rental or investment property. A homeowner who has owned and used the home as a primary residence for at least two of the five years before the sale can exclude up to two hundred fifty thousand dollars of gain from federal tax if filing single, or up to five hundred thousand dollars if filing a joint return, under Internal Revenue Code Section 121. This exclusion applies once every two years and requires no reinvestment, no qualified intermediary, and no identification period, which makes it fundamentally simpler than the mechanics behind a 1031 exchange.</p>"
+  },
+  {
+   "heading": "Calculating Gain on a Primary Home Sale",
+   "html": "<p>Gain is calculated the same basic way as any other property sale: sale price minus selling costs minus adjusted basis, where adjusted basis is the original purchase price plus the cost of qualifying capital improvements such as a room addition, a new roof, or a kitchen remodel. Routine repairs and maintenance do not add to basis. A San Antonio homeowner who bought a house in Alamo Heights for four hundred thousand dollars, added a sixty thousand dollar addition, and later sold for seven hundred thousand dollars would calculate a gain of two hundred forty thousand dollars, which would fall entirely within the two hundred fifty thousand dollar single filer exclusion.</p>"
+  },
+  {
+   "heading": "When Gain Exceeds the Exclusion Amount",
+   "html": "<p>If the calculated gain exceeds the applicable exclusion amount, the excess is taxed at ordinary long term capital gains rates, the same rates that apply to investment property, assuming the home was held more than one year. Unlike a rental property, a primary residence generally carries no depreciation recapture, because depreciation deductions are not available on a home used exclusively as a personal residence. If part of the home was used for a home office or rented out for a period, that portion may carry its own basis and recapture considerations.</p>"
+  },
+  {
+   "heading": "Section 121 Does Not Interact With 1031 Exchange Rules",
+   "html": "<p>A primary residence generally does not qualify for a 1031 exchange because Section 1031 requires the relinquished property to be held for investment or business use, not personal use. A homeowner selling a primary residence in San Antonio relies on the Section 121 exclusion, not a 1031 exchange, to manage the tax on the sale. The two provisions can intersect in a converted property, where a home was used partly as a rental and partly as a primary residence, but that scenario requires careful allocation between the two provisions and should be reviewed with a tax advisor before the sale closes.</p>"
+  },
+  {
+   "heading": "Ownership and Use Tests",
+   "html": "<p>To qualify for the Section 121 exclusion, the seller must satisfy both an ownership test and a use test, meaning the home must have been owned and used as the seller's main home for at least twenty four months out of the sixty months immediately before the sale. The twenty four months do not need to be continuous. Certain exceptions for military service, health related moves, and other unforeseen circumstances can allow a partial exclusion even if the full two year requirement is not met, which is worth reviewing with a tax professional for any San Antonio homeowner selling sooner than expected.</p>"
+  },
+  {
+   "heading": "Documenting Capital Improvements",
+   "html": "<p>Because capital improvements increase basis and directly reduce taxable gain, a San Antonio homeowner planning to sell should keep receipts and permits for major projects such as a pool installation, a roof replacement, a garage conversion, or a whole home renovation. Cosmetic work such as painting or landscaping generally does not qualify as a capital improvement for basis purposes. Even when the exclusion is expected to cover the full gain, documenting improvements protects the homeowner if the property has appreciated more than anticipated or if part of the exclusion has already been used within the prior two years.</p>"
+  },
+  {
+   "heading": "How This Differs From an Investment Property Sale",
+   "html": "<p>The contrast between a primary residence sale and an investment property sale is significant for anyone who owns both types of real estate in San Antonio. A rental property sale carries no Section 121 exclusion, is subject to depreciation recapture, and can be deferred through a 1031 exchange, while a primary residence sale carries the Section 121 exclusion, generally has no recapture, and generally cannot be deferred through a 1031 exchange. An owner converting a rental into a primary residence, or the reverse, should track the change in use carefully, since the tax treatment on eventual sale depends on how the property was used during specific periods of ownership.</p>"
+  },
+  {
+   "heading": "Reporting the Sale on a Federal Return",
+   "html": "<p>Even when the full gain is covered by the Section 121 exclusion, a homeowner generally does not need to report the sale unless a Form 1099-S was issued or the gain exceeds the applicable exclusion amount. When a portion of the gain is taxable, that portion is reported on Schedule D and Form 8949 for the year of sale. A San Antonio homeowner uncertain about whether a 1099-S was issued should confirm with the title company that closed the sale, since the reporting requirement depends on that form regardless of whether the gain is fully excluded.</p>"
+  },
+  {
+   "heading": "Married Couples and Partial Ownership Periods",
+   "html": "<p>A married couple filing jointly can claim the full five hundred thousand dollar exclusion only if both spouses meet the use test, even though only one spouse needs to meet the ownership test. A couple who married after one spouse already owned the San Antonio home, or a surviving spouse selling within two years of a partner's death, may qualify for special rules that preserve access to the larger exclusion amount even when the standard two person test is not squarely met, which is worth confirming with a tax advisor rather than assuming disqualification.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "How much gain can a San Antonio homeowner exclude when selling a primary residence?",
+   "a": "Up to two hundred fifty thousand dollars for a single filer, or up to five hundred thousand dollars for a married couple filing jointly, provided the ownership and use tests under Section 121 are met."
+  },
+  {
+   "q": "Does a primary residence sale involve depreciation recapture?",
+   "a": "Generally no, because depreciation is not claimed on a home used exclusively as a personal residence. A period of rental or home office use within the ownership period can create a separate recapture consideration for that portion."
+  },
+  {
+   "q": "Can the Section 121 exclusion be used more than once?",
+   "a": "Yes, but generally only once every two years, and only if the ownership and use tests are met again for the next home sale."
+  },
+  {
+   "q": "Can a primary residence be exchanged under Section 1031?",
+   "a": "Generally no. Section 1031 requires the property to be held for investment or business use, which excludes a home used exclusively as a personal residence. Converted properties with mixed use require separate analysis."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "section-121-exclusion-explained",
+   "label": "The Section 121 Exclusion Explained"
+  },
+  {
+   "slug": "second-home-capital-gains-tax",
+   "label": "Capital Gains Tax on a Second Home"
+  },
+  {
+   "slug": "capital-gains-on-rental-property",
+   "label": "Capital Gains on Rental Property"
+  }
+ ],
+ "wordCount": 914
+}

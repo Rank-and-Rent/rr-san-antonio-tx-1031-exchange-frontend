@@ -1,0 +1,75 @@
+{
+ "slug": "second-home-capital-gains-tax",
+ "taxonomy": "upstream-funnel",
+ "title": "Capital Gains Tax on a Second Home",
+ "name": "Capital Gains Tax on a Second Home",
+ "metaTitle": "Capital Gains Tax on a Second Home Near San Antonio, TX",
+ "metaDescription": "Why a second home generally does not qualify for the Section 121 exclusion, and what a San Antonio owner selling one should expect at tax time.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A second home, such as a lake house on Canyon Lake or a getaway property in the Hill Country purchased by a San Antonio resident, is treated differently from both a primary residence and a rental property under federal tax law. Unless the owner meets the ownership and use test for that specific property as a main home, the Section 121 exclusion generally does not apply, which means the full gain on sale is subject to capital gains tax with no exclusion cushion.</p>"
+  },
+  {
+   "heading": "Second Home Versus Primary Residence",
+   "html": "<p>The Section 121 exclusion applies only to the home the taxpayer uses as a main home for at least two of the five years before sale. A second home used for vacations, weekends, or occasional stays does not meet the use test even if it is owned for many years, so its sale is taxed under the same general capital gains rules as an investment property, without the benefit of an exclusion, unless the owner actually converts it into a main home for a qualifying period before selling.</p>"
+  },
+  {
+   "heading": "Second Home Versus Rental Property",
+   "html": "<p>A second home also differs from a rental property in an important way: if the home is used purely for personal enjoyment and never rented, no depreciation is claimed, so there is no depreciation recapture on sale. If the owner has rented the home out for part of the year, even occasionally, the portion of expenses and any depreciation allocated to rental use creates its own recapture exposure on that fraction of the property, which requires careful allocation between personal and rental use when the sale is reported.</p>"
+  },
+  {
+   "heading": "Mortgage Interest and Carrying Costs",
+   "html": "<p>Because a second home generally does not generate rental income, its carrying costs, including mortgage interest within applicable limits and property taxes, are typically deducted as itemized personal deductions rather than as rental expenses against income. This affects the owner's overall tax picture during the ownership period but does not change how the gain is calculated at sale, which still starts from adjusted basis, being the purchase price plus qualifying capital improvements, compared against the net sale price.</p>"
+  },
+  {
+   "heading": "Converting a Second Home Into a Primary Residence",
+   "html": "<p>An owner who moves into a second home and uses it as a main home for at least two years before selling may become eligible for the Section 121 exclusion on that later sale, though special rules reduce the exclusion for any period the home was used as a non-qualifying second home after January 1, 2009. This nonqualified use calculation is technical and should be reviewed with a tax advisor well before a sale, since it changes the exclusion available even after the two year use test is otherwise satisfied.</p>"
+  },
+  {
+   "heading": "Does a Second Home Qualify for a 1031 Exchange",
+   "html": "<p>A second home used primarily for personal enjoyment generally does not qualify as investment or business property under Section 1031. The IRS has provided a safe harbor for dwelling units that are rented at fair market rent for at least fourteen days per year and used personally for no more than the greater of fourteen days or ten percent of the days rented, which can allow a vacation property operated more like a rental to qualify for exchange treatment. A San Antonio owner considering exchanging a lake house or Hill Country property should review actual usage against that safe harbor before assuming either the Section 121 exclusion or 1031 treatment applies.</p>"
+  },
+  {
+   "heading": "Modeling the Sale Before Listing a Second Home",
+   "html": "<p>Because a second home rarely benefits from either the Section 121 exclusion or full 1031 deferral in the ordinary case, an owner should model the expected capital gains liability early, before signing a listing agreement, rather than assuming one of those provisions will apply. This means pulling together the original purchase settlement statement, records of any capital improvements such as a dock, deck, or major renovation at a Canyon Lake property, and, if the home was ever rented, a summary of any depreciation claimed during that period.</p><p>A San Antonio owner who has used a second home partly for personal enjoyment and partly as a short term rental, common for Hill Country and lake properties marketed on rental platforms, needs an allocation between personal and rental use for each tax year the property was owned. That allocation determines both how much of any prior depreciation is subject to recapture and whether the fair market rental safe harbor for 1031 treatment has actually been satisfied, since falling short of the required rental days or exceeding the personal use limit in even one year can affect how the property is characterized for the entire holding period leading up to sale.</p>"
+  },
+  {
+   "heading": "Financing and Insurance Differences Worth Noting",
+   "html": "<p>Second homes near San Antonio, particularly waterfront property on Canyon Lake or Hill Country acreage, often carry different financing terms and insurance requirements than a primary residence or a straightforward rental, including higher down payment expectations and, in flood-prone areas, mandatory flood insurance. None of this changes the federal capital gains treatment on sale, but it is worth factoring into the overall economics of owning a second home, since carrying costs during the holding period can be meaningfully different from a primary residence even though the tax treatment at sale follows the same general capital gains framework as other non-excluded property. Owners should also confirm how any homeowners association dues, shoreline use rights, or well and septic permitting specific to Hill Country and lake properties factor into their overall cost basis and ongoing carrying costs, since these details vary widely by county and can affect both financing terms and the eventual net proceeds from a sale.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Can a San Antonio resident use the Section 121 exclusion on a lake house or vacation home?",
+   "a": "Generally no, unless the property was actually used as the owner's main home for at least two of the five years before sale. Occasional or vacation use alone does not satisfy the use test."
+  },
+  {
+   "q": "Is there depreciation recapture on a second home that was never rented?",
+   "a": "No. Depreciation recapture only applies to the extent depreciation was claimed, which requires rental or business use. A purely personal second home generates no depreciation and therefore no recapture."
+  },
+  {
+   "q": "Can a second home qualify for a 1031 exchange?",
+   "a": "It can in limited circumstances, generally where the property is rented at fair market rent for a minimum period each year and personal use stays within IRS safe harbor limits. A property used mainly for personal enjoyment typically does not qualify."
+  },
+  {
+   "q": "What happens if a second home is converted into a primary residence before selling?",
+   "a": "It may become eligible for the Section 121 exclusion once the two year use test is met, though a nonqualified use calculation can reduce the exclusion for periods before the conversion, which should be reviewed with a tax advisor."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "home-sale-capital-gains",
+   "label": "Capital Gains on the Sale of a Home"
+  },
+  {
+   "slug": "section-121-exclusion-explained",
+   "label": "The Section 121 Exclusion Explained"
+  },
+  {
+   "slug": "is-a-rental-a-good-investment",
+   "label": "Is a Rental Property a Good Investment"
+  }
+ ],
+ "wordCount": 895
+}

@@ -1,0 +1,79 @@
+{
+ "slug": "real-estate-crowdfunding-explained",
+ "taxonomy": "upstream-funnel",
+ "title": "Real Estate Crowdfunding Explained",
+ "name": "Real Estate Crowdfunding Explained",
+ "metaTitle": "Real Estate Crowdfunding Explained: Structure and 1031 Exchange Limits",
+ "metaDescription": "How online crowdfunding platforms structure real estate investments, and why most crowdfunded positions are securities rather than like kind property under 1031 exchange rules.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Real estate crowdfunding platforms let investors commit relatively small amounts of capital toward a specific property or a pooled fund through an online portal, aggregating many investors into a single deal that would otherwise require a much larger individual check. For a San Antonio investor curious about crowdfunding, the appeal is usually accessibility, low minimum investments and simple online onboarding, but the underlying legal structure carries the same considerations as any securities offering, along with specific limits on how the resulting interest can be used in a 1031 exchange.</p>"
+  },
+  {
+   "heading": "How a Crowdfunding Offering Is Typically Structured",
+   "html": "<p>Most real estate crowdfunding platforms structure each offering as an interest in a limited liability company or limited partnership that holds the underlying property or portfolio, similar in structure to a traditional syndication but marketed and distributed through an online platform rather than a direct sponsor relationship. Some platforms offer debt investments, where the investor effectively lends money secured by real estate, while others offer equity investments, where the investor shares in ownership, cash flow, and appreciation of the underlying asset.</p>"
+  },
+  {
+   "heading": "Why Crowdfunded Equity Generally Does Not Qualify for a 1031 Exchange",
+   "html": "<p>Because a crowdfunding equity investment typically gives the investor a membership or partnership interest in the entity holding the property, rather than direct or beneficial title to the real property itself, it generally does not satisfy the like kind requirement under Section 1031. This holds true even when the underlying property is a genuine piece of real estate that would itself qualify for an exchange if owned directly; the entity structure sitting between the investor and the property is what disqualifies the interest, not the nature of the property.</p>"
+  },
+  {
+   "heading": "Debt-Based Crowdfunding Investments",
+   "html": "<p>A debt-based crowdfunding investment, where the investor's return comes from interest payments on a loan secured by real estate, is even further removed from qualifying as like kind property, since the investor holds a debt instrument rather than any form of equity or property interest at all. These investments are evaluated primarily on credit risk, the borrower's ability to repay, and the loan-to-value ratio against the underlying collateral, rather than on real estate appreciation potential.</p>"
+  },
+  {
+   "heading": "Platform and Sponsor Risk",
+   "html": "<p>Crowdfunding investments carry risk at both the platform level and the underlying deal level: the platform itself could face financial or operational difficulty independent of any specific property's performance, and the underlying deal sponsor's execution still drives actual returns. Fee structures, including platform fees layered on top of sponsor fees, can also reduce net returns compared to a direct syndication relationship, which is worth factoring into any comparison between a crowdfunding platform and a traditional sponsor-led syndication.</p>"
+  },
+  {
+   "heading": "Securities Status and Investor Eligibility",
+   "html": "<p>Most real estate crowdfunding offerings are securities, sold either to accredited investors under a private placement exemption or, for certain platforms, to a broader base of investors under Regulation A or Regulation Crowdfunding rules, each of which imposes its own investment limits and disclosure requirements. This discussion is educational only, not investment or tax advice, and any specific crowdfunding offering should be reviewed with a tax advisor and a licensed securities professional, with particular attention to which regulatory exemption applies and what investment limits it imposes.</p>"
+  },
+  {
+   "heading": "Where Crowdfunding Fits for a San Antonio Investor",
+   "html": "<p>Crowdfunding can be a reasonable way to add small, diversified real estate exposure to a broader investment portfolio, particularly for an investor without the capital or desire to acquire property directly. It is generally not a fit for an investor working within a 1031 exchange timeline who needs the replacement capital to remain eligible for continued deferral, since the entity structure behind most crowdfunded equity positions removes that eligibility.</p>"
+  },
+  {
+   "heading": "Comparing Crowdfunding to a DST Placement for Exchange Purposes",
+   "html": "<p>An investor who wants both the accessibility of a low minimum investment and 1031 exchange eligibility should look specifically at DST offerings marketed for exchange purposes rather than general crowdfunding platforms, since many DST sponsors offer minimum investments well below what a direct property purchase would require, while still preserving the deed-level or beneficial ownership structure that satisfies the like kind requirement. The two categories can look similar from an online marketing perspective, both offering fractional access to institutional-quality property, but the underlying legal structure determines whether the capital can defer tax through an exchange or not, which makes reading the actual offering documents, not just the platform's marketing summary, an essential step before committing capital from a San Antonio property sale.</p>"
+  },
+  {
+   "heading": "Questions Worth Asking Before Funding a Crowdfunding Investment",
+   "html": "<p>Before wiring funds to any crowdfunding platform, a San Antonio investor should confirm how the specific offering is structured, whether it is debt or equity, what fees apply at both the platform and sponsor level, what the projected hold period and exit strategy are, and, if 1031 exchange eligibility matters for that capital, whether the offering involves direct or beneficial property ownership rather than an entity interest. Platform marketing materials do not always make this structural distinction obvious, so reviewing the actual offering documents rather than the summary page remains the most reliable way to confirm what is actually being purchased. A San Antonio investor with any doubt about the structure should ask the platform directly whether the offering is intended to qualify for 1031 exchange treatment, and should get that answer confirmed in writing before committing capital that is tied to an active exchange timeline. Absent that written confirmation, it is safer to assume the offering does not qualify.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Can 1031 exchange proceeds be invested through a real estate crowdfunding platform?",
+   "a": "Generally no, if the offering is structured as an equity interest in an entity that owns the property, since that interest does not satisfy the like kind requirement under Section 1031. Direct property purchases and qualifying DST or TIC interests remain the paths that work."
+  },
+  {
+   "q": "What is the difference between debt and equity crowdfunding investments?",
+   "a": "A debt investment functions like a loan secured by real estate, with returns from interest payments. An equity investment gives the investor an ownership interest in the entity holding the property, with returns from cash flow and appreciation, and correspondingly more risk and more upside."
+  },
+  {
+   "q": "Are crowdfunding platforms regulated?",
+   "a": "Yes. Offerings are generally structured as securities under applicable federal exemptions, including private placements to accredited investors or, on some platforms, Regulation A or Regulation Crowdfunding offerings open to a broader investor base with specific limits."
+  },
+  {
+   "q": "Is crowdfunding a good option for diversifying a real estate portfolio?",
+   "a": "It can be, for capital not earmarked for a 1031 exchange, since it allows relatively small investments across multiple properties or markets. Any specific platform and offering should be reviewed for fees, sponsor track record, and securities eligibility requirements."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "real-estate-syndication-explained",
+   "label": "Real Estate Syndication Explained"
+  },
+  {
+   "slug": "fractional-real-estate-investing",
+   "label": "Fractional Real Estate Investing Explained"
+  },
+  {
+   "slug": "passive-real-estate-income",
+   "label": "Passive Real Estate Income Explained"
+  }
+ ],
+ "wordCount": 854
+}

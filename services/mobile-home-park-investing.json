@@ -1,0 +1,87 @@
+{
+ "slug": "mobile-home-park-investing",
+ "taxonomy": "upstream-funnel",
+ "title": "Mobile Home Park Investing Explained",
+ "name": "Mobile Home Park Investing Explained",
+ "metaTitle": "Mobile Home Park Investing Explained: Park-Owned vs Tenant-Owned Homes",
+ "metaDescription": "Why manufactured housing communities can offer stable income, and the diligence points specific to park-owned versus tenant-owned homes that shape the investment.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Mobile home park investing, more formally described as manufactured housing community investing, involves owning the land, infrastructure, and, in some cases, the homes themselves within a community of manufactured housing sites. The asset class has attracted investor interest for its combination of comparatively affordable housing demand, which tends to be resilient in economic downturns, and, in many parks, lower capital expenditure exposure than traditional multifamily property, since the land and infrastructure generally require less ongoing maintenance than apartment buildings.</p>"
+  },
+  {
+   "heading": "Land-Lease Versus Community-Owned Homes",
+   "html": "<p>The defining underwriting distinction in this asset class is whether the community operates on a land-lease model, where residents own their homes and pay lot rent for the land and shared infrastructure, or a community-owned model, where the operator owns the homes themselves and rents them along with the lot. Land-lease communities generally carry lower capital expenditure requirements and simpler operations, since the operator is not responsible for individual home maintenance, while community-owned models require more active property management similar to traditional multifamily but can command higher total rent per site.</p>"
+  },
+  {
+   "heading": "Why Demand Tends to Be Resilient",
+   "html": "<p>Manufactured housing offers among the most affordable housing options available in most markets, which supports demand resilience during economic downturns as residents seek lower cost housing alternatives. San Antonio and the surrounding South Texas region include a range of manufactured housing communities serving this affordable housing need, particularly in areas outside the urban core where land costs support this lower density, lower cost housing format.</p>"
+  },
+  {
+   "heading": "Infrastructure and Capital Expenditure Considerations",
+   "html": "<p>Even in a land-lease model where the operator does not own individual homes, the park's underlying infrastructure, roads, water and sewer systems, and electrical service, remains the operator's responsibility, and older infrastructure in some parks can require significant capital investment to bring up to current standards or to remedy deferred maintenance. Water and sewer system condition in particular should be a central diligence item, since infrastructure failures can be costly and, depending on local regulations, can trigger compliance obligations with municipal or state utility authorities.</p>"
+  },
+  {
+   "heading": "Occupancy and Site Rent Growth",
+   "html": "<p>Mobile home park underwriting centers on occupied site count relative to total site capacity, achieved lot rent compared to market lot rent in the surrounding area, and the pace at which vacant sites can realistically be filled, since bringing a new home onto a vacant site involves cost and time that differs from simply re-leasing an existing apartment unit. Parks with a mix of company-owned rental homes and resident-owned homes should be underwritten with separate assumptions for each category, since the operating and turnover economics differ meaningfully between them.</p>"
+  },
+  {
+   "heading": "Financing Manufactured Housing Communities",
+   "html": "<p>Financing for manufactured housing communities is available through conventional commercial lenders and, for larger and well-stabilized parks, agency programs similar to those available for traditional multifamily property, though lender familiarity with the asset class varies and some lenders apply more conservative underwriting to parks with a significant share of park-owned homes given the added operational responsibility that model carries.</p>"
+  },
+  {
+   "heading": "Mobile Home Parks as 1031 Replacement Property",
+   "html": "<p>A mobile home park, as real property held for investment or business use, generally qualifies as like kind replacement property for a 1031 exchange, provided the underlying land and, where applicable, park-owned homes are properly identified within the transaction. An investor exchanging out of a San Antonio multifamily property into a manufactured housing community should confirm with a tax advisor how any park-owned homes, which can sometimes be treated differently than the underlying land for basis and depreciation purposes, are handled within the exchange.</p>"
+  },
+  {
+   "heading": "Regulatory and Zoning Considerations",
+   "html": "<p>Manufactured housing communities can face zoning restrictions that limit new development of this property type in many municipalities, which supports existing supply value but also means expanding an existing park's site count is not always straightforward. State and local regulations governing manufactured housing communities, including eviction and rent increase notice requirements that can differ from standard residential landlord-tenant rules, should be reviewed carefully for any Texas community under consideration.</p>"
+  },
+  {
+   "heading": "Diligence Items Specific to Manufactured Housing Communities",
+   "html": "<p>Diligence on a manufactured housing community should include a site-by-site inventory confirming which homes are resident-owned versus park-owned, a physical infrastructure assessment covering roads, water, sewer, and electrical systems, and a review of local zoning and any nonconforming use status that could restrict rebuilding or expansion. A survey confirming the exact number of leasable sites, and any encroachment or boundary issues common in older communities, is also a standard step before closing.</p>"
+  },
+  {
+   "heading": "Where This Asset Class Fits an Investor's Portfolio",
+   "html": "<p>Manufactured housing community investing tends to fit an investor comfortable with a somewhat different tenant base and operating model than traditional multifamily, in exchange for potentially lower capital expenditure exposure in a land-lease structure and resilient demand tied to housing affordability. As with any specialized asset class, working with a broker, lender, and property manager experienced in manufactured housing specifically, rather than general multifamily professionals, generally produces better underwriting and operating outcomes for a San Antonio area acquisition, particularly given how specialized the operating and regulatory considerations are compared to conventional multifamily property.</p>"
+  },
+  {
+   "heading": "Summary for a First-Time Buyer in This Asset Class",
+   "html": "<p>A first-time manufactured housing community buyer in the San Antonio region should prioritize confirming the land-lease versus community-owned split, the physical condition of underlying infrastructure, and local zoning status before evaluating rent growth or return projections, since issues in any of these foundational areas can undermine an otherwise attractive return profile. Building a relationship with lenders and brokers already active in this specialized niche shortens the learning curve considerably.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What is the difference between a land-lease and a community-owned mobile home park?",
+   "a": "In a land-lease park, residents own their homes and pay lot rent for the land and infrastructure. In a community-owned park, the operator owns the homes and rents them along with the lot, which requires more active management but can command higher total rent per site."
+  },
+  {
+   "q": "Why is water and sewer infrastructure such an important diligence item in mobile home park investing?",
+   "a": "Infrastructure failures can be costly to remedy and may trigger compliance obligations with municipal or state utility authorities. Older parks in particular should be evaluated closely for infrastructure condition before purchase."
+  },
+  {
+   "q": "Does a mobile home park qualify for a 1031 exchange?",
+   "a": "Yes, as real property held for investment or business use, a mobile home park generally qualifies as like kind replacement property, though how any park-owned homes are treated within the exchange should be confirmed with a tax advisor."
+  },
+  {
+   "q": "Is new mobile home park development common, and how does that affect existing parks?",
+   "a": "Zoning restrictions in many municipalities limit new manufactured housing community development, which tends to support the value of existing parks by limiting new competitive supply, though it also constrains an existing park's ability to expand easily."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "self-storage-investing",
+   "label": "Self Storage Investing Explained"
+  },
+  {
+   "slug": "multifamily-investing",
+   "label": "Multifamily Investing Explained"
+  },
+  {
+   "slug": "commercial-real-estate-investing",
+   "label": "Commercial Real Estate Investing Explained"
+  }
+ ],
+ "wordCount": 876
+}

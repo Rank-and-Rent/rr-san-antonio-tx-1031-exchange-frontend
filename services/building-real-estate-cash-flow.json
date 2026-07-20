@@ -1,0 +1,79 @@
+{
+ "slug": "building-real-estate-cash-flow",
+ "taxonomy": "upstream-funnel",
+ "title": "Building Real Estate Cash Flow",
+ "name": "Building Real Estate Cash Flow",
+ "metaTitle": "Building Real Estate Cash Flow: A San Antonio Investor's Guide",
+ "metaDescription": "How rent, operating expenses, and debt service combine to produce net cash flow on an income property, and the levers a San Antonio investor can pull to improve it.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Cash flow on an income property is what remains after collecting rent and paying every operating expense and debt service obligation for the period, and it is the metric that determines whether a San Antonio rental or commercial property is actually putting money in the investor's pocket each month, as opposed to simply appreciating on paper. Understanding how each component of the cash flow calculation works, and which levers an investor can realistically influence, is central to evaluating any income property before purchase and to managing one after closing.</p>"
+  },
+  {
+   "heading": "Gross Rental Income and Vacancy",
+   "html": "<p>Cash flow starts with gross potential rent, the total rent the property would generate if fully occupied at market rates, reduced by a vacancy and credit loss allowance that reflects realistic turnover and nonpayment risk for the specific property and San Antonio submarket. A property in a high-demand corridor with historically low vacancy can reasonably underwrite a smaller vacancy allowance than a property in a softer or more seasonal submarket, and using an unrealistically low vacancy assumption is one of the most common ways investors overstate expected cash flow before purchase.</p>"
+  },
+  {
+   "heading": "Operating Expenses",
+   "html": "<p>Operating expenses include property taxes, insurance, utilities not billed to tenants, repairs and maintenance, property management fees, and reserves for future capital items such as a roof or HVAC replacement. Texas property tax rates are notably higher than the national average since the state relies on property tax rather than income tax for much of its revenue, which makes accurate property tax estimation, including the effect of reassessment after a purchase at a higher price, particularly important when underwriting a San Antonio property's expected cash flow.</p>"
+  },
+  {
+   "heading": "Net Operating Income and Debt Service",
+   "html": "<p>Subtracting operating expenses from effective gross income produces net operating income, the figure used to calculate capitalization rate and to size debt service coverage requirements with a lender. Debt service, the mortgage principal and interest payment, is then subtracted from net operating income to arrive at cash flow before taxes. A property that looks attractive on a cap rate basis can still produce thin or negative cash flow if it is financed with a large loan at a rate that consumes most of the net operating income, which is why cash flow and cap rate need to be evaluated together rather than in isolation.</p>"
+  },
+  {
+   "heading": "Levers to Improve Cash Flow",
+   "html": "<p>An investor can generally improve cash flow on a San Antonio property through a combination of raising rent to market levels where the in-place rent is below market, reducing vacancy through better marketing and tenant retention, controlling operating expenses through competitive vendor bidding and preventive maintenance, and, where possible, refinancing debt to a lower rate or longer amortization when market conditions allow. Each lever has diminishing returns and real limits; pushing rent above what the local market supports typically increases vacancy and turnover costs that offset the higher rate.</p>"
+  },
+  {
+   "heading": "Cash on Cash Return",
+   "html": "<p>Cash flow is often expressed as a cash on cash return, the annual pre-tax cash flow divided by the actual cash invested in the property, including down payment and closing costs. This metric isolates the return on the investor's actual capital outlay, which is particularly relevant for a leveraged purchase where the loan proceeds cover most of the purchase price, and allows comparison across properties with different financing structures on a more apples to apples basis than comparing total cash flow alone.</p>"
+  },
+  {
+   "heading": "Cash Flow Considerations When Exchanging Into a New Property",
+   "html": "<p>An investor completing a 1031 exchange into a new San Antonio replacement property should model expected cash flow on the replacement property using the same rigor applied to the relinquished property sale, accounting for the new debt load required to satisfy the exchange's debt replacement requirement. A larger loan balance on the replacement property, needed to match or exceed debt retired on the relinquished property, can reduce cash flow even while the exchange successfully defers the capital gains tax that prompted the transaction in the first place.</p>"
+  },
+  {
+   "heading": "Reviewing Cash Flow Projections Before Committing",
+   "html": "<p>Before finalizing an offer on any San Antonio income property, whether a first rental or a replacement property in an exchange, it is worth building a full pro forma that lists projected gross rent, a realistic vacancy allowance, every operating expense line, and the actual proposed debt service, then stress testing that model against a modest rent decline or an unexpected capital expense in the first year of ownership. A property that only produces positive cash flow under the most optimistic assumptions leaves little room for the ordinary surprises that come with owning real estate, while a property that still cash flows under a more conservative case offers a larger margin of safety for the investor.</p>"
+  },
+  {
+   "heading": "Tracking Cash Flow After Purchase",
+   "html": "<p>Once a San Antonio property is under ownership, tracking actual cash flow against the original pro forma on at least a quarterly basis helps catch drift early, whether from rising property taxes after reassessment, insurance premium increases, or slower than expected lease-up in a vacant unit. An owner who reviews this comparison regularly can adjust rent, expense management, or even consider a sale or exchange before a small gap between projected and actual cash flow becomes a larger problem. Comparing actual results against the original underwriting also sharpens the assumptions used for the next acquisition, whether a direct purchase or a future 1031 exchange replacement property.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What is the difference between net operating income and cash flow?",
+   "a": "Net operating income is rental income minus operating expenses, before debt service. Cash flow subtracts the mortgage principal and interest payment from net operating income, reflecting what the investor actually keeps after financing costs."
+  },
+  {
+   "q": "Why are Texas property taxes an important factor in San Antonio cash flow projections?",
+   "a": "Texas has no state income tax and relies more heavily on property tax revenue, resulting in comparatively high property tax rates. Underestimating property taxes, including post-purchase reassessment, is a common cause of cash flow projections falling short of reality."
+  },
+  {
+   "q": "What is cash on cash return and how does it differ from cap rate?",
+   "a": "Cash on cash return measures annual cash flow against the actual cash invested, factoring in financing. Cap rate measures net operating income against the total purchase price, independent of financing, so the two can diverge significantly for a leveraged purchase."
+  },
+  {
+   "q": "Can refinancing improve cash flow on an existing property?",
+   "a": "It can, if market rates or the property's improved performance allow refinancing into a lower rate or longer amortization, reducing the debt service payment. Refinancing terms and costs should be modeled carefully against the expected benefit."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "is-a-rental-a-good-investment",
+   "label": "Is a Rental Property a Good Investment"
+  },
+  {
+   "slug": "rent-roll-analysis",
+   "label": "Rent Roll Analysis"
+  },
+  {
+   "slug": "t12-financial-review",
+   "label": "T12 Financial Review"
+  }
+ ],
+ "wordCount": 854
+}

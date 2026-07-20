@@ -1,0 +1,79 @@
+{
+ "slug": "capital-gains-on-investment-property",
+ "taxonomy": "upstream-funnel",
+ "title": "Capital Gains on Investment Property",
+ "name": "Capital Gains on Investment Property",
+ "metaTitle": "Capital Gains on Investment Property in Texas",
+ "metaDescription": "A breakdown of how federal capital gains tax is calculated on the sale of commercial and investment real estate held in Texas, and where deferral options fit in.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Investment property in Texas, whether a retail strip center, a small industrial building, or a multifamily property, is subject to federal capital gains tax on sale, calculated on the difference between the sale price and the property's adjusted basis. Because Texas imposes no state income tax, the entire tax burden on a San Antonio investment property sale is federal, which is a meaningfully different math than a seller relocating capital from a state with its own capital gains tax layered on top of the federal rate.</p>"
+  },
+  {
+   "heading": "Short Term Versus Long Term Treatment",
+   "html": "<p>Investment property held for one year or less is taxed at ordinary income rates on sale, which can run as high as thirty seven percent for a high income seller. Property held longer than one year qualifies for long term capital gains treatment, with federal rates of zero, fifteen, or twenty percent depending on the seller's total taxable income for the year, plus a potential three point eight percent net investment income tax for higher income filers. Most investment property held for cash flow rather than a quick resale falls into the long term category by the time it sells.</p>"
+  },
+  {
+   "heading": "Depreciation Recapture on Commercial and Investment Assets",
+   "html": "<p>Commercial and multifamily investment property is depreciated over a set recovery period, typically thirty nine years for nonresidential property and twenty seven and one half years for residential rental property, and every dollar of depreciation claimed reduces basis and increases the eventual gain. On sale, the portion of gain attributable to depreciation is taxed separately as unrecaptured section 1250 gain at a maximum rate of twenty five percent, regardless of the seller's ordinary capital gains bracket. A property held for many years, common among San Antonio investors who bought in the early 2010s, can carry a large recapture component even if price appreciation was modest.</p>"
+  },
+  {
+   "heading": "Net Investment Income Tax Considerations",
+   "html": "<p>Sellers with modified adjusted gross income above two hundred thousand dollars for a single filer, or two hundred fifty thousand dollars for a married couple filing jointly, may owe an additional three point eight percent net investment income tax on the lesser of their net investment income or the amount their income exceeds the threshold. A large one time gain from an investment property sale can push a seller's income well past that threshold for the year of sale, which is a factor worth modeling before deciding whether to sell outright or pursue a 1031 exchange.</p>"
+  },
+  {
+   "heading": "Deferral Through a 1031 Exchange",
+   "html": "<p>A 1031 exchange remains the primary federal mechanism for deferring both the capital gains tax and the depreciation recapture on investment property, provided the replacement property is also held for investment or business use and the exchange follows the forty five day identification and one hundred eighty day closing windows. The exchange does not reduce the eventual liability; it postpones it and allows the full sale proceeds, rather than an after tax amount, to be redeployed into the next property.</p>"
+  },
+  {
+   "heading": "State Tax Portability for Out of State Sellers",
+   "html": "<p>An investor who owns property in another state with its own capital gains tax and later acquires replacement property in Texas through a 1031 exchange can, in many cases, defer that other state's tax as well as the federal liability, since most states with an income tax generally follow the federal deferral rules for like kind exchanges. Once that investor eventually sells Texas property outright rather than exchanging again, only the federal liability applies going forward, since Texas itself never imposes a capital gains tax. This is one reason investors from higher tax states have used exchanges to relocate capital into Texas markets including San Antonio.</p>"
+  },
+  {
+   "heading": "Modeling the Decision Before Listing a Property",
+   "html": "<p>Before listing an investment property for sale, it is worth building a side by side comparison of the after tax proceeds from an outright sale against the full proceeds available through a 1031 exchange, factoring in the cost of continuing to own and manage a replacement property. Sellers nearing retirement, for example, sometimes conclude that paying the tax and exiting real estate management altogether outweighs the benefit of continued deferral, while investors still building a portfolio typically favor the exchange path to keep full capital working.</p>"
+  },
+  {
+   "heading": "Recordkeeping That Supports an Accurate Gain Calculation",
+   "html": "<p>An accurate capital gains figure depends on complete records: the original purchase settlement statement, invoices for every capital improvement, and a full depreciation schedule covering the entire holding period. Investment property owners who have used multiple accountants or property managers over a long hold sometimes find gaps in these records, which can force conservative assumptions that overstate the taxable gain. Reconstructing depreciation history from tax returns filed in prior years is usually possible but takes time, so it is worth starting that review well before a sale is under contract, whether the property sits in San Antonio or elsewhere in Texas.</p>"
+  },
+  {
+   "heading": "Comparing Outcomes Across Property Types",
+   "html": "<p>An investor holding a mix of asset types, such as a San Antonio retail pad alongside a multifamily property, may find the gain and recapture exposure differs meaningfully between the two, since depreciation schedules and improvement histories rarely match across dissimilar assets. Running the capital gains calculation separately for each property before deciding which, if any, to exchange helps prioritize which sale benefits most from deferral and which might make sense to sell outright if the resulting tax bill is comparatively small. This comparison is particularly relevant for a Texas investor, since the absence of a state capital gains tax means the entire decision turns on federal exposure alone.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What federal capital gains rate applies to a long held Texas investment property?",
+   "a": "Long term capital gains on property held more than one year are taxed at zero, fifteen, or twenty percent depending on the seller's total taxable income, with the depreciation recapture portion taxed separately at up to twenty five percent."
+  },
+  {
+   "q": "Does Texas add its own capital gains tax on top of the federal rate?",
+   "a": "No. Texas has no state income tax, so investment property sellers in San Antonio and elsewhere in Texas owe only the federal capital gains and depreciation recapture liability."
+  },
+  {
+   "q": "What is the net investment income tax and does it apply to investment property sales?",
+   "a": "It is an additional three point eight percent federal tax on investment income for higher income filers whose modified adjusted gross income exceeds set thresholds. A large investment property sale can trigger it for the year of sale."
+  },
+  {
+   "q": "Can a 1031 exchange defer both capital gains and depreciation recapture?",
+   "a": "Yes, when the exchange is properly structured and the replacement property is like kind, the exchange defers recognition of both the capital gains portion and the depreciation recapture portion of the gain."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "capital-gains-on-rental-property",
+   "label": "Capital Gains on Rental Property"
+  },
+  {
+   "slug": "commercial-real-estate-investing",
+   "label": "Commercial Real Estate Investing Explained"
+  },
+  {
+   "slug": "texas-1031-exchange-properties",
+   "label": "Texas 1031 Exchange Properties"
+  }
+ ],
+ "wordCount": 869
+}

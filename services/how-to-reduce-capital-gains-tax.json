@@ -1,0 +1,79 @@
+{
+ "slug": "how-to-reduce-capital-gains-tax",
+ "taxonomy": "upstream-funnel",
+ "title": "How to Reduce Capital Gains Tax on Real Estate",
+ "name": "How to Reduce Capital Gains Tax on Real Estate",
+ "metaTitle": "How to Reduce Capital Gains Tax on Real Estate Sold in San Antonio, TX",
+ "metaDescription": "A survey of lawful strategies, including the 1031 exchange, cost basis planning, and timing, that can lower or defer the capital gains tax owed on a property sale.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Property owners in San Antonio facing a large capital gains liability on the sale of a rental, commercial, or investment property have several lawful strategies available to reduce or defer that liability. None of these strategies eliminate the underlying tax obligation outright; each either postpones recognition, reduces the taxable gain through accurate basis calculation, or shifts income into a lower rate year. Understanding the mechanics of each option helps a seller choose the combination that fits their specific situation.</p>"
+  },
+  {
+   "heading": "Accurate Basis and Improvement Records",
+   "html": "<p>The most straightforward way to reduce a capital gains bill is to ensure the adjusted basis used in the calculation is accurate and complete. Every dollar spent on qualifying capital improvements, from a new roof to a major renovation, increases basis and reduces taxable gain dollar for dollar. Sellers who have not kept careful records over a long holding period often underreport their true basis, which overstates the gain and the resulting tax. Reviewing tax returns and improvement receipts before listing a San Antonio property can meaningfully change the final number.</p>"
+  },
+  {
+   "heading": "Deferral Through a 1031 Exchange",
+   "html": "<p>A 1031 exchange remains the primary tool for deferring capital gains and depreciation recapture on investment or business property, by rolling the proceeds into a replacement property through a qualified intermediary within the forty five day identification and one hundred eighty day closing windows. This does not reduce the total tax owed over time; it postpones recognition and allows the full, unreduced sale proceeds to be redeployed, which can compound into a larger portfolio over successive exchanges.</p>"
+  },
+  {
+   "heading": "Installment Sales",
+   "html": "<p>An installment sale, where the seller finances part of the purchase price and receives payments over several years rather than a lump sum at closing, can spread the recognized gain across multiple tax years under Section 453. This can keep the seller in a lower capital gains bracket in any single year compared to recognizing the entire gain at once, though it introduces credit risk on the buyer and does not avoid depreciation recapture, which is generally recognized in the year of sale regardless of the installment structure.</p>"
+  },
+  {
+   "heading": "Offsetting Gains With Capital Losses",
+   "html": "<p>A seller who also holds other investments with unrealized losses, whether other real estate or securities, may be able to realize those losses in the same tax year to offset some or all of the gain from a San Antonio property sale, a strategy generally referred to as tax loss harvesting. This requires coordination with a tax advisor to ensure the losses are recognized appropriately and that wash sale or related party rules do not disqualify the offsetting transaction.</p>"
+  },
+  {
+   "heading": "Timing the Sale Around Income Levels",
+   "html": "<p>Because long term capital gains rates step up at certain income thresholds, a seller with some control over the timing of a sale, or over other income in a given year such as a business distribution or retirement account withdrawal, may be able to reduce the applicable rate by closing in a year with lower overall taxable income. This strategy requires projecting total income for the year well before closing and should be modeled with a tax advisor rather than assumed, since a large gain can itself push the seller into a higher bracket regardless of other planning.</p>"
+  },
+  {
+   "heading": "Combining Strategies Rather Than Choosing One",
+   "html": "<p>These approaches are not mutually exclusive, and most San Antonio sellers facing a large capital gains bill benefit from combining several at once. A seller might first reconstruct improvement records to increase basis, then compare the resulting after tax proceeds from an outright sale against the proceeds available through a 1031 exchange, and only then decide whether an installment sale or loss harvesting makes sense for the taxable portion, if any, that remains.</p><p>Because each strategy carries its own deadlines, documentation requirements, and tradeoffs, building this plan with a tax advisor before a property goes under contract generally produces better outcomes than reacting to the tax bill after a sale has already closed, at which point most of these options, particularly the 1031 exchange, are no longer available.</p>"
+  },
+  {
+   "heading": "Strategies That Are Not a Substitute for the Tax",
+   "html": "<p>It is worth being direct about what these strategies do not do. None of them make a properly calculated capital gain disappear without either a deferral event, an exclusion the seller actually qualifies for, or an offsetting loss. Aggressive positions on basis, artificially inflated improvement costs, or exchanges that do not genuinely meet the like kind and timing requirements of Section 1031 create audit risk rather than tax savings. A San Antonio seller should treat every strategy on this list as a lawful planning tool applied to an accurate underlying calculation, not as a way to avoid reporting the actual gain on the sale.</p>"
+  },
+  {
+   "heading": "Starting the Planning Process Early",
+   "html": "<p>The single most consistent theme across these strategies is timing. Basis reconstruction, qualified intermediary engagement, installment sale structuring, and loss harvesting all require action before or at the moment of closing, not after. A San Antonio seller who begins tax planning as soon as a sale is being considered, rather than after an offer is accepted, generally has more options available and more time to execute them correctly. Waiting until after closing to explore these options generally forecloses the most valuable ones, particularly deferral through a 1031 exchange, which cannot be added retroactively to a transaction that has already closed. Starting early also gives a San Antonio seller time to line up a qualified intermediary if that path is chosen.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does improving basis records actually reduce the tax owed on a San Antonio property sale?",
+   "a": "Yes. Every documented capital improvement increases adjusted basis and reduces the taxable gain dollar for dollar, which directly lowers both the capital gains and depreciation recapture portions of the tax."
+  },
+  {
+   "q": "Is a 1031 exchange the only way to defer capital gains tax on investment property?",
+   "a": "It is the most common method for real estate specifically, though installment sales and, in select cases, qualified opportunity zone investments offer other deferral or timing mechanisms with their own distinct rules."
+  },
+  {
+   "q": "Can capital losses from other investments offset a real estate capital gain?",
+   "a": "Generally yes, subject to standard capital loss rules, which allow losses to offset gains in the same tax year and, within limits, to carry forward to future years if losses exceed gains."
+  },
+  {
+   "q": "Does an installment sale avoid depreciation recapture?",
+   "a": "No. Depreciation recapture is generally recognized in the year of sale even under an installment sale structure, while the remaining capital gain portion can be spread across the years payments are received."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "capital-gains-on-rental-property",
+   "label": "Capital Gains on Rental Property"
+  },
+  {
+   "slug": "capital-gains-on-investment-property",
+   "label": "Capital Gains on Investment Property"
+  },
+  {
+   "slug": "the-45-day-identification-period",
+   "label": "The 45 Day Identification Period Explained"
+  }
+ ],
+ "wordCount": 864
+}

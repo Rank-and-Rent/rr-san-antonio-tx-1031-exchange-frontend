@@ -1,0 +1,71 @@
+{
+ "slug": "capital-gains-on-rental-property",
+ "taxonomy": "upstream-funnel",
+ "title": "Capital Gains on Rental Property",
+ "name": "Capital Gains on Rental Property",
+ "metaTitle": "Capital Gains on Rental Property in San Antonio, TX",
+ "metaDescription": "How capital gains tax is calculated when a San Antonio rental property is sold, and how a 1031 exchange defers, rather than eliminates, that liability.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Selling a rental property in San Antonio triggers federal capital gains tax on the difference between the sale price and the property's adjusted basis, which is the original purchase price plus capital improvements minus depreciation already claimed. Texas does not add a state layer of capital gains tax because Texas has no state income tax, so the entire liability on a San Antonio rental sale runs through the federal return. That single-layer exposure still adds up: long term federal capital gains rates run up to twenty percent depending on the seller's taxable income, and a separate twenty five percent depreciation recapture rate applies to the portion of gain tied to depreciation deductions taken over the holding period.</p>"
+  },
+  {
+   "heading": "How the Gain on a Rental Sale Is Calculated",
+   "html": "<p>The taxable gain on a rental property sale is not simply the sale price minus the purchase price. It starts with adjusted basis, which reduces the original purchase price by cumulative depreciation and increases it by the cost of capital improvements such as a new roof, foundation repair, or an added unit. Selling costs, including broker commissions and title fees, reduce the amount realized. The gain that results is then split between ordinary depreciation recapture, taxed at a maximum twenty five percent rate, and the remaining capital gain, taxed at long term capital gains rates if the property was held for more than one year.</p><p>A San Antonio investor who bought a duplex near Southtown for two hundred thousand dollars, claimed forty thousand dollars of depreciation over an eight year hold, and sold it for three hundred twenty thousand dollars would calculate an adjusted basis of one hundred sixty thousand dollars, producing a total gain of one hundred sixty thousand dollars, of which forty thousand dollars is taxed as depreciation recapture and one hundred twenty thousand dollars is taxed as long term capital gain.</p>"
+  },
+  {
+   "heading": "Capital Gains Tax Does Not Disappear on Its Own",
+   "html": "<p>A common misunderstanding is that holding a rental property long enough eventually erases the capital gains exposure. It does not. The tax liability on accumulated appreciation and depreciation sits with the property until a sale or another taxable event occurs, and it generally grows larger the longer the property is held and depreciated, because more depreciation recapture accumulates each year. The only mechanisms that legitimately remove the liability are a step up in basis at death for heirs, or continued deferral through vehicles such as a 1031 exchange, which does not eliminate the tax but postpones it by rolling the basis forward into a replacement property.</p>"
+  },
+  {
+   "heading": "How a 1031 Exchange Defers This Liability",
+   "html": "<p>A properly structured 1031 exchange allows a San Antonio rental property owner to sell the relinquished property and acquire a replacement property of like kind, using a qualified intermediary to hold proceeds, without recognizing the capital gain or depreciation recapture at the time of sale. The seller must identify replacement property within forty five days of closing and complete the purchase within one hundred eighty days. The deferred gain rolls into the replacement property's basis, meaning the tax liability is postponed, not forgiven; it becomes due again if the replacement property is later sold outside of another exchange.</p>"
+  },
+  {
+   "heading": "Why This Matters for San Antonio Investors Specifically",
+   "html": "<p>San Antonio's rental market has produced meaningful appreciation over the past decade in corridors such as Stone Oak, the Medical Center area, and the northern suburbs along I-35 toward Schertz and Cibolo, which means many long-held rentals now carry substantial unrealized gain. Because Texas has no state capital gains tax, the decision to sell and pay federal tax outright, versus exchanging into a new property, usually comes down to whether the investor wants to keep capital working in real estate or redeploy it elsewhere after paying the federal liability.</p><p>A seller weighing that choice typically models both outcomes side by side: the net proceeds available after paying capital gains and depreciation recapture tax on an outright sale, against the full unreduced proceeds available to reinvest through a 1031 exchange, minus the ongoing cost of continuing to manage another property. For an investor planning to keep capital in real estate for years to come, the exchange path usually preserves more buying power up front.</p>"
+  },
+  {
+   "heading": "Planning Ahead of a Sale",
+   "html": "<p>Because the capital gains calculation depends heavily on records of capital improvements and depreciation claimed, a San Antonio rental owner considering a sale benefits from assembling those records well before listing the property. Missing improvement records can understate basis and overstate the taxable gain, while an incomplete depreciation schedule can create confusion about how much of the gain is subject to the twenty five percent recapture rate versus the standard long term capital gains rate. A tax advisor can model the expected liability under both an outright sale and a 1031 exchange before a listing agreement is signed, which leaves more time to line up qualified intermediary services if an exchange is the preferred path.</p>"
+  },
+  {
+   "heading": "Working With a Qualified Intermediary if Deferral Is the Goal",
+   "html": "<p>If the decision leans toward deferral, the qualified intermediary must be engaged and the exchange agreement signed before the relinquished San Antonio rental property closes, since a seller who receives sale proceeds directly, even briefly, disqualifies the exchange. The intermediary holds proceeds in a qualified escrow arrangement, prepares the identification paperwork for the forty five day window, and coordinates the closing of replacement property within the one hundred eighty day deadline. None of this changes the underlying capital gains calculation; it simply defers when the tax becomes due.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does selling a rental property in Texas trigger a state capital gains tax?",
+   "a": "No. Texas has no state income tax, so a rental property sale in San Antonio is taxed only at the federal level, though the federal liability, including depreciation recapture, still applies in full."
+  },
+  {
+   "q": "Is depreciation recapture the same tax rate as capital gains?",
+   "a": "No. Depreciation recapture on real property is taxed at a maximum rate of twenty five percent, which is separate from and often higher than the long term capital gains rate applied to the remaining appreciation."
+  },
+  {
+   "q": "Can a 1031 exchange eliminate the capital gains tax on a rental sale?",
+   "a": "No. A 1031 exchange defers the tax by rolling the gain into the replacement property's basis. The liability becomes due again if that replacement property is later sold without completing another exchange."
+  },
+  {
+   "q": "How is the adjusted basis of a rental property determined?",
+   "a": "Adjusted basis starts with the original purchase price, adds the cost of capital improvements, and subtracts depreciation claimed over the holding period. Selling costs further reduce the amount realized for gain calculation purposes."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "depreciation-recapture-explained",
+   "label": "Depreciation Recapture Explained"
+  },
+  {
+   "slug": "how-to-reduce-capital-gains-tax",
+   "label": "How to Reduce Capital Gains Tax on Real Estate"
+  },
+  {
+   "slug": "the-45-day-identification-period",
+   "label": "The 45 Day Identification Period Explained"
+  }
+ ],
+ "wordCount": 874
+}
