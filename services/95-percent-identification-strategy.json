@@ -1,0 +1,71 @@
+{
+ "slug": "95-percent-identification-strategy",
+ "taxonomy": "upstream-funnel",
+ "title": "95 Percent Identification Strategy",
+ "name": "95 Percent Identification Strategy",
+ "metaTitle": "95 Percent Identification Strategy for San Antonio, TX",
+ "metaDescription": "How the ninety five percent identification rule works and why it demands near-certainty before a San Antonio investor relies on it.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The ninety five percent rule is the least commonly used of the three identification methods available in a 1031 exchange, and for good reason: it allows an investor to identify any number of properties, with no cap on either count or combined value, but requires acquiring at least ninety five percent of the total fair market value identified in order for the exchange to remain valid. For a San Antonio investor, this rule is generally reserved for situations where near certainty exists that almost everything named will actually close.</p>"
+  },
+  {
+   "heading": "How the Rule Departs From the Other Two Methods",
+   "html": "<p>Both the three property rule and the two hundred percent rule build in a margin of safety, letting an investor name backup candidates without being obligated to close on all of them. The ninety five percent rule removes that safety margin: if an investor identifies, for example, five San Antonio properties with a combined fair market value of ten million dollars, at least nine and a half million dollars of that value must actually be acquired, meaning in practice the investor generally needs to close on nearly every property named rather than treating any of them as a true backup.</p><p>This structural difference is worth understanding clearly before choosing an identification approach, since an investor who assumes the ninety five percent rule works like the other two methods, allowing several properties to be dropped without consequence, could inadvertently jeopardize the entire exchange if too much identified value ends up unacquired.</p>"
+  },
+  {
+   "heading": "Why San Antonio Investors Rarely Choose This Rule by Default",
+   "html": "<p>Because the ninety five percent rule offers little room for a deal to fall through, most investors avoid it unless the two hundred percent rule's value ceiling has already been exceeded by properties they are genuinely committed to acquiring. This can occur when an investor has assembled a portfolio-style identification list, for example multiple retail and flex industrial properties spread across San Antonio corridors such as 1604 and I-10, where the combined value of the desired candidates exceeds two hundred percent of the relinquished property's sale price, leaving the ninety five percent rule as the only identification method that still permits the full list.</p>"
+  },
+  {
+   "heading": "Practical Risk Management Under the Ninety Five Percent Rule",
+   "html": "<p>An investor relying on this rule should have advanced purchase agreements, or at minimum strong non-binding indications of interest, in place on the large majority of the value identified before the forty five day window closes, since discovering late that one large property will not close can jeopardize the entire exchange if the remaining acquired value falls below the ninety five percent threshold. Building in a small number of lower-value properties that could be dropped without breaching the threshold is one way investors manage risk within this rule, though the margin for error remains thin compared to the other two identification methods.</p><p>Working closely with the Qualified Intermediary to track running totals of identified value against acquired value throughout the closing process helps an investor confirm in real time whether the ninety five percent threshold remains achievable, rather than discovering a shortfall only at the end of the one hundred eighty day window.</p>"
+  },
+  {
+   "heading": "Comparing the Ninety Five Percent Rule to the Alternatives",
+   "html": "<p>The three property rule offers simplicity with no value cap but limits the investor to three named properties. The two hundred percent rule allows an unlimited number of properties as long as combined value does not exceed two hundred percent of the relinquished property's sale price, which covers most diversified San Antonio strategies without the closing pressure the ninety five percent rule imposes. The ninety five percent rule should generally be viewed as a fallback for situations where an investor's identification needs exceed what the other two rules can accommodate, rather than a first choice.</p>"
+  },
+  {
+   "heading": "Documentation and Deadline Requirements",
+   "html": "<p>As with the other identification methods, the written notice must be signed and delivered to the Qualified Intermediary before midnight on the forty fifth day after the relinquished property's closing, and the fair market value assigned to each identified San Antonio property should be well supported, since the ninety five percent threshold is measured against those stated values. Because Texas has no state income tax, the deferral value in a San Antonio exchange using the ninety five percent rule applies to federal capital gains and depreciation recapture tax, and the federal forty five day identification and one hundred eighty day closing deadlines apply exactly as they would under any other identification approach.</p><p>An investor considering the ninety five percent rule should discuss the strategy with a Qualified Intermediary and tax advisor well before the forty five day deadline, since the rule's unforgiving structure benefits from careful planning rather than a late decision made under time pressure.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What is required to satisfy the ninety five percent rule?",
+   "a": "An investor must acquire at least ninety five percent of the total fair market value of every property identified, with no limit on the number of properties or their combined value at the time of identification."
+  },
+  {
+   "q": "Why do most investors avoid the ninety five percent rule if possible?",
+   "a": "It offers very little room for a deal to fall through, since failing to close on enough identified value to reach the ninety five percent threshold can jeopardize the entire exchange, unlike the three property or two hundred percent rules, which allow for backups."
+  },
+  {
+   "q": "When would a San Antonio investor need to use the ninety five percent rule?",
+   "a": "It typically comes into play when an investor's desired identification list exceeds the two hundred percent rule's value ceiling and still wants to name more properties than the three property rule allows, leaving the ninety five percent rule as the only option that fits the full list."
+  },
+  {
+   "q": "How can an investor manage risk when using the ninety five percent rule?",
+   "a": "Having advanced purchase agreements or strong indications of interest in place on the large majority of identified value before the forty five day window closes, and including a small margin of lower-value properties that could be dropped without breaching the threshold, helps manage the limited room for error."
+  },
+  {
+   "q": "Does the ninety five percent rule change the exchange deadlines?",
+   "a": "No. The same forty five day identification period and one hundred eighty day closing deadline apply regardless of which identification rule is used, only the requirements for what must be acquired differ."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "three-property-identification-strategy",
+   "label": "Three Property Identification Strategy"
+  },
+  {
+   "slug": "200-percent-identification-strategy",
+   "label": "200 Percent Identification Strategy"
+  },
+  {
+   "slug": "45-day-identification-strategy",
+   "label": "45 Day Identification Strategy"
+  }
+ ],
+ "wordCount": 747
+}

@@ -1,0 +1,79 @@
+{
+ "slug": "like-kind-property-explained",
+ "taxonomy": "upstream-funnel",
+ "title": "Like Kind Property Explained",
+ "name": "Like Kind Property Explained",
+ "metaTitle": "Like Kind Property Explained for San Antonio, TX",
+ "metaDescription": "What qualifies as like kind real property under current federal exchange rules, and why the standard is broader than most San Antonio investors expect.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Like kind property is the standard a 1031 exchange uses to decide whether a San Antonio investor's replacement property qualifies for tax deferral, and for real property the standard is intentionally broad. It does not require the replacement property to be the same type of building, the same use, or even the same general category as the relinquished property, only that both are real property held for investment or business use.</p>"
+  },
+  {
+   "heading": "How Broad the Standard Really Is",
+   "html": "<p>Because the like kind requirement for real property looks at the nature of the interest rather than the type of asset, a San Antonio investor can exchange out of raw, unimproved land and into a fully leased apartment community, or out of a small retail strip and into an industrial warehouse, and both directions satisfy the like kind requirement as long as the relinquished and replacement properties are each held for investment or business use rather than personal use. Grade, quality, and improvement level of the real estate do not matter for purposes of the like kind test.</p>"
+  },
+  {
+   "heading": "What Does Not Qualify",
+   "html": "<p>Property held primarily for personal use, such as a personal residence, does not qualify as either the relinquished or replacement property in a 1031 exchange, and property held primarily for resale, such as inventory held by a developer or a fix-and-flip property, is generally excluded because it is not held for investment. Personal property, meaning tangible property other than real estate, such as equipment, vehicles, or aircraft, no longer qualifies for 1031 treatment at all following the Tax Cuts and Jobs Act of 2017, which limited the exchange to real property exclusively.</p>"
+  },
+  {
+   "heading": "Investment or Business Use, Not Personal Use",
+   "html": "<p>The relevant test for both the relinquished and replacement property is whether it is held for investment or for use in a trade or business, not whether the property type matches. A San Antonio investor's rental duplex, commercial office building, farmland, or ground lease interest can all potentially qualify, provided the property was genuinely held with investment or business intent rather than for personal enjoyment or immediate resale.</p>"
+  },
+  {
+   "heading": "Mixed-Use and Partial-Use Properties",
+   "html": "<p>A property used partly for personal purposes and partly for investment or business, such as a mixed-use building where the owner also occupies a unit, requires allocating the like kind analysis to the portion held for investment or business use, and only that portion is eligible for exchange treatment. A San Antonio investor considering a mixed-use relinquished or replacement property should work through this allocation carefully before relying on it within an exchange plan.</p>"
+  },
+  {
+   "heading": "Why the Breadth of the Rule Benefits San Antonio Investors",
+   "html": "<p>Because the like kind standard for real property is so broad, a San Antonio investor is not constrained to replace a sold apartment building with another apartment building; the investor can pursue whatever property type and location best fits their current investment goals, whether that means consolidating into a larger industrial asset near Port San Antonio, diversifying into retail near a growth corridor such as Alamo Ranch, or shifting into a lower-management medical office asset near the South Texas Medical Center.</p>"
+  },
+  {
+   "heading": "Confirming Like Kind Status Before Relying On It",
+   "html": "<p>Because the consequences of a failed like kind determination are significant, a San Antonio investor should confirm with a tax advisor, before the relinquished property closes, that both the property being sold and the property under consideration as a replacement genuinely meet the investment or business use standard rather than assuming any real estate transaction automatically qualifies. This is particularly important for edge cases such as land held for future personal use, a property recently converted from a primary residence to a rental, or an interest in an entity that holds real estate rather than direct ownership of the real estate itself.</p>"
+  },
+  {
+   "heading": "Intent and Holding Period as Evidence",
+   "html": "<p>Because the tax code does not set a bright-line minimum holding period to establish investment or business use intent, a San Antonio investor's actual conduct, such as reporting rental income, claiming depreciation, and the length of time the property was actually held before the exchange, tends to serve as the practical evidence of investment intent if the exchange is ever questioned. A property purchased and exchanged again within a very short window, with no rental activity or business use in between, carries more risk of being challenged than a property that was clearly held, used, and reported as an investment for a meaningful period. Keeping clean records of rental activity, lease agreements, and tax filings for a San Antonio property strengthens this evidence well before any exchange is contemplated.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does like kind property have to be the same type of building?",
+   "a": "No. For real property, like kind refers to the nature of the ownership interest, not the type of building or use, so an investor can exchange land for an apartment building or retail for industrial and still satisfy the like kind requirement."
+  },
+  {
+   "q": "Can personal property such as equipment qualify for a 1031 exchange?",
+   "a": "No. Personal property no longer qualifies for 1031 treatment following the Tax Cuts and Jobs Act of 2017, which restricted the exchange to real property only."
+  },
+  {
+   "q": "Does a personal residence qualify as relinquished or replacement property?",
+   "a": "No. Property held for personal use does not qualify; both the relinquished and replacement property must be held for investment or business use."
+  },
+  {
+   "q": "Can raw land be exchanged for an improved, income-producing building?",
+   "a": "Yes. Raw land held for investment and an improved building held for investment or business use are both real property, so the exchange between them satisfies the like kind requirement."
+  },
+  {
+   "q": "What about a mixed-use property that is partly a personal residence?",
+   "a": "Only the portion held for investment or business use is eligible for exchange treatment; the personal-use portion is excluded, and the allocation between the two should be worked out before the exchange proceeds."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "san-antonio-1031-exchange-properties",
+   "label": "San Antonio 1031 Exchange Properties"
+  },
+  {
+   "slug": "how-to-invest-in-real-estate",
+   "label": "How to Invest in Real Estate"
+  },
+  {
+   "slug": "what-is-boot-in-a-1031-exchange",
+   "label": "What Is Boot in a 1031 Exchange"
+  }
+ ],
+ "wordCount": 715
+}

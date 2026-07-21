@@ -1,0 +1,83 @@
+{
+ "slug": "simultaneous-exchange",
+ "taxonomy": "upstream-funnel",
+ "title": "Simultaneous 1031 Exchange",
+ "name": "Simultaneous 1031 Exchange",
+ "metaTitle": "Simultaneous 1031 Exchange for San Antonio, TX",
+ "metaDescription": "How a same-day simultaneous 1031 exchange works, why it is rare in practice, and when a San Antonio investor might still consider one.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A simultaneous exchange is the original form of a 1031 exchange: the relinquished property and the replacement property close on the same day, with no gap between the two transactions. Before the Internal Revenue Service issued guidance permitting delayed exchanges, every 1031 exchange had to be structured this way. Today a true simultaneous closing is uncommon for a San Antonio investor, but understanding how it works still clarifies why the delayed exchange became the standard approach and where a same-day closing can still make sense.</p>"
+  },
+  {
+   "heading": "How a Same-Day Closing Works",
+   "html": "<p>In a simultaneous exchange, both the sale of the relinquished property and the purchase of the replacement property are scheduled to close on the same calendar date, often within hours of one another, using coordinated title companies or escrow officers. A Qualified Intermediary is still required to hold the exchange funds and prepare the exchange documents, even though there is no waiting period between closings, because the taxpayer cannot receive or control the sale proceeds directly at any point without jeopardizing the tax deferral.</p>"
+  },
+  {
+   "heading": "Why Simultaneous Exchanges Are Rare in San Antonio",
+   "html": "<p>Coordinating two closings, often involving different buyers, sellers, lenders, and title companies across San Antonio submarkets such as the Medical Center area, Stone Oak, or the I-35 corridor, on the exact same date is logistically demanding. A financing contingency, a title issue, or a delay on either side of the transaction can derail the entire structure, since there is no forty five day identification period or one hundred eighty day closing window to fall back on if timing slips. This fragility is the main reason most San Antonio investors and their advisors default to a delayed exchange instead.</p>"
+  },
+  {
+   "heading": "When a Simultaneous Structure Still Makes Sense",
+   "html": "<p>A simultaneous exchange can still be a practical option when an investor has already lined up both sides of a transaction, for example trading one San Antonio commercial property directly with a known counterparty who also wants to exchange, or when a related-party swap is being structured with certainty on both closings. In these situations, a same-day closing avoids the risk of an unsuccessful identification period entirely, since there is no gap during which a replacement property could fall through.</p>"
+  },
+  {
+   "heading": "The Role of the Qualified Intermediary",
+   "html": "<p>Even in a simultaneous exchange, the Qualified Intermediary requirement does not disappear. The intermediary must be a party unrelated to the taxpayer, meaning it cannot be the taxpayer's attorney, certified public accountant, real estate agent, or employee, or anyone who has served in that capacity within the two years before the exchange. The intermediary's role is to take an assignment of both the sale and purchase contracts and to ensure the taxpayer never has actual or constructive receipt of the sale proceeds, which remains a requirement regardless of how tight the closing timeline is.</p>"
+  },
+  {
+   "heading": "Boot and Debt Replacement Still Apply",
+   "html": "<p>The same tax rules that govern any 1031 exchange apply to a simultaneous structure. Any cash boot received, or any reduction in mortgage debt on the replacement property compared to the relinquished property that is not offset by additional cash invested, is taxable. A San Antonio investor moving from a property with a substantial existing loan into a lower-priced or less-leveraged replacement property in a simultaneous exchange should run the debt and equity math carefully before the closing date, since there is no window afterward to adjust the identification.</p>"
+  },
+  {
+   "heading": "Reporting a Simultaneous Exchange",
+   "html": "<p>A simultaneous exchange is still reported to the Internal Revenue Service on Form 8824, filed with the tax return covering the year the exchange closed, listing the relinquished and replacement properties, the dates of transfer, and the calculation of any recognized gain or basis carryover. Because both closings occur on the same date, the timeline questions on the form are generally simpler to complete than for a delayed exchange, but the substantive gain and basis calculations are the same.</p>"
+  },
+  {
+   "heading": "Weighing a Simultaneous Exchange Against a Delayed Exchange",
+   "html": "<p>Most San Antonio investors are better served by a delayed exchange, which provides the flexibility of a forty five day identification period and a one hundred eighty day closing window to manage financing, due diligence, and unexpected delays on either transaction. A simultaneous exchange should generally only be considered when both sides of the trade are already firmly in place and the investor and the Qualified Intermediary are confident that coordinated closing can be executed without last-minute complications.</p>"
+  },
+  {
+   "heading": "Practical Steps to Prepare for a Same-Day Closing",
+   "html": "<p>An investor considering a simultaneous exchange should confirm well in advance that both title companies, or a single title company handling both sides, can schedule closings on the identical date and that funding for the replacement property purchase can move the same day the relinquished property proceeds are received by the Qualified Intermediary. Building in a same-day wire confirmation process between the intermediary and both title companies reduces the chance that a delay on one side of the transaction cascades into a missed closing on the other.</p><p>San Antonio investors pursuing this structure should also confirm the replacement property has no open title issues, pending litigation, or unresolved liens that could surface unexpectedly on the closing date, since a simultaneous exchange offers no buffer period to resolve such a problem once both closings are underway.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Is a Qualified Intermediary required for a simultaneous exchange?",
+   "a": "Yes. Even though there is no gap between closings, the taxpayer still cannot receive or control the sale proceeds, so a Qualified Intermediary must hold the funds and prepare the exchange documents just as in a delayed exchange."
+  },
+  {
+   "q": "Why do most San Antonio investors avoid simultaneous exchanges?",
+   "a": "Coordinating two separate closings on the same exact date is logistically difficult, and any delay on either side, such as a financing or title issue, can unravel the entire exchange since there is no identification or closing window to fall back on."
+  },
+  {
+   "q": "Does boot still apply in a simultaneous exchange?",
+   "a": "Yes. Any cash received or net reduction in mortgage debt not offset by additional invested equity is taxable boot, regardless of whether the exchange is simultaneous or delayed."
+  },
+  {
+   "q": "Can a simultaneous exchange be used for a related-party transaction?",
+   "a": "It can, though related-party exchanges carry additional rules, including a two-year holding period requirement, and should be reviewed carefully with a tax advisor before closing."
+  },
+  {
+   "q": "Is Form 8824 filed differently for a simultaneous exchange?",
+   "a": "The same Form 8824 is filed with the tax return for the exchange year, and the timeline sections are typically simpler to complete since both closings share the same date, though the gain and basis calculations follow the same rules as any other exchange."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "delayed-exchange",
+   "label": "Delayed 1031 Exchange"
+  },
+  {
+   "slug": "qualified-intermediary",
+   "label": "Qualified Intermediary Services"
+  },
+  {
+   "slug": "boot-calculation",
+   "label": "Boot Calculation and Minimization"
+  }
+ ],
+ "wordCount": 822
+}

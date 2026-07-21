@@ -1,0 +1,79 @@
+{
+ "slug": "delaware-statutory-trust",
+ "taxonomy": "upstream-funnel",
+ "title": "Delaware Statutory Trust Exchange",
+ "name": "Delaware Statutory Trust Exchange",
+ "metaTitle": "Delaware Statutory Trust Exchange for San Antonio, TX",
+ "metaDescription": "How a Delaware Statutory Trust interest qualifies as 1031 replacement property and what San Antonio investors should weigh before investing.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A Delaware Statutory Trust, commonly called a DST, is a legal entity that holds title to real property and allows multiple investors to purchase a beneficial interest in the trust as a passive replacement property for a 1031 exchange. For a San Antonio investor tired of active management, a DST interest offers a way to redeploy exchange proceeds into institutional-quality real estate, often located outside Texas, without the landlord responsibilities that come with directly owned property.</p>"
+  },
+  {
+   "heading": "The Rule That Makes DSTs Work for 1031 Exchanges",
+   "html": "<p>Revenue Ruling 2004-86 established that a beneficial interest in a properly structured Delaware Statutory Trust is treated as a direct interest in real property for federal tax purposes, rather than an interest in a business entity, which allows it to qualify as like kind replacement property. To preserve this treatment, the trust generally cannot actively manage the property in ways that resemble operating a business, cannot renegotiate existing leases or enter new financing after the offering closes, and cannot reinvest sale proceeds into new property, among other restrictions sometimes referred to as the seven deadly sins of DST structuring.</p>"
+  },
+  {
+   "heading": "Why San Antonio Investors Consider DST Interests",
+   "html": "<p>A DST interest allows an investor exiting active management of a San Antonio rental property, for example a small retail strip or an aging apartment building, to reinvest exchange proceeds into a professionally managed, institutional-grade asset such as a multifamily portfolio, a distribution facility, or a net lease retail property, without tenant calls, maintenance decisions, or refinancing negotiations landing on the investor directly. DST offerings are also structured to accept exchange proceeds in specific dollar amounts, which makes them useful for absorbing a leftover balance after most of an investor's proceeds have gone into a directly owned replacement property.</p>"
+  },
+  {
+   "heading": "DST Interests Are Securities",
+   "html": "<p>A DST interest is a security, offered under federal securities law, typically to accredited investors through a licensed broker-dealer, and it is not simply a real estate purchase. DST and TIC interests are securities and real estate investments that carry risk, including possible loss of principal, and investors should consult a securities professional and tax advisor before investing. San Antonio investors should expect to complete accredited investor verification, review a private placement memorandum, and work through a registered representative rather than a traditional real estate broker when acquiring a DST interest.</p>"
+  },
+  {
+   "heading": "Illiquidity and Loss of Control",
+   "html": "<p>Once an investor purchases a DST interest, that investor has no direct control over property-level decisions such as refinancing, leasing, or the timing of a sale, all of which rest with the trust sponsor. DST interests are also illiquid, generally held for a multi-year hold period defined by the sponsor's business plan, and there is typically no secondary market allowing an investor to sell the interest before the trust disposes of the property. Investors accustomed to actively managing San Antonio real estate should weigh this loss of control carefully against the benefit of passive ownership.</p>"
+  },
+  {
+   "heading": "Fitting a DST Into the Exchange Timeline",
+   "html": "<p>DST interests must be identified within the forty five day identification period and closed within the one hundred eighty day period, the same as any other replacement property, and many DST sponsors maintain a pipeline of pre-vetted offerings specifically to accommodate investors working against a tight exchange deadline. Because DST closings can often move faster than a traditional whole-property purchase, some San Antonio investors identify a DST interest as a backup candidate alongside a directly owned property in case financing or diligence on the primary target does not close in time.</p>"
+  },
+  {
+   "heading": "Evaluating a DST Sponsor and Offering",
+   "html": "<p>Before committing exchange proceeds to a DST, an investor should review the sponsor's track record across prior offerings, the underlying property's location, tenant quality, and lease terms, the loan structure and any master lease arrangements, and the fee load embedded in the offering. A securities professional working alongside the investor's tax advisor can help evaluate whether a specific DST offering fits the investor's risk tolerance and the debt and equity replacement requirements of the exchange.</p>"
+  },
+  {
+   "heading": "Why San Antonio Investors Look at DSTs for Debt Replacement",
+   "html": "<p>A DST offering is frequently structured with a specific loan-to-value ratio already in place at the trust level, which can be useful for a San Antonio investor who needs to replace a certain amount of mortgage debt from the relinquished property but does not want to personally qualify for or guarantee new financing. Because the debt is already arranged within the trust structure at closing, the investor's share of that debt counts toward the debt replacement requirement without the investor needing to sign a new loan individually, though the investor should still confirm how that allocated debt is reflected for tax purposes with a qualified advisor.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Why does a DST interest qualify as 1031 replacement property?",
+   "a": "Revenue Ruling 2004-86 treats a properly structured Delaware Statutory Trust beneficial interest as a direct interest in real property rather than a business entity interest, which allows it to satisfy the like kind requirement."
+  },
+  {
+   "q": "Is a DST interest a security?",
+   "a": "Yes. DST and TIC interests are securities and real estate investments that carry risk, including possible loss of principal, and are typically offered to accredited investors through a licensed broker-dealer, so investors should consult a securities professional and tax advisor before investing."
+  },
+  {
+   "q": "Can a DST interest be sold before the trust disposes of the property?",
+   "a": "Generally not easily. DST interests are illiquid and there is typically no established secondary market, so investors should expect to hold the interest until the sponsor sells the underlying property according to the trust's business plan."
+  },
+  {
+   "q": "Why do San Antonio investors use DST interests to absorb leftover exchange proceeds?",
+   "a": "DST offerings can accept specific dollar amounts and close relatively quickly, making them a useful way to fully reinvest a smaller remaining balance after most proceeds have gone into a directly owned replacement property, helping avoid taxable boot."
+  },
+  {
+   "q": "Does an investor control property decisions in a DST?",
+   "a": "No. Property-level decisions such as refinancing, leasing, and the timing of a sale rest with the trust sponsor, not the individual investor, which is one of the key tradeoffs of the passive DST structure."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "tenant-in-common",
+   "label": "Tenant in Common Exchange"
+  },
+  {
+   "slug": "like-kind-verification",
+   "label": "Like Kind Property Verification"
+  },
+  {
+   "slug": "boot-calculation",
+   "label": "Boot Calculation and Minimization"
+  }
+ ],
+ "wordCount": 732
+}

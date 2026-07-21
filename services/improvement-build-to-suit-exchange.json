@@ -1,0 +1,79 @@
+{
+ "slug": "improvement-build-to-suit-exchange",
+ "taxonomy": "upstream-funnel",
+ "title": "Improvement and Build to Suit Exchange Explained",
+ "name": "Improvement and Build to Suit Exchange Explained",
+ "metaTitle": "Improvement and Build to Suit Exchange Explained for San Antonio, TX",
+ "metaDescription": "How exchange proceeds fund construction or improvements on replacement property before title transfers, using an accommodation titleholder and the 180-day window.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>An improvement exchange, sometimes called a build to suit exchange, allows a San Antonio investor to use exchange proceeds to construct new improvements or complete substantial renovations on the replacement property before taking title to it. This structure is useful when the best available replacement property is raw land needing development, or an existing building needing significant capital improvement to match the value being exchanged out of the relinquished property.</p>"
+  },
+  {
+   "heading": "Why the Taxpayer Cannot Improve Property It Already Owns",
+   "html": "<p>A core limitation of the 1031 rules is that exchange proceeds cannot be used to improve property the taxpayer already owns, because doing so would not be an exchange of property, it would simply be the taxpayer spending its own exchange funds on its own asset. To use exchange proceeds for construction or improvement, the property must still be owned by an accommodating party, not the taxpayer, while the work is performed and the funds are spent.</p>"
+  },
+  {
+   "heading": "The Exchange Accommodation Titleholder's Role",
+   "html": "<p>An Exchange Accommodation Titleholder, or EAT, takes and holds title to the replacement property under a Qualified Exchange Accommodation Arrangement described in Revenue Procedure 2000-37 while construction or improvement work is completed using the exchanger's exchange proceeds. Once the improvements are finished, or the parking period expires, whichever comes first, the EAT transfers title to the taxpayer, completing the exchange with the improved value now reflected in the replacement property.</p>"
+  },
+  {
+   "heading": "The 180-Day Construction Window",
+   "html": "<p>All identification and construction work generally must be substantially complete, and title must transfer from the EAT to the taxpayer, within the same one hundred eighty day window that governs a standard exchange, measured from the closing of the relinquished property. This is a tight timeline for meaningful construction work, so a San Antonio investor pursuing an improvement exchange should have architectural plans, contractor bids, and permitting largely lined up before the relinquished property even closes, rather than starting that process only after the exchange begins.</p>"
+  },
+  {
+   "heading": "Identifying an Improvement Property Correctly",
+   "html": "<p>Because the property must be identified within the forty five day window in its to-be-improved condition, the identification notice should describe both the underlying real estate and, where the improvements are material to the value being replaced, the scope of construction expected to be completed by the time title transfers. A San Antonio investor and the accommodating party's advisors typically work through this description carefully, since a mismatch between what was identified and what is actually delivered at the end of the construction period can create complications.</p>"
+  },
+  {
+   "heading": "Practical Fit for San Antonio Development Projects",
+   "html": "<p>San Antonio's active development pipeline along growth corridors such as the I-35 corridor toward Schertz and Cibolo, or infill sites nearer the urban core, means raw land and value-add redevelopment opportunities are common, making the improvement exchange structure a realistic option for investors who want their exchange proceeds to fund new construction rather than only an as-is purchase. The added cost of engaging an EAT and the compressed construction timeline mean this structure is generally reserved for cases where the improvement is necessary to fully utilize the exchange proceeds.</p><p>DST and TIC interests are securities and real estate investments that carry risk, including possible loss of principal; investors should consult a securities professional and tax advisor before investing.</p>"
+  },
+  {
+   "heading": "Budgeting Exchange Proceeds Against the Construction Scope",
+   "html": "<p>Because unused exchange proceeds remaining after construction can trigger cash boot in the same way leftover cash does in a standard exchange, a San Antonio investor pursuing an improvement exchange should size the construction or renovation scope so that the full amount of exchange proceeds is genuinely needed and spent within the parking period. Underestimating the construction budget can leave value unaccounted for at the point title transfers, while overestimating it can leave proceeds unspent, so a realistic, contractor-reviewed budget prepared before the relinquished property closes helps avoid both outcomes.</p>"
+  },
+  {
+   "heading": "Coordinating Permitting and the Exchange Timeline",
+   "html": "<p>Local permitting timelines in San Antonio and the surrounding municipalities can vary depending on the scope of work and the jurisdiction handling the review, and permitting delays do not extend the one hundred eighty day construction and closing window in an improvement exchange. A San Antonio investor should confirm realistic permitting timelines with the relevant municipal authority, and build meaningful contingency into the construction schedule, before relying on an improvement exchange to fully utilize the available exchange proceeds within the fixed deadline. Building in a contingency reserve within the construction budget itself, rather than assuming every phase of work will proceed exactly on schedule, is a practical safeguard against the compressed timeline.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Why cannot exchange funds be used to improve property the taxpayer already owns?",
+   "a": "Spending exchange proceeds on property the taxpayer already owns is not an exchange of property with another party, so it does not satisfy the exchange requirement; the property must be held by an accommodating party during the improvement work."
+  },
+  {
+   "q": "Who holds title to the replacement property during construction?",
+   "a": "An Exchange Accommodation Titleholder holds title under a Qualified Exchange Accommodation Arrangement while construction or improvements are completed, then transfers title to the taxpayer once the work is finished or the parking period expires."
+  },
+  {
+   "q": "How much time is available to complete construction in an improvement exchange?",
+   "a": "Construction generally must be substantially complete and title transferred to the taxpayer within the same one hundred eighty day window that governs a standard exchange, which is a tight timeline for significant construction projects."
+  },
+  {
+   "q": "Can raw land be used as replacement property in an improvement exchange?",
+   "a": "Yes. Raw land is a common candidate for an improvement exchange, with exchange proceeds funding the construction of a new building on the land while the EAT holds title during the process."
+  },
+  {
+   "q": "What preparation should happen before the relinquished property closes?",
+   "a": "Architectural plans, contractor bids, and permitting should be largely in place before closing, since the one hundred eighty day window leaves limited time to both design and complete construction from scratch."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "reverse-1031-exchange-explained",
+   "label": "Reverse 1031 Exchange Explained"
+  },
+  {
+   "slug": "the-180-day-exchange-deadline",
+   "label": "The 180 Day Exchange Deadline Explained"
+  },
+  {
+   "slug": "the-qualified-intermediary-role",
+   "label": "The Qualified Intermediary Role Explained"
+  }
+ ],
+ "wordCount": 710
+}

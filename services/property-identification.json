@@ -1,0 +1,79 @@
+{
+ "slug": "property-identification",
+ "taxonomy": "upstream-funnel",
+ "title": "Nationwide Property Identification",
+ "name": "Nationwide Property Identification",
+ "metaTitle": "Nationwide 1031 Property Identification for San Antonio, TX",
+ "metaDescription": "How San Antonio investors identify replacement property anywhere in the United States within the forty five day 1031 window.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A 1031 exchange does not require the replacement property to be located anywhere near the relinquished property. A San Antonio investor selling a local commercial property can identify and acquire replacement property anywhere in the United States, as long as it is like kind real property held for investment or business use, giving investors access to markets, asset classes, and price points well beyond the San Antonio metro.</p>"
+  },
+  {
+   "heading": "The Identification Rules That Govern the Search",
+   "html": "<p>Within the forty five day identification period, an investor must submit a written notice to the Qualified Intermediary describing candidate replacement properties with enough specificity, generally a street address or legal description, to be unambiguous. Most investors use the three property rule, naming up to three properties of any value, though the two hundred percent rule permits identifying more properties as long as their combined fair market value does not exceed two hundred percent of the relinquished property's sale price, which is useful for an investor casting a wide geographic net.</p>"
+  },
+  {
+   "heading": "Why San Antonio Investors Look Outside Texas",
+   "html": "<p>Because Texas has no state income tax, a 1031 exchange completed entirely within Texas defers only federal capital gains and depreciation recapture tax; there is no state-level capital gains tax at stake either way. This means the decision to look outside San Antonio for replacement property is typically driven by investment factors, such as price per unit, cap rate, tenant quality, or portfolio diversification, rather than any state tax consideration, since moving proceeds into another state does not change the federal deferral benefit or expose the investor to a state capital gains tax that Texas does not otherwise impose.</p>"
+  },
+  {
+   "heading": "Sourcing Candidates Within the Forty Five Day Window",
+   "html": "<p>Because the identification clock starts the moment the relinquished property closes, having a shortlist of realistic candidates ready before closing, rather than starting the search from scratch on day one, meaningfully improves the odds of a successful exchange. This is especially true for investors identifying property outside their home market, since evaluating an unfamiliar submarket, whether an out-of-state industrial park or a retail center in another metro, takes longer than evaluating a property in a market the investor already knows, such as San Antonio's I-35 or 410 corridors.</p>"
+  },
+  {
+   "heading": "Remote Diligence on Out-of-Area Replacement Property",
+   "html": "<p>Identifying property outside San Antonio means diligence has to happen without the investor's usual local relationships and market familiarity, which typically means leaning more heavily on third-party inspection reports, local property management references, and a broker or advisor with direct knowledge of the target market. Confirming zoning, lease terms, and any deferred maintenance issues remotely takes more coordination than a local transaction, so building extra time into the identification and closing schedule for an out-of-area property is a reasonable precaution.</p>"
+  },
+  {
+   "heading": "Balancing Local and Out-of-Area Candidates",
+   "html": "<p>Many San Antonio investors identify a mix of local and out-of-area candidates within the same exchange, for example a familiar local property as a primary target with one or two out-of-state candidates identified as alternatives in case the local deal falls through during the one hundred eighty day closing window. This approach uses the flexibility the identification rules allow without requiring the investor to commit fully to an unfamiliar market before diligence is complete.</p>"
+  },
+  {
+   "heading": "Structures That Widen the Search Further",
+   "html": "<p>DST and TIC interests, which are securities and real estate investments carrying risk including possible loss of principal, provide access to institutional-quality property nationwide without requiring the investor to manage an out-of-area property directly, and can be a practical way to reinvest proceeds into a market the investor does not want to actively oversee from San Antonio. Investors should consult a securities professional and tax advisor before relying on either structure as part of their identification strategy.</p>"
+  },
+  {
+   "heading": "Drafting a Precise Identification Notice",
+   "html": "<p>Regardless of how many candidates are located or where they sit, the written identification notice delivered to the Qualified Intermediary needs to describe each property with enough specificity, generally a full street address or a legal description, that there is no ambiguity about which property is being identified. A San Antonio investor identifying an out-of-state property should double check the address format and any unit or parcel designation against the seller's own documents, since an imprecise description on the identification notice can create a compliance question even if the intended property was never in doubt.</p><p>For a tenant in common or DST interest, the identification should also specify the percentage or dollar interest being identified in addition to the underlying property's address, since these fractional structures require an extra layer of precision beyond what a whole-property identification needs.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does replacement property have to be located in Texas or near San Antonio?",
+   "a": "No. Replacement property can be located anywhere in the United States as long as it is like kind real property held for investment or business use; there is no geographic proximity requirement to the relinquished property."
+  },
+  {
+   "q": "Does identifying out-of-state property change the tax benefit for a Texas investor?",
+   "a": "Not meaningfully. Texas has no state income tax, so the exchange defers federal capital gains and depreciation recapture tax regardless of where the replacement property is located; there is no Texas state capital gains tax being deferred either way."
+  },
+  {
+   "q": "How many properties can be identified within the forty five day period?",
+   "a": "Most investors use the three property rule, naming up to three properties regardless of value, though the two hundred percent rule allows identifying more properties as long as their combined value does not exceed two hundred percent of the relinquished property's sale price."
+  },
+  {
+   "q": "Is diligence harder on an out-of-area replacement property?",
+   "a": "It generally takes more coordination, since the investor cannot rely on local market familiarity and typically needs to lean on third-party inspections, local property management references, and an advisor knowledgeable about the target market."
+  },
+  {
+   "q": "Can a DST interest widen the geographic search for replacement property?",
+   "a": "Yes, DST interests can provide access to institutional-quality property in markets outside San Antonio without requiring direct management, though they are securities carrying risk and should be evaluated with a securities professional and tax advisor."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "replacement-property-search",
+   "label": "Replacement Property Search"
+  },
+  {
+   "slug": "delayed-exchange",
+   "label": "Delayed 1031 Exchange"
+  },
+  {
+   "slug": "delaware-statutory-trust",
+   "label": "Delaware Statutory Trust Exchange"
+  }
+ ],
+ "wordCount": 715
+}

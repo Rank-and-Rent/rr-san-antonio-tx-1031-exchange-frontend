@@ -1,0 +1,79 @@
+{
+ "slug": "the-180-day-exchange-deadline",
+ "taxonomy": "upstream-funnel",
+ "title": "The 180 Day Exchange Deadline Explained",
+ "name": "The 180 Day Exchange Deadline Explained",
+ "metaTitle": "The 180 Day Exchange Deadline Explained for San Antonio, TX",
+ "metaDescription": "How the one hundred eighty day closing deadline runs alongside identification, interacts with tax filing dates, and applies to a San Antonio exchange.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The one hundred eighty day deadline is the outer limit by which a San Antonio exchanger must close on the replacement property or properties acquired through a 1031 exchange. It runs from the same starting point as the forty five day identification period, the date the relinquished property closes, and the two deadlines run concurrently rather than one after the other, so an investor is working against both from day one.</p>"
+  },
+  {
+   "heading": "How the Deadline Is Calculated",
+   "html": "<p>The one hundred eighty days are calendar days counted from the closing date of the relinquished property, not from the date of identification, the date an offer is accepted on the replacement property, or any other later event. A San Antonio investor who closes a relinquished sale on a given date should mark the one hundred eightieth calendar day from that date on the calendar immediately, since that date, not a round number of months later, is the actual legal deadline.</p>"
+  },
+  {
+   "heading": "The Tax Return Due Date Interaction",
+   "html": "<p>A frequently overlooked detail is that the exchange period ends on the earlier of the one hundred eightieth day or the due date, including extensions, for the exchanger's federal income tax return for the year the relinquished property was sold. An investor who sells a relinquished San Antonio property late in the calendar year and does not file for a tax filing extension can find the true exchange deadline shortened to the original April filing date rather than the full one hundred eighty days, which is why filing an extension is a standard, low-cost precaution for any exchange that spans a tax year boundary.</p>"
+  },
+  {
+   "heading": "Why the 180 Days Cannot Be Extended for Diligence Delays",
+   "html": "<p>Financing delays, appraisal turnaround, title issues, and other closing friction are common on commercial transactions, and San Antonio properties are no exception, but none of these delays extend the one hundred eighty day deadline. An investor should build financing and closing timelines around this fixed date from the outset, favoring lenders and property types with a track record of closing within the available window over a marginally better deal that carries meaningful closing timeline risk.</p>"
+  },
+  {
+   "heading": "Multiple Replacement Properties and the Deadline",
+   "html": "<p>When an exchanger has identified more than one replacement property, each acquisition must independently close within the same one hundred eighty day window measured from the original relinquished property sale; the deadline does not reset or extend for each additional property. A San Antonio investor identifying a primary property and one or two backups should sequence diligence so that if the primary candidate falls through, there is still enough runway left in the one hundred eighty days to close on a backup.</p>"
+  },
+  {
+   "heading": "Disaster Relief and Rare Exceptions",
+   "html": "<p>The Internal Revenue Service has, in specific and limited circumstances, granted extensions to both the forty five and one hundred eighty day deadlines for taxpayers affected by federally declared disasters. These extensions are announced case by case and are not something an exchanger should plan around in advance; the default assumption for any San Antonio exchange should be that both deadlines are fixed and firm.</p>"
+  },
+  {
+   "heading": "Planning Backward From the Deadline",
+   "html": "<p>A practical approach for a San Antonio investor is to plan backward from the fixed one hundred eightieth day rather than forward from the closing date, working out how much time financing, appraisal, and title work realistically require, then confirming that the remaining calendar leaves enough room to identify a suitable property within the first forty five days and still close comfortably before the deadline. Building this kind of buffer is particularly important when the replacement property involves agency financing or a value-add business plan, both of which typically require a longer underwriting runway than a straightforward, stabilized asset purchase.</p>"
+  },
+  {
+   "heading": "The Deadline Applies Separately to Each Property",
+   "html": "<p>When more than one replacement property has been identified, the one hundred eighty day deadline is not extended simply because an investor is trying to close two or three transactions instead of one; every acquisition on the identification list is measured against the same fixed date from the original relinquished property closing. A San Antonio investor pursuing multiple smaller replacement properties as part of a diversification strategy should sequence closings so the more complex or slower-moving transaction closes first, leaving the simpler purchase as a buffer near the end of the window rather than the reverse. This sequencing gives the investor a realistic fallback if the more complex transaction slips, without forcing the entire exchange to depend on the last property closing on the last available day.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does the one hundred eighty day period start after the forty five day identification period ends?",
+   "a": "No. Both periods start on the same date, the closing of the relinquished property, and run concurrently. The forty five days is not a separate phase that precedes the one hundred eighty days."
+  },
+  {
+   "q": "Can the tax filing due date shorten the one hundred eighty day deadline?",
+   "a": "Yes. If the exchanger's federal tax return due date, including extensions, falls before the one hundred eightieth day, the exchange period ends on that earlier date, which is why filing an extension is common practice for exchanges spanning a tax year."
+  },
+  {
+   "q": "What happens if a San Antonio closing is delayed past the one hundred eighty day deadline?",
+   "a": "If the replacement property does not close by the deadline, the exchange generally fails for that property, exchange funds held by the Qualified Intermediary are returned to the exchanger, and the transaction is taxed as a sale rather than deferred."
+  },
+  {
+   "q": "Can a financing delay extend the one hundred eighty day deadline?",
+   "a": "No. Ordinary closing delays, including financing, appraisal, or title issues, do not extend the deadline, which is why building buffer time into the closing schedule is important."
+  },
+  {
+   "q": "Are there any exceptions to the one hundred eighty day rule?",
+   "a": "The Internal Revenue Service has occasionally extended both exchange deadlines for taxpayers in federally declared disaster areas, but these are announced on a case-by-case basis and should not be relied upon when planning a standard exchange."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "the-45-day-identification-period",
+   "label": "The 45 Day Identification Period Explained"
+  },
+  {
+   "slug": "the-qualified-intermediary-role",
+   "label": "The Qualified Intermediary Role Explained"
+  },
+  {
+   "slug": "san-antonio-1031-exchange-properties",
+   "label": "San Antonio 1031 Exchange Properties"
+  }
+ ],
+ "wordCount": 705
+}

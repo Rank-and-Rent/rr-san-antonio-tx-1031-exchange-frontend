@@ -1,0 +1,79 @@
+{
+ "slug": "related-party-1031-exchange-rules",
+ "taxonomy": "upstream-funnel",
+ "title": "Related Party 1031 Exchange Rules Explained",
+ "name": "Related Party 1031 Exchange Rules Explained",
+ "metaTitle": "Related Party 1031 Exchange Rules Explained for San Antonio, TX",
+ "metaDescription": "How the two year holding requirement and other limits apply when a San Antonio investor exchanges property with a family member or a commonly owned entity.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Exchanging property with a related party is permitted under Section 1031, but it comes with additional conditions beyond a standard exchange, primarily a two-year holding requirement imposed on both parties. A San Antonio investor considering an exchange involving a family member, a business partner with substantial common ownership, or a related entity should understand these added conditions before structuring the transaction, since violating them can retroactively unwind the deferral that was originally claimed.</p>"
+  },
+  {
+   "heading": "Who Counts as a Related Party",
+   "html": "<p>Related party status under Section 1031(f) generally includes family members such as siblings, spouses, ancestors, and lineal descendants, as well as entities in which the taxpayer holds more than fifty percent ownership, directly or indirectly, and other combinations of common ownership exceeding that fifty percent threshold. A San Antonio investor exchanging property with a parent, an adult child, or a corporation or partnership the investor substantially controls would generally be dealing with a related party for purposes of this rule.</p>"
+  },
+  {
+   "heading": "The Two-Year Holding Requirement",
+   "html": "<p>When a related-party exchange occurs, both the taxpayer and the related party must generally hold their respective properties, the one received in the exchange, for at least two years following the transfer. If either party disposes of the property before that two-year period ends, the original exchange's deferred gain is generally triggered retroactively, meaning the taxpayer who thought their gain was deferred now owes tax on it as of the year the disqualifying disposition occurred.</p>"
+  },
+  {
+   "heading": "Why This Rule Exists",
+   "html": "<p>The two-year holding requirement targets a specific pattern of tax avoidance where related parties would exchange properties with different levels of built-in gain simply to shift or cash out basis without paying tax, essentially using the exchange as a basis-swapping mechanism between commonly controlled parties rather than a genuine change in investment position. Requiring both parties to hold their respective properties for two years discourages exchanges that exist mainly to be quickly unwound or resold.</p>"
+  },
+  {
+   "heading": "Limited Exceptions to the Two-Year Rule",
+   "html": "<p>The rule includes narrow exceptions, including dispositions caused by the death of either party, dispositions resulting from an involuntary conversion such as a condemnation or casualty loss where the original exchange or subsequent transfer would have qualified for deferral anyway, and situations where the taxpayer can affirmatively establish that neither the exchange nor the later disposition had tax avoidance as a principal purpose. A San Antonio investor relying on one of these exceptions should document the underlying facts carefully, since the burden generally falls on the taxpayer to establish that the exception applies.</p>"
+  },
+  {
+   "heading": "Practical Guidance for San Antonio Family and Partner Exchanges",
+   "html": "<p>Family-owned real estate is common in San Antonio, where multi-generational ownership of land and commercial buildings is a familiar pattern, and a related-party exchange sometimes comes up when one family member wants to consolidate holdings or when business partners are restructuring jointly held property. In these situations, both parties should plan on holding their respective post-exchange properties for the full two years, and should keep documentation of the transaction's business purpose in case the exchange is later reviewed.</p>"
+  },
+  {
+   "heading": "Related-Party Exchanges Involving a Qualified Intermediary",
+   "html": "<p>A related-party exchange still requires a Qualified Intermediary to hold the exchange proceeds in the same way a standard exchange does, and the related-party status of the counterparty does not change who is eligible to serve as the QI; the same two-year lookback disqualifying anyone who has acted as the taxpayer's agent still applies. A San Antonio investor structuring a related-party exchange should treat the QI engagement, the two-year holding requirement, and the underlying exchange deadlines as separate, independently enforced conditions, all of which must be satisfied for the deferral to hold.</p>"
+  },
+  {
+   "heading": "Documenting Business Purpose",
+   "html": "<p>When a related-party transaction relies on the exception for showing that tax avoidance was not a principal purpose, contemporaneous documentation matters: records showing an independent business reason for the exchange, such as an estate planning restructuring, a genuine change in each party's investment strategy, or a resolution of a jointly held property dispute, are generally more persuasive than an after-the-fact explanation prepared once the exchange is already being reviewed. A San Antonio investor anticipating a related-party exchange should discuss this documentation with a tax advisor before the transaction closes, not after a question arises. This is particularly true for a San Antonio investor whose related-party counterparty is a family-owned entity, where the line between a genuine change in investment strategy and simple basis shifting can otherwise be difficult to demonstrate after the fact. Involving a tax advisor at the planning stage, rather than only at filing time, gives the investor an opportunity to structure the transaction in a way that better supports the intended exception if it is ever needed.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What defines a related party for 1031 exchange purposes?",
+   "a": "Related parties generally include close family members, such as siblings, spouses, ancestors, and lineal descendants, and entities in which the taxpayer holds more than fifty percent ownership, directly or indirectly."
+  },
+  {
+   "q": "How long must both parties hold property after a related-party exchange?",
+   "a": "Generally at least two years from the date of the transfer. Disposing of the property before that period ends can retroactively trigger the deferred gain from the original exchange."
+  },
+  {
+   "q": "What happens if the two-year holding period is violated?",
+   "a": "The deferred gain from the original exchange is generally recognized retroactively, as of the year the disqualifying early disposition occurred, effectively unwinding the tax benefit."
+  },
+  {
+   "q": "Are there exceptions to the two-year holding requirement?",
+   "a": "Yes, including death of either party, an involuntary conversion such as condemnation or casualty, and cases where the taxpayer can establish that neither the exchange nor the later disposition had tax avoidance as a principal purpose."
+  },
+  {
+   "q": "Can a San Antonio family exchange property between siblings under Section 1031?",
+   "a": "Yes, siblings can complete a valid exchange, but both are treated as related parties and are subject to the two-year holding requirement and the other related-party conditions."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "like-kind-property-explained",
+   "label": "Like Kind Property Explained"
+  },
+  {
+   "slug": "what-is-boot-in-a-1031-exchange",
+   "label": "What Is Boot in a 1031 Exchange"
+  },
+  {
+   "slug": "the-qualified-intermediary-role",
+   "label": "The Qualified Intermediary Role Explained"
+  }
+ ],
+ "wordCount": 736
+}

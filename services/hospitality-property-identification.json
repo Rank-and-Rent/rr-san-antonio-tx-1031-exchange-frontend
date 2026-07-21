@@ -1,0 +1,71 @@
+{
+ "slug": "hospitality-property-identification",
+ "taxonomy": "upstream-funnel",
+ "title": "Hospitality Property Identification",
+ "name": "Hospitality Property Identification",
+ "metaTitle": "Hospitality Property Identification for San Antonio, TX",
+ "metaDescription": "What investors evaluate when identifying hotel and hospitality properties as 1031 exchange replacement property in San Antonio.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>San Antonio's identity as a major tourism and convention destination, built around the River Walk, the Alamo, and a steady calendar of conventions and group events, gives the metro a hospitality property base that is deeper and more varied than many comparably sized Texas cities. Hotel and hospitality property identification for a 1031 exchange carries its own operational and diligence considerations, since a hotel is generally treated as an operating business as well as real estate, which affects how the exchange must be structured.</p>"
+  },
+  {
+   "heading": "Hospitality as an Operating Business Consideration",
+   "html": "<p>A hotel generates income through daily room rentals, food and beverage operations, and other guest services, which is a more active business model than a typical net-leased commercial property. For a hotel acquisition to qualify smoothly as 1031 replacement property, the investor generally needs to structure the deal so that the personal property and operating business components, such as furniture, fixtures, equipment, and the hotel brand or management agreement, are separated from the real property value, since personal property no longer qualifies for 1031 treatment following the 2017 Tax Cuts and Jobs Act. Only the real property portion of a hotel acquisition is eligible for exchange treatment.</p><p>A qualified appraiser experienced in hospitality assets is generally needed to allocate the purchase price between qualifying real property and non-qualifying personal property and business value, and an investor should engage that appraiser early enough in the process that the allocation is available well before the forty five day identification deadline, since a late or disputed allocation can complicate the identification notice.</p>"
+  },
+  {
+   "heading": "San Antonio Hospitality Submarkets",
+   "html": "<p>Downtown and River Walk-adjacent hotels command the highest rates and occupancy tied to convention and leisure demand, but they also carry the highest price points and the most active competitive supply. Hotels near the airport and along major highway corridors, including areas near Randolph Air Force Base and along the 410 loop, tend to serve a different demand base built around business travel, government per diem stays, and airport proximity, generally at a lower price point and with a more limited amenity package than downtown properties.</p><p>Extended-stay and select-service hotels near growth corridors such as 1604 and I-35 have also gained investor interest, since these formats generally carry lower staffing requirements than a full-service downtown hotel while still benefiting from steady demand tied to relocations, construction projects, and business travel supporting San Antonio's expanding suburban commercial base.</p>"
+  },
+  {
+   "heading": "Brand Affiliation and Franchise Agreements",
+   "html": "<p>Many San Antonio hotels operate under a franchise agreement with a national brand, and reviewing the remaining term of that franchise agreement, any required property improvement plan obligations, and the transferability of the agreement to a new owner is an essential step before identifying a branded hotel as replacement property. An unbranded or independent hotel avoids franchise fee obligations but may face a narrower demand base without the benefit of a national reservation system and loyalty program.</p>"
+  },
+  {
+   "heading": "Hotel Real Property as Like-Kind Replacement Property",
+   "html": "<p>The real property component of a hotel, the land and building, qualifies as like-kind replacement property for a 1031 exchange when held for investment or business use, subject to the same forty five day identification period and one hundred eighty day closing deadline that apply to any other exchange, both running concurrently from the relinquished property's closing date. Because hotel transactions often involve more complex purchase agreements covering both real property and business operations, an investor should engage a Qualified Intermediary and tax advisor experienced with hospitality transactions early in the process.</p>"
+  },
+  {
+   "heading": "Diligence Specific to Hospitality Property",
+   "html": "<p>Hospitality diligence typically includes a review of trailing revenue per available room, occupancy and average daily rate trends, the condition of guest rooms and public spaces against brand standards, and any deferred capital needs that could trigger a property improvement plan requirement from a franchisor. Because Texas has no state income tax, the tax benefit of a San Antonio hotel 1031 exchange is entirely a matter of deferring federal capital gains and depreciation recapture tax on the qualifying real property portion of the transaction, which keeps the federal exchange deadlines as the controlling timeline for identification.</p><p>Seasonality also deserves attention in San Antonio hospitality diligence, since demand tied to conventions, tourism, and events such as major River Walk and downtown gatherings can create meaningful swings in monthly revenue, so at least a full trailing twelve months of revenue and occupancy data should be reviewed rather than a shorter snapshot that could reflect only a strong or weak season.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does a hotel qualify as replacement property in a 1031 exchange?",
+   "a": "The real property component of a hotel, the land and building, qualifies as like-kind replacement property when held for investment or business use, but the personal property and operating business components, such as furniture and equipment, generally do not, since personal property no longer qualifies for 1031 treatment after the 2017 Tax Cuts and Jobs Act."
+  },
+  {
+   "q": "Why is hospitality property treated differently in an exchange than other commercial real estate?",
+   "a": "A hotel generates income through an operating business, room rentals, food and beverage, and guest services, rather than through a simple lease, which requires structuring the purchase to separate qualifying real property from non-qualifying business and personal property components."
+  },
+  {
+   "q": "What San Antonio hospitality submarkets see the most investor activity?",
+   "a": "Downtown and River Walk-adjacent hotels tied to convention and tourism demand, and hotels near the airport and along major corridors including near Randolph Air Force Base, which generally serve business and government travel at lower price points."
+  },
+  {
+   "q": "Why does franchise affiliation matter when identifying a hotel?",
+   "a": "A branded hotel's remaining franchise term, any required property improvement plan obligations, and the transferability of the franchise agreement to a new owner all affect the value and near-term capital needs of the property."
+  },
+  {
+   "q": "Do the standard exchange deadlines apply to hotel acquisitions?",
+   "a": "Yes. The forty five day identification period and one hundred eighty day closing deadline apply to the qualifying real property portion of a hotel purchase the same as any other exchange, both running concurrently from the relinquished property's closing date."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "capex-planning",
+   "label": "Capital Expenditure Planning"
+  },
+  {
+   "slug": "lender-preflight",
+   "label": "Lender Preflight Support"
+  },
+  {
+   "slug": "market-comps-analysis",
+   "label": "Market Comparables Analysis"
+  }
+ ],
+ "wordCount": 717
+}

@@ -1,0 +1,83 @@
+{
+ "slug": "cpa-attorney-coordination",
+ "taxonomy": "upstream-funnel",
+ "title": "CPA and Attorney Coordination",
+ "name": "CPA and Attorney Coordination",
+ "metaTitle": "1031 Exchange CPA and Attorney Coordination for San Antonio, TX",
+ "metaDescription": "How a San Antonio investor's tax and legal advisors divide responsibilities during a 1031 exchange and where their input should overlap.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A 1031 exchange touches both tax and legal questions, and coordinating a San Antonio investor's certified public accountant and real estate attorney throughout the transaction, rather than looping them in only at the end, helps catch problems while there is still time to address them. Neither advisor can serve as the Qualified Intermediary, since both roles are disqualified if they have represented the investor within the prior two years, but each plays an essential part alongside the intermediary.</p>"
+  },
+  {
+   "heading": "The CPA's Role in the Exchange",
+   "html": "<p>The certified public accountant typically evaluates whether an exchange makes sense given the investor's overall tax position, estimates the federal capital gains and depreciation recapture tax being deferred, reviews the debt and equity replacement math to flag potential boot, and ultimately prepares Form 8824 with the investor's tax return. Because Texas has no state income tax, the CPA's analysis for a San Antonio investor centers entirely on federal tax exposure, which simplifies the state-tax side of the calculation compared to investors in states with their own capital gains tax.</p>"
+  },
+  {
+   "heading": "The Attorney's Role in the Exchange",
+   "html": "<p>The real estate attorney typically reviews the purchase and sale contracts for both properties, including any exchange cooperation clauses, handles title issues on the replacement property, and, for more complex structures such as a tenant in common interest or a build to suit exchange, reviews the co-ownership or accommodation agreements. An attorney experienced with San Antonio commercial transactions can also flag local issues, such as easements, deed restrictions, or zoning questions specific to a submarket like Alamo Ranch or the Medical Center area, that a generalist advisor might miss.</p>"
+  },
+  {
+   "heading": "Where CPA and Attorney Input Should Overlap",
+   "html": "<p>Certain issues genuinely require both perspectives: a related-party transaction needs the CPA's read on the two-year holding period rule and the attorney's read on how the related-party relationship affects contract terms, and a DST or TIC investment needs the CPA's tax analysis alongside a securities professional's input, with the attorney reviewing any offering documents. Scheduling a joint conversation, rather than relaying information between the two advisors secondhand through the investor, reduces the chance that a detail gets lost in translation.</p>"
+  },
+  {
+   "heading": "Timing Advisor Involvement Against the Exchange Clock",
+   "html": "<p>Both advisors should ideally be engaged before the relinquished property closes, since the exchange agreement needs to be signed and the boot calculation understood before the forty five day identification period even starts. Bringing in the CPA or attorney for the first time partway through the identification period compresses the time available for their review and increases the risk that an issue surfaces too late to fix without jeopardizing the exchange timeline.</p>"
+  },
+  {
+   "heading": "Coordinating With the Qualified Intermediary",
+   "html": "<p>The Qualified Intermediary handles the exchange mechanics, but the CPA and attorney should stay looped in on the intermediary's timeline, particularly the exact identification and closing deadlines, so that their own review work is paced against the same dates. A San Antonio investor who shares a single calendar with the intermediary, CPA, and attorney tends to avoid the scenario where one advisor is working off an outdated closing date.</p>"
+  },
+  {
+   "heading": "When Advisor Coordination Matters Most",
+   "html": "<p>Coordination becomes especially important on exchanges involving unusual structures, such as a reverse exchange, an improvement exchange, or a DST investment, since these structures generate more documents and more decision points than a standard delayed exchange, and a gap in communication between the CPA and attorney is more likely to cause a costly delay or oversight on a complex transaction than on a straightforward one.</p>"
+  },
+  {
+   "heading": "Setting Expectations for Advisor Availability",
+   "html": "<p>Because the forty five day identification period leaves little room for delay, a San Antonio investor should confirm upfront that both the CPA and attorney can be reasonably responsive during that specific window, rather than assuming normal turnaround times will apply. Advisors juggling other client deadlines during the same period, particularly around quarterly tax filing dates, may need advance notice of the exchange timeline to prioritize the investor's questions when they matter most.</p><p>Sharing the exchange calendar with both advisors as soon as it is established, rather than relaying deadlines verbally over the course of the transaction, reduces the chance that a date gets miscommunicated between the investor and either professional.</p>"
+  },
+  {
+   "heading": "When the CPA and Attorney Are at the Same Firm",
+   "html": "<p>Some San Antonio investors work with a combined firm offering both tax and legal services under one roof, which can simplify coordination since the two advisors already share internal communication practices and client files. Even in this arrangement, the investor should still confirm which professional is handling which specific task within the exchange, since assuming the firm will automatically divide the work correctly can leave a gap if neither advisor takes ownership of a particular deadline or document.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Can a San Antonio investor's own CPA or attorney serve as the Qualified Intermediary?",
+   "a": "No, if either has represented the investor within the two years before the exchange, they are disqualified from serving as the intermediary, though they continue to play their own advisory roles alongside a separate, independent intermediary."
+  },
+  {
+   "q": "What does the CPA typically handle in a 1031 exchange?",
+   "a": "The CPA evaluates whether the exchange fits the investor's tax position, estimates deferred federal capital gains and depreciation recapture tax, reviews boot exposure, and prepares Form 8824 with the tax return."
+  },
+  {
+   "q": "What does the attorney typically handle in a 1031 exchange?",
+   "a": "The attorney reviews purchase and sale contracts, handles title issues on the replacement property, and reviews structure-specific agreements for arrangements such as a tenant in common interest or a build to suit exchange."
+  },
+  {
+   "q": "When should the CPA and attorney be brought into the exchange?",
+   "a": "Ideally before the relinquished property closes, since the exchange agreement must be signed and boot exposure understood before the forty five day identification period begins, leaving little room for late-stage advisor review."
+  },
+  {
+   "q": "Why does a related-party exchange need both CPA and attorney input?",
+   "a": "A related-party transaction involves the CPA's assessment of the two-year holding period rule and the attorney's review of how the relationship affects contract terms, so both perspectives are typically needed to properly structure the deal."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "exchange-consultation",
+   "label": "1031 Exchange Consultation"
+  },
+  {
+   "slug": "qualified-intermediary",
+   "label": "Qualified Intermediary Services"
+  },
+  {
+   "slug": "compliance-review",
+   "label": "Compliance Review"
+  }
+ ],
+ "wordCount": 731
+}

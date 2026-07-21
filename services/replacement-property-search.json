@@ -1,0 +1,83 @@
+{
+ "slug": "replacement-property-search",
+ "taxonomy": "upstream-funnel",
+ "title": "Replacement Property Search",
+ "name": "Replacement Property Search",
+ "metaTitle": "Replacement Property Search for San Antonio, TX",
+ "metaDescription": "A practical approach to searching for qualifying 1031 replacement property against the forty five day identification deadline.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Searching for replacement property under a 1031 exchange is different from an ordinary real estate purchase search, because the forty five day identification deadline compresses the timeline for evaluating candidates, comparing options, and settling on the properties that will go on the written identification notice. A San Antonio investor benefits from starting the search before the relinquished property even closes, using the closing date only to start the clock rather than the search itself.</p>"
+  },
+  {
+   "heading": "Defining Investment Criteria Before Searching",
+   "html": "<p>An efficient search starts with clear criteria: target asset class, whether multifamily, industrial, retail, or another property type, acceptable price range based on expected exchange proceeds, minimum debt and equity replacement needed to avoid boot, and geographic scope, whether limited to San Antonio submarkets such as Stone Oak or the Medical Center area, broader Texas, or nationwide. Defining these criteria before the relinquished property closes prevents the forty five day window from being spent narrowing down basic parameters instead of evaluating actual candidates.</p>"
+  },
+  {
+   "heading": "Building a Candidate List Early",
+   "html": "<p>Working with a broker or advisor to assemble a list of realistic candidates before closing, including properties currently on market and any off-market opportunities, gives the investor a running start once the identification clock begins. San Antonio's growth corridors, including the I-35 corridor toward New Braunfels and San Marcos, the I-10 corridor toward Boerne, and the 410 and 1604 loops, each have distinct supply and pricing dynamics worth understanding before the search narrows.</p>"
+  },
+  {
+   "heading": "Screening Candidates Against Debt and Equity Requirements",
+   "html": "<p>Every candidate should be screened against the exchange math: a replacement property priced below the relinquished property's net sale value, or financed with less debt than the relinquished property carried without additional cash to offset the difference, creates taxable boot. Running this calculation early for each serious candidate, rather than after an offer is already accepted, avoids a late surprise that could force a scramble for an additional identification.</p>"
+  },
+  {
+   "heading": "Narrowing to the Formal Identification List",
+   "html": "<p>As the forty five day deadline approaches, candidates need to be narrowed to the properties that will actually appear on the written identification notice delivered to the Qualified Intermediary, generally using the three property rule or, for a broader search, the two hundred percent rule. Including a realistic backup candidate alongside the primary target gives the investor a fallback if financing or diligence problems arise on the lead property during the one hundred eighty day closing period.</p>"
+  },
+  {
+   "heading": "Balancing Speed and Diligence",
+   "html": "<p>The compressed timeline of a 1031 search can tempt an investor to skip diligence steps that would normally happen before an offer, but a rushed purchase that turns out to have deferred maintenance, title issues, or a weak tenant is a poor outcome even if it technically preserved the tax deferral. Ordering inspections and title work as early as possible in the process, ideally starting before or immediately after identification rather than waiting until closer to the one hundred eighty day deadline, helps balance the timeline pressure against the need for real diligence.</p>"
+  },
+  {
+   "heading": "Using Multiple Property Paths in One Search",
+   "html": "<p>A replacement property search does not need to result in a single answer; a San Antonio investor can combine a directly owned property identified as the primary target with a DST interest identified as a backup or as a way to absorb remaining proceeds, all within the same forty five day identification notice. Structuring the search this way from the outset, rather than treating each option as a separate fallback plan, tends to produce a more resilient exchange strategy.</p>"
+  },
+  {
+   "heading": "Working With a Broker Who Understands Exchange Deadlines",
+   "html": "<p>A broker unfamiliar with 1031 timelines can inadvertently slow a search by treating it like an ordinary purchase process, without urgency around the forty five day and one hundred eighty day deadlines. San Antonio investors benefit from working with a broker or advisor who understands these deadlines well enough to prioritize scheduling showings, gathering seller disclosures, and preparing offers quickly once a promising candidate surfaces, rather than following a more leisurely pace suited to a non-exchange transaction.</p><p>Asking a prospective broker directly how many 1031 exchange transactions they have closed, and how they typically structure an offer to accommodate an exchange buyer's timeline, is a reasonable way to gauge whether they will move at the pace the search actually requires.</p>"
+  },
+  {
+   "heading": "Off-Market Opportunities Within the San Antonio Search",
+   "html": "<p>Not every strong replacement candidate is actively marketed; a broker with established relationships across San Antonio's investment sales community may be aware of an owner considering a sale before the property is formally listed, which can be valuable for an investor working against the compressed exchange timeline, since an off-market deal sometimes moves through negotiation and due diligence faster than a competitively marketed listing. Investors should weigh the benefit of a faster off-market process against the more limited price discovery that comes without a competitive marketing process, since an off-market seller may not always offer the most favorable terms available.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "When should the replacement property search start?",
+   "a": "Ideally before the relinquished property closes, since the forty five day identification clock starts on the closing date and does not wait for the investor to begin researching candidates."
+  },
+  {
+   "q": "What criteria should be defined before starting the search?",
+   "a": "Target asset class, price range based on expected exchange proceeds, the minimum debt and equity replacement needed to avoid boot, and geographic scope should all be defined early so the forty five day window can be spent evaluating real candidates rather than narrowing basic parameters."
+  },
+  {
+   "q": "How many candidates should be identified?",
+   "a": "Most investors identify up to three properties under the three property rule, often including a backup candidate alongside the primary target, though the two hundred percent rule allows more candidates if their combined value stays within two hundred percent of the relinquished property's sale price."
+  },
+  {
+   "q": "Should diligence be skipped to move faster within the exchange timeline?",
+   "a": "No. Diligence steps such as inspections and title work should start as early as possible in the process rather than being skipped, since a rushed purchase with hidden problems is a poor outcome even if it preserves the tax deferral."
+  },
+  {
+   "q": "Can a search include both a directly owned property and a DST interest?",
+   "a": "Yes, an investor can identify a directly owned property as the primary target and a DST interest as a backup or to absorb remaining proceeds within the same identification notice, though DST interests are securities that carry risk and warrant review with a securities professional."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "property-identification",
+   "label": "Nationwide Property Identification"
+  },
+  {
+   "slug": "boot-calculation",
+   "label": "Boot Calculation and Minimization"
+  },
+  {
+   "slug": "exchange-consultation",
+   "label": "1031 Exchange Consultation"
+  }
+ ],
+ "wordCount": 768
+}

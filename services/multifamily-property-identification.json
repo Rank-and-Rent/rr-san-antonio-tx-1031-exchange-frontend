@@ -1,0 +1,83 @@
+{
+ "slug": "multifamily-property-identification",
+ "taxonomy": "upstream-funnel",
+ "title": "Multifamily Property Identification",
+ "name": "Multifamily Property Identification",
+ "metaTitle": "Multifamily Property Identification for San Antonio, TX",
+ "metaDescription": "Identifying multifamily replacement property for a 1031 exchange, with San Antonio submarket and financing considerations.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Multifamily property is one of the most common replacement property choices for San Antonio 1031 exchange investors, offering relatively stable demand driven by the metro's continued population growth and a range of building sizes that can absorb exchange proceeds of nearly any amount. Identifying the right multifamily candidate within the forty five day window requires balancing property size, submarket, financing timeline, and management requirements against the investor's specific goals.</p>"
+  },
+  {
+   "heading": "San Antonio Multifamily Submarkets Worth Understanding",
+   "html": "<p>Growth corridors along I-35 toward Schertz, Cibolo, and New Braunfels have attracted significant new multifamily construction, while established areas such as Stone Oak and Alamo Ranch offer a mix of newer and stabilized properties with strong renter demand tied to nearby employment centers. Older, closer-in neighborhoods near the urban core and the South Texas Medical Center area tend to offer smaller, older buildings at a lower price point, which can suit an investor with a smaller amount of exchange proceeds to reinvest.</p>"
+  },
+  {
+   "heading": "Matching Building Size to Exchange Proceeds",
+   "html": "<p>A San Antonio investor exchanging out of a smaller property often finds a four to twenty unit building a natural fit, financeable through a local or regional bank commercial loan, while larger exchange proceeds may point toward a fifty-plus unit community financeable through Fannie Mae or Freddie Mac agency programs. Matching the target building size to the realistic loan proceeds available, rather than the investor's aspirational size, helps keep the identification list grounded in properties that can actually close within one hundred eighty days.</p>"
+  },
+  {
+   "heading": "Financing Timeline Considerations",
+   "html": "<p>Agency multifamily financing generally offers favorable long-term terms but requires a longer underwriting process, including third-party reports and a more detailed property condition assessment, than a local bank loan. An investor identifying a larger, agency-financeable multifamily property should start the loan application in parallel with, not after, the forty five day identification period to have a realistic chance of closing within the one hundred eighty day deadline.</p>"
+  },
+  {
+   "heading": "Diligence Specific to Multifamily Property",
+   "html": "<p>Multifamily diligence should include a rent roll reconciliation against trailing collections, a unit-by-unit or representative sample inspection, a review of the capital needs for roofs, HVAC systems, and plumbing, and confirmation of the utility billing structure, which can vary meaningfully between San Antonio properties on submetered utilities and those on a flat or included-utility model. Larger communities also warrant a review of existing service and amenity maintenance contracts as part of identifying a suitable candidate.</p>"
+  },
+  {
+   "heading": "Like Kind Status for Multifamily Property",
+   "html": "<p>Multifamily property of any size and configuration, from a small four-unit building to a large garden-style community, qualifies as like kind real property when held for investment or business use, giving San Antonio investors flexibility to consolidate several smaller properties into one larger community or spread proceeds across multiple buildings, all within the same exchange's identification and closing deadlines.</p>"
+  },
+  {
+   "heading": "Identifying Multiple Multifamily Candidates",
+   "html": "<p>Because financing and diligence outcomes on a specific multifamily property are not always predictable in advance, many San Antonio investors identify more than one multifamily candidate under the three property rule, or use the two hundred percent rule to keep a broader set of submarkets and building sizes in play until financing is confirmed on a lead candidate.</p>"
+  },
+  {
+   "heading": "Population Growth as a Multifamily Demand Driver",
+   "html": "<p>San Antonio's sustained population growth, driven in part by the region's affordability relative to Austin and by employment tied to the military presence around Randolph Air Force Base and other installations, continues to support renter demand across a wide range of multifamily property ages and price points. Investors identifying a multifamily replacement candidate should look beyond current occupancy to the underlying demand drivers in that specific submarket, since a strong current occupancy rate built on temporary factors is a less durable foundation than steady population and employment growth in the surrounding area.</p><p>VIA transit expansion and continued growth in the medical, military, and technology employment base each contribute to renter demand differently across San Antonio submarkets, and an investor comparing multifamily candidates should ask what specific employment or transit factor is actually driving demand near each property under consideration.</p>"
+  },
+  {
+   "heading": "Property Management Transition at Acquisition",
+   "html": "<p>Identifying a multifamily replacement property also means planning for a management transition, whether the investor intends to self-manage or retain a third-party manager, and San Antonio has a range of local property management firms with different specialties across building size and submarket. An investor identifying a candidate outside their current management relationships should factor the time needed to vet and onboard a new manager into the overall timeline, since a rocky management transition immediately after closing can undermine the very income stability the investor underwrote the acquisition around.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What size multifamily building fits a smaller amount of exchange proceeds?",
+   "a": "A four to twenty unit building, typically financed through a local or regional bank commercial loan, is often a realistic fit for smaller exchange proceeds compared to a larger, agency-financeable community."
+  },
+  {
+   "q": "Why does financing timeline matter when identifying multifamily replacement property?",
+   "a": "Agency financing through Fannie Mae or Freddie Mac generally requires a longer underwriting process than a local bank loan, so starting the loan application early, ideally alongside the identification period, improves the chance of closing within one hundred eighty days."
+  },
+  {
+   "q": "Does multifamily property of any size qualify as like kind replacement property?",
+   "a": "Yes, multifamily property held for investment or business use qualifies as like kind regardless of size, allowing an investor to consolidate smaller buildings into a larger community or spread proceeds across multiple properties."
+  },
+  {
+   "q": "What diligence items are specific to multifamily property?",
+   "a": "A rent roll reconciliation against trailing collections, unit-level or sample inspections, a capital needs assessment for major building systems, and confirmation of the utility billing structure are all standard for multifamily diligence."
+  },
+  {
+   "q": "Why do investors often identify more than one multifamily candidate?",
+   "a": "Because financing and diligence outcomes are not always predictable in advance, identifying multiple candidates under the three property rule or two hundred percent rule keeps options open until financing is confirmed on the lead property."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "replacement-property-search",
+   "label": "Replacement Property Search"
+  },
+  {
+   "slug": "property-identification",
+   "label": "Nationwide Property Identification"
+  },
+  {
+   "slug": "apartment-building-investing",
+   "label": "Apartment Building Investing Explained"
+  }
+ ],
+ "wordCount": 721
+}

@@ -1,0 +1,75 @@
+{
+ "slug": "medical-office-property-search",
+ "taxonomy": "upstream-funnel",
+ "title": "Medical Office Property Search",
+ "name": "Medical Office Property Search",
+ "metaTitle": "Medical Office Property Search for San Antonio, TX",
+ "metaDescription": "How to source and evaluate medical office buildings as 1031 exchange replacement property in the San Antonio market.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Medical office buildings occupy a distinct category within commercial real estate, and San Antonio's presence as a major regional healthcare hub, anchored by the South Texas Medical Center area, gives investors a genuine and recurring supply of this property type to consider as 1031 exchange replacement property. A medical office search differs from a general office search in the tenant profile, the buildout requirements, and the lease structures typically in place, all of which affect how quickly a property can be identified and closed within an exchange timeline.</p>"
+  },
+  {
+   "heading": "Why Medical Office Appeals to Exchange Buyers",
+   "html": "<p>Medical tenants, particularly established physician groups, tend to sign longer leases than typical office tenants and often make substantial buildout investments of their own, which discourages relocation and supports tenant retention over multiple lease terms. This tenant stickiness is part of why medical office is frequently sought out by investors coming out of a sale of a more management-intensive property such as a small multifamily building or a retail strip, where an investor is looking to trade into a more passive holding.</p><p>Demand for medical office space also tends to be less cyclical than demand for general office space, since healthcare services are generally needed regardless of broader economic conditions, and an aging regional population base supports a durable, if unspectacular, growth trend in outpatient healthcare demand across the San Antonio metro. This makes medical office a property type some investors favor specifically for its lower sensitivity to economic downturns relative to discretionary retail or speculative office space.</p>"
+  },
+  {
+   "heading": "Where San Antonio Medical Office Supply Concentrates",
+   "html": "<p>The South Texas Medical Center area anchors the largest concentration of medical office buildings in San Antonio, supported by nearby hospital systems and a dense cluster of specialty practices. Additional medical office supply has followed rooftop growth outward along the 1604 loop and into Stone Oak, where new medical office and urgent care development has tracked the same population growth driving retail and multifamily demand in those corridors. Smaller medical office buildings also appear along the 410 loop and in established neighborhoods closer to the urban core, generally at a lower price point than Medical Center-adjacent product.</p>"
+  },
+  {
+   "heading": "Lease Structure and Tenant Credit Review",
+   "html": "<p>Medical office leases can range from a single-tenant net lease to a physician group, to a multi-tenant building with a mix of specialty practices on shorter terms. Reviewing the tenant mix, remaining lease term, and whether the tenant is an individual practitioner, a regional group, or a hospital-system affiliate matters directly to the durability of income, since a hospital-system-backed tenant generally carries stronger credit than an independent solo practice. Buildout condition also matters more in medical office than in general office space, since specialized plumbing, electrical, and equipment infrastructure can be costly to reconfigure for a new tenant if a space goes dark.</p>"
+  },
+  {
+   "heading": "Medical Office as Like-Kind Replacement Property",
+   "html": "<p>Medical office buildings are real property held for investment or business use and qualify as like-kind replacement property under the same rules that apply to any other commercial real estate in a 1031 exchange. An investor exchanging out of an apartment building, retail center, or another property type into a San Antonio medical office building faces the same forty five day identification period and one hundred eighty day closing deadline as any other exchange, both of which run concurrently from the closing date of the relinquished property.</p>"
+  },
+  {
+   "heading": "Diligence Considerations Specific to Medical Office",
+   "html": "<p>Beyond the standard lease and financial review, medical office diligence should confirm whether the building carries any certificate of need or zoning restrictions tied to healthcare use, review parking ratios against typical patient volume expectations, and assess whether HVAC and electrical systems are sized for medical equipment loads. Because Texas has no state income tax, a San Antonio investor's 1031 deferral benefit on a medical office acquisition is entirely about deferring federal capital gains tax and depreciation recapture, which makes the federal identification and closing deadlines the only timeline that matters for tax purposes.</p><p>It is also worth reviewing whether any medical equipment installed by a tenant, imaging equipment or specialized dental chairs, for example, is considered a tenant improvement that remains with the real property or personal property the tenant is entitled to remove at lease end, since this distinction affects both the building's condition assessment and its valuation as real property for exchange purposes.</p>"
+  },
+  {
+   "heading": "Working Within the Exchange Timeline",
+   "html": "<p>Because medical office transactions can involve longer due diligence periods tied to tenant estoppel certificates and specialized building inspections, an investor targeting this property type should begin the search well before the relinquished property closes, so that the forty five day identification window is used to narrow a shortlist rather than start a search from scratch. Coordinating early with a Qualified Intermediary and a broker familiar with the South Texas Medical Center and Stone Oak submarkets helps keep the identification and closing timeline realistic.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does medical office property qualify for a 1031 exchange?",
+   "a": "Yes. Medical office buildings are real property held for investment or business use and qualify as like-kind replacement property under the same rules as any other commercial real estate."
+  },
+  {
+   "q": "Why do investors like medical office as replacement property?",
+   "a": "Medical tenants, especially established physician groups, often sign longer leases and make significant buildout investments of their own, which supports tenant retention and can make medical office a comparatively passive holding relative to other property types."
+  },
+  {
+   "q": "Where is medical office supply concentrated in San Antonio?",
+   "a": "The South Texas Medical Center area holds the largest concentration, with additional supply along the 1604 loop and in Stone Oak tracking population growth, and smaller buildings scattered along the 410 loop and closer to the urban core."
+  },
+  {
+   "q": "What should be reviewed before identifying a medical office building?",
+   "a": "Tenant credit and lease term, whether the tenant is an independent practice or hospital-system affiliated, buildout condition and specialized systems, parking ratios, and any zoning or certificate of need restrictions tied to healthcare use."
+  },
+  {
+   "q": "How does the identification deadline apply to a medical office search?",
+   "a": "The same forty five day identification period and one hundred eighty day closing deadline apply, both running concurrently from the relinquished property's closing date, so a medical office search should generally begin before that closing to leave enough time for specialized due diligence."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "three-property-identification-strategy",
+   "label": "Three Property Identification Strategy"
+  },
+  {
+   "slug": "commercial-real-estate-investing",
+   "label": "Commercial Real Estate Investing"
+  },
+  {
+   "slug": "market-comps-analysis",
+   "label": "Market Comparables Analysis"
+  }
+ ],
+ "wordCount": 773
+}

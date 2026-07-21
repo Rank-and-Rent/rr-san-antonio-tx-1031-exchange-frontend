@@ -1,0 +1,75 @@
+{
+ "slug": "mixed-use-property-search",
+ "taxonomy": "upstream-funnel",
+ "title": "Mixed Use Property Search",
+ "name": "Mixed Use Property Search",
+ "metaTitle": "Mixed Use Property Search for San Antonio, TX",
+ "metaDescription": "How to evaluate mixed use buildings combining retail, office, and residential components as 1031 exchange replacement property in San Antonio.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Mixed use property, buildings combining two or more uses such as ground-floor retail with office or residential space above, has grown as a category in San Antonio alongside walkable infill development near the urban core and newer master-planned nodes along the outer loop. A mixed use search requires evaluating each income component separately, since a single property can carry a retail lease, an office lease, and residential units, each with its own tenant profile, lease structure, and risk factors.</p>"
+  },
+  {
+   "heading": "Why Mixed Use Appeals to Exchange Investors",
+   "html": "<p>Combining multiple use types within one property can diversify income sources, reducing dependence on any single tenant category, and mixed use development has been a natural fit for growth areas where rooftop growth and daytime population have arrived together, supporting both ground-floor retail and upper-floor office or residential demand. This diversification can appeal to an investor exchanging out of a single-tenant net lease property who wants exposure to more than one income stream within a single acquisition.</p><p>Mixed use properties can also benefit from complementary foot traffic between uses, where residential or office tenants generate a built-in customer base for ground-floor retail and restaurant tenants, a dynamic that can support stronger retail performance than a comparable freestanding retail building without adjacent residential or office density.</p>"
+  },
+  {
+   "heading": "San Antonio Mixed Use Growth Areas",
+   "html": "<p>The city's outer loop along 1604, along with newer development pushing toward New Braunfels, has produced a wave of master-planned mixed use nodes combining retail, office, and multifamily components designed around walkability rather than the more auto-oriented strip development of past decades. Downtown and near-downtown areas closer to the River Walk have also seen adaptive reuse and infill mixed use projects, generally at a smaller scale and often combining ground-floor retail or restaurant space with residential or office use above.</p><p>Alamo Ranch on the west side has also produced mixed use nodes combining retail with either office or multifamily components, reflecting the same pattern of commercial development following rooftop growth that has shaped other San Antonio growth corridors over the past several years.</p>"
+  },
+  {
+   "heading": "Evaluating Each Income Component Separately",
+   "html": "<p>A mixed use property's retail component should be underwritten against typical retail lease structures and co-tenancy considerations, while any office component requires review of tenant credit and remaining term separately from the retail leases, and a residential component requires its own occupancy and rent roll analysis distinct from the commercial spaces. Treating a mixed use building as a single undifferentiated income stream can obscure meaningful risk concentrated in one component, such as a struggling retail tenant on the ground floor even where upper-floor office or residential income remains stable.</p>"
+  },
+  {
+   "heading": "Mixed Use Property as Like-Kind Replacement Property",
+   "html": "<p>A mixed use building is real property held for investment or business use and qualifies as like-kind replacement property under the same rules as any single-use commercial property in a 1031 exchange. An investor identifying a San Antonio mixed use property must meet the same forty five day identification period and one hundred eighty day closing deadline as any other exchange, both running concurrently from the relinquished property's closing date, regardless of how many use types the replacement property combines.</p>"
+  },
+  {
+   "heading": "Financing Considerations for Mixed Use Buildings",
+   "html": "<p>Lenders evaluating a mixed use property generally underwrite each income component separately and may apply different capitalization assumptions to retail, office, and residential income within the same building, which can make mixed use financing somewhat more complex than financing a single-use property. Working with a lender experienced in mixed use underwriting, and preparing a clear breakdown of income by use type, tends to shorten the underwriting timeline for a San Antonio mixed use acquisition.</p>"
+  },
+  {
+   "heading": "Diligence Before Identification",
+   "html": "<p>Before identifying a San Antonio mixed use property, an investor should review the lease abstract for every tenant across all use types, confirm shared systems such as parking, elevators, and building mechanicals are adequately maintained and allocated fairly across the different uses, and verify zoning explicitly permits the existing mix of uses. Because Texas has no state income tax, the 1031 deferral benefit on a San Antonio mixed use acquisition applies entirely to federal capital gains and depreciation recapture tax, keeping the federal identification and closing deadlines as the only timeline that governs the exchange.</p><p>Reviewing any condominium or reciprocal easement agreements governing shared costs between the different use components, and confirming how common area maintenance charges are allocated across residential, office, and retail tenants, helps avoid inheriting a cost-sharing structure that unfairly burdens one component of the property over another.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does a mixed use building qualify as replacement property in a 1031 exchange?",
+   "a": "Yes. A mixed use building is real property held for investment or business use and qualifies as like-kind replacement property under the same rules as any single-use commercial property."
+  },
+  {
+   "q": "Why do investors consider mixed use property in an exchange?",
+   "a": "Combining retail, office, or residential income within a single property can diversify income sources and reduce dependence on any one tenant category, which can appeal to an investor exchanging out of a single-tenant property."
+  },
+  {
+   "q": "Where is mixed use development concentrated in San Antonio?",
+   "a": "The outer loop along 1604 and areas pushing toward New Braunfels have produced newer master-planned mixed use nodes, while downtown and near-downtown areas near the River Walk have seen smaller-scale adaptive reuse and infill mixed use projects."
+  },
+  {
+   "q": "How should the different income components of a mixed use building be evaluated?",
+   "a": "Each component, retail, office, and residential, should be underwritten separately with its own tenant credit, lease term, and occupancy review, since treating the building as a single income stream can obscure risk concentrated in one use type."
+  },
+  {
+   "q": "Is mixed use property financing different from financing a single-use building?",
+   "a": "Yes. Lenders generally underwrite each income component separately within a mixed use building and may apply different capitalization assumptions to retail, office, and residential income, which can add complexity relative to a single-use property."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "land-property-identification",
+   "label": "Land Property Identification"
+  },
+  {
+   "slug": "market-comps-analysis",
+   "label": "Market Comparables Analysis"
+  },
+  {
+   "slug": "lender-preflight",
+   "label": "Lender Preflight Support"
+  }
+ ],
+ "wordCount": 711
+}

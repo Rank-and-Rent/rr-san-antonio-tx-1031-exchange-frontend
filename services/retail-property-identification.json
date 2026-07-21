@@ -1,0 +1,83 @@
+{
+ "slug": "retail-property-identification",
+ "taxonomy": "upstream-funnel",
+ "title": "Retail Property Identification",
+ "name": "Retail Property Identification",
+ "metaTitle": "Retail Property Identification for San Antonio, TX",
+ "metaDescription": "Identifying retail replacement property, including NNN and single-tenant net lease options, for a San Antonio 1031 exchange.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Retail property remains a popular 1031 replacement property category, ranging from a small multi-tenant strip center to a single-tenant net lease building leased to a national or regional brand, and San Antonio's continued population growth along corridors such as I-35, I-10, and the 1604 loop has kept retail development and re-tenanting activity steady across the metro. Identifying the right retail candidate depends heavily on lease structure, tenant credit, and how much active management the investor wants to take on.</p>"
+  },
+  {
+   "heading": "Multi-Tenant Retail Versus Single-Tenant Net Lease",
+   "html": "<p>A multi-tenant retail center, such as a neighborhood strip anchored by a grocery store or a smaller unanchored center with several local tenants, generally requires more active leasing and management, including handling vacancies, tenant improvements, and common area maintenance, but can offer higher overall yield to compensate for that management burden. A single-tenant net lease, or STNL, property leased to one tenant on a long-term lease, by contrast, is typically far more passive, with the tenant responsible for most operating expenses, though it also concentrates the investor's income risk in a single tenant's creditworthiness.</p>"
+  },
+  {
+   "heading": "Understanding NNN Lease Structures",
+   "html": "<p>A triple net, or NNN, lease requires the tenant to pay property taxes, insurance, and maintenance in addition to base rent, which shifts most of the operating expense burden and its associated risk to the tenant rather than the landlord. San Antonio investors evaluating an NNN retail candidate should still review the specific lease language carefully, since not every lease labeled triple net actually passes through one hundred percent of expenses, and some carry landlord responsibility for roof or structural repairs regardless of the net lease label.</p>"
+  },
+  {
+   "heading": "San Antonio Retail Corridors and Submarkets",
+   "html": "<p>Growth areas along I-35 toward Schertz and Cibolo, and along the 1604 and 410 loops near Stone Oak and Alamo Ranch, have attracted new retail construction tied to residential growth in those areas, while established corridors closer to the urban core offer a mix of older centers with re-tenanting potential. Retail near the South Texas Medical Center area also benefits from steady daytime population tied to the medical employment base, which can support certain tenant categories, such as pharmacy or quick-service food users.</p>"
+  },
+  {
+   "heading": "Tenant Credit and Lease Term Evaluation",
+   "html": "<p>For single-tenant net lease property, the investor's underwriting centers heavily on tenant credit quality and remaining lease term, since these two factors drive both the financeability of the property and its resale value at the end of the investor's hold period. A San Antonio investor identifying an STNL candidate should review the tenant's corporate financial strength, the guarantor structure if the lease is guaranteed by a parent company, and any early termination or co-tenancy clauses that could affect long-term income stability.</p>"
+  },
+  {
+   "heading": "Diligence for Multi-Tenant Retail Centers",
+   "html": "<p>Multi-tenant retail diligence should include a lease abstract for each tenant covering rent, expense reimbursement terms, and renewal options, a review of historical occupancy and tenant turnover, confirmation of common area maintenance reconciliation practices, and an assessment of anchor tenant health if the center depends on a grocery or other anchor to drive traffic to the smaller in-line tenants.</p>"
+  },
+  {
+   "heading": "Fitting Retail Identification Into the Exchange Timeline",
+   "html": "<p>Because lease abstraction and tenant credit review can take meaningful time, particularly for a multi-tenant center with several leases to review, San Antonio investors targeting retail replacement property should begin this diligence as early as possible relative to the forty five day identification period, so that the one hundred eighty day closing deadline remains realistically achievable once a candidate is selected.</p>"
+  },
+  {
+   "heading": "How Rooftop Growth Shapes Retail Opportunity",
+   "html": "<p>New residential rooftops along growth corridors such as I-35 toward Schertz and Cibolo, and around Alamo Ranch and Stone Oak, tend to draw new retail development and re-tenanting activity as national and regional retailers follow population growth into these areas. An investor identifying retail replacement property should look at both the current tenant mix and the pace of nearby residential construction, since a retail center positioned ahead of continued rooftop growth in its trade area can offer a stronger long-term outlook than one in an already fully built-out submarket.</p>"
+  },
+  {
+   "heading": "Evaluating Co-Tenancy and Anchor Dependence",
+   "html": "<p>A retail center's smaller in-line tenants often rely on an anchor, such as a grocery store, to drive customer traffic, and many in-line leases include co-tenancy clauses allowing reduced rent or early termination if the anchor vacates. San Antonio investors identifying a multi-tenant retail candidate should review these co-tenancy provisions closely, since an anchor's departure can trigger a chain reaction of reduced income across the center well beyond the anchor space itself, materially changing the property's underwriting.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What is the main tradeoff between multi-tenant retail and single-tenant net lease property?",
+   "a": "Multi-tenant retail generally requires more active management and leasing but can offer higher yield, while single-tenant net lease property is typically more passive, with the tenant covering most operating expenses, but concentrates income risk in a single tenant's credit."
+  },
+  {
+   "q": "Does a triple net lease always mean the landlord has no expense responsibility?",
+   "a": "Not necessarily. While a triple net lease shifts taxes, insurance, and maintenance to the tenant, the specific lease language should be reviewed, since some leases still leave the landlord responsible for roof or structural repairs despite the triple net label."
+  },
+  {
+   "q": "What matters most when evaluating a single-tenant net lease candidate?",
+   "a": "Tenant credit quality and remaining lease term are the two most important factors, since they drive both the property's financeability and its resale value at the end of the investor's hold period."
+  },
+  {
+   "q": "What diligence is specific to a multi-tenant retail center?",
+   "a": "A lease abstract for each tenant, a review of historical occupancy and turnover, confirmation of common area maintenance reconciliation, and an assessment of anchor tenant health are all part of multi-tenant retail diligence."
+  },
+  {
+   "q": "Why should retail diligence start early relative to the identification period?",
+   "a": "Lease abstraction and tenant credit review can take meaningful time, especially for a multi-tenant property, so starting this work early keeps the one hundred eighty day closing deadline realistically achievable."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "replacement-property-search",
+   "label": "Replacement Property Search"
+  },
+  {
+   "slug": "property-identification",
+   "label": "Nationwide Property Identification"
+  },
+  {
+   "slug": "industrial-property-search",
+   "label": "Industrial Property Search"
+  }
+ ],
+ "wordCount": 710
+}

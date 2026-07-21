@@ -6,6 +6,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import SearchInput from "@/components/SearchInput";
 import ContactForm from "@/app/contact/contact-form";
 import site from "@/content/site.json";
+import { getRichService } from "@/lib/rich-service";
 import type { Metadata } from "next";
 
 interface PageProps {
@@ -21,16 +22,19 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
   const service = servicesData.find((s) => s.slug === slug);
-  
+
   if (!service) {
     return {
       title: "Service Not Found",
     };
   }
 
+  const rich = getRichService(slug);
+
   return {
-    title: `${service.name} | 1031 Exchange Services`,
-    description: `${service.short}. Available in San Antonio, TX and nationwide.`,
+    title: rich?.metaTitle || `${service.name} | 1031 Exchange Services`,
+    description:
+      rich?.metaDescription || `${service.short}. Available in San Antonio, TX and nationwide.`,
   };
 }
 
@@ -42,30 +46,37 @@ export default async function ServicePage({ params }: PageProps) {
     notFound();
   }
 
+  // Rich per-slug content authored to repo-root services/<slug>.json (sections + faqs).
+  // When present, it replaces the generic hardcoded body below; otherwise the
+  // existing template renders unchanged.
+  const rich = getRichService(slug);
+
   // Get related services (same category, excluding current)
   const relatedServices = servicesData
     .filter((s) => s.category === service.category && s.slug !== service.slug)
     .slice(0, 4);
 
-  // Generate FAQs based on service
-  const faqs = [
-    {
-      question: `What is ${service.name}?`,
-      answer: `${service.short}. In San Antonio, TX, we help 1031 exchange buyers identify replacement properties that match their timeline, credit requirements, and yield targets.`,
-    },
-    {
-      question: `How does ${service.name} work for 1031 exchanges?`,
-      answer: `We help identify replacement properties for 1031 exchanges in San Antonio, TX and nationwide. Our process focuses on matching your exchange requirements with available properties that qualify as like kind replacement property.`,
-    },
-    {
-      question: `What timeline should I expect for ${service.name}?`,
-      answer: `Timelines vary based on your specific 1031 exchange requirements. In San Antonio, TX, we work within your 45 day identification period and 180 day closing deadline to identify suitable replacement properties.`,
-    },
-    {
-      question: `Can you help with ${service.name} outside of San Antonio, TX?`,
-      answer: `Yes. We identify replacement properties across all 50 states. While we are based in San Antonio, TX, we source properties nationwide to match your 1031 exchange requirements.`,
-    },
-  ];
+  // Generate FAQs based on service (fallback template FAQs; overridden by rich.faqs when available)
+  const faqs = rich && rich.faqs.length > 0
+    ? rich.faqs.map((f) => ({ question: f.q, answer: f.a }))
+    : [
+      {
+        question: `What is ${service.name}?`,
+        answer: `${service.short}. In San Antonio, TX, we help 1031 exchange buyers identify replacement properties that match their timeline, credit requirements, and yield targets.`,
+      },
+      {
+        question: `How does ${service.name} work for 1031 exchanges?`,
+        answer: `We help identify replacement properties for 1031 exchanges in San Antonio, TX and nationwide. Our process focuses on matching your exchange requirements with available properties that qualify as like kind replacement property.`,
+      },
+      {
+        question: `What timeline should I expect for ${service.name}?`,
+        answer: `Timelines vary based on your specific 1031 exchange requirements. In San Antonio, TX, we work within your 45 day identification period and 180 day closing deadline to identify suitable replacement properties.`,
+      },
+      {
+        question: `Can you help with ${service.name} outside of San Antonio, TX?`,
+        answer: `Yes. We identify replacement properties across all 50 states. While we are based in San Antonio, TX, we source properties nationwide to match your 1031 exchange requirements.`,
+      },
+    ];
 
   // Breadcrumb structured data
   const breadcrumbStructuredData = {
@@ -190,68 +201,88 @@ export default async function ServicePage({ params }: PageProps) {
             </h1>
             <p className="text-xl text-ink/80 mb-8">{service.short}</p>
 
-            <div className="prose prose-invert max-w-none mb-12">
-              <p className="text-ink/80 leading-relaxed">
-                {service.name} helps 1031 exchange buyers identify replacement properties that align with triple net (NNN) lease structures, where the tenant covers taxes, insurance, maintenance, utilities, and rent so you can collect clean, predictable income without managing the asset day to day. We focus on creditworthy tenants—convenience stores, pharmacies, medical clinics, fast-food and other essential retail—that keep cash flowing even when the economy softens.
-              </p>
-              <p className="text-ink/80 leading-relaxed">
-                Our property identification process spans single tenant NNN retail, multifamily, industrial, medical office, self storage, and other commercial asset classes across all 50 states, aligning location, lease duration, and yield requirements with your 45-day identification window and 180-day closing deadline.
-              </p>
-            </div>
-
-            <section className="mb-12">
-              <div className="bg-panel border border-outline rounded-lg p-8 space-y-6">
-                <h2 className="text-2xl font-semibold text-heading">Triple Net Lease Insights</h2>
-                <p className="text-ink/80 leading-relaxed">
-                  Triple net investments deliver a level of security not found in other asset classes because blue-chip tenants absorb operating expenses, keep long-term commitments, and keep paying rent well after market turbulence subsides—perfect for investors wrapping their exchanges in stability.
-                </p>
-                <div className="grid gap-4 md:grid-cols-2">
-                  {leaseTypeCards.map((card) => (
-                    <div key={card.title} className="bg-paper border border-dashed border-outline rounded-lg p-4">
-                      <h3 className="text-lg font-semibold text-heading mb-2">{card.title}</h3>
-                      <p className="text-ink/80 text-sm">{card.description}</p>
+            {rich ? (
+              <section className="mb-12">
+                <div className="prose prose-invert max-w-none space-y-8">
+                  {rich.sections.map((sec, idx) => (
+                    <div key={idx}>
+                      {sec.heading && (
+                        <h2 className="text-2xl font-semibold text-heading mb-3">{sec.heading}</h2>
+                      )}
+                      <div
+                        className="text-ink/80 leading-relaxed [&_p]:mb-4 [&_ul]:list-disc [&_ul]:list-inside [&_ul]:space-y-2 [&_ol]:list-decimal [&_ol]:list-inside [&_ol]:space-y-2"
+                        dangerouslySetInnerHTML={{ __html: sec.html }}
+                      />
                     </div>
                   ))}
                 </div>
-                <div>
-                  <h3 className="text-lg font-semibold text-heading mb-3">We weigh three deal pillars</h3>
-                  <div className="grid sm:grid-cols-3 gap-3">
-                    {focusCriteria.map((item) => (
-                      <div
-                        key={item}
-                        className="bg-paper border border-outline rounded-lg px-4 py-3 text-sm font-medium text-heading text-center"
-                      >
-                        {item}
-                      </div>
-                    ))}
-                  </div>
-                </div>
-                <div className="space-y-2">
+              </section>
+            ) : (
+              <>
+                <div className="prose prose-invert max-w-none mb-12">
                   <p className="text-ink/80 leading-relaxed">
-                    Preferred tenants include auto parts stores, convenience stores, child care centers, car washes, dollar and drug stores, fast-food & quick-service restaurants, gas stations, medical clinics, and pet or veterinary clinics—all of which are essential to local communities and often backed by national operators who weather recessions.
+                    {service.name} helps 1031 exchange buyers identify replacement properties that align with triple net (NNN) lease structures, where the tenant covers taxes, insurance, maintenance, utilities, and rent so you can collect clean, predictable income without managing the asset day to day. We focus on creditworthy tenants—convenience stores, pharmacies, medical clinics, fast-food and other essential retail—that keep cash flowing even when the economy softens.
                   </p>
-                  <div className="grid sm:grid-cols-2 gap-3 text-sm text-ink/80">
-                    {tenantExamples.map((tenant) => (
-                      <p key={tenant} className="flex items-center">
-                        <span className="mr-2 text-primary">•</span>
-                        {tenant}
+                  <p className="text-ink/80 leading-relaxed">
+                    Our property identification process spans single tenant NNN retail, multifamily, industrial, medical office, self storage, and other commercial asset classes across all 50 states, aligning location, lease duration, and yield requirements with your 45-day identification window and 180-day closing deadline.
+                  </p>
+                </div>
+
+                <section className="mb-12">
+                  <div className="bg-panel border border-outline rounded-lg p-8 space-y-6">
+                    <h2 className="text-2xl font-semibold text-heading">Triple Net Lease Insights</h2>
+                    <p className="text-ink/80 leading-relaxed">
+                      Triple net investments deliver a level of security not found in other asset classes because blue-chip tenants absorb operating expenses, keep long-term commitments, and keep paying rent well after market turbulence subsides—perfect for investors wrapping their exchanges in stability.
+                    </p>
+                    <div className="grid gap-4 md:grid-cols-2">
+                      {leaseTypeCards.map((card) => (
+                        <div key={card.title} className="bg-paper border border-dashed border-outline rounded-lg p-4">
+                          <h3 className="text-lg font-semibold text-heading mb-2">{card.title}</h3>
+                          <p className="text-ink/80 text-sm">{card.description}</p>
+                        </div>
+                      ))}
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-semibold text-heading mb-3">We weigh three deal pillars</h3>
+                      <div className="grid sm:grid-cols-3 gap-3">
+                        {focusCriteria.map((item) => (
+                          <div
+                            key={item}
+                            className="bg-paper border border-outline rounded-lg px-4 py-3 text-sm font-medium text-heading text-center"
+                          >
+                            {item}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                    <div className="space-y-2">
+                      <p className="text-ink/80 leading-relaxed">
+                        Preferred tenants include auto parts stores, convenience stores, child care centers, car washes, dollar and drug stores, fast-food & quick-service restaurants, gas stations, medical clinics, and pet or veterinary clinics—all of which are essential to local communities and often backed by national operators who weather recessions.
                       </p>
-                    ))}
+                      <div className="grid sm:grid-cols-2 gap-3 text-sm text-ink/80">
+                        {tenantExamples.map((tenant) => (
+                          <p key={tenant} className="flex items-center">
+                            <span className="mr-2 text-primary">•</span>
+                            {tenant}
+                          </p>
+                        ))}
+                      </div>
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-semibold text-heading mb-3">Investor benefits</h3>
+                      <ul className="list-disc list-inside space-y-2 text-ink/80">
+                        {benefitBullets.map((benefit) => (
+                          <li key={benefit}>{benefit}</li>
+                        ))}
+                      </ul>
+                    </div>
+                    <p className="text-sm text-ink/70">
+                      The trade-off for this hands-off ownership is that you are no longer managing details like landscaping and that rent is capped for the lease term, but built-in escalations, diversification, and the tangible asset backing the lease keep your internal rate of return in the 7–10% range without the daily property calls.
+                    </p>
                   </div>
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold text-heading mb-3">Investor benefits</h3>
-                  <ul className="list-disc list-inside space-y-2 text-ink/80">
-                    {benefitBullets.map((benefit) => (
-                      <li key={benefit}>{benefit}</li>
-                    ))}
-                  </ul>
-                </div>
-                <p className="text-sm text-ink/70">
-                  The trade-off for this hands-off ownership is that you are no longer managing details like landscaping and that rent is capped for the lease term, but built-in escalations, diversification, and the tangible asset backing the lease keep your internal rate of return in the 7–10% range without the daily property calls.
-                </p>
-              </div>
-            </section>
+                </section>
+              </>
+            )}
 
             <section className="mb-12">
               <h2 className="text-2xl font-semibold text-heading mb-6">

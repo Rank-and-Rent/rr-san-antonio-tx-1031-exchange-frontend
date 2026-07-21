@@ -1,0 +1,79 @@
+{
+ "slug": "qualified-intermediary",
+ "taxonomy": "upstream-funnel",
+ "title": "Qualified Intermediary Services",
+ "name": "Qualified Intermediary Services",
+ "metaTitle": "Qualified Intermediary Services for San Antonio, TX",
+ "metaDescription": "What a Qualified Intermediary does in a San Antonio 1031 exchange, the independence rules, and how to evaluate one before engaging.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A Qualified Intermediary is required for nearly every delayed 1031 exchange, since federal tax rules do not allow a taxpayer to receive or control sale proceeds from the relinquished property and still defer gain on the transaction. For a San Antonio investor, choosing the right intermediary is one of the first practical decisions in the exchange process, because the intermediary holds the exchange funds, drafts the required agreements, and manages the paperwork that keeps the exchange compliant from the relinquished property closing through the replacement property purchase.</p>"
+  },
+  {
+   "heading": "What a Qualified Intermediary Actually Does",
+   "html": "<p>The intermediary is assigned the taxpayer's rights in both the sale contract for the relinquished property and the purchase contract for the replacement property, receives the sale proceeds directly at closing rather than allowing them to pass through the investor's hands, holds those funds in a segregated or qualified escrow account during the exchange period, and disburses funds to close on the replacement property once it is identified and ready to close. The intermediary also prepares the exchange agreement and the written identification notice the investor must deliver within the forty five day period.</p>"
+  },
+  {
+   "heading": "The Independence Requirement",
+   "html": "<p>The Internal Revenue Service requires that a Qualified Intermediary be independent of the taxpayer, which specifically disqualifies the taxpayer's attorney, certified public accountant, real estate agent or broker, investment banker, or employee, as well as anyone who has acted in one of those capacities for the taxpayer within the two years preceding the exchange. A San Antonio investor cannot simply ask their longtime real estate attorney or accountant to serve as intermediary, even if that relationship is trusted, because the disqualification rule applies regardless of the intermediary's competence or the investor's confidence in them.</p>"
+  },
+  {
+   "heading": "Timing: When to Engage a Qualified Intermediary",
+   "html": "<p>The intermediary must be engaged and the exchange agreement signed before the relinquished property closes, since the assignment of the sale contract has to occur prior to the transfer of the property. San Antonio investors who wait until after closing to look for an intermediary lose the ability to structure the transaction as a 1031 exchange at all, so engaging an intermediary early in the listing or under-contract process, rather than waiting for closing week, avoids this risk entirely.</p>"
+  },
+  {
+   "heading": "Fund Security and How Exchange Funds Are Held",
+   "html": "<p>Exchange proceeds are typically held in a qualified escrow account or qualified trust account, and investors should ask any prospective intermediary how funds are safeguarded, including whether accounts are segregated per client, whether a fidelity bond or errors and omissions insurance is in place, and whether written authorization from the investor is required before any funds are released. Because intermediaries are not subject to a uniform federal regulatory body, this due diligence falls on the investor and the investor's advisors before committing exchange proceeds to any one firm.</p>"
+  },
+  {
+   "heading": "Evaluating a Qualified Intermediary for a San Antonio Exchange",
+   "html": "<p>Relevant factors include the firm's experience with the specific exchange structure being used, whether delayed, reverse, or improvement, its responsiveness during the forty five day identification window, its fee structure, and its familiarity with Texas closing practices and title company relationships across the San Antonio market. A firm that regularly works with San Antonio replacement properties along corridors such as I-35 or 410 tends to coordinate more smoothly with local title companies than an out-of-state intermediary unfamiliar with those relationships.</p>"
+  },
+  {
+   "heading": "Coordinating the Intermediary With the Broader Exchange Team",
+   "html": "<p>The intermediary works alongside, but does not replace, the investor's tax advisor and real estate attorney; the intermediary handles the mechanics of holding funds and executing the exchange agreement, while the tax advisor confirms the exchange strategy fits the investor's overall tax position and the attorney reviews contract terms. Clear communication among all three, particularly around the identification deadline and any boot exposure, reduces the chance of a costly mistake during the exchange.</p>"
+  },
+  {
+   "heading": "Questions Worth Asking Before Engaging an Intermediary",
+   "html": "<p>A San Antonio investor evaluating intermediary firms should ask how long the firm has operated, how many exchanges it closes annually, whether it specializes in delayed exchanges or also handles reverse and improvement structures, and how it communicates during the forty five day identification window when responsiveness matters most. Asking for a sample exchange agreement and a clear breakdown of fees before signing avoids surprises later in the process and gives the investor a chance to compare firms on more than price alone.</p><p>It is also reasonable to ask directly how the firm has handled a deadline-sensitive situation in a past exchange, since the answer often reveals more about the firm's practical reliability than a general description of its services, and a firm that can speak concretely about resolving a near-miss identification or closing issue tends to be better prepared to handle one again.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Can an investor's own accountant serve as the Qualified Intermediary?",
+   "a": "No. Anyone who has acted as the taxpayer's attorney, certified public accountant, real estate agent, investment banker, or employee within the two years before the exchange is disqualified from serving as the intermediary, regardless of the relationship's history."
+  },
+  {
+   "q": "When must the Qualified Intermediary be engaged?",
+   "a": "Before the relinquished property closes. The exchange agreement and assignment of the sale contract must be in place prior to closing, so engaging the intermediary early in the transaction, not at the closing table, is essential."
+  },
+  {
+   "q": "How are exchange funds protected while held by the intermediary?",
+   "a": "Funds are typically held in a qualified escrow or qualified trust account, and investors should confirm whether the account is segregated per client and whether the intermediary carries a fidelity bond or errors and omissions insurance before engaging them."
+  },
+  {
+   "q": "What happens if the investor receives the sale proceeds directly instead of using an intermediary?",
+   "a": "Direct or constructive receipt of the proceeds disqualifies the transaction from 1031 treatment entirely, making the full gain taxable in the year of sale, which is why the intermediary's role in receiving and holding funds is essential."
+  },
+  {
+   "q": "Does the Qualified Intermediary replace the need for a tax advisor?",
+   "a": "No. The intermediary manages the mechanics of holding funds and preparing exchange documents, while a tax advisor evaluates whether the exchange strategy fits the investor's broader tax position and helps prepare Form 8824."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "delayed-exchange",
+   "label": "Delayed 1031 Exchange"
+  },
+  {
+   "slug": "exchange-coordination",
+   "label": "Exchange Coordination"
+  },
+  {
+   "slug": "cpa-attorney-coordination",
+   "label": "CPA and Attorney Coordination"
+  }
+ ],
+ "wordCount": 739
+}

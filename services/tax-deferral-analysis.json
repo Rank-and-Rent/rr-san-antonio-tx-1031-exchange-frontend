@@ -1,0 +1,79 @@
+{
+ "slug": "tax-deferral-analysis",
+ "taxonomy": "upstream-funnel",
+ "title": "Tax Deferral Analysis",
+ "name": "Tax Deferral Analysis",
+ "metaTitle": "1031 Tax Deferral Analysis for San Antonio, TX",
+ "metaDescription": "How San Antonio investors estimate the federal capital gains and depreciation recapture tax deferred through a 1031 exchange.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Before committing to a 1031 exchange, most San Antonio investors want a clear-eyed estimate of what is actually being deferred, since the complexity of identification deadlines, replacement property searches, and Qualified Intermediary coordination is only worthwhile if the tax deferral is meaningful. A tax deferral analysis walks through the components of realized gain and the taxes that would otherwise apply, giving the investor a concrete number rather than a general sense that an exchange is a good idea.</p>"
+  },
+  {
+   "heading": "Components of Realized Gain",
+   "html": "<p>Realized gain on the relinquished property is generally the sale price, less selling costs, less the investor's adjusted basis, which is the original purchase price plus capital improvements, minus depreciation deducted over the holding period. San Antonio investors who have owned a property for many years often find that accumulated depreciation deductions have reduced their basis substantially, which increases the realized gain relative to what the investor might intuitively expect based on appreciation alone.</p>"
+  },
+  {
+   "heading": "Federal Capital Gains Tax",
+   "html": "<p>The federal long-term capital gains rate that applies to the sale depends on the investor's taxable income for the year, and a portion of higher-income investors' gain may also be subject to the net investment income tax. Because Texas has no state income tax, the federal rate is the only capital gains tax exposure a San Antonio investor faces on the sale; there is no additional state-level capital gains tax layered on top, which is a meaningful structural advantage compared to investors selling comparable property in states with their own capital gains regimes.</p>"
+  },
+  {
+   "heading": "Depreciation Recapture",
+   "html": "<p>Separate from capital gains tax, depreciation recapture taxes the portion of gain attributable to depreciation deductions previously taken, generally at a rate capped at twenty five percent for real property, and this recapture applies regardless of how long the property was held or what the investor's ordinary income tax bracket is. For a San Antonio investor who has owned an income property for a decade or more, depreciation recapture can represent a substantial share of the total tax otherwise due on sale, which is often the single largest component a 1031 exchange defers.</p>"
+  },
+  {
+   "heading": "Putting the Estimate Together",
+   "html": "<p>A basic deferral estimate adds the projected federal capital gains tax and depreciation recapture tax that would be owed on an outright sale, compares that combined figure against the cost and complexity of completing an exchange, including intermediary fees and any additional financing coordination, and considers the investor's plans for the sale proceeds. An investor planning to reinvest in real estate regardless of the exchange decision generally finds the deferral analysis strongly favors exchanging, since there is little offsetting reason not to defer tax on proceeds that were going back into real estate anyway.</p>"
+  },
+  {
+   "heading": "Basis Carryover and Future Tax Position",
+   "html": "<p>A 1031 exchange does not eliminate the deferred tax liability; it carries the relinquished property's adjusted basis, adjusted for any additional investment or boot received, into the replacement property, meaning the deferred gain remains embedded and would be recognized on a future sale of the replacement property unless another exchange or a step-up in basis at death eliminates it. San Antonio investors should factor this carryover basis into long-term estate and portfolio planning rather than viewing the deferral as a one-time event disconnected from future transactions.</p>"
+  },
+  {
+   "heading": "When the Analysis Favors an Outright Sale",
+   "html": "<p>In some cases the deferral analysis does not favor exchanging, particularly when an investor has minimal accumulated gain, plans to exit real estate investing entirely and would rather pay tax now than carry a lower basis into a new property, or cannot identify a suitable replacement property within the timeline. Running the numbers honestly, rather than assuming an exchange is automatically the right move, produces a more useful decision for the investor's specific San Antonio transaction.</p>"
+  },
+  {
+   "heading": "Factoring in the Cost of Capital Tied Up in an Exchange",
+   "html": "<p>A full deferral analysis should also weigh the opportunity cost of the exchange proceeds sitting with the Qualified Intermediary during the identification and closing periods, since those funds are typically not earning meaningful interest during that window, compared to what an investor might otherwise do with proceeds from an outright sale. For most San Antonio investors, the tax deferral significantly outweighs this modest opportunity cost, but it is worth including in a complete comparison, particularly for a larger transaction where the intermediary holding period could span several months.</p><p>Investors should also ask their intermediary how the escrow account itself is structured, since some qualified escrow arrangements can generate a modest amount of interest for the investor's benefit, which, while generally small relative to the overall tax deferral, is worth understanding as part of a complete cost comparison.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What two taxes does a 1031 exchange typically defer?",
+   "a": "A 1031 exchange defers federal capital gains tax on the appreciation in value and depreciation recapture tax, generally capped at twenty five percent for real property, on the depreciation deductions previously taken."
+  },
+  {
+   "q": "Does Texas add a state capital gains tax on top of the federal tax?",
+   "a": "No. Texas has no state income tax, so the only capital gains and depreciation recapture exposure a San Antonio investor faces is at the federal level; the deferral benefit of a 1031 exchange in Texas is entirely about federal tax."
+  },
+  {
+   "q": "Does a 1031 exchange eliminate the deferred tax permanently?",
+   "a": "No. The deferred gain carries over into the replacement property's basis and would be recognized on a future sale unless the investor completes another exchange or the basis is adjusted through a step-up at death."
+  },
+  {
+   "q": "Why does depreciation recapture matter so much for long-held properties?",
+   "a": "The longer a property is held, the more depreciation has typically been deducted, reducing basis and increasing the portion of gain subject to recapture, which is often the largest single component of tax deferred in a long-held property's exchange."
+  },
+  {
+   "q": "When might an outright sale make more sense than an exchange?",
+   "a": "An outright sale can make more sense when accumulated gain is minimal, when the investor plans to exit real estate entirely, or when no suitable replacement property can realistically be identified within the exchange deadlines."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "boot-calculation",
+   "label": "Boot Calculation and Minimization"
+  },
+  {
+   "slug": "form-8824-preparation",
+   "label": "Form 8824 Preparation Support"
+  },
+  {
+   "slug": "exchange-consultation",
+   "label": "1031 Exchange Consultation"
+  }
+ ],
+ "wordCount": 731
+}

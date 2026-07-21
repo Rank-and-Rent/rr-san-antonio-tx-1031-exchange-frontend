@@ -1,0 +1,83 @@
+{
+ "slug": "compliance-review",
+ "taxonomy": "upstream-funnel",
+ "title": "Compliance Review",
+ "name": "Compliance Review",
+ "metaTitle": "1031 Exchange Compliance Review for San Antonio, TX",
+ "metaDescription": "A checklist-style review of the requirements that determine whether a San Antonio 1031 exchange holds up under IRS scrutiny.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A compliance review checks a completed or in-progress 1031 exchange against the specific requirements the Internal Revenue Service looks at when evaluating whether an exchange qualifies for deferral, rather than assuming an exchange is sound simply because it closed on time. For a San Antonio investor, running through this review before filing Form 8824, or even mid-transaction while there is still time to correct a problem, catches issues that are far cheaper to fix before the tax return is filed than after.</p>"
+  },
+  {
+   "heading": "Timeline Compliance",
+   "html": "<p>The review starts with the two hard deadlines: was the written identification notice delivered to the Qualified Intermediary within forty five calendar days of the relinquished property closing, and did title to the replacement property transfer within one hundred eighty calendar days, or by the extended tax filing deadline if earlier. Both dates should be documented with clear evidence, not just recalled from memory, since these deadlines have no exceptions for weekends, holidays, or extenuating circumstances.</p>"
+  },
+  {
+   "heading": "Qualified Intermediary Independence",
+   "html": "<p>The review confirms the intermediary used was genuinely independent of the taxpayer, meaning not the taxpayer's attorney, certified public accountant, real estate agent, broker, investment banker, or employee, and not anyone who served in one of those roles within the two years before the exchange. A San Antonio investor who used a firm affiliated with their own accounting practice, even unknowingly, should flag this for immediate review, since it can disqualify the entire exchange.</p>"
+  },
+  {
+   "heading": "Like Kind and Held-for-Investment Verification",
+   "html": "<p>The review confirms both the relinquished and replacement properties were real property held for investment or business use, not personal use property or inventory, and that any non-traditional replacement structure, such as a tenant in common interest or DST interest, met the specific conditions required under Revenue Procedure 2002-22 or Revenue Ruling 2004-86 respectively to be treated as real property ownership.</p>"
+  },
+  {
+   "heading": "Boot and Debt Replacement Accuracy",
+   "html": "<p>The review recalculates realized gain, recognized gain from any boot received, and confirms the debt and equity replacement figures used in the exchange match the actual closing statements from both transactions. Discrepancies here often stem from a title company fee or prorated item that shifted the net figures slightly from earlier estimates, and reconciling these numbers against the final settlement statements before filing avoids reporting an inaccurate figure on Form 8824.</p>"
+  },
+  {
+   "heading": "Related-Party Rule Compliance",
+   "html": "<p>If either the relinquished or replacement property was acquired from or sold to a related party, such as a family member or an entity the investor controls, the review confirms the two-year holding period requirement is understood and tracked, since disposing of either property within two years of a related-party exchange generally triggers recognition of the previously deferred gain unless a specific exception applies. San Antonio investors involved in a family-owned property transaction should flag this rule early rather than discovering it during a later review.</p>"
+  },
+  {
+   "heading": "Documentation Completeness",
+   "html": "<p>Finally, the review confirms the exchange file is complete: the exchange agreement, identification notice with proof of delivery, both closing statements, and any structure-specific documents for a TIC, DST, or accommodation titleholder arrangement are all present and consistent with each other. An incomplete file does not itself disqualify an exchange, but it makes defending the exchange considerably harder if it is ever questioned, so closing any gaps identified in the review is worth the effort before the tax return is filed.</p>"
+  },
+  {
+   "heading": "When to Schedule a Compliance Review",
+   "html": "<p>A compliance review is most useful shortly after the replacement property closes, while the transaction details are fresh and any documentation gap can still be filled by contacting the Qualified Intermediary, title company, or lender directly. Waiting until the tax return is nearly due to conduct this review leaves little time to track down a missing document or resolve a discrepancy, so scheduling the review soon after closing, rather than treating it as a last step before filing, gives a San Antonio investor the best chance to catch and fix issues.</p><p>A second, lighter review at tax filing time, cross-checking the completed Form 8824 against the earlier compliance review's findings, provides a final check before the return is submitted and catches any last discrepancy introduced during tax preparation itself.</p>"
+  },
+  {
+   "heading": "Who Should Perform the Compliance Review",
+   "html": "<p>The investor's tax advisor is typically best positioned to lead a compliance review, given the advisor's familiarity with the specific gain, boot, and basis figures involved, though a second opinion from an attorney or a different Qualified Intermediary can be valuable on a particularly complex San Antonio exchange, such as one involving a reverse structure or a related-party transaction. Bringing in a fresh set of eyes on a complex file is not a sign of distrust in the original team; it is simply a reasonable safeguard given how little room the exchange rules leave for correcting a mistake after the fact.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What are the two hard deadlines a compliance review checks first?",
+   "a": "The forty five day identification deadline and the one hundred eighty day closing deadline, both measured from the relinquished property's closing date, are checked first since they have no exceptions and are foundational to the exchange's validity."
+  },
+  {
+   "q": "How is Qualified Intermediary independence verified?",
+   "a": "By confirming the intermediary was not the taxpayer's attorney, certified public accountant, real estate agent, broker, investment banker, or employee, and had not served in one of those roles for the taxpayer within the two years before the exchange."
+  },
+  {
+   "q": "What happens if a related-party rule violation is found during review?",
+   "a": "If either property in the exchange was acquired from or disposed of by a related party and either property is sold within two years of the exchange, the previously deferred gain is generally required to be recognized, absent a specific exception, so this should be flagged and discussed with a tax advisor promptly."
+  },
+  {
+   "q": "Can a compliance review happen before the exchange is fully closed?",
+   "a": "Yes, a mid-transaction review is often more valuable than a post-closing review, since issues such as a missed deadline or an intermediary independence problem can sometimes still be addressed while the exchange is in progress."
+  },
+  {
+   "q": "Does an incomplete document file disqualify an otherwise valid exchange?",
+   "a": "Not by itself, but it makes defending the exchange much harder if it is ever questioned, so a compliance review typically flags documentation gaps for the investor to close before the tax return is filed."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "form-8824-preparation",
+   "label": "Form 8824 Preparation Support"
+  },
+  {
+   "slug": "like-kind-verification",
+   "label": "Like Kind Property Verification"
+  },
+  {
+   "slug": "exchange-documentation",
+   "label": "Exchange Documentation"
+  }
+ ],
+ "wordCount": 761
+}

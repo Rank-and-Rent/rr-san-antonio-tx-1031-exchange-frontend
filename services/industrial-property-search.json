@@ -1,0 +1,83 @@
+{
+ "slug": "industrial-property-search",
+ "taxonomy": "upstream-funnel",
+ "title": "Industrial Property Search",
+ "name": "Industrial Property Search",
+ "metaTitle": "Industrial Property Search for San Antonio, TX",
+ "metaDescription": "Identifying industrial and warehouse replacement property for a 1031 exchange across San Antonio's key industrial corridors.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Industrial and warehouse property has become an increasingly popular replacement property choice for 1031 exchange investors, and San Antonio's position along regional supply chains, including proximity to Eagle Ford Shale-adjacent demand and the growth of Port San Antonio as a logistics and manufacturing hub, supports a meaningful base of industrial product for investors identifying replacement property within the metro.</p>"
+  },
+  {
+   "heading": "San Antonio Industrial Corridors Worth Knowing",
+   "html": "<p>Port San Antonio, a former Air Force base redeveloped into an aerospace, logistics, and technology campus, anchors a significant share of the metro's modern industrial and flex space, while the I-35 corridor toward Laredo carries substantial freight and distribution activity tied to cross-border trade. The I-10 corridor and the 410 and 1604 loops also host a mix of smaller flex and warehouse buildings serving local and regional tenants, giving investors a range of price points and building types to evaluate.</p>"
+  },
+  {
+   "heading": "Building Types Within the Industrial Category",
+   "html": "<p>Industrial replacement property spans distribution warehouses with high clear heights and dock doors built for large-scale logistics tenants, smaller flex buildings combining office and warehouse space suited to light manufacturing or service businesses, and single-tenant net lease industrial buildings where the tenant handles most operating expenses directly. Each type carries a different tenant profile, lease structure, and management intensity, all of which should factor into which candidates a San Antonio investor identifies.</p>"
+  },
+  {
+   "heading": "Lease Structures Common to Industrial Property",
+   "html": "<p>Industrial tenants frequently sign triple net leases, where the tenant pays property taxes, insurance, and maintenance directly, which reduces the landlord's ongoing operating responsibility compared to a multifamily or retail property. An investor evaluating a San Antonio industrial candidate should review the lease structure carefully, since a shorter-term lease or a tenant reimbursement structure that does not fully cover expenses can change the effective net income significantly.</p>"
+  },
+  {
+   "heading": "Diligence Specific to Industrial Buildings",
+   "html": "<p>Industrial diligence typically includes reviewing clear height and dock door configuration relative to current logistics tenant standards, floor load capacity, roof condition given the large surface area typical of warehouse buildings, environmental history particularly for older industrial sites that may have had prior manufacturing use, and rail or highway access relevant to the tenant's operations. A Phase I environmental assessment is standard practice for industrial property and should be ordered early enough to complete before the one hundred eighty day closing deadline.</p>"
+  },
+  {
+   "heading": "Financing Industrial Replacement Property",
+   "html": "<p>Industrial property financing varies with tenant credit quality and lease term, with a long-term lease to a strong tenant generally supporting more favorable loan terms than a shorter-term or vacant building. San Antonio investors should confirm financing availability on a specific candidate's lease structure before finalizing the identification list, since a lender's view of tenant credit can shift the achievable loan amount and, in turn, the debt replacement math relevant to avoiding boot.</p>"
+  },
+  {
+   "heading": "Identifying Industrial Candidates Within the Timeline",
+   "html": "<p>Because Phase I environmental review and lease abstraction can take real time, San Antonio investors targeting industrial replacement property should begin these diligence steps as early as possible after identifying a candidate, ideally starting during the forty five day identification period rather than waiting until after the property is formally identified, to keep the one hundred eighty day closing deadline realistically achievable.</p>"
+  },
+  {
+   "heading": "Supply Chain Demand Supporting San Antonio Industrial Product",
+   "html": "<p>Cross-border trade activity along the I-35 corridor toward Laredo, combined with regional distribution demand tied to San Antonio's growing population and its role as a logistics point between major Texas metros, has kept industrial vacancy relatively tight in well-located submarkets. An investor identifying industrial replacement property should weigh a building's proximity to major highway access and its functional specifications, such as clear height and trailer parking, against these broader regional demand patterns rather than evaluating the building in isolation.</p><p>Port San Antonio's continued redevelopment as an aerospace, cybersecurity, and advanced manufacturing campus also supports demand for specialized industrial and flex space in its immediate vicinity, which can make property near the campus a distinct submarket worth evaluating separately from more general distribution product along the highway corridors.</p>"
+  },
+  {
+   "heading": "Single-Tenant Versus Multi-Tenant Industrial Buildings",
+   "html": "<p>A single-tenant industrial building leased to one logistics or manufacturing user is typically the most passive option, with the tenant handling most operating responsibilities under a net lease, while a multi-tenant flex building with several smaller tenants requires more active leasing and management but can offer more diversified income if one tenant vacates. San Antonio investors weighing this tradeoff should consider their own capacity for active management alongside the specific tenant credit and lease terms available on each candidate property.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What San Antonio areas have significant industrial inventory?",
+   "a": "Port San Antonio, the I-35 corridor toward Laredo, the I-10 corridor, and the 410 and 1604 loops all host a range of industrial, warehouse, and flex product across different price points and building types."
+  },
+  {
+   "q": "What lease structure is common for industrial tenants?",
+   "a": "Triple net leases are common, with the tenant paying property taxes, insurance, and maintenance directly, which reduces the landlord's ongoing operating responsibility compared to other property types."
+  },
+  {
+   "q": "Why is a Phase I environmental assessment important for industrial replacement property?",
+   "a": "Older industrial buildings may have had prior manufacturing or storage use with environmental implications, so a Phase I assessment is standard diligence and should be ordered early to complete before the one hundred eighty day closing deadline."
+  },
+  {
+   "q": "Does tenant credit quality affect financing on industrial replacement property?",
+   "a": "Yes, a long-term lease to a strong tenant generally supports more favorable loan terms than a shorter-term lease or a vacant building, which affects both the achievable loan amount and the debt replacement calculation for the exchange."
+  },
+  {
+   "q": "When should industrial diligence steps like Phase I review begin?",
+   "a": "As early as possible, ideally during the forty five day identification period rather than after, since environmental review and lease abstraction take real time that needs to fit within the one hundred eighty day closing deadline."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "replacement-property-search",
+   "label": "Replacement Property Search"
+  },
+  {
+   "slug": "build-to-suit-exchange",
+   "label": "Build to Suit 1031 Exchange"
+  },
+  {
+   "slug": "property-identification",
+   "label": "Nationwide Property Identification"
+  }
+ ],
+ "wordCount": 702
+}

@@ -1,0 +1,71 @@
+{
+ "slug": "market-comps-analysis",
+ "taxonomy": "upstream-funnel",
+ "title": "Market Comparables Analysis",
+ "name": "Market Comparables Analysis",
+ "metaTitle": "Market Comparables Analysis for San Antonio, TX",
+ "metaDescription": "How pulling and analyzing sale and lease comparables supports valuation and identification decisions on San Antonio replacement property.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Pulling and analyzing market comparables, recent sales and current lease rates on similar San Antonio properties, is one of the more time-sensitive tasks in a 1031 exchange, since the forty five day identification window leaves little room for a slow valuation process. A well-built comparables set gives an investor confidence that an offer price is grounded in the actual market rather than a seller's asking price alone, which matters both for negotiating leverage and for satisfying a lender's independent appraisal later in the process.</p><p>A comparables analysis also serves a second purpose beyond pricing: it helps an investor gauge how quickly a given San Antonio property type and submarket is trading, which in turn informs how aggressively an offer needs to be structured to compete for a desirable replacement property within the exchange timeline.</p>"
+  },
+  {
+   "heading": "Assembling a Relevant Comparable Set",
+   "html": "<p>Useful comparables should match the subject property as closely as possible on property type, size, age, and location, since a comparable sale from a different San Antonio submarket, for example a downtown office sale used to value a suburban Stone Oak property, can distort a valuation more than it informs it. Recent comparables, generally within the trailing twelve to eighteen months, carry more weight than older sales, particularly in growth corridors like 1604 and I-35 toward New Braunfels where pricing has moved quickly with population and demand growth.</p><p>Where too few directly comparable sales exist within a submarket, expanding the search radius modestly while holding property type and size constant generally produces a more reliable comparable set than staying hyper-local but pulling in properties of a substantially different type or condition just to fill out the list.</p>"
+  },
+  {
+   "heading": "Sale Comparables Versus Lease Comparables",
+   "html": "<p>Sale comparables inform an offer price directly, typically expressed on a per-square-foot, per-unit, or capitalization rate basis depending on property type, while lease comparables inform the income assumptions used to underwrite a property, confirming whether in-place rents at a candidate property are at, above, or below current San Antonio market rates. A property with below-market in-place rents may represent upside potential at renewal, while a property with above-market rents carries rollover risk if a tenant leaves and the space must be re-leased at a lower current market rate.</p><p>Both categories of comparables should be adjusted for differences from the subject property, such as building age, finish quality, and specific location within a submarket, rather than applied as a flat average, since two properties in the same general area can command meaningfully different pricing based on these factors.</p>"
+  },
+  {
+   "heading": "Submarket Nuance Across San Antonio",
+   "html": "<p>Comparable pricing varies meaningfully across San Antonio submarkets: Medical Center-area medical office and Stone Oak retail generally command premium pricing tied to strong demographics and daytime population, while properties along the 410 loop or in older neighborhoods closer to the urban core typically trade at more moderate price points with different tenant demand drivers. Industrial and flex comparables along the I-35 and I-10 corridors should be pulled separately from urban infill industrial product, since access to highway infrastructure materially affects value for logistics-oriented tenants.</p><p>Multifamily comparables also warrant submarket-level care, since a comparable apartment sale near Alamo Ranch or along the outer 1604 loop reflects newer construction and different rent growth expectations than a comparable closer to the urban core, and blending the two without adjustment can skew a valuation in either direction.</p>"
+  },
+  {
+   "heading": "Using Comparables to Support the Identification Decision",
+   "html": "<p>When more than one property is under consideration for identification, running the same comparable analysis against each candidate makes for a more apples-to-apples comparison than relying on each seller's own marketing materials, which can present cherry-picked comparables that favor a higher asking price. Documenting the comparable set used to support an offer price also gives the investor's exchange file a defensible basis for value, which is useful if the transaction is ever reviewed during tax preparation.</p>"
+  },
+  {
+   "heading": "Comparables and Lender Valuation",
+   "html": "<p>A lender's appraiser will independently pull comparables to support the loan amount, so an investor whose own comparable analysis is well documented and defensible tends to see fewer surprises during underwriting than one relying solely on a broker's opinion of value. Sharing a well-organized comparable set with the lender early in the process, alongside other diligence materials, can help keep the closing timeline on track against the one hundred eighty day deadline.</p><p>If a lender's appraisal comes in below the contract price, having the investor's own comparable analysis on hand can support a reconsideration request or inform a decision to adjust the offer, rather than losing the property entirely or scrambling for a replacement candidate late in the exchange timeline.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Why is market comparables analysis time-sensitive in a 1031 exchange?",
+   "a": "The forty five day identification window leaves limited time to build a valuation case, so a well-assembled comparable set early in the process supports confident offers and identification decisions without slowing down the timeline."
+  },
+  {
+   "q": "What makes a comparable property relevant for a San Antonio valuation?",
+   "a": "Relevant comparables match the subject property closely on property type, size, age, and location, and recent sales, generally within the trailing twelve to eighteen months, carry more weight than older transactions, especially in fast-moving growth corridors."
+  },
+  {
+   "q": "What is the difference between sale comparables and lease comparables?",
+   "a": "Sale comparables inform an offer price directly, typically on a per-square-foot, per-unit, or cap rate basis, while lease comparables inform the income assumptions used to underwrite a property by confirming whether in-place rents are at, above, or below current market."
+  },
+  {
+   "q": "Do San Antonio comparable values vary significantly by submarket?",
+   "a": "Yes. Medical Center-area medical office and Stone Oak retail generally command premium pricing, while properties along the 410 loop or closer to the urban core typically trade at more moderate levels, and industrial comparables should be separated by highway access."
+  },
+  {
+   "q": "Why does a well-documented comparable set help with lender underwriting?",
+   "a": "A lender's appraiser independently pulls comparables to support the loan amount, so an investor with a defensible, well-organized comparable analysis tends to encounter fewer surprises and can help keep closing on track against the one hundred eighty day deadline."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "capex-planning",
+   "label": "Capital Expenditure Planning"
+  },
+  {
+   "slug": "lender-preflight",
+   "label": "Lender Preflight Support"
+  },
+  {
+   "slug": "medical-office-property-search",
+   "label": "Medical Office Property Search"
+  }
+ ],
+ "wordCount": 737
+}

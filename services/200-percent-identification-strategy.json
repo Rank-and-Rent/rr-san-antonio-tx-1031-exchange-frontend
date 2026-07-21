@@ -1,0 +1,71 @@
+{
+ "slug": "200-percent-identification-strategy",
+ "taxonomy": "upstream-funnel",
+ "title": "200 Percent Identification Strategy",
+ "name": "200 Percent Identification Strategy",
+ "metaTitle": "200 Percent Identification Strategy for San Antonio, TX",
+ "metaDescription": "How the two hundred percent identification rule lets a San Antonio investor name unlimited replacement candidates within a value ceiling.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The two hundred percent rule allows a 1031 exchange investor to identify any number of potential replacement properties within the forty five day identification window, with no cap on the count, as long as the combined fair market value of every property named does not exceed two hundred percent of the relinquished property's sale price. For a San Antonio investor considering several smaller properties, such as splitting exchange proceeds across multiple self storage facilities or retail buildings rather than consolidating into one large asset, this rule is often the more practical fit than the three property rule.</p>"
+  },
+  {
+   "heading": "How the Value Ceiling Is Calculated",
+   "html": "<p>The two hundred percent ceiling is measured against the gross sale price of the relinquished property, not the investor's net proceeds after debt payoff and closing costs, so an investor should calculate the ceiling using the actual contract sale price before assembling an identification list. If a San Antonio investor sells a relinquished property for two million dollars, the combined fair market value of every property named on the identification notice cannot exceed four million dollars, regardless of how many individual properties make up that total.</p><p>Fair market value for this calculation should reflect a reasonable, defensible estimate at the time of identification, generally supported by an offer price, broker opinion of value, or comparable sales, rather than an inflated figure, since overstating value to squeeze more properties under the ceiling creates risk if the identification is ever questioned.</p>"
+  },
+  {
+   "heading": "When This Rule Fits a San Antonio Exchange",
+   "html": "<p>Investors pursuing a diversification strategy, spreading proceeds across multiple San Antonio submarkets such as a flex industrial building along I-10 toward Boerne and a self storage facility along the I-35 corridor toward Schertz, commonly rely on the two hundred percent rule because it accommodates naming more than three candidate properties without abandoning the value discipline that keeps the identification list realistic. This rule also suits an investor who wants to hedge across property types, for example identifying both a medical office building and a mixed use property, keeping options open until due diligence narrows the field.</p><p>An investor exchanging a single larger relinquished property into several smaller San Antonio properties, sometimes described as a one-into-many exchange, will almost always rely on the two hundred percent rule rather than the three property rule, since the desired number of replacement properties frequently exceeds three.</p>"
+  },
+  {
+   "heading": "Managing a Longer Identification List",
+   "html": "<p>Because the two hundred percent rule allows more properties to be named than the three property rule, investors using it should still be disciplined about which candidates make the list, since every property named theoretically needs to remain viable through the one hundred eighty day closing deadline even though the investor does not need to acquire all of them. A long list assembled hastily to preserve optionality can create administrative burden without meaningfully improving the odds of closing on a suitable San Antonio replacement property.</p>"
+  },
+  {
+   "heading": "Comparing the Two Hundred Percent Rule to the Alternatives",
+   "html": "<p>The three property rule allows naming up to three properties with no value limit at all, which is simpler but restrictive if an investor wants to consider more than three candidates. The ninety five percent rule removes the value ceiling entirely but requires the investor to actually acquire at least ninety five percent of the value identified, a considerably stricter closing requirement. The two hundred percent rule sits between these two, trading a value ceiling for the freedom to name an unlimited number of properties, which makes it a common choice for San Antonio investors pursuing a multi-property diversification strategy.</p>"
+  },
+  {
+   "heading": "Documentation and Federal Deadline Discipline",
+   "html": "<p>As with any identification method, the written notice under the two hundred percent rule must be signed and delivered to the Qualified Intermediary before midnight on the forty fifth day after the relinquished property's closing, with each property described unambiguously and, where value calculations matter, supported by a reasonable basis for the stated fair market value of each candidate. Because Texas has no state income tax, the benefit of a San Antonio 1031 exchange under the two hundred percent rule is entirely about deferring federal capital gains and depreciation recapture tax, and the federal forty five day and one hundred eighty day deadlines apply exactly as they would under any other identification method.</p><p>Keeping a written record of how each identified property's fair market value was determined, alongside the identification notice itself, in the exchange file gives the investor a defensible basis for the two hundred percent calculation should the transaction ever be reviewed during tax preparation.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "How many properties can be identified under the two hundred percent rule?",
+   "a": "There is no limit on the number of properties, as long as the combined fair market value of everything identified does not exceed two hundred percent of the relinquished property's sale price."
+  },
+  {
+   "q": "What value is used to calculate the two hundred percent ceiling?",
+   "a": "The ceiling is based on the relinquished property's gross sale price, not the investor's net proceeds after debt payoff and closing costs, so the ceiling should be calculated from the actual contract sale price."
+  },
+  {
+   "q": "When does the two hundred percent rule make sense for a San Antonio investor?",
+   "a": "It fits well for investors pursuing a diversification strategy across multiple properties or submarkets, since it allows naming more than three candidates as long as the combined value stays within the ceiling."
+  },
+  {
+   "q": "Does an investor have to acquire every property named under the two hundred percent rule?",
+   "a": "No. The investor only needs to acquire enough of the identified properties to complete the exchange within the one hundred eighty day closing deadline, unlike the ninety five percent rule, which requires acquiring nearly all identified value."
+  },
+  {
+   "q": "How does the two hundred percent rule differ from the three property rule?",
+   "a": "The three property rule caps the count at three properties with no value limit, while the two hundred percent rule removes the count limit but caps the combined value at two hundred percent of the relinquished property's sale price."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "three-property-identification-strategy",
+   "label": "Three Property Identification Strategy"
+  },
+  {
+   "slug": "95-percent-identification-strategy",
+   "label": "95 Percent Identification Strategy"
+  },
+  {
+   "slug": "45-day-identification-strategy",
+   "label": "45 Day Identification Strategy"
+  }
+ ],
+ "wordCount": 720
+}

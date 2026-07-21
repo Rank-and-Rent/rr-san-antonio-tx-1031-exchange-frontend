@@ -1,0 +1,71 @@
+{
+ "slug": "capex-planning",
+ "taxonomy": "upstream-funnel",
+ "title": "Capital Expenditure Planning",
+ "name": "Capital Expenditure Planning",
+ "metaTitle": "Capital Expenditure Planning for San Antonio, TX",
+ "metaDescription": "Why forecasting near-term capital expenditures matters before identifying and closing on 1031 exchange replacement property in San Antonio.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Capital expenditure planning, forecasting the roof, HVAC, parking lot, and structural work a property will likely need in the coming years, is easy to overlook during the compressed timeline of a 1031 exchange, yet it directly affects both the true return on a San Antonio replacement property and the cash reserves an investor should hold back after closing. A property that looks attractively priced on a trailing income basis can carry meaningful hidden capital needs that erode that return within the first few years of ownership.</p>"
+  },
+  {
+   "heading": "Why Capex Planning Matters More Under an Exchange Timeline",
+   "html": "<p>Because the forty five day identification period and one hundred eighty day closing deadline compress the diligence window relative to a typical open-market purchase, an investor exchanging into a San Antonio property has less time than usual to commission full engineering reports and negotiate capital expenditure credits into the purchase price. Building a rough capital needs forecast early, even a preliminary estimate based on building age and system type, helps an investor avoid overpaying for a property with capital needs that were not priced into the offer.</p><p>A property condition assessment ordered early in the process, ideally as soon as a purchase contract is signed rather than waiting until closer to closing, gives an investor time to negotiate a price adjustment or capital reserve credit based on the findings before the one hundred eighty day deadline forces a decision.</p>"
+  },
+  {
+   "heading": "Major Capital Systems to Forecast",
+   "html": "<p>Roof replacement, HVAC system replacement, parking lot resurfacing, and elevator modernization are among the largest line items that tend to surprise an unprepared buyer, and each has a reasonably predictable useful life that can be estimated from the system's age and general condition even without a full inspection. San Antonio's climate, with intense summer heat and periodic hailstorms, places particular stress on roofing systems and rooftop HVAC equipment, making roof condition and age a especially important line item to verify on any local commercial property under consideration.</p><p>Requesting any existing roof warranty documentation and prior insurance claims history related to hail or wind damage can also reveal a property's repair history and remaining roof life more accurately than a visual inspection alone, particularly on a flat commercial roof where prior patch repairs are not always obvious from the ground.</p>"
+  },
+  {
+   "heading": "Building a Capital Reserve Into the Underwriting",
+   "html": "<p>Rather than treating major capital items as a one-time surprise, an investor should build an annual capital reserve, often expressed as a per-square-foot or per-unit allowance, directly into the property's underwriting model, which produces a more realistic projected return than one based on net operating income alone. A San Antonio property with an aging roof or HVAC system nearing the end of its useful life should carry a larger reserve allowance than a recently renovated comparable, even if both properties show similar current-year income.</p><p>Some lenders also require a funded capital reserve account as a condition of the loan, particularly on properties showing deferred maintenance at underwriting, and understanding this requirement before closing helps an investor plan for the additional cash needed beyond the purchase price and closing costs.</p>"
+  },
+  {
+   "heading": "Capex Planning Across Property Types",
+   "html": "<p>Capital planning priorities shift by property type: multifamily properties tend to carry ongoing unit-turn and common-area capital needs, industrial and flex buildings carry roof and dock equipment as the primary concerns, retail centers require attention to parking lot condition and facade maintenance, and hospitality properties face franchise-driven property improvement plan obligations on a recurring cycle. Matching the capital forecast to the specific property type under consideration, rather than applying a generic reserve figure, produces a more accurate picture of a San Antonio replacement property's true cost of ownership.</p>"
+  },
+  {
+   "heading": "Capex Findings and the Identification Decision",
+   "html": "<p>When comparing multiple candidate properties for identification, factoring projected capital needs into the comparison, not just purchase price and current income, can change which property is the stronger choice, since a property with lower near-term capital needs may deliver a better net return even at a higher headline price. Documenting this capital analysis alongside the rest of the exchange file also supports the investor's basis calculations and depreciation schedule going forward, since capital improvements made after acquisition are generally treated differently than the original purchase price for depreciation purposes.</p><p>Sharing a clear capital forecast with a lender during underwriting can also help, since a lender who understands upcoming capital needs and sees a funded reserve plan is often more comfortable with the loan request than one left to guess at a property's near-term expenditure needs on its own.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Why is capital expenditure planning especially important within a 1031 exchange timeline?",
+   "a": "The compressed forty five day identification and one hundred eighty day closing deadlines leave less time than a typical open-market purchase to commission full engineering reports, so building even a preliminary capital needs forecast early helps avoid overpaying for hidden capital needs."
+  },
+  {
+   "q": "What capital systems most commonly surprise buyers of San Antonio commercial property?",
+   "a": "Roof replacement, HVAC system replacement, parking lot resurfacing, and elevator modernization are among the largest and most common surprises, with roofing and rooftop HVAC particularly important locally given San Antonio's heat and hailstorm exposure."
+  },
+  {
+   "q": "How should a capital reserve be incorporated into underwriting?",
+   "a": "An annual capital reserve, often expressed as a per-square-foot or per-unit allowance, should be built directly into the property's underwriting model so that projected returns reflect true cost of ownership rather than net operating income alone."
+  },
+  {
+   "q": "Do capital planning priorities differ by property type?",
+   "a": "Yes. Multifamily properties tend to carry ongoing unit-turn needs, industrial buildings focus on roof and dock equipment, retail centers focus on parking lots and facades, and hospitality properties face franchise-driven property improvement plan cycles."
+  },
+  {
+   "q": "Does capital expenditure analysis affect which property to identify?",
+   "a": "It can. Factoring projected capital needs into a comparison of candidate properties, rather than looking only at purchase price and current income, may show that a property with lower near-term capital needs delivers a better net return even at a higher headline price."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "lender-preflight",
+   "label": "Lender Preflight Support"
+  },
+  {
+   "slug": "market-comps-analysis",
+   "label": "Market Comparables Analysis"
+  },
+  {
+   "slug": "self-storage-property-identification",
+   "label": "Self Storage Property Identification"
+  }
+ ],
+ "wordCount": 719
+}

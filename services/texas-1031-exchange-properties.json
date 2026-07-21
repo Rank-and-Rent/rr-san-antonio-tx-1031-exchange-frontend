@@ -1,0 +1,79 @@
+{
+ "slug": "texas-1031-exchange-properties",
+ "taxonomy": "upstream-funnel",
+ "title": "Texas 1031 Exchange Properties",
+ "name": "Texas 1031 Exchange Properties",
+ "metaTitle": "Texas 1031 Exchange Properties for San Antonio, TX",
+ "metaDescription": "How a San Antonio-based exchanger can widen a replacement property search statewide across Texas metros while meeting federal exchange deadlines.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A San Antonio exchanger is not limited to San Antonio itself when searching for replacement property; the like kind standard for real property is broad enough that any investment or business use real property anywhere in Texas, or anywhere in the United States, can qualify. Widening the search statewide can be useful when a San Antonio investor cannot find a property that meets both the price point and the debt-and-equity reinvestment target within the forty five day identification window.</p>"
+  },
+  {
+   "heading": "A Statewide, No-Income-Tax Market",
+   "html": "<p>Texas as a whole shares the same core advantage that draws investors to San Antonio specifically: no state income tax. An exchanger moving capital from a relinquished property in a high-tax state into any Texas metro, Houston, Dallas-Fort Worth, Austin, or San Antonio, is deferring federal capital gains and depreciation recapture tax through the exchange, and is not also carrying a state capital gains tax burden, because Texas does not impose one. This is a real, Texas-specific advantage worth weighing when comparing an in-state replacement property against an out-of-state alternative, though it does not change the federal deferral mechanics of the exchange itself.</p>"
+  },
+  {
+   "heading": "Comparing San Antonio Against Other Texas Metros",
+   "html": "<p>Austin and Dallas-Fort Worth have generally traded at tighter cap rates and higher per-unit or per-square-foot pricing than San Antonio in recent years, which means an exchanger with a fixed reinvestment target may find more available inventory, and an easier path to matching debt and equity requirements, by looking at San Antonio or smaller Texas metros rather than the highest-demand corridors. Houston offers a larger, more diversified economy with a correspondingly larger transaction volume across most property types, which can be an advantage for an exchanger needing a deep pool of candidates within a tight identification window.</p>"
+  },
+  {
+   "heading": "Landlord-Friendly Legal Environment",
+   "html": "<p>Texas is generally regarded as a landlord-friendly state, with property and eviction laws that are comparatively favorable to owners relative to many other states, which is a factor some exchangers weigh alongside pure financial return when choosing where within Texas, or whether to remain in Texas at all, to redeploy exchange proceeds. This legal environment is separate from the federal exchange rules themselves but often factors into an investor's broader decision to concentrate holdings in Texas.</p>"
+  },
+  {
+   "heading": "Logistics of a Statewide Identification List",
+   "html": "<p>Because the standard exchange rules generally allow identification of up to three replacement properties regardless of value, or a larger number under alternative identification rules tied to aggregate value, a San Antonio-based exchanger can build an identification list that spans multiple Texas metros as a way of hedging against one candidate falling through during due diligence. Coordinating diligence across metros within the forty five day window requires more logistical planning than a single-metro search, including lining up local financing, inspection, and closing resources in each city under consideration.</p>"
+  },
+  {
+   "heading": "Working With the Qualified Intermediary on a Statewide Search",
+   "html": "<p>Regardless of which Texas metro the replacement property is ultimately located in, the exchange proceeds must continue to flow through the Qualified Intermediary rather than being received directly by the exchanger, and the identification notice must be delivered to the Qualified Intermediary or another qualified party in writing before the forty five day deadline for every property under consideration, whether it is in San Antonio, Houston, Dallas, or elsewhere in the state.</p>"
+  },
+  {
+   "heading": "Practical Tradeoffs of a Wider Search",
+   "html": "<p>Expanding the search beyond San Antonio adds coordination cost: an exchanger needs local inspection resources, a lender comfortable closing in that specific metro, and often a different broker relationship than the one used in San Antonio, all of which needs to be lined up quickly enough to complete diligence within the one hundred eighty day deadline. For an exchanger with a straightforward reinvestment target that San Antonio inventory can satisfy, staying local generally reduces this coordination burden considerably, and a statewide search is best reserved for situations where San Antonio alone cannot supply a suitable candidate within the available time.</p>"
+  },
+  {
+   "heading": "Property Type Considerations Across Texas Metros",
+   "html": "<p>Different Texas metros lean toward different dominant property types: Houston's port and petrochemical economy supports a deep industrial and logistics market, Dallas-Fort Worth has a broad, diversified base spanning office, retail, and distribution, and Austin's technology-driven growth has kept multifamily and office pricing comparatively tight. A San Antonio exchanger weighing a statewide search should match the target property type to the metro where that type trades most actively, rather than assuming every Texas metro offers equally deep inventory across every asset class, and should confirm current pricing and cap rate trends with a local broker rather than relying on older market data.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Can a San Antonio investor exchange into property anywhere in Texas?",
+   "a": "Yes. Like kind real property held for investment or business use qualifies regardless of location within the United States, so a San Antonio exchanger can identify and close on replacement property in Houston, Dallas-Fort Worth, Austin, or any other Texas market."
+  },
+  {
+   "q": "Is there a state-level capital gains benefit to staying within Texas for an exchange?",
+   "a": "Texas has no state income tax and therefore no state capital gains tax to defer in the first place. The deferral achieved through a 1031 exchange in Texas is entirely federal; staying within Texas does not create an additional state-level deferral beyond what already exists."
+  },
+  {
+   "q": "Why might an exchanger consider San Antonio over Austin or Dallas for replacement property?",
+   "a": "San Antonio has generally traded at more accessible price points and cap rates than Austin or Dallas-Fort Worth, which can make it easier to match a fixed reinvestment target within the forty five day identification window."
+  },
+  {
+   "q": "How many Texas properties can be identified on one exchange?",
+   "a": "The standard identification rule allows up to three replacement properties regardless of their combined value, and alternative rules permit more properties if certain value or acquisition thresholds are met, so a statewide list spanning several Texas metros is generally permitted."
+  },
+  {
+   "q": "Does the Qualified Intermediary requirement change for a statewide Texas search?",
+   "a": "No. The same Qualified Intermediary safe harbor and written identification requirements apply regardless of where in Texas, or the country, the replacement property is located."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "san-antonio-1031-exchange-properties",
+   "label": "San Antonio 1031 Exchange Properties"
+  },
+  {
+   "slug": "the-45-day-identification-period",
+   "label": "The 45 Day Identification Period Explained"
+  },
+  {
+   "slug": "the-qualified-intermediary-role",
+   "label": "The Qualified Intermediary Role Explained"
+  }
+ ],
+ "wordCount": 717
+}

@@ -1,0 +1,79 @@
+{
+ "slug": "build-to-suit-exchange",
+ "taxonomy": "upstream-funnel",
+ "title": "Build to Suit 1031 Exchange",
+ "name": "Build to Suit 1031 Exchange",
+ "metaTitle": "Build to Suit 1031 Exchange for San Antonio, TX",
+ "metaDescription": "How a build to suit exchange uses an Exchange Accommodation Titleholder to construct replacement property for a San Antonio investor before title transfers.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A build to suit exchange, also called a construction exchange, allows an investor to use exchange proceeds not just to buy an existing replacement property but to fund new construction or ground-up improvements on a parcel before the investor takes title. For a San Antonio investor who cannot find an existing property that fully matches the value of the relinquished property, a build to suit exchange offers a way to reinvest exchange equity into new construction, such as a purpose-built industrial building near Port San Antonio or a new retail pad along a growth corridor, while still meeting the exchange deadlines.</p>"
+  },
+  {
+   "heading": "Why an Accommodation Titleholder Is Required",
+   "html": "<p>The core problem a build to suit exchange solves is that the investor cannot hold title to the replacement property while construction is underway and still have the improvements count as part of the like kind exchange, because value added to a property the taxpayer already owns is not an acquisition of like kind property. Revenue Procedure 2000-37 solves this by permitting an Exchange Accommodation Titleholder, or EAT, to take and hold title to the property during construction, allowing the value of the completed improvements to be treated as part of the replacement property once title finally transfers to the investor.</p>"
+  },
+  {
+   "heading": "How the Structure Works in Practice",
+   "html": "<p>The EAT, typically an entity affiliated with the Qualified Intermediary, acquires the land or property and oversees or funds construction using exchange proceeds, often supplemented by a loan the investor guarantees. The investor identifies the property, including its intended completed condition, within the forty five day identification period, and construction must be substantially complete and title transferred to the investor within the one hundred eighty day closing period, since the exchange rules do not extend for construction delays.</p>"
+  },
+  {
+   "heading": "The One Hundred Eighty Day Constraint",
+   "html": "<p>The one hundred eighty day deadline is the most demanding part of a build to suit exchange, since most ground-up construction projects take considerably longer than six months to complete. In practice, a San Antonio investor pursuing this structure typically identifies a property where a meaningful portion of construction, such as site work, foundation, and shell, can be finished within the window, with the value of work completed by day one hundred eighty counting toward the exchange, while further finish-out after title transfers no longer qualifies as exchange property.</p>"
+  },
+  {
+   "heading": "Financing a Build to Suit Exchange",
+   "html": "<p>Because the EAT holds title during construction, lenders financing the project need financing documents structured around the accommodation arrangement, which is a more specialized underwriting process than a standard acquisition loan. San Antonio investors pursuing a build to suit exchange should engage a lender experienced with Revenue Procedure 2000-37 structures early, since not every commercial lender is set up to finance a loan where the borrower of record is an accommodation entity rather than the ultimate investor.</p>"
+  },
+  {
+   "heading": "Where Build to Suit Exchanges Fit in San Antonio",
+   "html": "<p>This structure tends to make the most sense when an investor has identified a specific parcel, perhaps along the 410 or 1604 loop or in an industrial corridor near the Eagle Ford Shale-adjacent supply chain, where new construction better serves the investor's business or leasing plan than any available existing building, and where the construction timeline can realistically fit within one hundred eighty days for at least a substantial portion of the build. It is a more complex and costly structure than a standard delayed exchange and generally involves higher intermediary and legal fees to manage the accommodation arrangement properly.</p>"
+  },
+  {
+   "heading": "Reporting and Documentation",
+   "html": "<p>A build to suit exchange is reported on Form 8824 like any other exchange, but the supporting file is more extensive, including the accommodation agreement with the EAT, construction contracts, draw records showing how exchange funds were spent, and the closing documents transferring title from the EAT to the investor. Keeping this documentation organized throughout construction makes year-end tax preparation considerably more manageable.</p>"
+  },
+  {
+   "heading": "Contractor and Construction Team Selection",
+   "html": "<p>Because the construction schedule directly determines how much value counts toward the exchange, selecting a contractor with a realistic, well-documented schedule and a track record of hitting milestones matters more in a build to suit exchange than in an ordinary San Antonio construction project, where a schedule slip mainly affects the investor's own timeline rather than a hard statutory deadline. Investors should ask prospective contractors for a phased schedule showing what portion of the work, and its associated value, will be complete by the one hundred eighty day mark, and should build contingency time into that schedule given the general unpredictability of permitting and inspection timelines in the San Antonio market.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Why can an investor not simply build on replacement property after taking title?",
+   "a": "Improvements made to property the taxpayer already owns are not an acquisition of like kind property, so an Exchange Accommodation Titleholder must hold title during construction under Revenue Procedure 2000-37 for the value of the improvements to count toward the exchange."
+  },
+  {
+   "q": "What is an Exchange Accommodation Titleholder?",
+   "a": "An Exchange Accommodation Titleholder, or EAT, is an entity, typically affiliated with the Qualified Intermediary, that holds title to the replacement property during construction or improvement before transferring title to the investor within the exchange deadlines."
+  },
+  {
+   "q": "Does construction need to be fully finished within one hundred eighty days?",
+   "a": "No, but title must transfer to the investor within one hundred eighty days, so only the value of construction completed by that point counts toward the exchange; work performed after title transfers does not qualify as exchange property."
+  },
+  {
+   "q": "Is a build to suit exchange more expensive than a standard delayed exchange?",
+   "a": "Generally yes, since it requires an accommodation agreement, specialized legal and intermediary work, and often a construction loan structured around the EAT, all of which add cost and complexity compared to a standard purchase."
+  },
+  {
+   "q": "Can a build to suit exchange be combined with acquiring an existing building?",
+   "a": "Yes, an investor can identify a property that includes both an existing structure and planned improvements or expansion, with the improvement portion following the build to suit rules under the same overall exchange."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "improvement-exchange",
+   "label": "Improvement 1031 Exchange"
+  },
+  {
+   "slug": "qualified-intermediary",
+   "label": "Qualified Intermediary Services"
+  },
+  {
+   "slug": "industrial-property-search",
+   "label": "Industrial Property Search"
+  }
+ ],
+ "wordCount": 720
+}

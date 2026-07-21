@@ -1,0 +1,79 @@
+{
+ "slug": "like-kind-verification",
+ "taxonomy": "upstream-funnel",
+ "title": "Like Kind Property Verification",
+ "name": "Like Kind Property Verification",
+ "metaTitle": "Like Kind Property Verification for San Antonio, TX",
+ "metaDescription": "What qualifies as like kind real property in a 1031 exchange and how San Antonio investors confirm a candidate property meets the standard.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Confirming that a candidate replacement property is genuinely like kind is a foundational step before it goes on a San Antonio investor's identification list, since a property that fails the like kind standard cannot support tax deferral no matter how well it otherwise fits the investor's strategy. Since the Tax Cuts and Jobs Act took effect in 2017, 1031 treatment has been limited to real property; personal property, such as equipment or vehicles previously exchanged alongside real estate, no longer qualifies under any circumstance.</p>"
+  },
+  {
+   "heading": "What Like Kind Actually Means for Real Property",
+   "html": "<p>For real property, like kind is interpreted broadly: nearly any type of real property held for investment or business use can be exchanged for nearly any other type, regardless of grade or quality. A San Antonio investor can exchange a retail strip center for an apartment building, or vacant land for an industrial warehouse, since the standard looks at the nature of the property as real estate rather than requiring similar use, size, or property type on both sides of the exchange.</p>"
+  },
+  {
+   "heading": "Held for Investment or Business Use",
+   "html": "<p>The more meaningful qualification hurdle is not likeness but purpose: both the relinquished and replacement property must be held for investment or use in a trade or business, not held primarily for personal use or as inventory for resale. A San Antonio investor's rental property or owner-occupied commercial building generally qualifies, but a personal residence, a vacation home used primarily for personal enjoyment, or property held by a developer as inventory for sale to customers typically does not.</p>"
+  },
+  {
+   "heading": "Verifying Held-for-Investment Intent",
+   "html": "<p>Because intent and use history matter, documentation supporting how a property was actually used, such as lease agreements, depreciation schedules from prior tax returns, and rental income records, helps substantiate that a relinquished San Antonio property was genuinely held for investment or business purposes rather than personal use. The same standard applies going forward on the replacement side, so an investor should plan to hold the replacement property for investment or business use for a meaningful period after acquisition rather than treating it as a short-term flip.</p>"
+  },
+  {
+   "heading": "Verifying That Non-Traditional Structures Qualify",
+   "html": "<p>Certain replacement property structures require closer verification: a tenant in common interest generally qualifies only when it meets the conditions in Revenue Procedure 2002-22, and a Delaware Statutory Trust interest qualifies under Revenue Ruling 2004-86 only when the trust avoids activities that would cause it to be treated as an operating business rather than a passive real property holding. A San Antonio investor considering either structure should confirm the specific offering meets these conditions rather than assuming any TIC or DST automatically qualifies.</p>"
+  },
+  {
+   "heading": "Property Types That Commonly Raise Questions",
+   "html": "<p>Vacant land held for investment generally qualifies as like kind for improved real property, mineral or oil and gas interests can qualify depending on how they are structured under state law, and leasehold interests of thirty years or more, including renewal options, are generally treated as like kind to a fee interest. A San Antonio investor considering an unconventional replacement property, such as a ground lease position or a mineral interest, should verify its treatment with a tax advisor before including it on the identification notice.</p>"
+  },
+  {
+   "heading": "Why Verification Should Happen Before Identification",
+   "html": "<p>Discovering a like kind problem after a property is already identified and under contract leaves little room to recover within the forty five day and one hundred eighty day windows. Running a candidate property past a tax advisor for a like kind check as part of the initial screening process, rather than after an offer is negotiated, is a simple step that protects the exchange from a disqualification risk that is entirely avoidable with earlier review.</p>"
+  },
+  {
+   "heading": "Documenting the Basis for Like Kind Treatment",
+   "html": "<p>Once a San Antonio investor confirms a candidate property meets the like kind and held-for-investment standards, keeping a short written record of that analysis, including any supporting documentation such as lease agreements or prior tax return depreciation schedules, adds a layer of protection if the exchange is ever reviewed. This documentation does not need to be lengthy, but it should clearly connect the specific property to the investment or business use standard the exchange relies on.</p><p>For a replacement property that will be held partly for personal use, such as a mixed-use building with an owner's unit, the investor should work with a tax advisor to properly allocate the personal and investment portions, since only the investment or business use portion of a mixed-use property supports 1031 treatment.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does like kind mean the properties must be similar in type or use?",
+   "a": "No. For real property, like kind is interpreted broadly, so nearly any real property held for investment or business use can be exchanged for nearly any other type, such as retail for multifamily or land for industrial, without matching use or property type."
+  },
+  {
+   "q": "Does personal property still qualify for a 1031 exchange?",
+   "a": "No. Since the Tax Cuts and Jobs Act took effect in 2017, 1031 exchanges are limited to real property; personal property such as equipment or vehicles no longer qualifies under any circumstance."
+  },
+  {
+   "q": "Can a personal residence be used as relinquished or replacement property?",
+   "a": "Generally not. Both properties must be held for investment or use in a trade or business, so a primary residence or a vacation home used mainly for personal enjoyment typically does not qualify."
+  },
+  {
+   "q": "Do DST and TIC interests automatically qualify as like kind property?",
+   "a": "Not automatically. A tenant in common interest must meet the conditions in Revenue Procedure 2002-22, and a DST interest must meet the conditions in Revenue Ruling 2004-86, so the specific offering should be verified rather than assumed to qualify."
+  },
+  {
+   "q": "When should like kind status be verified?",
+   "a": "Before the property is identified, ideally during initial candidate screening, since discovering a disqualification issue after identification or under contract leaves little time to find a substitute within the forty five day and one hundred eighty day deadlines."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "tenant-in-common",
+   "label": "Tenant in Common Exchange"
+  },
+  {
+   "slug": "delaware-statutory-trust",
+   "label": "Delaware Statutory Trust Exchange"
+  },
+  {
+   "slug": "compliance-review",
+   "label": "Compliance Review"
+  }
+ ],
+ "wordCount": 704
+}

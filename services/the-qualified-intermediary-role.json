@@ -1,0 +1,79 @@
+{
+ "slug": "the-qualified-intermediary-role",
+ "taxonomy": "upstream-funnel",
+ "title": "The Qualified Intermediary Role Explained",
+ "name": "The Qualified Intermediary Role Explained",
+ "metaTitle": "The Qualified Intermediary Role Explained for San Antonio, TX",
+ "metaDescription": "Why a Qualified Intermediary is required to hold exchange funds, who cannot serve in that role, and how the relationship works for a San Antonio exchanger.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A Qualified Intermediary, often called a QI, is the party that holds exchange proceeds between the sale of a San Antonio investor's relinquished property and the purchase of the replacement property, and its involvement is required under the Treasury Regulation safe harbor for a 1031 exchange to work as intended. Without a QI in place before the relinquished property closes, the exchanger risks being treated as having actually or constructively received the sale proceeds, which would make the transaction a taxable sale rather than a deferred exchange.</p>"
+  },
+  {
+   "heading": "Why Constructive Receipt Matters",
+   "html": "<p>Constructive receipt is a tax concept meaning the taxpayer had control over funds even if they did not physically take possession of them, for example if sale proceeds were deposited into the exchanger's own bank account, even briefly, before being used to purchase the replacement property. The Qualified Intermediary safe harbor exists specifically to prevent this outcome: by directing proceeds to the QI at closing rather than to the exchanger, the exchanger avoids both actual and constructive receipt, preserving the tax-deferred treatment of the exchange.</p>"
+  },
+  {
+   "heading": "What the QI Actually Does",
+   "html": "<p>The QI enters into an exchange agreement with the taxpayer, receives the sale proceeds from the relinquished property closing, holds those funds in a segregated account, and then disburses them directly to the closing agent for the replacement property purchase. The QI also typically prepares or reviews the assignment documents that substitute it into the sale and purchase contracts as the seller and buyer of record for exchange purposes, and it receives the exchanger's written identification of replacement property within the forty five day window.</p>"
+  },
+  {
+   "heading": "Who Cannot Serve as the Qualified Intermediary",
+   "html": "<p>The regulations disqualify anyone who is treated as the exchanger's agent, which generally means anyone who has acted as the taxpayer's employee, attorney, accountant, investment banker or broker, or real estate agent or broker within the two-year period ending on the date of the relinquished property transfer. A San Antonio investor's own real estate agent on the relinquished property sale, for example, cannot also serve as the QI for that same exchange, and neither can the investor's personal accountant if that accountant has provided services within the two-year lookback period.</p>"
+  },
+  {
+   "heading": "Choosing a Qualified Intermediary",
+   "html": "<p>Because the QI holds the exchanger's full sale proceeds, often a significant sum, for weeks or months during the exchange period, selecting a QI with strong fund controls, fidelity bonding or insurance, and a track record of segregated, unencumbered client accounts is an important part of the diligence around any San Antonio exchange. The QI industry is not subject to a uniform federal licensing regime, so this diligence falls largely on the exchanger and their advisors rather than on a government oversight body.</p>"
+  },
+  {
+   "heading": "Coordinating the QI With the Closing Timeline",
+   "html": "<p>The exchange agreement and QI engagement need to be in place before the relinquished property closes, not after, since the safe harbor depends on the QI receiving the proceeds directly at that closing. A San Antonio investor planning an exchange should engage a QI as soon as the relinquished property goes under contract, giving enough lead time to have the exchange agreement, assignment documents, and closing instructions finalized before the scheduled closing date.</p>"
+  },
+  {
+   "heading": "The QI's Role Does Not Include Tax or Legal Advice",
+   "html": "<p>A Qualified Intermediary administers the mechanics of the exchange, holding funds, preparing assignment paperwork, and receiving the identification notice, but it generally does not provide tax advice or legal advice about whether a specific San Antonio transaction qualifies for 1031 treatment. An investor should engage a tax advisor and, where the transaction is complex, real estate counsel alongside the QI, rather than relying on the QI alone to confirm that a given exchange structure achieves the intended deferral.</p>"
+  },
+  {
+   "heading": "What Happens to Funds Between Closings",
+   "html": "<p>While the QI holds exchange proceeds between the relinquished property closing and the replacement property closing, those funds are generally held in a segregated, interest-bearing account, with the terms of that account, including whether the exchanger receives any interest earned, spelled out in the exchange agreement signed at the outset. A San Antonio investor should review these terms before engaging a QI, since account structures and any fees charged against the held funds can vary meaningfully between intermediaries. Comparing these terms across two or three prospective QIs before engaging one is a reasonable diligence step, particularly for an exchange involving a large sale proceeds balance held over several months. An exchanger should also confirm in writing that the account is segregated specifically for that exchanger's funds, rather than commingled with a QI's general operating accounts or other clients' exchange balances, since commingling raises both practical risk and questions about whether the safe harbor requirements are being properly observed.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Why is a Qualified Intermediary required for a 1031 exchange?",
+   "a": "The Qualified Intermediary safe harbor prevents the exchanger from having actual or constructive receipt of the sale proceeds, which is necessary to preserve the tax-deferred treatment of the exchange under the Treasury Regulations."
+  },
+  {
+   "q": "Can a San Antonio investor's own real estate agent serve as the Qualified Intermediary?",
+   "a": "Generally no, if that agent has represented the taxpayer within the two-year period before the exchange, since the regulations disqualify anyone treated as the taxpayer's agent, including a real estate agent or broker who served in that capacity recently."
+  },
+  {
+   "q": "When does the Qualified Intermediary need to be engaged?",
+   "a": "Before the relinquished property closes. The exchange agreement must be in place at or before that closing so the QI, rather than the exchanger, receives the sale proceeds directly."
+  },
+  {
+   "q": "What happens if exchange funds are deposited into the exchanger's own account?",
+   "a": "Doing so generally triggers actual or constructive receipt of the proceeds, which disqualifies the exchange and converts the transaction into a taxable sale, regardless of whether the exchanger later uses the funds to buy replacement property."
+  },
+  {
+   "q": "Are Qualified Intermediaries regulated or licensed by a government agency?",
+   "a": "There is no uniform federal licensing regime for Qualified Intermediaries, so an exchanger should independently evaluate a prospective QI's fund controls, bonding, and reputation before engaging them."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "what-is-boot-in-a-1031-exchange",
+   "label": "What Is Boot in a 1031 Exchange"
+  },
+  {
+   "slug": "the-45-day-identification-period",
+   "label": "The 45 Day Identification Period Explained"
+  },
+  {
+   "slug": "the-180-day-exchange-deadline",
+   "label": "The 180 Day Exchange Deadline Explained"
+  }
+ ],
+ "wordCount": 739
+}

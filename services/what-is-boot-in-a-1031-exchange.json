@@ -1,0 +1,79 @@
+{
+ "slug": "what-is-boot-in-a-1031-exchange",
+ "taxonomy": "upstream-funnel",
+ "title": "What Is Boot in a 1031 Exchange",
+ "name": "What Is Boot in a 1031 Exchange",
+ "metaTitle": "What Is Boot in a 1031 Exchange for San Antonio, TX",
+ "metaDescription": "How cash boot and mortgage boot arise, why they create taxable gain, and how a San Antonio exchanger structures a purchase to avoid them.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Boot is the term used for any value a taxpayer receives in a 1031 exchange that is not like kind real property, and it is the mechanism by which a partially deferred exchange still produces some taxable gain. A San Antonio investor does not need to eliminate boot entirely for an exchange to be valid, but any boot received is generally taxable in the year of the exchange, so understanding how it arises is central to structuring the replacement purchase correctly.</p>"
+  },
+  {
+   "heading": "Cash Boot",
+   "html": "<p>Cash boot is the most straightforward form: it is net cash, or any non-like-kind property, that the exchanger actually receives out of the exchange proceeds rather than reinvesting into the replacement property. This can happen deliberately, such as an exchanger who chooses to pull some proceeds out for other use, or unintentionally, such as an exchanger who identifies and closes on a replacement property priced below the relinquished property's net sale proceeds, leaving leftover funds with the Qualified Intermediary that are ultimately returned to the exchanger as cash.</p>"
+  },
+  {
+   "heading": "Mortgage Boot",
+   "html": "<p>Mortgage boot is less intuitive but equally important: it arises when the debt on the replacement property is lower than the debt that was paid off on the relinquished property, and that decrease in debt is not offset by the exchanger contributing additional cash into the deal. Even if an exchanger reinvests every dollar of cash proceeds, reducing overall leverage on the replacement property, for example moving from a heavily mortgaged San Antonio property into a replacement property purchased with substantially less debt, can create mortgage boot on the debt-relief side of the transaction.</p>"
+  },
+  {
+   "heading": "The Two-Part Reinvestment Rule",
+   "html": "<p>To fully defer tax, a San Antonio exchanger generally needs to satisfy two conditions on the replacement property: reinvest equity equal to or greater than the equity taken out of the relinquished property, and take on debt equal to or greater than the debt paid off on the relinquished property, unless any debt shortfall is made up with additional cash contributed by the exchanger. Meeting only one of these two conditions, for instance matching the price but reducing leverage, can still generate mortgage boot even though no cash was actually received.</p>"
+  },
+  {
+   "heading": "How Boot Is Taxed",
+   "html": "<p>Boot received is taxed as recognized gain up to the amount of realized gain on the exchange, generally at the applicable capital gains and depreciation recapture rates, even though the rest of the exchange remains tax deferred. Since Texas has no state income tax, a San Antonio exchanger who recognizes boot is paying federal tax on that portion only; there is no additional state-level capital gains tax layered on top, which is a genuine, if narrow, advantage of triggering boot in Texas compared with a higher-tax state.</p>"
+  },
+  {
+   "heading": "Structuring a San Antonio Purchase to Avoid Boot",
+   "html": "<p>Avoiding boot generally means targeting a replacement property, or combination of properties, priced at or above the net sale price of the relinquished property, and arranging financing that replaces at least as much debt as was retired at closing. When a San Antonio replacement candidate is priced slightly below the relinquished property's value, an investor can often avoid cash boot by contributing additional cash into the purchase or by identifying a second, smaller replacement property to absorb the remaining proceeds within the forty five day identification window.</p>"
+  },
+  {
+   "heading": "Working Through the Numbers Before an Offer",
+   "html": "<p>Before an offer is submitted on a San Antonio replacement property, an investor should run the reinvestment math explicitly: comparing the net sale proceeds and outstanding debt on the relinquished property against the purchase price and anticipated financing on the replacement candidate. Doing this comparison early, rather than discovering a boot problem during closing, gives the investor time to adjust the offer price, bring in additional cash, or add a second identified property before the forty five day and one hundred eighty day deadlines make those adjustments impractical.</p>"
+  },
+  {
+   "heading": "Boot Is Not a Failed Exchange",
+   "html": "<p>It is worth emphasizing that receiving boot does not disqualify the underlying San Antonio exchange or convert the entire transaction into a taxable sale; it simply narrows the deferral to the portion of value that was genuinely reinvested into like kind replacement property. An investor who, for example, deliberately pulls out a modest amount of cash for another purpose while reinvesting the bulk of proceeds into a San Antonio replacement property will owe tax only on that recognized boot amount, while the remaining exchanged value continues to receive deferral treatment as intended.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What is the difference between cash boot and mortgage boot?",
+   "a": "Cash boot is net cash or other non-like-kind property actually received by the exchanger. Mortgage boot is a decrease in debt on the replacement property relative to the relinquished property that is not offset by additional cash contributed by the exchanger."
+  },
+  {
+   "q": "Can an exchanger avoid mortgage boot by contributing more cash?",
+   "a": "Yes. If the replacement property carries less debt than the relinquished property, contributing enough additional cash to offset that debt reduction can avoid mortgage boot, since the reinvestment rule looks at both equity and debt together."
+  },
+  {
+   "q": "Is receiving leftover cash from the Qualified Intermediary automatically boot?",
+   "a": "Yes. Any cash returned to the exchanger from unspent exchange proceeds is treated as cash boot and is generally taxable up to the amount of realized gain."
+  },
+  {
+   "q": "Does Texas having no state income tax reduce the tax owed on boot?",
+   "a": "Yes, in the sense that boot is taxed at the federal level only in Texas, since there is no state capital gains tax to add. The federal tax on recognized boot still applies the same way it would in any other state."
+  },
+  {
+   "q": "Does a small amount of boot disqualify the entire 1031 exchange?",
+   "a": "No. Boot does not disqualify the exchange; it simply makes the amount of boot received taxable while the remaining exchanged value continues to receive deferral treatment."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "the-45-day-identification-period",
+   "label": "The 45 Day Identification Period Explained"
+  },
+  {
+   "slug": "how-to-reduce-capital-gains-tax",
+   "label": "How to Reduce Capital Gains Tax on Real Estate"
+  },
+  {
+   "slug": "the-qualified-intermediary-role",
+   "label": "The Qualified Intermediary Role Explained"
+  }
+ ],
+ "wordCount": 708
+}

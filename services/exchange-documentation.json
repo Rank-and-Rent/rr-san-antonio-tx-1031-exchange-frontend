@@ -1,0 +1,83 @@
+{
+ "slug": "exchange-documentation",
+ "taxonomy": "upstream-funnel",
+ "title": "Exchange Documentation",
+ "name": "Exchange Documentation",
+ "metaTitle": "1031 Exchange Documentation for San Antonio, TX",
+ "metaDescription": "The complete document file San Antonio investors should assemble to support a 1031 exchange from closing through tax filing.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A 1031 exchange generates a substantial paper trail, from the exchange agreement signed at the outset to the closing statements on both properties, and keeping this documentation organized as the transaction happens is far easier than reconstructing it later. For a San Antonio investor, a complete exchange file supports the Form 8824 filing, provides evidence if the exchange is ever questioned, and gives the investor's tax advisor everything needed without a scramble at filing time.</p>"
+  },
+  {
+   "heading": "The Exchange Agreement and Assignment Documents",
+   "html": "<p>The exchange agreement with the Qualified Intermediary, along with the assignment of the relinquished property sale contract and the replacement property purchase contract, establishes that the intermediary, not the investor, held rights to the transactions and the sale proceeds throughout the exchange. These documents need to be dated before the relinquished property closing to be effective, so confirming they are fully executed and filed away before that closing date is an early priority in the exchange file.</p>"
+  },
+  {
+   "heading": "The Written Identification Notice",
+   "html": "<p>The notice identifying candidate replacement properties, delivered to the Qualified Intermediary within the forty five day period, should be kept with a clear record of the date it was sent, since the timeliness of this notice is one of the most scrutinized elements of an exchange if it is ever reviewed. San Antonio investors should retain both the notice itself and confirmation of its delivery, whether through certified mail, email with a timestamp, or the intermediary's own acknowledgment.</p>"
+  },
+  {
+   "heading": "Closing Statements for Both Properties",
+   "html": "<p>The closing statement, or settlement statement, from the relinquished property sale and the replacement property purchase together document the sale price, closing costs, debt payoff, and new financing amounts that feed directly into the boot calculation and the basis carryover figures reported on Form 8824. Any discrepancy between the intermediary's fund records and the title company's closing statements should be resolved and documented rather than left unreconciled in the file.</p>"
+  },
+  {
+   "heading": "Financing and Debt Documentation",
+   "html": "<p>Loan documents for both the relinquished property's payoff and the replacement property's new financing, including the final loan amounts, support the debt replacement calculation central to determining whether mortgage boot applies. San Antonio investors financing a replacement property through a bank or agency lender should keep the final closing disclosure or settlement statement from that loan alongside the rest of the exchange file.</p>"
+  },
+  {
+   "heading": "Documentation Specific to Non-Traditional Structures",
+   "html": "<p>Exchanges involving a tenant in common interest, a DST interest, or a build to suit or improvement structure with an Exchange Accommodation Titleholder require additional documentation: the co-ownership agreement or private placement memorandum for a TIC or DST, and the accommodation agreement, construction contracts, and draw records for a build to suit or improvement exchange. These structures generate more paperwork than a standard purchase, and organizing it by category as the transaction progresses avoids a difficult reconstruction later.</p>"
+  },
+  {
+   "heading": "Retaining the File After the Exchange Closes",
+   "html": "<p>Because the deferred gain and carryover basis established in the exchange affect the replacement property's depreciation schedule and any future sale, the exchange file should be retained for as long as the replacement property is owned, not simply until the current tax return is filed. A San Antonio investor who eventually does another 1031 exchange on the replacement property, or sells it outright, will need the original exchange documentation to correctly calculate basis and gain on that later transaction.</p>"
+  },
+  {
+   "heading": "Organizing the File in a Way Advisors Can Use",
+   "html": "<p>Grouping documents by category, exchange agreement and assignments, identification notice, closing statements, financing documents, and any structure-specific agreements, rather than keeping everything in a single unsorted folder, makes it far easier for a San Antonio investor's tax advisor to locate a specific document quickly at filing time or during a later review. Digital copies stored alongside the originals, backed up in more than one location, protect against the file being incomplete if a physical document is misplaced years after the exchange closes.</p><p>A simple cover sheet summarizing the key dates, the relinquished and replacement property addresses, and a short index of what is included in the file gives an advisor a quick starting point rather than requiring them to review every document from scratch to reconstruct the exchange's basic timeline.</p>"
+  },
+  {
+   "heading": "Sharing the File With Future Advisors",
+   "html": "<p>Investors sometimes change tax advisors or attorneys over the years they hold a replacement property, and a well-organized exchange file makes that transition considerably smoother, since a new advisor can quickly review the original exchange terms and carryover basis without needing to reconstruct the transaction from scattered records. A San Antonio investor planning a long-term hold on the replacement property should treat the exchange file as a permanent part of the property's ownership record, passed along with the property's other key documents rather than filed away and forgotten.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What is the single most important document to have before closing on the relinquished property?",
+   "a": "The exchange agreement with the Qualified Intermediary and the assignment of the sale contract, both of which must be executed before the relinquished property closing for the exchange to be valid."
+  },
+  {
+   "q": "How should the identification notice be documented?",
+   "a": "Keep both the notice itself and proof of its delivery date, whether through certified mail, a timestamped email, or the Qualified Intermediary's written acknowledgment, since the timeliness of identification is closely scrutinized if the exchange is ever reviewed."
+  },
+  {
+   "q": "Do closing statements from both properties need to be kept together?",
+   "a": "Yes, both settlement statements document the sale price, costs, debt payoff, and new financing figures that feed directly into the boot calculation and basis carryover reported on Form 8824."
+  },
+  {
+   "q": "Is more documentation needed for a DST or TIC replacement property?",
+   "a": "Yes, a DST or TIC exchange requires the private placement memorandum or co-ownership agreement in addition to standard closing documents, since these structures involve additional legal and, for a DST, securities disclosures."
+  },
+  {
+   "q": "How long should exchange documentation be kept?",
+   "a": "For as long as the replacement property is owned, since the deferred gain and carryover basis established in the exchange affect depreciation and will be needed again if the property is later sold or exchanged."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "form-8824-preparation",
+   "label": "Form 8824 Preparation Support"
+  },
+  {
+   "slug": "compliance-review",
+   "label": "Compliance Review"
+  },
+  {
+   "slug": "qualified-intermediary",
+   "label": "Qualified Intermediary Services"
+  }
+ ],
+ "wordCount": 738
+}

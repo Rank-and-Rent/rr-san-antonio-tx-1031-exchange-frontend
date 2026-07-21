@@ -1,0 +1,83 @@
+{
+ "slug": "form-8824-preparation",
+ "taxonomy": "upstream-funnel",
+ "title": "Form 8824 Preparation Support",
+ "name": "Form 8824 Preparation Support",
+ "metaTitle": "Form 8824 Preparation Support for San Antonio, TX",
+ "metaDescription": "What San Antonio investors need to gather to complete IRS Form 8824 reporting a 1031 exchange for the tax year it closed.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Every 1031 exchange must be reported to the Internal Revenue Service on Form 8824, filed with the tax return covering the year the exchange occurred, and the form is where the exchange's numbers, dates, and calculations are formally documented. For a San Antonio investor, gathering the right records throughout the exchange, rather than reconstructing them at tax time, makes preparing Form 8824 considerably more straightforward and reduces the chance of an error that draws unwanted attention.</p>"
+  },
+  {
+   "heading": "What Form 8824 Requires",
+   "html": "<p>The form asks for a description of both the relinquished and replacement property, the dates the relinquished property was transferred and the replacement property was received, the date the replacement property was identified, whether the transaction involved a related party, and a detailed calculation of realized gain, recognized gain, and the basis of the replacement property. Each of these fields ties back to documents generated earlier in the exchange, which is why organizing the file as the transaction progresses matters.</p>"
+  },
+  {
+   "heading": "Documents to Gather Along the Way",
+   "html": "<p>The exchange agreement with the Qualified Intermediary, the written identification notice and the date it was delivered, both closing statements showing sale price, closing costs, and debt payoff or new financing, and any records of cash boot received should all be kept together in a single exchange file. A San Antonio investor working with a tax advisor should share this file well before the filing deadline rather than assembling it from memory during tax season.</p>"
+  },
+  {
+   "heading": "Calculating Realized and Recognized Gain",
+   "html": "<p>Realized gain reflects the full economic gain on the relinquished property, while recognized gain, the portion actually taxed in the current year, is limited to any boot received, whether cash boot or mortgage boot. Form 8824 walks through this calculation in a structured sequence, and having the boot calculation already completed before starting the form, rather than working it out for the first time on the form itself, reduces the risk of a transcription or calculation error.</p>"
+  },
+  {
+   "heading": "Basis of the Replacement Property",
+   "html": "<p>The replacement property's basis for future depreciation and eventual sale is not simply its purchase price; it is calculated by carrying over the relinquished property's adjusted basis, adjusted for any additional cash invested, boot received, and exchange expenses. This carryover basis calculation on Form 8824 has a direct effect on the depreciation schedule for the replacement property going forward, so an accurate calculation at filing time matters well beyond the exchange year itself.</p>"
+  },
+  {
+   "heading": "Coordinating With the Qualified Intermediary's Closing Statement",
+   "html": "<p>The Qualified Intermediary typically provides a settlement statement summarizing the funds held, disbursed, and any amount returned to the investor, and this document is one of the most useful sources for completing Form 8824 accurately, since it independently confirms the cash flows the tax preparer needs to report. San Antonio investors should request this statement directly from the intermediary rather than relying solely on the title company's closing documents, which may not capture the exchange-specific fund flows in the same detail.</p>"
+  },
+  {
+   "heading": "Filing Deadlines and Extensions",
+   "html": "<p>Form 8824 is due with the tax return for the year the relinquished property was sold, and if the one hundred eighty day closing period extends past the normal filing deadline, the investor generally needs to file for an extension to preserve the full one hundred eighty days rather than having the deadline shortened to the unextended filing date. San Antonio investors whose exchange spans a tax year boundary should discuss this timing with their tax advisor well before the original filing deadline arrives.</p>"
+  },
+  {
+   "heading": "Common Errors to Avoid on the Form",
+   "html": "<p>Frequent mistakes include misreporting the identification date, transposing figures from the closing statements, and failing to correctly separate recognized gain from boot versus the larger deferred gain carried into the replacement property's basis. A San Antonio investor's tax advisor should reconcile every figure on the form against the underlying closing statements and the Qualified Intermediary's settlement statement line by line rather than relying on estimates, since even a small transcription error can raise questions during a later review.</p><p>Investors involved in a related-party exchange should also confirm the form's related-party disclosure questions are answered accurately and completely, since an omission here is more likely to draw scrutiny than a straightforward, fully disclosed related-party transaction.</p>"
+  },
+  {
+   "heading": "Preparing for a Multi-Year Exchange",
+   "html": "<p>When an exchange spans two tax years, because the relinquished property closed near year end and the replacement property closed early in the following year, the investor's tax advisor needs the relevant figures organized for both returns, since the extension timing and the eventual Form 8824 reporting depend on getting the sequence of events right. A San Antonio investor anticipating this scenario should raise it with the tax advisor as soon as the relinquished property closing date is known, rather than after the calendar year has already turned, so the extension filing, if needed, happens well ahead of the original deadline.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "When is Form 8824 filed?",
+   "a": "Form 8824 is filed with the tax return covering the year the relinquished property was sold and the exchange began, reporting the exchange details even if the replacement property closing occurred in the following months."
+  },
+  {
+   "q": "What documents are most useful for completing Form 8824?",
+   "a": "The exchange agreement, the written identification notice with its delivery date, both closing statements, and the Qualified Intermediary's settlement statement together provide most of the information needed to complete the form accurately."
+  },
+  {
+   "q": "What is the difference between realized gain and recognized gain on the form?",
+   "a": "Realized gain reflects the full economic gain on the relinquished property, while recognized gain is the portion actually taxed in the current year, limited to any boot received through cash or reduced debt replacement."
+  },
+  {
+   "q": "How does the replacement property's basis get calculated?",
+   "a": "The replacement property's basis carries over from the relinquished property's adjusted basis, adjusted for additional cash invested, any boot received, and exchange expenses, rather than simply equaling the replacement property's purchase price."
+  },
+  {
+   "q": "What happens if the exchange closing extends past the normal tax filing deadline?",
+   "a": "The investor generally needs to file for a filing extension to preserve the full one hundred eighty day closing period, since filing the return on the original deadline before the exchange period ends can shorten the available closing window."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "tax-deferral-analysis",
+   "label": "Tax Deferral Analysis"
+  },
+  {
+   "slug": "exchange-documentation",
+   "label": "Exchange Documentation"
+  },
+  {
+   "slug": "compliance-review",
+   "label": "Compliance Review"
+  }
+ ],
+ "wordCount": 761
+}

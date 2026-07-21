@@ -1,0 +1,83 @@
+{
+ "slug": "exchange-coordination",
+ "taxonomy": "upstream-funnel",
+ "title": "Exchange Coordination",
+ "name": "Exchange Coordination",
+ "metaTitle": "1031 Exchange Coordination for San Antonio, TX",
+ "metaDescription": "End to end coordination of a San Antonio 1031 exchange across the intermediary, lender, title company, and tax and legal advisors.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A 1031 exchange involves several parties working against fixed deadlines: the Qualified Intermediary, the title company or companies handling both closings, any lender financing the replacement property, and the investor's tax and legal advisors. Exchange coordination means keeping all of these parties aligned on the same timeline so that the forty five day identification period and the one hundred eighty day closing period are met without last-minute scrambling, which is particularly important for a San Antonio investor juggling a relinquished property sale and a replacement property purchase that may involve different title companies or lenders.</p>"
+  },
+  {
+   "heading": "Setting the Timeline at the Relinquished Property Closing",
+   "html": "<p>Coordination effectively begins before the relinquished property even closes, since the exchange agreement with the Qualified Intermediary must be signed and the sale contract assigned prior to that closing date. Confirming early that the closing date is set, that the title company understands funds will route through the intermediary rather than directly to the investor, and that the forty five day clock will start on that specific date avoids confusion once the transaction is underway.</p>"
+  },
+  {
+   "heading": "Managing the Forty Five Day Identification Window",
+   "html": "<p>During the identification period, coordination means keeping the intermediary, the investor's broker or acquisitions team, and any lender in sync on which San Antonio replacement candidates are under serious consideration, so that due diligence and preliminary loan underwriting can start on the leading candidates before the identification notice is even due. Waiting until day forty of the forty five day window to begin lender conversations leaves very little room to recover if a candidate falls through.</p>"
+  },
+  {
+   "heading": "Aligning Financing With the Closing Deadline",
+   "html": "<p>Lender timelines do not automatically adjust to exchange deadlines, and a replacement property loan that requires a longer underwriting period, such as agency multifamily financing, needs to be initiated well before the identification period closes to have a realistic chance of funding within the one hundred eighty day window. Coordinating loan application timing against the exchange calendar, rather than treating them as two separate processes, is one of the most common places a San Antonio exchange runs into avoidable delay.</p>"
+  },
+  {
+   "heading": "Coordinating Multiple Title Companies and Closings",
+   "html": "<p>When the relinquished property and replacement property use different title companies, which is common when the replacement property is outside San Antonio or even outside Texas, coordination includes making sure both title companies understand the exchange structure, that funds are being wired from the intermediary's qualified escrow account, and that closing statements are prepared in a way that clearly documents the exchange for the eventual Form 8824 filing.</p>"
+  },
+  {
+   "heading": "Keeping Tax and Legal Advisors in the Loop",
+   "html": "<p>The investor's tax advisor should review the debt and equity replacement math well before the replacement property closing, not after, since discovering a boot problem after the fact leaves no time to restructure the transaction. Similarly, legal review of the purchase contract terms, including any exchange cooperation clauses, should happen in parallel with identification rather than after a property is already selected, so that legal issues do not consume days from an already tight closing window.</p>"
+  },
+  {
+   "heading": "A Coordinated Calendar for a San Antonio Exchange",
+   "html": "<p>Building a single shared calendar marking the relinquished property closing date, the forty five day identification deadline, key lender milestones, and the one hundred eighty day closing deadline, and sharing it across the intermediary, broker, lender, and advisors, keeps everyone working from the same set of dates. This kind of coordination does not change the underlying tax rules, but it meaningfully reduces the operational risk of missing a deadline on a San Antonio replacement property due to a scheduling conflict rather than a substantive problem with the deal itself.</p>"
+  },
+  {
+   "heading": "Coordinating Backup Candidates and Contingency Plans",
+   "html": "<p>Because any single replacement property purchase can encounter an unexpected delay, whether a financing hiccup, a title defect, or an inspection issue, coordination should also cover what happens if the lead candidate does not close in time. Confirming in advance which backup property from the identification list would be pursued, and whether the lender, title company, and advisors are prepared to pivot quickly to that backup, gives a San Antonio investor a workable contingency plan rather than a scramble in the final weeks of the one hundred eighty day window.</p><p>Some investors also keep a DST interest identified as a final fallback, since a DST offering can often close faster than a whole-property purchase, giving the coordination plan a realistic last resort if every other identified candidate falls through before the closing deadline.</p>"
+  },
+  {
+   "heading": "Weekly Check-Ins During the Exchange Window",
+   "html": "<p>A brief weekly check-in, even a short email update from the investor to the intermediary, broker, lender, and advisors summarizing where each workstream stands, helps surface a slipping timeline early rather than discovering it only when a deadline is imminent. For a San Antonio investor coordinating a replacement property purchase alongside financing and legal review, this simple habit is often more valuable than any single tool or checklist, since it keeps every party's status visible to the whole group rather than siloed in individual conversations with the investor.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Who needs to be coordinated during a 1031 exchange?",
+   "a": "Typically the Qualified Intermediary, the title company or companies for both closings, any lender financing the replacement property, and the investor's tax advisor and attorney all need to stay aligned on the same exchange timeline."
+  },
+  {
+   "q": "When should lender conversations start relative to the identification period?",
+   "a": "As early as possible, ideally before or at the start of the forty five day identification period, since loan underwriting timelines, especially for agency or larger commercial loans, do not adjust to accommodate a tight exchange deadline."
+  },
+  {
+   "q": "What happens if the relinquished and replacement properties use different title companies?",
+   "a": "Both title companies need to understand the exchange structure and that funds route through the intermediary's qualified escrow account, and closing statements should clearly document the exchange for Form 8824 purposes."
+  },
+  {
+   "q": "Why should the tax advisor review debt and equity replacement before closing?",
+   "a": "Reviewing the math before the replacement property closing allows time to adjust financing or purchase price if a boot problem is discovered, whereas finding the issue after closing leaves no ability to restructure the transaction."
+  },
+  {
+   "q": "Does exchange coordination change the forty five day or one hundred eighty day deadlines?",
+   "a": "No, coordination does not alter the statutory deadlines, but it reduces the risk of missing them due to a scheduling or communication breakdown among the parties involved in the transaction."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "qualified-intermediary",
+   "label": "Qualified Intermediary Services"
+  },
+  {
+   "slug": "exchange-consultation",
+   "label": "1031 Exchange Consultation"
+  },
+  {
+   "slug": "cpa-attorney-coordination",
+   "label": "CPA and Attorney Coordination"
+  }
+ ],
+ "wordCount": 780
+}

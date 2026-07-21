@@ -1,0 +1,75 @@
+{
+ "slug": "flex-industrial-property-search",
+ "taxonomy": "upstream-funnel",
+ "title": "Flex Industrial Property Search",
+ "name": "Flex Industrial Property Search",
+ "metaTitle": "Flex Industrial Property Search for San Antonio, TX",
+ "metaDescription": "How to evaluate flex industrial and logistics buildings as 1031 exchange replacement property in the San Antonio market.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Flex industrial property, buildings that combine warehouse or distribution space with a smaller office or showroom component, has become an increasingly common target for 1031 exchange investors, and San Antonio's industrial market has grown alongside the city's position along key logistics routes and its proximity to Eagle Ford Shale-adjacent industrial demand. A flex industrial search involves evaluating clear height, dock and drive-in door configuration, and office finish ratio in ways that are specific to this hybrid property type.</p>"
+  },
+  {
+   "heading": "What Sets Flex Industrial Apart",
+   "html": "<p>Unlike pure distribution warehouse space, flex industrial buildings typically carry a fifteen to thirty percent office finish component, which broadens the potential tenant pool to include light manufacturing, contractor and trade businesses, distribution operations, and even some showroom or service-oriented tenants. This flexibility can support more stable occupancy across different points in the economic cycle, since a flex building is not dependent on a single tenant category the way a large single-tenant distribution facility might be.</p><p>Flex buildings are also generally easier to re-tenant than a large-format distribution warehouse, since a smaller bay size and lower total square footage per suite means a broader range of local businesses can realistically occupy the space, which can shorten downtime between tenants for a San Antonio investor managing rollover risk.</p>"
+  },
+  {
+   "heading": "San Antonio Industrial Corridors",
+   "html": "<p>The I-35 corridor, both north toward New Braunfels and San Marcos and south toward Laredo, carries significant industrial and logistics activity, supported by cross-border trade flow and the metro's position as a distribution point between major Texas markets. The I-10 corridor toward Seguin has also seen industrial growth, and areas near Port San Antonio and Brooks City Base have attracted flex and light industrial users drawn to redeveloped former military and aerospace facilities with existing infrastructure. Smaller flex parks are also found along the 410 loop, generally serving local trade and service businesses rather than regional distribution tenants.</p><p>Proximity to Eagle Ford Shale-adjacent activity has also supported demand from oilfield services and equipment tenants in some San Antonio flex parks, though an investor should evaluate how dependent a given tenant's business is on energy sector activity, since that dependence can add cyclicality to an otherwise stable flex industrial income stream.</p>"
+  },
+  {
+   "heading": "Evaluating Building Specifications",
+   "html": "<p>Clear height, typically in the eighteen to twenty four foot range for functional flex space, dock-high versus grade-level loading, column spacing, and power capacity all affect which tenants a given building can serve, and a building with specifications below current market standards may face a narrower tenant pool at renewal. Reviewing the existing tenant's use, and whether that use would transfer easily to a replacement tenant if the space turns over, is an important part of evaluating a San Antonio flex industrial candidate.</p>"
+  },
+  {
+   "heading": "Flex Industrial as Like-Kind Replacement Property",
+   "html": "<p>Flex industrial buildings are real property held for investment or business use and qualify as like-kind replacement property under the same rules that govern any other commercial real estate in a 1031 exchange. An investor identifying a San Antonio flex industrial property must still work within the forty five day identification period and one hundred eighty day closing deadline, both of which run concurrently from the date the relinquished property closed, regardless of the specific property type being acquired.</p>"
+  },
+  {
+   "heading": "Lease Structure and Tenant Mix Review",
+   "html": "<p>Flex industrial buildings are sometimes leased to a single tenant and sometimes divided among several smaller tenants, and the diligence approach differs accordingly: a single-tenant building requires close review of that one tenant's credit and lease term, while a multi-tenant building requires evaluating the mix of tenant types and staggered lease expirations to understand rollover risk. San Antonio's growing base of small manufacturing, distribution, and trade businesses has kept demand reasonably steady for well-located multi-tenant flex space.</p>"
+  },
+  {
+   "heading": "Diligence Considerations for San Antonio Flex Industrial",
+   "html": "<p>Before identifying a flex industrial property, an investor should confirm the condition of the roof and HVAC systems serving both the warehouse and office components, review any environmental history tied to prior industrial or manufacturing use, and verify truck access and parking are adequate for the tenant's operations. Because Texas has no state income tax, the deferral value of a 1031 exchange into San Antonio flex industrial property comes entirely from deferring federal capital gains and depreciation recapture tax, keeping the federal identification and closing deadlines as the controlling timeline.</p><p>A Phase One environmental assessment is particularly important for flex industrial diligence given the property type's history of light manufacturing and automotive-adjacent uses, and identifying any recorded environmental concerns early gives an investor time to evaluate the issue, or move to a backup candidate, before the one hundred eighty day closing deadline becomes a constraint.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does flex industrial property qualify for a 1031 exchange?",
+   "a": "Yes. Flex industrial buildings are real property held for investment or business use and qualify as like-kind replacement property under the same rules as any other commercial real estate."
+  },
+  {
+   "q": "What makes flex industrial different from a standard warehouse?",
+   "a": "Flex industrial buildings combine warehouse or distribution space with a smaller office or showroom component, typically fifteen to thirty percent of the building, which broadens the potential tenant pool beyond pure distribution users."
+  },
+  {
+   "q": "Which San Antonio corridors have the most flex industrial activity?",
+   "a": "The I-35 corridor toward New Braunfels, San Marcos, and Laredo carries significant industrial activity, along with the I-10 corridor toward Seguin and redeveloped areas near Port San Antonio and Brooks City Base."
+  },
+  {
+   "q": "What building specifications matter most when evaluating flex industrial space?",
+   "a": "Clear height, dock-high versus grade-level loading, column spacing, and power capacity all affect which tenants a building can serve, and specifications below current market standards can narrow the tenant pool at renewal."
+  },
+  {
+   "q": "How does tenant mix affect diligence on a flex industrial building?",
+   "a": "A single-tenant building requires close review of that tenant's credit and lease term, while a multi-tenant building requires evaluating the mix of tenant types and staggered lease expirations to understand rollover risk."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "market-comps-analysis",
+   "label": "Market Comparables Analysis"
+  },
+  {
+   "slug": "lender-preflight",
+   "label": "Lender Preflight Support"
+  },
+  {
+   "slug": "capex-planning",
+   "label": "Capital Expenditure Planning"
+  }
+ ],
+ "wordCount": 739
+}

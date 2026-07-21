@@ -1,0 +1,75 @@
+{
+ "slug": "land-property-identification",
+ "taxonomy": "upstream-funnel",
+ "title": "Land Property Identification",
+ "name": "Land Property Identification",
+ "metaTitle": "Land Property Identification for San Antonio, TX",
+ "metaDescription": "How investors evaluate raw land and development-ready parcels as 1031 exchange replacement property around San Antonio.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Raw and development-ready land is a less common but entirely valid 1031 exchange replacement property, and San Antonio's continued outward growth along the 1604 loop and toward New Braunfels has kept a steady supply of land parcels moving through the market at varying stages of entitlement. Identifying land for an exchange requires a different diligence approach than an improved, income-producing property, since a raw parcel generally has no existing tenant, lease, or operating history to evaluate.</p>"
+  },
+  {
+   "heading": "Why Investors Consider Land as Replacement Property",
+   "html": "<p>An investor exchanging out of a fully depreciated or management-intensive property sometimes considers land as a way to reset into a lower-maintenance holding, particularly when the investor's goal is longer-term appreciation rather than immediate cash flow. Because land held for investment produces little or no income, this strategy generally suits an investor who does not depend on the replacement property for current cash flow and who understands that a raw land holding period involves ongoing carrying costs, including property taxes, without offsetting rental income.</p><p>Land can also serve as a strategic step for an investor planning a future development project or a subsequent exchange once the parcel is entitled and improved, effectively using the current exchange to secure a well-located site ahead of eventual construction, though this approach requires patience and a clear long-term plan rather than an expectation of near-term income.</p>"
+  },
+  {
+   "heading": "Where San Antonio Land Activity Concentrates",
+   "html": "<p>The outer edge of the 1604 loop, particularly toward Alamo Ranch on the west side and Stone Oak and points north, has seen active land transactions tied to residential and mixed-use development following population growth. The I-35 corridor toward New Braunfels and San Marcos has also drawn land investment tied to both residential rooftop growth and industrial and logistics development along that corridor. Smaller infill parcels appear closer to the urban core, generally commanding a higher per-acre price but requiring less infrastructure investment to develop than land on the growth edge of the metro.</p>"
+  },
+  {
+   "heading": "Entitlement Status and Zoning Review",
+   "html": "<p>A land parcel's entitlement status, whether it is fully zoned and platted for its intended use, has approvals in process, or remains unentitled raw acreage, significantly affects both its value and the timeline required to bring it to a usable state. Reviewing zoning designation, utility availability at the property line, floodplain status, and any existing deed restrictions or easements is essential before identifying a San Antonio land parcel, since these factors can materially change the parcel's development feasibility and marketability.</p><p>A fully entitled, platted parcel with utilities already at the property line generally commands a premium over comparable raw acreage without those improvements, since the entitled parcel removes both time and cost from a future development timeline, a distinction worth pricing carefully when comparing land candidates for identification.</p>"
+  },
+  {
+   "heading": "Land as Like-Kind Replacement Property",
+   "html": "<p>Land held for investment or business use qualifies as like-kind replacement property for a 1031 exchange, the same as any other real property, regardless of whether the parcel is improved or entirely raw. An investor identifying San Antonio land as replacement property must still meet the forty five day identification period and one hundred eighty day closing deadline that apply to every exchange, both of which run concurrently from the date the relinquished property closed.</p>"
+  },
+  {
+   "heading": "Financing and Valuation Considerations",
+   "html": "<p>Land generally carries different financing terms than improved, income-producing property, often requiring a larger down payment and shorter loan term, since lenders view unimproved land as carrying more risk without an income stream to support debt service. Valuation for raw land relies heavily on comparable land sales rather than an income approach, so pulling recent per-acre sales comparables in the specific San Antonio submarket under consideration is an important step before finalizing an identification.</p>"
+  },
+  {
+   "heading": "Diligence Before Identifying a Land Parcel",
+   "html": "<p>Before adding a San Antonio land parcel to an identification list, an investor should obtain a current survey, confirm access and utility availability, review any environmental history including prior agricultural or industrial use, and understand the property tax treatment, since land can lose an agricultural exemption upon sale, changing the carrying cost significantly. Because Texas has no state income tax, the 1031 deferral benefit on a San Antonio land acquisition applies entirely to federal capital gains tax, which keeps the federal identification and closing deadlines as the controlling timeline regardless of the parcel's development status.</p><p>Confirming whether the parcel sits within the extraterritorial jurisdiction of San Antonio or a neighboring municipality, which affects future annexation and zoning authority, and checking for any pending bond elections or infrastructure assessments tied to the property are additional steps that can materially affect a land parcel's long-term value and should be completed before it is included on an identification notice.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does raw land qualify as replacement property in a 1031 exchange?",
+   "a": "Yes. Land held for investment or business use qualifies as like-kind replacement property under the same rules as improved real estate, regardless of whether the parcel is raw or has existing entitlements."
+  },
+  {
+   "q": "Why would an investor exchange into land instead of income-producing property?",
+   "a": "An investor with a longer-term appreciation focus, rather than a need for current cash flow, sometimes chooses land to reduce management responsibilities, understanding that raw land carries ongoing property tax costs without offsetting rental income."
+  },
+  {
+   "q": "Where in San Antonio is land activity concentrated?",
+   "a": "The outer edge of the 1604 loop toward Alamo Ranch and Stone Oak, and the I-35 corridor toward New Braunfels and San Marcos, have seen the most land transaction activity tied to residential, mixed-use, and industrial growth."
+  },
+  {
+   "q": "What is entitlement status and why does it matter?",
+   "a": "Entitlement status describes whether a parcel is fully zoned and platted for its intended use, has approvals in process, or remains unentitled raw acreage, and it significantly affects both value and the timeline required to develop the property."
+  },
+  {
+   "q": "Do land purchases follow the same exchange deadlines as other property types?",
+   "a": "Yes. Land identification and closing must still occur within the standard forty five day identification period and one hundred eighty day closing deadline, both running concurrently from the relinquished property's closing date."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "mixed-use-property-search",
+   "label": "Mixed Use Property Search"
+  },
+  {
+   "slug": "market-comps-analysis",
+   "label": "Market Comparables Analysis"
+  },
+  {
+   "slug": "lender-preflight",
+   "label": "Lender Preflight Support"
+  }
+ ],
+ "wordCount": 745
+}

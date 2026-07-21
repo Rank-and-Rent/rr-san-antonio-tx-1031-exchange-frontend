@@ -1,0 +1,79 @@
+{
+ "slug": "boot-calculation",
+ "taxonomy": "upstream-funnel",
+ "title": "Boot Calculation and Minimization",
+ "name": "Boot Calculation and Minimization",
+ "metaTitle": "1031 Boot Calculation for San Antonio, TX",
+ "metaDescription": "How cash boot and mortgage boot are calculated in a San Antonio 1031 exchange and practical steps to minimize taxable boot.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Boot is the term used for any value received in a 1031 exchange that is not like kind real property, and it is taxable to the extent of the investor's realized gain even though the rest of the exchange remains tax-deferred. For a San Antonio investor, understanding how boot is calculated before closing on a replacement property is the difference between a fully deferred exchange and one that generates an unexpected tax bill despite an otherwise successful transaction.</p>"
+  },
+  {
+   "heading": "Cash Boot",
+   "html": "<p>Cash boot is the most straightforward form: any cash the investor actually receives out of the exchange, whether it is leftover exchange proceeds not reinvested into the replacement property, a cash payment received as part of negotiating unequal values between the properties, or funds released from the Qualified Intermediary's account for any reason other than closing on a qualifying replacement property. A San Antonio investor who sells a relinquished property for more than the replacement property costs, and does not reinvest the difference, receives cash boot equal to that leftover amount.</p>"
+  },
+  {
+   "heading": "Mortgage Boot",
+   "html": "<p>Mortgage boot arises when the debt on the replacement property is less than the debt that was paid off on the relinquished property, and the investor does not make up the difference with additional cash invested. Even though no cash physically changes hands in this scenario, the reduction in debt is treated as if the investor received value, because the investor's net liabilities decreased as part of the transaction. A San Antonio investor paying off a substantial mortgage on the relinquished property and purchasing a lower-leverage replacement property should expect mortgage boot unless additional equity is contributed to offset the debt reduction.</p>"
+  },
+  {
+   "heading": "The Equal or Greater Rule",
+   "html": "<p>To fully defer gain, both the value and the debt and equity structure of the replacement property generally need to be equal to or greater than the relinquished property. This means an investor needs to reinvest all net sale proceeds and either match or exceed the debt paid off on the relinquished property, or contribute additional cash to cover any shortfall in replacement debt. Falling short on either the total value or the debt replacement side creates boot, even if the investor technically completed a like kind exchange.</p>"
+  },
+  {
+   "heading": "Calculating Boot Exposure Before Closing",
+   "html": "<p>A basic boot calculation compares net sale price of the relinquished property, after closing costs and existing debt payoff, against the purchase price and financing structure of the replacement property. San Antonio investors working through this math should run the numbers as soon as a replacement property is under serious consideration, not after the purchase contract is signed, since adjusting the offer price or loan amount is far easier before a contract is in place than after.</p>"
+  },
+  {
+   "heading": "Strategies to Minimize Boot",
+   "html": "<p>Common approaches include identifying a replacement property priced at or above the relinquished property's net sale value, matching or exceeding the payoff debt with new financing on the replacement property, and using a DST interest to absorb a small leftover cash balance that would otherwise become taxable boot. DST and TIC interests are securities and real estate investments that carry risk, including possible loss of principal, so an investor should consult a securities professional and tax advisor before using either structure specifically to soak up remaining exchange proceeds.</p>"
+  },
+  {
+   "heading": "Reporting Boot on Form 8824",
+   "html": "<p>Any boot received is reported on Form 8824, filed with the tax return for the exchange year, and is recognized as taxable gain up to the amount of boot received, even though the remainder of the transaction stays deferred. Keeping a clear worksheet showing the net sale proceeds, replacement purchase price, debt payoff and new financing amounts, and any cash received makes completing this section of the form considerably more straightforward.</p>"
+  },
+  {
+   "heading": "A Simple Example of the Boot Calculation",
+   "html": "<p>Consider a San Antonio investor who sells a relinquished property with net proceeds of five hundred thousand dollars after paying off an existing loan of two hundred thousand dollars, and then purchases a replacement property for four hundred fifty thousand dollars with a new loan of one hundred fifty thousand dollars. The fifty thousand dollar shortfall in purchase price becomes cash boot if not otherwise reinvested, and the fifty thousand dollar reduction in loan balance becomes mortgage boot unless offset with additional cash invested beyond what the purchase price already required. Running through a scenario like this before making an offer helps an investor see exactly where boot would arise and how much additional reinvestment would eliminate it.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What is the difference between cash boot and mortgage boot?",
+   "a": "Cash boot is actual cash received by the investor, such as leftover exchange proceeds, while mortgage boot arises when debt on the replacement property is less than the debt paid off on the relinquished property and is not offset with additional invested cash."
+  },
+  {
+   "q": "How can mortgage boot be avoided?",
+   "a": "Mortgage boot can be avoided by matching or exceeding the debt paid off on the relinquished property with new financing on the replacement property, or by contributing additional cash to make up any shortfall in the replacement debt."
+  },
+  {
+   "q": "Does receiving any boot disqualify the entire exchange?",
+   "a": "No. Boot is taxed up to the amount received, but the remainder of the exchange still qualifies for deferral, so receiving some boot reduces the tax benefit without eliminating it entirely."
+  },
+  {
+   "q": "Can leftover exchange proceeds be used to avoid boot?",
+   "a": "Leftover proceeds themselves are the source of cash boot if not reinvested; using a DST interest to absorb a small remaining balance is one way investors address this, though DST interests are securities that carry risk and should be reviewed with a securities professional."
+  },
+  {
+   "q": "When should boot exposure be calculated?",
+   "a": "As early as possible, ideally as soon as a replacement property is under serious consideration and before a purchase contract is signed, since adjusting price or financing is far easier before a contract is in place than afterward."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "tax-deferral-analysis",
+   "label": "Tax Deferral Analysis"
+  },
+  {
+   "slug": "delaware-statutory-trust",
+   "label": "Delaware Statutory Trust Exchange"
+  },
+  {
+   "slug": "form-8824-preparation",
+   "label": "Form 8824 Preparation Support"
+  }
+ ],
+ "wordCount": 713
+}

@@ -1,0 +1,79 @@
+{
+ "slug": "tenant-in-common",
+ "taxonomy": "upstream-funnel",
+ "title": "Tenant in Common Exchange",
+ "name": "Tenant in Common Exchange",
+ "metaTitle": "Tenant in Common Exchange for San Antonio, TX",
+ "metaDescription": "How a tenant in common interest can serve as 1031 replacement property, and what San Antonio investors should verify before identifying one.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A tenant in common structure, often abbreviated TIC, allows multiple investors to each hold an undivided fractional ownership interest in a single larger property. For a San Antonio investor working through a 1031 exchange, a tenant in common interest can be identified and acquired as replacement property, offering a path into commercial assets, such as a larger multifamily community or retail center, that would otherwise be out of reach for an individual investor's exchange proceeds alone.</p>"
+  },
+  {
+   "heading": "How Tenant in Common Ownership Works",
+   "html": "<p>Each tenant in common owner holds a direct, undivided percentage interest in the real property itself, recorded on title, rather than an interest in an entity that owns the property. This direct ownership is significant for 1031 purposes because the Internal Revenue Service has long held that a partnership interest does not qualify as like kind replacement property, while a properly structured tenant in common interest, held directly in real property, generally does qualify.</p>"
+  },
+  {
+   "heading": "IRS Guidance Governing Tenant in Common Interests",
+   "html": "<p>Revenue Procedure 2002-22 sets out the conditions the Internal Revenue Service looks to when evaluating whether a tenant in common arrangement will be respected as direct real property ownership rather than treated as a disguised partnership interest. These conditions generally limit the number of co-owners, restrict the property manager's discretion without unanimous or majority co-owner consent on major decisions, and require that co-owners share proportionally in revenue and expenses according to their ownership percentage. A San Antonio investor considering a tenant in common replacement property should confirm the sponsor's structure meets these conditions before relying on it for exchange purposes.</p>"
+  },
+  {
+   "heading": "Why Investors Use Tenant in Common Structures",
+   "html": "<p>A tenant in common interest allows a San Antonio investor with a moderate amount of exchange proceeds, for example from the sale of a single small retail building or a duplex, to acquire a proportional interest in a larger, professionally managed asset such as a multifamily community along the I-35 corridor or a grocery-anchored retail center near Stone Oak, rather than being limited to whatever smaller whole properties the exchange proceeds could purchase outright. It also allows an investor to diversify exchange proceeds across more than one tenant in common interest rather than concentrating in a single property.</p>"
+  },
+  {
+   "heading": "Financing and Lender Considerations",
+   "html": "<p>Because each co-owner typically shares liability for the property's underlying debt in proportion to ownership, lenders scrutinize tenant in common transactions closely, and financing is often arranged at the property level with each co-owner executing a nonrecourse carve-out guaranty limited to their proportional share. San Antonio investors should review financing documents carefully, since a co-owner's individual financial position can affect the loan terms available to the group as a whole.</p>"
+  },
+  {
+   "heading": "Diligence Specific to Tenant in Common Interests",
+   "html": "<p>Beyond standard property-level diligence, a tenant in common investment requires reviewing the co-ownership agreement governing decision-making authority, the property manager's fee structure and track record, the exit provisions describing how a co-owner can sell an interest, and the rights of other co-owners if the sponsor or manager is removed or replaced. Because a co-owner cannot unilaterally sell the underlying property, the exit process for an individual interest deserves particular attention before an investor identifies a tenant in common property within the forty five day window.</p>"
+  },
+  {
+   "heading": "Fitting a Tenant in Common Interest Into an Exchange Timeline",
+   "html": "<p>Tenant in common interests must still be identified within the forty five day identification period and closed within the one hundred eighty day period like any other replacement property, and the percentage interest, purchase price, and property address should be described precisely in the written identification notice to the Qualified Intermediary. Sponsors offering tenant in common interests are generally accustomed to exchange timelines and can often provide closing documentation quickly, which can help a San Antonio investor meet the deadline when a whole-property purchase is not feasible.</p>"
+  },
+  {
+   "heading": "Combining a Tenant in Common Interest With Other Replacement Property",
+   "html": "<p>A San Antonio investor is not limited to a single tenant in common interest within an exchange; proceeds can be split between a directly owned property and one or more tenant in common interests, or across several tenant in common offerings covering different asset types and geographic markets, all identified within the same forty five day notice. This flexibility is particularly useful for an investor whose exchange proceeds do not divide evenly into whole-property purchases, since a tenant in common interest can be sized to absorb a specific remaining dollar amount.</p><p>Because each co-ownership arrangement carries its own governance terms, an investor combining multiple tenant in common interests should review each agreement separately rather than assuming consistent terms across different sponsors and offerings.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does a tenant in common interest qualify as like kind replacement property?",
+   "a": "A tenant in common interest that meets the conditions described in Revenue Procedure 2002-22 is generally treated as direct ownership of real property and can qualify as like kind replacement property, unlike a partnership interest, which does not qualify."
+  },
+  {
+   "q": "How is a tenant in common interest different from a partnership interest?",
+   "a": "A tenant in common owner holds a direct, undivided percentage interest in the real property itself, recorded on title, while a partnership interest represents an ownership stake in an entity that in turn owns the property, and only the former generally qualifies for 1031 treatment."
+  },
+  {
+   "q": "Can a San Antonio investor combine a tenant in common interest with a whole-property purchase?",
+   "a": "Yes, an investor can identify and acquire a tenant in common interest alongside a wholly owned replacement property within the same exchange, as long as both are properly identified within the forty five day period."
+  },
+  {
+   "q": "What should an investor review before acquiring a tenant in common interest?",
+   "a": "The co-ownership agreement, the property manager's authority and fee structure, financing terms including any personal guaranty, and the exit provisions describing how an individual co-owner can later sell their interest all warrant careful review."
+  },
+  {
+   "q": "Is a tenant in common interest a security?",
+   "a": "Tenant in common interests are generally structured as direct real property ownership rather than securities, though investors should still confirm the specific structure with a qualified advisor, since offerings can vary and some arrangements may be treated differently."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "delaware-statutory-trust",
+   "label": "Delaware Statutory Trust Exchange"
+  },
+  {
+   "slug": "like-kind-verification",
+   "label": "Like Kind Property Verification"
+  },
+  {
+   "slug": "property-identification",
+   "label": "Nationwide Property Identification"
+  }
+ ],
+ "wordCount": 713
+}

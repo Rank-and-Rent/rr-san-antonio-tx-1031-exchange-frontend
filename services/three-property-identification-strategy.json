@@ -1,0 +1,71 @@
+{
+ "slug": "three-property-identification-strategy",
+ "taxonomy": "upstream-funnel",
+ "title": "Three Property Identification Strategy",
+ "name": "Three Property Identification Strategy",
+ "metaTitle": "Three Property Identification Strategy for San Antonio, TX",
+ "metaDescription": "How the three property identification rule works and when it fits a San Antonio 1031 exchange with a single likely replacement candidate.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The three property rule is the most commonly used identification method in a 1031 exchange, and its appeal is its simplicity: an investor may identify up to three potential replacement properties within the forty five day identification period, regardless of the combined fair market value of those properties, as long as at least one is ultimately acquired within the one hundred eighty day closing deadline. For a San Antonio investor with a clear front-running candidate and one or two credible backups, this rule is often the most straightforward path through identification.</p>"
+  },
+  {
+   "heading": "How the Rule Works in Practice",
+   "html": "<p>Unlike the two identification methods based on a percentage of the relinquished property's value, the three property rule places no value ceiling on the properties named, which means an investor could identify one large San Antonio property worth several times the relinquished property's sale price alongside two smaller backups, and the rule would still be satisfied. The only constraint is the count: no more than three properties may appear on the identification notice under this rule.</p><p>This absence of a value ceiling is precisely what makes the three property rule attractive when an investor's leading candidate is significantly more valuable than the relinquished property, for example moving from a smaller retail building into a larger San Antonio apartment community, since the two hundred percent rule's value cap could otherwise force the investor to name additional lower-value properties simply to preserve optionality.</p>"
+  },
+  {
+   "heading": "When This Rule Fits a San Antonio Exchange",
+   "html": "<p>The three property rule tends to fit best when an investor has already done substantial legwork before the relinquished property closes and has a strong primary candidate, for example a specific medical office building near the South Texas Medical Center or a flex industrial property along the I-35 corridor, along with one or two fallback options in case financing or final due diligence eliminates the top choice. Investors moving quickly through a competitive San Antonio submarket, such as multifamily along growth corridors near 1604, often favor this rule because it keeps the identification notice short and easy to track against the closing deadline.</p>"
+  },
+  {
+   "heading": "Building a Realistic Backup List",
+   "html": "<p>A common mistake under the three property rule is naming backup properties that are not genuinely viable, either because they are unlikely to remain available through closing or because the investor has not vetted them to the same degree as the primary candidate. Each of the three properties named should be one the investor would actually be willing and able to close on if the primary choice falls through, since a rushed substitution late in the one hundred eighty day window leaves little room for renegotiation or additional diligence.</p><p>Coordinating with brokers on backup candidates before finalizing the identification list, confirming those sellers are aware the property may serve as a backup rather than an active offer, can reduce the risk of a backup property being sold to another buyer before it is needed.</p>"
+  },
+  {
+   "heading": "Comparing the Three Property Rule to the Alternatives",
+   "html": "<p>The two hundred percent rule allows identifying any number of properties as long as their combined fair market value does not exceed two hundred percent of the relinquished property's sale price, which suits an investor spreading exchange proceeds across several smaller San Antonio properties. The ninety five percent rule removes the value cap entirely but requires acquiring at least ninety five percent of the total identified value, a more demanding standard best reserved for investors highly confident in closing on nearly everything they identify. The three property rule sits between these approaches, offering no value restriction but a hard cap on the count of properties named.</p>"
+  },
+  {
+   "heading": "Documenting the Identification Notice",
+   "html": "<p>The identification notice must be in writing, signed by the investor, and delivered to the Qualified Intermediary or another party involved in the exchange before midnight on the forty fifth day after the relinquished property's closing, with each of the up to three properties described with enough specificity, typically a street address or legal description, to be unambiguous. Because Texas has no state income tax, the deferral achieved through a San Antonio exchange applies to federal capital gains and depreciation recapture tax, and the same federal forty five day identification deadline governs regardless of which identification rule is used.</p><p>Keeping a copy of the signed identification notice, along with proof of timely delivery to the Qualified Intermediary, in the exchange file provides a clear record that the forty five day requirement was satisfied, which can matter if the transaction is later reviewed as part of tax preparation or an audit.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "How many properties can be identified under the three property rule?",
+   "a": "Up to three properties, regardless of their combined fair market value, as long as at least one is ultimately acquired within the one hundred eighty day closing deadline."
+  },
+  {
+   "q": "Is there a value limit under the three property rule?",
+   "a": "No. Unlike the two hundred percent rule and the ninety five percent rule, the three property rule places no restriction on the combined fair market value of the properties identified, only on the count."
+  },
+  {
+   "q": "When does the three property rule make the most sense for a San Antonio investor?",
+   "a": "It fits well when an investor already has a strong primary replacement candidate identified along with one or two credible backup options, keeping the identification notice simple and easy to track through closing."
+  },
+  {
+   "q": "What happens if all three identified properties fall through?",
+   "a": "If none of the up to three identified properties are acquired within the one hundred eighty day closing deadline, the exchange generally fails and the transaction is treated as a taxable sale, which is why each property named should be a realistic, vetted candidate."
+  },
+  {
+   "q": "How does the three property rule compare to the two hundred percent and ninety five percent rules?",
+   "a": "The three property rule caps the count of properties at three with no value limit, the two hundred percent rule allows unlimited properties as long as total value does not exceed two hundred percent of the relinquished property's sale price, and the ninety five percent rule removes the value cap but requires acquiring at least ninety five percent of identified value."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "200-percent-identification-strategy",
+   "label": "200 Percent Identification Strategy"
+  },
+  {
+   "slug": "95-percent-identification-strategy",
+   "label": "95 Percent Identification Strategy"
+  },
+  {
+   "slug": "45-day-identification-strategy",
+   "label": "45 Day Identification Strategy"
+  }
+ ],
+ "wordCount": 725
+}

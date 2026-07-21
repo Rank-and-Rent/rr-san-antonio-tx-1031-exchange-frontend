@@ -1,0 +1,83 @@
+{
+ "slug": "investor-education",
+ "taxonomy": "upstream-funnel",
+ "title": "1031 Exchange Investor Education",
+ "name": "1031 Exchange Investor Education",
+ "metaTitle": "1031 Exchange Investor Education for San Antonio, TX",
+ "metaDescription": "Core 1031 exchange concepts San Antonio investors should understand before starting an exchange, from deadlines to replacement structures.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A 1031 exchange rewards investors who understand the rules before they start, since several of the most common costly mistakes, such as missing the identification deadline or using a disqualified intermediary, are entirely avoidable with basic education up front. For a San Antonio investor new to exchanging, or returning to it after several years, a working understanding of the core concepts makes every later conversation with a Qualified Intermediary, lender, or tax advisor more productive.</p>"
+  },
+  {
+   "heading": "The Two Deadlines Everything Else Revolves Around",
+   "html": "<p>The forty five day identification period and the one hundred eighty day closing period both start on the date the relinquished property closes and run concurrently, not sequentially, meaning the investor effectively has one hundred thirty five days remaining after identification to close. These deadlines apply with no extensions for weekends, holidays, or personal circumstances, which is the single most important fact for a new investor to internalize before starting an exchange.</p>"
+  },
+  {
+   "heading": "Understanding Like Kind Real Property",
+   "html": "<p>Since 2017, only real property qualifies for 1031 treatment, but within real property the standard is broad: a San Antonio investor can exchange a retail building for an apartment community, or raw land for an industrial building, as long as both properties are held for investment or business use rather than personal use. This flexibility is one of the most valuable and least understood aspects of the exchange, and it opens up asset class changes that many first-time exchangers do not realize are available to them.</p>"
+  },
+  {
+   "heading": "Why the Qualified Intermediary Cannot Be Skipped",
+   "html": "<p>A common misconception among new investors is that a title company or closing attorney can handle the exchange the same way they handle a normal purchase. In fact, a separate, independent Qualified Intermediary is required to hold the sale proceeds and execute the exchange documents, and that intermediary cannot be the investor's own attorney, accountant, broker, or employee, or anyone who filled that role in the prior two years. Engaging the intermediary before the relinquished property closes, not after, is essential.</p>"
+  },
+  {
+   "heading": "Boot: The Concept That Trips Up Many First-Time Exchangers",
+   "html": "<p>Boot, any value received that is not like kind real property, whether cash or a net reduction in debt, is taxable even within an otherwise successful exchange. New investors are often surprised to learn that simply buying a less-leveraged replacement property, without contributing additional cash, can create taxable mortgage boot, since no cash physically changed hands in that scenario.</p>"
+  },
+  {
+   "heading": "Structures Beyond the Standard Delayed Exchange",
+   "html": "<p>Beyond the standard delayed exchange, investors should be aware that reverse exchanges, using an Exchange Accommodation Titleholder under Revenue Procedure 2000-37, allow the replacement property to be acquired before the relinquished property sells, and that build to suit and improvement exchanges allow exchange proceeds to fund construction or renovation using the same accommodation structure. DST and TIC interests, both of which are securities and real estate investments that carry risk including possible loss of principal, offer passive or fractional ownership paths as replacement property and should be discussed with a securities professional and tax advisor when relevant.</p>"
+  },
+  {
+   "heading": "Building a Knowledgeable Team Early",
+   "html": "<p>An educated investor still benefits from a team: a Qualified Intermediary to execute the exchange, a tax advisor to confirm the strategy and prepare Form 8824, and, depending on the transaction, a real estate attorney and securities professional. San Antonio investors who understand the underlying concepts covered here tend to have more productive conversations with that team, since they can ask sharper questions and recognize when a proposed timeline or structure does not fit the exchange rules.</p>"
+  },
+  {
+   "heading": "Common Misconceptions Worth Clearing Up Early",
+   "html": "<p>New investors sometimes assume a 1031 exchange eliminates tax entirely rather than deferring it, or that any real estate purchase automatically qualifies as a valid replacement property without regard to how it is held or used. Others assume the Qualified Intermediary is a formality that any closing agent can fulfill, when in fact the independence requirement is a substantive rule that, if violated, can unwind the entire tax benefit. Clearing up these misconceptions before the relinquished property closes prevents costly surprises later in the process.</p><p>Another common misconception is that Texas's lack of a state income tax somehow reduces the importance of completing the exchange correctly; the federal deferral at stake is the same regardless of state tax treatment, and federal rules apply with the same strictness to a San Antonio investor as to an investor anywhere else in the country.</p>"
+  },
+  {
+   "heading": "Where to Continue Learning",
+   "html": "<p>Beyond the general concepts covered here, an investor preparing for a specific transaction benefits from reading more deeply into the exact structure being considered, whether a standard delayed exchange, a reverse exchange, or a DST investment, since each carries its own procedural details worth understanding before committing exchange proceeds. Pairing that reading with an early conversation with a Qualified Intermediary and tax advisor turns general education into a practical plan tailored to the investor's specific San Antonio property and timeline.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What is the most important rule for a first-time 1031 investor to understand?",
+   "a": "That the forty five day identification and one hundred eighty day closing deadlines both start on the relinquished property's closing date, run concurrently, and have no exceptions for weekends, holidays, or personal circumstances."
+  },
+  {
+   "q": "Can a title company or closing attorney serve as the Qualified Intermediary?",
+   "a": "Generally not if they have served as the investor's attorney or in another disqualifying capacity within the prior two years; a separate, independent intermediary is required to hold exchange funds and prepare the exchange documents."
+  },
+  {
+   "q": "Why does buying a less-leveraged replacement property sometimes create a tax bill?",
+   "a": "A net reduction in debt compared to the relinquished property, without offsetting cash contributed, is treated as mortgage boot and is taxable, even though no cash was physically received by the investor."
+  },
+  {
+   "q": "What replacement property options exist beyond buying a whole property directly?",
+   "a": "Tenant in common interests and Delaware Statutory Trust interests both offer fractional or passive ownership paths that can qualify as replacement property, though both are securities and real estate investments carrying risk that should be reviewed with a securities professional."
+  },
+  {
+   "q": "Does personal property still qualify for a 1031 exchange?",
+   "a": "No. Since the Tax Cuts and Jobs Act took effect in 2017, only real property qualifies; equipment, vehicles, and other personal property no longer receive 1031 treatment."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "exchange-consultation",
+   "label": "1031 Exchange Consultation"
+  },
+  {
+   "slug": "cpa-attorney-coordination",
+   "label": "CPA and Attorney Coordination"
+  },
+  {
+   "slug": "delayed-exchange",
+   "label": "Delayed 1031 Exchange"
+  }
+ ],
+ "wordCount": 768
+}

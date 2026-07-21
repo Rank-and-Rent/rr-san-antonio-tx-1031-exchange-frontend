@@ -1,0 +1,79 @@
+{
+ "slug": "the-45-day-identification-period",
+ "taxonomy": "upstream-funnel",
+ "title": "The 45 Day Identification Period Explained",
+ "name": "The 45 Day Identification Period Explained",
+ "metaTitle": "The 45 Day Identification Period Explained for San Antonio, TX",
+ "metaDescription": "How the forty five day window for naming replacement property works, runs, and is documented for a San Antonio 1031 exchange.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The forty five day identification period is the window, beginning on the date the relinquished property closes, during which a San Antonio exchanger must formally name the replacement property or properties under consideration. It is one of the two deadlines that define a 1031 exchange, alongside the one hundred eighty day closing deadline, and missing it generally disqualifies the entire exchange, regardless of how far along the replacement purchase otherwise is.</p>"
+  },
+  {
+   "heading": "When the Clock Starts and How It Runs",
+   "html": "<p>The forty five day period begins on the date the relinquished property closes, not on the date the exchange agreement is signed or the date the investor starts looking for replacement property, and it runs concurrently with the one hundred eighty day closing deadline rather than sequentially before it. That means an investor is simultaneously working against both deadlines from the first day after closing, and the forty five day window does not pause or reset if the investor is still shopping for a suitable San Antonio replacement candidate.</p>"
+  },
+  {
+   "heading": "What Counts as a Valid Identification",
+   "html": "<p>A valid identification must be in writing, signed by the exchanger, and delivered before midnight on the forty fifth day to the Qualified Intermediary or another party permitted to receive it under the safe harbor rules, such as the seller of the replacement property or the exchanger's attorney, provided that party is not treated as the exchanger's agent. The identification must describe the property with enough specificity, generally a legal description or street address, to be unambiguous; a vague description covering a general area or a range of possible properties does not satisfy the requirement.</p>"
+  },
+  {
+   "heading": "How Many Properties Can Be Identified",
+   "html": "<p>Under the standard rule, an exchanger may identify up to three replacement properties without regard to their combined value. Alternative rules exist for identifying more than three, including a two hundred percent rule allowing any number of properties as long as their combined fair market value does not exceed two hundred percent of the relinquished property's value, and a ninety five percent rule allowing any number of properties regardless of combined value, provided the exchanger actually acquires at least ninety five percent of the value of everything identified.</p>"
+  },
+  {
+   "heading": "Common Mistakes San Antonio Investors Make",
+   "html": "<p>The most common error is treating the forty five day period as a soft target rather than a hard deadline, continuing to negotiate on a preferred property while failing to submit a formal written identification on any backup candidate. Because San Antonio submarkets can move quickly in a given price band, an investor who loses their primary candidate late in the window with no identified alternative on file has effectively forfeited the exchange. A second common mistake is submitting an identification that is too vague, such as identifying property by area or price range rather than a specific address or legal description.</p>"
+  },
+  {
+   "heading": "Weekends, Holidays, and Counting the Days",
+   "html": "<p>The forty five days are calendar days, not business days, and the deadline is not extended if the forty fifth day falls on a weekend or federal holiday. A San Antonio investor should calculate the exact deadline date immediately after the relinquished property closes and build in a buffer of at least several days before that date to allow time for the written identification to be prepared and delivered, rather than assuming it can be finalized on the deadline itself.</p>"
+  },
+  {
+   "heading": "Revoking and Replacing an Identification",
+   "html": "<p>An exchanger may revoke or amend a previously submitted identification at any time before the forty five day deadline expires, which allows a San Antonio investor to swap out a candidate that fails diligence for a better alternative, as long as the replacement identification is also delivered in writing before the same deadline. Once the forty five days have passed, however, the identification list is locked, and no further additions, substitutions, or amendments are permitted regardless of what happens later in the diligence or financing process on any listed property.</p>"
+  },
+  {
+   "heading": "Coordinating the Identification With Diligence",
+   "html": "<p>Because a locked identification list cannot be changed after the deadline, a San Antonio investor benefits from front-loading as much diligence as possible into the forty five day window itself, including a preliminary title review, a walkthrough or inspection, and a rough financing conversation with a lender, before committing a property to the list. Waiting until after the forty fifth day to discover a problem with the sole identified property leaves the exchanger with no ability to substitute a replacement, which is why identifying more than one candidate, where realistic, is generally treated as standard practice rather than an unusual precaution.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "When does the forty five day identification period begin?",
+   "a": "It begins on the date the relinquished property closes, and it runs concurrently with, not before, the one hundred eighty day closing deadline."
+  },
+  {
+   "q": "Can the forty five day deadline be extended?",
+   "a": "Generally no. The deadline is fixed by calendar days from the closing date and is not extended for weekends, holidays, or ongoing negotiations, though certain federally declared disaster relief can provide extensions in specific circumstances."
+  },
+  {
+   "q": "How many replacement properties can be identified within the forty five days?",
+   "a": "Up to three properties regardless of value under the standard rule, or more properties under the two hundred percent rule or the ninety five percent rule, each of which has its own value or acquisition condition."
+  },
+  {
+   "q": "What makes a written identification valid?",
+   "a": "It must be signed by the exchanger, describe the property unambiguously with a legal description or address, and be delivered before the deadline to the Qualified Intermediary or another permitted party who is not acting as the exchanger's agent."
+  },
+  {
+   "q": "What happens if no property is identified within the forty five days?",
+   "a": "The exchange generally fails, the exchange funds are eventually returned to the exchanger by the Qualified Intermediary, and the transaction is treated as a taxable sale rather than a deferred exchange."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "the-180-day-exchange-deadline",
+   "label": "The 180 Day Exchange Deadline Explained"
+  },
+  {
+   "slug": "the-qualified-intermediary-role",
+   "label": "The Qualified Intermediary Role Explained"
+  },
+  {
+   "slug": "san-antonio-1031-exchange-properties",
+   "label": "San Antonio 1031 Exchange Properties"
+  }
+ ],
+ "wordCount": 716
+}

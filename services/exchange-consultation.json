@@ -1,0 +1,83 @@
+{
+ "slug": "exchange-consultation",
+ "taxonomy": "upstream-funnel",
+ "title": "1031 Exchange Consultation",
+ "name": "1031 Exchange Consultation",
+ "metaTitle": "1031 Exchange Consultation for San Antonio, TX",
+ "metaDescription": "What a San Antonio investor should bring to an initial 1031 exchange consultation and what the conversation typically covers.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>An initial 1031 exchange consultation is the first step for a San Antonio investor considering whether to exchange a property rather than sell it outright, and it typically happens before the relinquished property is even under contract. The goal of this conversation is to evaluate whether an exchange fits the investor's situation, estimate the potential tax deferral, and outline the timeline and team needed to execute the exchange successfully.</p>"
+  },
+  {
+   "heading": "What to Bring to the Conversation",
+   "html": "<p>A productive consultation benefits from the investor having basic information on hand: the relinquished property's purchase price and date, any capital improvements made, prior depreciation deductions taken if known, current mortgage balance, and an estimated sale price. Even rough figures are useful, since the purpose of this early conversation is to identify whether the deferred tax is meaningful enough to justify the exchange process, not to produce a final, audit-ready calculation.</p>"
+  },
+  {
+   "heading": "Estimating the Potential Tax Deferral",
+   "html": "<p>The consultation typically walks through a rough estimate of realized gain, federal capital gains tax exposure, and depreciation recapture, since these two components together determine how much tax an outright sale would trigger. Because Texas has no state income tax, this estimate for a San Antonio investor is purely a federal tax calculation, without an additional state capital gains layer to account for, which simplifies the comparison against the cost of completing an exchange.</p>"
+  },
+  {
+   "heading": "Discussing the Investor's Replacement Property Goals",
+   "html": "<p>Beyond the tax math, the conversation covers what the investor wants from the replacement property: staying local to San Antonio submarkets such as the I-35 or I-10 corridors, moving into a different asset class, such as trading a small retail building for multifamily or industrial property, or shifting toward a more passive ownership structure such as a DST interest. These goals shape which exchange structure, delayed, reverse, improvement, or a fractional ownership path, fits the investor best.</p>"
+  },
+  {
+   "heading": "Walking Through the Timeline",
+   "html": "<p>The consultation should clearly lay out the forty five day identification period and the one hundred eighty day closing period, both running concurrently from the relinquished property's closing date, and discuss how the investor's expected replacement property search fits within that window. For an investor considering an out-of-market or unconventional replacement property, this is also where a realistic assessment of whether the timeline is achievable happens, before the investor is committed to the exchange.</p>"
+  },
+  {
+   "heading": "Introducing the Rest of the Exchange Team",
+   "html": "<p>An initial consultation typically identifies which additional professionals the investor will need: a Qualified Intermediary, who must be engaged before the relinquished property closes, a tax advisor to confirm the exchange strategy and later prepare Form 8824, and, for a DST or TIC replacement property, a securities professional. Confirming these relationships early, rather than scrambling to find a Qualified Intermediary after signing a sale contract, is one of the most valuable outcomes of the consultation.</p>"
+  },
+  {
+   "heading": "Deciding Whether to Proceed",
+   "html": "<p>Not every consultation ends in a decision to exchange; some investors find the deferred tax is modest relative to their overall position, or that a suitable replacement property strategy is not realistic within the required timeline, and choose an outright sale instead. A clear-eyed consultation that lays out both the potential benefit and the practical requirements gives a San Antonio investor a sound basis for that decision either way.</p>"
+  },
+  {
+   "heading": "Follow-Up Steps After the Initial Consultation",
+   "html": "<p>If the investor decides to move forward, the natural next steps are engaging a Qualified Intermediary before the relinquished property closes, confirming the tax advisor is prepared to review boot calculations as candidates are identified, and beginning a preliminary replacement property search so the forty five day window is not spent starting from zero. Investors who treat the consultation as the beginning of an active process, rather than a one-time conversation followed by a pause, tend to move through the exchange with fewer last-minute complications.</p><p>A short follow-up conversation once the relinquished property is actually under contract is also worthwhile, since the estimated figures discussed at the initial consultation should be refined against the actual contract terms before the identification clock starts running.</p>"
+  },
+  {
+   "heading": "Revisiting the Consultation for a Repeat Exchanger",
+   "html": "<p>An investor who has completed a prior 1031 exchange still benefits from a fresh consultation for a new transaction, since each exchange has its own facts, including a different property type, a different amount of gain and depreciation recapture, and potentially a different replacement property strategy such as moving toward a DST interest for the first time. Assuming a past exchange's process will apply identically to a new San Antonio transaction can overlook a detail specific to the current deal, so treating each exchange as its own consultation, even for an experienced investor, remains good practice.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "When should a 1031 exchange consultation happen?",
+   "a": "Ideally before the relinquished property is under contract, since decisions made at this stage, including engaging a Qualified Intermediary, need to be in place before the property closes."
+  },
+  {
+   "q": "What information is useful to bring to the consultation?",
+   "a": "The relinquished property's purchase price and date, capital improvements made, prior depreciation if known, current mortgage balance, and an estimated sale price all help produce a useful, though preliminary, tax deferral estimate."
+  },
+  {
+   "q": "Does the consultation include a state tax calculation for a San Antonio investor?",
+   "a": "No separate state calculation is needed since Texas has no state income tax; the tax deferral discussion focuses entirely on federal capital gains and depreciation recapture tax."
+  },
+  {
+   "q": "Does a consultation always result in a decision to exchange?",
+   "a": "No. Some investors find the deferred tax is modest or that a workable replacement property strategy is not realistic within the timeline, and choose to sell outright instead after a clear-eyed consultation."
+  },
+  {
+   "q": "Who else does the consultation typically identify as needed for the exchange?",
+   "a": "A Qualified Intermediary, a tax advisor to confirm the strategy and prepare Form 8824, and, if a DST or TIC replacement property is being considered, a securities professional are typically identified during the initial consultation."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "investor-education",
+   "label": "1031 Exchange Investor Education"
+  },
+  {
+   "slug": "tax-deferral-analysis",
+   "label": "Tax Deferral Analysis"
+  },
+  {
+   "slug": "exchange-coordination",
+   "label": "Exchange Coordination"
+  }
+ ],
+ "wordCount": 728
+}

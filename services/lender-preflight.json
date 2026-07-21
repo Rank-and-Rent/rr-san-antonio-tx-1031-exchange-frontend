@@ -1,0 +1,71 @@
+{
+ "slug": "lender-preflight",
+ "taxonomy": "upstream-funnel",
+ "title": "Lender Preflight Support",
+ "name": "Lender Preflight Support",
+ "metaTitle": "Lender Preflight Support for San Antonio, TX",
+ "metaDescription": "How preparing a lender-ready package in advance helps a San Antonio replacement property close within the 1031 exchange deadline.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Lender preflight, assembling the financial statements, rent roll, and property documentation a lender will need before a loan application is formally submitted, is one of the more overlooked steps in a 1031 exchange, yet the one hundred eighty day closing deadline leaves relatively little room to recover from a slow or disorganized underwriting process. A San Antonio investor who prepares a lender-ready package before identification, rather than scrambling after a purchase contract is signed, generally moves through underwriting with fewer delays and fewer surprises.</p>"
+  },
+  {
+   "heading": "Why Preflight Matters Under the Exchange Timeline",
+   "html": "<p>Because both the forty five day identification period and the one hundred eighty day closing deadline run concurrently from the relinquished property's closing date, any delay in loan underwriting directly compresses the time available to close on the replacement property, and a lender who requests documentation that was not prepared in advance can add weeks to a timeline that was already tight. Preparing the core financial package before a specific San Antonio property is even identified allows the investor to move quickly once a purchase contract is signed.</p><p>A well-prepared preflight package can also strengthen an offer in a competitive San Antonio submarket, since a seller comparing multiple offers may favor a buyer who can demonstrate financing is already largely in order over one whose financing capacity is untested, particularly under the time pressure an exchange buyer is already working against.</p>"
+  },
+  {
+   "heading": "Core Documents a Lender Will Request",
+   "html": "<p>A typical commercial lender package includes trailing financial statements for the property under contract, a current rent roll, the investor's personal or entity financial statements, tax returns, and a summary of the 1031 exchange structure showing how the exchange proceeds and any new debt will combine to fund the purchase. Lenders financing exchange transactions also frequently request confirmation of the Qualified Intermediary arrangement and the relinquished property's closing statement, since these documents establish the source and timing of the exchange funds.</p><p>Organizing these documents into a single, clearly labeled package before a specific San Antonio property is even under contract, rather than assembling them piecemeal as a lender requests each item, tends to shorten the time from application to conditional approval once a purchase contract is signed.</p>"
+  },
+  {
+   "heading": "Debt Replacement Requirements Specific to Exchanges",
+   "html": "<p>To fully defer capital gains tax, an investor generally needs to replace both the equity and the debt from the relinquished property, meaning the replacement property's new loan amount should generally be equal to or greater than the debt that was paid off on the relinquished property, or the investor should bring additional cash to offset any debt shortfall to avoid boot. Lenders reviewing a San Antonio exchange transaction should be informed of this requirement early, since a loan amount that comes in lower than expected during underwriting can create an unplanned boot exposure the investor did not anticipate at the time of identification.</p><p>Running a preliminary loan sizing estimate before identification, based on the target property's expected income and a conservative loan-to-value assumption, gives an investor a realistic sense of whether a given San Antonio candidate can support enough debt to fully replace what was paid off on the relinquished property.</p>"
+  },
+  {
+   "heading": "Property-Specific Underwriting Considerations",
+   "html": "<p>Beyond the borrower's financial package, lenders underwrite the property itself, reviewing the rent roll, trailing income, and physical condition, and San Antonio properties in growth corridors along 1604 or I-35 may benefit from stronger comparable sales supporting value, while properties with near-term lease rollover or deferred maintenance can face more lender scrutiny and potentially a lower loan-to-value offer. Sharing capital needs and market comparable analysis with the lender alongside the core financial package can help set realistic underwriting expectations from the start.</p>"
+  },
+  {
+   "heading": "Coordinating Preflight With the Identification Timeline",
+   "html": "<p>Ideally, an investor begins lender preflight work well before the forty five day identification window opens, so that once a San Antonio property is identified, the loan application can move forward immediately rather than starting the documentation process from scratch. Working with a lender familiar with 1031 exchange transactions and the local San Antonio market, someone who understands debt replacement requirements and the compressed exchange timeline, tends to produce a smoother path to closing than working with a lender encountering these mechanics for the first time.</p><p>Maintaining an open line of communication between the lender, the Qualified Intermediary, and the closing attorney throughout underwriting also helps surface any scheduling conflicts early, since coordinating loan closing with the exchange closing and the Qualified Intermediary's fund transfer requires all three parties to be working from the same timeline.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What is lender preflight in the context of a 1031 exchange?",
+   "a": "Lender preflight means assembling the financial statements, rent roll, and property documentation a lender will need before formally submitting a loan application, done in advance so underwriting can move quickly once a replacement property is identified."
+  },
+  {
+   "q": "Why is preflight preparation especially important within an exchange timeline?",
+   "a": "Because the forty five day identification and one hundred eighty day closing deadlines run concurrently, any delay in loan underwriting directly compresses the time available to close, and preparing documentation in advance helps avoid that delay."
+  },
+  {
+   "q": "What documents does a lender typically request for an exchange transaction?",
+   "a": "Trailing financial statements on the property under contract, a current rent roll, the investor's personal or entity financial statements and tax returns, confirmation of the Qualified Intermediary arrangement, and the relinquished property's closing statement."
+  },
+  {
+   "q": "Why does debt replacement matter for lender preflight?",
+   "a": "To fully defer capital gains tax, the replacement property's new loan generally needs to equal or exceed the debt paid off on the relinquished property, or the investor needs to bring additional cash, so lenders should be informed of this requirement early to avoid unplanned boot exposure."
+  },
+  {
+   "q": "When should lender preflight work begin relative to identification?",
+   "a": "Ideally before the forty five day identification window opens, so that once a specific San Antonio property is identified, the loan application can proceed immediately rather than starting the documentation process from scratch."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "capex-planning",
+   "label": "Capital Expenditure Planning"
+  },
+  {
+   "slug": "market-comps-analysis",
+   "label": "Market Comparables Analysis"
+  },
+  {
+   "slug": "boot-calculation-support",
+   "label": "Boot Calculation Support"
+  }
+ ],
+ "wordCount": 722
+}

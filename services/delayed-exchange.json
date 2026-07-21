@@ -1,0 +1,79 @@
+{
+ "slug": "delayed-exchange",
+ "taxonomy": "upstream-funnel",
+ "title": "Delayed 1031 Exchange",
+ "name": "Delayed 1031 Exchange",
+ "metaTitle": "Delayed 1031 Exchange for San Antonio, TX",
+ "metaDescription": "The standard forty five day identification and one hundred eighty day closing timeline that governs most San Antonio 1031 exchanges.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The delayed exchange is the standard structure used in the overwhelming majority of 1031 exchanges, including most exchanges completed by San Antonio investors. Rather than closing the sale of the relinquished property and the purchase of the replacement property on the same day, a delayed exchange allows a gap between the two transactions, governed by two deadlines that run concurrently from the closing date of the relinquished property: a forty five day identification period and a one hundred eighty day closing period.</p>"
+  },
+  {
+   "heading": "The Forty Five Day Identification Period",
+   "html": "<p>Once the relinquished property closes, the investor has forty five calendar days, with no extensions for weekends or holidays, to identify potential replacement properties in writing to the Qualified Intermediary. San Antonio investors typically identify under the three property rule, naming up to three properties regardless of value, though the two hundred percent rule, allowing any number of properties as long as their combined value does not exceed two hundred percent of the relinquished property's value, is also available for investors casting a wider net across submarkets such as the I-10 corridor or the 1604 loop.</p>"
+  },
+  {
+   "heading": "The One Hundred Eighty Day Closing Period",
+   "html": "<p>The investor must close on the replacement property, or properties, within one hundred eighty calendar days of the relinquished property's closing, or by the due date of the investor's tax return for that year, including extensions, whichever comes first. This one hundred eighty day period is not an additional window that starts after identification; it runs from the same start date as the forty five day period, meaning the investor effectively has one hundred thirty five days remaining after identification to complete the purchase.</p>"
+  },
+  {
+   "heading": "The Qualified Intermediary's Role in a Delayed Exchange",
+   "html": "<p>Because the two closings are separated in time, a Qualified Intermediary must hold the sale proceeds from the relinquished property throughout the gap, since the investor cannot have actual or constructive receipt of the funds without disqualifying the exchange. The intermediary also prepares the exchange agreement, receives the written identification notice within the forty five day period, and coordinates the transfer of funds to close on the replacement property. The intermediary must be unrelated to the taxpayer and cannot be the taxpayer's attorney, accountant, real estate agent, or employee, or anyone who acted in that capacity within the two years before the exchange.</p>"
+  },
+  {
+   "heading": "Why the Delayed Structure Suits San Antonio Investors",
+   "html": "<p>San Antonio's active but still comparatively affordable commercial real estate market gives investors time to shop for replacement property without the pressure of a same-day closing. A delayed exchange allows a seller to close the relinquished property first, secure certainty on sale proceeds and timing, and then work through due diligence, financing, and negotiation on replacement candidates across neighborhoods such as Alamo Ranch, Brooks City Base, or the growth corridors near Randolph Air Force Base, all within the statutory windows.</p>"
+  },
+  {
+   "heading": "Debt and Equity Replacement",
+   "html": "<p>To fully defer gain, the replacement property generally must be of equal or greater value than the relinquished property, and the investor must reinvest equal or greater debt and equity. A reduction in mortgage debt on the replacement property that is not offset by additional cash contributed is treated as mortgage boot and is taxable, so San Antonio investors working through a delayed exchange should confirm financing terms on the replacement property well before the one hundred eighty day deadline approaches.</p>"
+  },
+  {
+   "heading": "Filing and Documentation",
+   "html": "<p>The delayed exchange is reported on Form 8824, filed with the tax return for the year the exchange began, documenting the identification notice, the closing dates for both properties, and the calculation of any recognized gain, deferred gain, and carryover basis. Keeping the identification notice, exchange agreement, and closing statements together in one file makes preparing Form 8824 considerably easier and provides support if the exchange is ever reviewed.</p>"
+  },
+  {
+   "heading": "Common Timing Mistakes in a Delayed Exchange",
+   "html": "<p>The most frequent error is miscounting the forty five day window, since it runs on calendar days from the relinquished property's closing date rather than business days, meaning a closing near a holiday period can leave less working time than an investor expects to evaluate San Antonio candidates. Another common mistake is assuming the one hundred eighty day period begins after identification concludes, when in fact both periods share the same start date, leaving considerably less time after identification than a first-time exchanger might assume.</p><p>Investors should also avoid waiting until the final days of the identification period to submit the written notice to the Qualified Intermediary, since a late or incomplete notice, missing a required legal description or clear property identification, can jeopardize the entire exchange even if the investor believed the deadline was met.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "When does the forty five day identification period start?",
+   "a": "It starts on the date the relinquished property closes, not the date the investor decides to pursue an exchange, and it runs for forty five calendar days with no extensions for weekends or holidays."
+  },
+  {
+   "q": "Does the one hundred eighty day period start after the forty five day period ends?",
+   "a": "No. Both periods run concurrently from the same closing date, so the investor effectively has one hundred thirty five days remaining after identification to close on the replacement property."
+  },
+  {
+   "q": "How many properties can be identified?",
+   "a": "Most investors use the three property rule, identifying up to three properties regardless of value, though the two hundred percent rule allows identifying more properties as long as their combined value does not exceed two hundred percent of the relinquished property's value."
+  },
+  {
+   "q": "What happens if the replacement property does not close within one hundred eighty days?",
+   "a": "The exchange fails for any property not closed within the window, and the Qualified Intermediary returns the remaining exchange funds to the investor, who then recognizes taxable gain on the relinquished property sale."
+  },
+  {
+   "q": "Can the Qualified Intermediary be the investor's own attorney or accountant?",
+   "a": "No. The intermediary must be unrelated to the taxpayer and cannot be the taxpayer's attorney, certified public accountant, real estate agent, or employee, or anyone who served in that role within the prior two years."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "simultaneous-exchange",
+   "label": "Simultaneous 1031 Exchange"
+  },
+  {
+   "slug": "property-identification",
+   "label": "Nationwide Property Identification"
+  },
+  {
+   "slug": "qualified-intermediary",
+   "label": "Qualified Intermediary Services"
+  }
+ ],
+ "wordCount": 731
+}

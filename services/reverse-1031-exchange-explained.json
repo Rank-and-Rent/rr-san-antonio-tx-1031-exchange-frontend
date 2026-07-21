@@ -1,0 +1,79 @@
+{
+ "slug": "reverse-1031-exchange-explained",
+ "taxonomy": "upstream-funnel",
+ "title": "Reverse 1031 Exchange Explained",
+ "name": "Reverse 1031 Exchange Explained",
+ "metaTitle": "Reverse 1031 Exchange Explained for San Antonio, TX",
+ "metaDescription": "How a reverse exchange lets a San Antonio investor acquire replacement property before selling the relinquished property, using an accommodation titleholder.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A reverse 1031 exchange flips the usual order of a standard exchange: the replacement property is acquired before the relinquished property is sold, rather than after. This structure is useful for a San Antonio investor who finds a strong replacement property candidate but has not yet sold the property they intend to relinquish, and it avoids the risk of losing that replacement opportunity while waiting for the relinquished sale to close.</p>"
+  },
+  {
+   "heading": "Why a Direct Purchase Does Not Work",
+   "html": "<p>A taxpayer cannot simply buy the replacement property directly and hold it alongside the relinquished property while waiting to sell, because doing so would mean the taxpayer already owns the replacement property outright, outside of any exchange structure, which disqualifies the transaction from 1031 treatment entirely. The exchange requires that the taxpayer not hold both properties in its own name at the same time as part of the deferred transaction.</p>"
+  },
+  {
+   "heading": "The Role of the Exchange Accommodation Titleholder",
+   "html": "<p>To solve this, an Exchange Accommodation Titleholder, or EAT, takes and holds title to one of the two properties, typically the replacement property, on the taxpayer's behalf under a Qualified Exchange Accommodation Arrangement, or QEAA, described in Revenue Procedure 2000-37. The EAT is generally a special purpose entity set up specifically for this role, and it holds the parked property while the taxpayer works to sell the relinquished property and complete the exchange.</p>"
+  },
+  {
+   "heading": "The 180-Day Parking Period",
+   "html": "<p>Under the safe harbor described in Revenue Procedure 2000-37, the EAT generally holds the parked property for no more than one hundred eighty days before the exchange must be completed by transferring title to the taxpayer and by identifying, within forty five days of the EAT taking title, which property will be treated as the relinquished property. A San Antonio investor pursuing a reverse exchange should treat this one hundred eighty day parking period as firm, closing out the sale of the relinquished property and unwinding the EAT structure well before the deadline arrives.</p>"
+  },
+  {
+   "heading": "Financing a Reverse Exchange",
+   "html": "<p>Because the EAT, not the taxpayer, holds legal title to the parked property during the arrangement, financing a reverse exchange in San Antonio often requires a lender comfortable underwriting a loan to, or guaranteed by, the taxpayer even though the EAT is on title, along with additional legal documentation to establish the taxpayer's beneficial interest. Not every lender is set up for this structure, so identifying a lender experienced with reverse exchanges early in the process is an important practical step, distinct from the tax mechanics themselves.</p>"
+  },
+  {
+   "heading": "When a Reverse Exchange Makes Sense",
+   "html": "<p>A reverse exchange is generally considered when a San Antonio investor has located a strong replacement property, perhaps in a competitive submarket such as Stone Oak or along the I-35 corridor, that is unlikely to remain available while a relinquished property sale is finalized, and the investor is willing to take on the added cost and complexity of the EAT structure to secure it. The added transaction cost of engaging an EAT and the compressed one hundred eighty day parking period mean a reverse exchange is generally reserved for situations where a standard forward exchange is not practical.</p><p>DST and TIC interests are securities and real estate investments that carry risk, including possible loss of principal; investors should consult a securities professional and tax advisor before investing.</p>"
+  },
+  {
+   "heading": "Coordinating Advisors Early",
+   "html": "<p>Because a reverse exchange involves more moving parts than a standard forward exchange, a San Antonio investor considering this structure should bring in the Qualified Intermediary, the EAT, a tax advisor, and, where financing is involved, a lender experienced with parked-title transactions as early as possible, ideally before making an offer on the replacement property rather than after. Coordinating these parties up front helps confirm that the intended timeline for selling the relinquished property realistically fits within the one hundred eighty day parking period before the investor commits to the replacement purchase.</p>"
+  },
+  {
+   "heading": "Cost Compared to a Standard Exchange",
+   "html": "<p>A reverse exchange generally costs more than a standard forward exchange, since the EAT structure requires its own entity formation, ongoing administration during the parking period, and typically a higher fee than a standard Qualified Intermediary engagement, on top of any additional legal review needed to document the beneficial ownership arrangement. A San Antonio investor should weigh this added cost against the value of securing a strong replacement property that might otherwise be lost while waiting to sell the relinquished property through a standard forward exchange sequence.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What makes a reverse exchange different from a standard 1031 exchange?",
+   "a": "In a reverse exchange the replacement property is acquired before the relinquished property is sold, the opposite order of a standard forward exchange."
+  },
+  {
+   "q": "Why cannot a taxpayer just buy the replacement property directly and sell the old one later?",
+   "a": "Holding both properties in the taxpayer's own name outside of an exchange structure disqualifies the transaction from 1031 treatment; the taxpayer cannot simultaneously own both properties as part of a deferred exchange."
+  },
+  {
+   "q": "What is an Exchange Accommodation Titleholder?",
+   "a": "An Exchange Accommodation Titleholder, or EAT, is an entity that holds title to one of the two properties, typically the replacement property, on the taxpayer's behalf under a Qualified Exchange Accommodation Arrangement described in Revenue Procedure 2000-37."
+  },
+  {
+   "q": "How long can the EAT hold the parked property?",
+   "a": "The safe harbor generally allows a parking period of up to one hundred eighty days, within which the taxpayer must identify the relinquished property within forty five days of the EAT taking title and complete the exchange."
+  },
+  {
+   "q": "Is financing harder to arrange in a reverse exchange?",
+   "a": "It can be, since the EAT rather than the taxpayer holds legal title during the parking period, which requires a lender experienced with this structure and additional documentation establishing the taxpayer's beneficial interest."
+  }
+ ],
+ "internalLinks": [
+  {
+   "slug": "improvement-build-to-suit-exchange",
+   "label": "Improvement and Build to Suit Exchange Explained"
+  },
+  {
+   "slug": "the-180-day-exchange-deadline",
+   "label": "The 180 Day Exchange Deadline Explained"
+  },
+  {
+   "slug": "the-qualified-intermediary-role",
+   "label": "The Qualified Intermediary Role Explained"
+  }
+ ],
+ "wordCount": 701
+}
