@@ -32,7 +32,6 @@ export default function Footer() {
                 </span>
               </div>
             </div>
-            <p className="text-white/60 text-sm mb-3">{site.address}</p>
             <p className="text-white/60 text-sm mb-3">
               <a href={`tel:${site.phoneDigits}`} className="hover:text-white transition-colors">
                 {site.phone}

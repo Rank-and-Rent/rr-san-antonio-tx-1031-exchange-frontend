@@ -200,9 +200,6 @@ export default function Header() {
               >
                 {site.phone}
               </a>
-              <p className="text-xs tracking-[0.1em] text-[#1a1a1a]/50">
-                {site.address}
-              </p>
             </div>
           </div>
         </div>
