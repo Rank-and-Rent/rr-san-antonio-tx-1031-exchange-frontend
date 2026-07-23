@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
   // (Next 15+ top-level key; this app is on Next 16.)
   outputFileTracingIncludes: {
     "/services/[slug]": ["./services/*.json"],
+    "/locations/[slug]": ["./locations/*.json"],
   },
 };
 

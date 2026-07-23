@@ -8,6 +8,7 @@ import ContactForm from "@/app/contact/contact-form";
 import SafeImage from "@/components/SafeImage";
 import site from "@/content/site.json";
 import { getLocationImagePath } from "@/lib/image-utils";
+import { getRichLocation } from "@/lib/rich-location";
 import type { Metadata } from "next";
 
 interface PageProps {
@@ -30,9 +31,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  const rich = getRichLocation(slug);
+
   return {
-    title: `1031 Exchange Properties in ${location.name} | ${site.mainCity}, ${site.state}`,
-    description: `Find 1031 exchange replacement properties in ${location.name}, ${site.state}. Single tenant NNN retail and commercial properties available for tax deferred exchanges.`,
+    title: rich?.metaTitle || `1031 Exchange Properties in ${location.name} | ${site.mainCity}, ${site.state}`,
+    description: rich?.metaDescription || `Find 1031 exchange replacement properties in ${location.name}, ${site.state}. Single tenant NNN retail and commercial properties available for tax deferred exchanges.`,
   };
 }
 
@@ -44,13 +47,20 @@ export default async function LocationPage({ params }: PageProps) {
     notFound();
   }
 
+  // Rich per-slug content authored to repo-root locations/<slug>.json (sections + faqs).
+  // When present, it replaces the generic hardcoded body below; otherwise the
+  // existing template renders unchanged.
+  const rich = getRichLocation(slug);
+
   // Get featured services
   const featuredServices = servicesData
     .filter((s) => s.category === "Property Paths")
     .slice(0, 4);
 
-  // Generate FAQs
-  const faqs = [
+  // Generate FAQs (fallback template FAQs; overridden by rich.faqs when available)
+  const faqs = rich && rich.faqs.length > 0
+    ? rich.faqs.map((f) => ({ question: f.q, answer: f.a }))
+    : [
     {
       question: `What types of 1031 exchange properties are available in ${location.name}, ${site.state}?`,
       answer: `We identify single tenant NNN retail properties, multifamily, industrial, medical office, and other commercial real estate in ${location.name}, ${site.state} for 1031 exchange replacement property needs.`,
@@ -212,6 +222,24 @@ export default async function LocationPage({ params }: PageProps) {
               </p>
             </div>
 
+            {rich && (
+              <section className="mb-12">
+                <div className="prose prose-invert max-w-none space-y-8">
+                  {rich.sections.map((sec, idx) => (
+                    <div key={idx}>
+                      {sec.heading && (
+                        <h2 className="text-2xl font-semibold text-heading mb-3">{sec.heading}</h2>
+                      )}
+                      <div
+                        className="text-ink/80 leading-relaxed [&_p]:mb-4 [&_ul]:list-disc [&_ul]:list-inside [&_ul]:space-y-2 [&_ol]:list-decimal [&_ol]:list-inside [&_ol]:space-y-2"
+                        dangerouslySetInnerHTML={{ __html: sec.html }}
+                      />
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
+
             <section className="mb-12">
               <h2 className="text-2xl font-semibold text-heading mb-6">
                 Frequently Asked Questions
@@ -248,6 +276,7 @@ export default async function LocationPage({ params }: PageProps) {
               </div>
             </section>
 
+            {!rich && (
             <section className="mb-12">
               <div className="bg-panel border border-outline rounded-lg p-8 space-y-6">
                 <h2 className="text-2xl font-semibold text-heading">
@@ -306,6 +335,7 @@ export default async function LocationPage({ params }: PageProps) {
                 </p>
               </div>
             </section>
+            )}
 
             <div className="bg-panel border border-outline rounded-lg p-8 text-center mb-12">
               <Link

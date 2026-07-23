@@ -1,0 +1,54 @@
+{
+ "slug": "remote",
+ "taxonomy": "locations",
+ "title": "Nationwide Remote",
+ "name": "Nationwide Remote",
+ "metaTitle": "Nationwide Remote 1031 Exchange Property Identification",
+ "metaDescription": "1031 exchange replacement property identification anywhere in the country, coordinated remotely from San Antonio, TX, including Delaware Statutory Trust options for fully passive investors.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Not every 1031 exchange investor is looking for property in San Antonio, and not every investor needs to be local to close one. Our nationwide remote service is built for sellers who live elsewhere, own property outside Texas, or simply want replacement property in a market other than San Antonio, coordinated the same way regardless of where the investor or the property is located.</p>"
+  },
+  {
+   "heading": "How Remote Identification and Closing Works",
+   "html": "<p>Property identification, lease and title review, and exchange documentation all move electronically, so an investor never needs to be in San Antonio, or in the property's home market, to complete a 1031 exchange. Video walkthroughs, third-party inspection reports, and electronic signature platforms handle most of what an in-person visit historically covered, and the qualified intermediary relationship works identically whether the investor is down the street or across the country.</p><p>This approach suits out-of-state sellers exchanging into any market, active-duty military and other frequently relocating owners, and any investor who simply prefers a hands-off, remote-managed process from identification through closing.</p>"
+  },
+  {
+   "heading": "Delaware Statutory Trusts for Fully Passive Remote Investors",
+   "html": "<p>For investors who want zero property management responsibility, a Delaware Statutory Trust (DST) offers fractional ownership in institutional-grade real estate, satisfying 1031 like-kind requirements without requiring the investor to select, close, or manage a specific property directly. DST interests can also help solve tight timing situations, since suitable trust offerings are often available on short notice when a specific replacement property can't be identified or closed within the 45-day and 180-day deadlines.</p><p>DSTs aren't the right fit for every exchange, since they typically involve less control and different fee structures than direct ownership, so this option is evaluated alongside direct property identification rather than assumed as a default.</p>"
+  },
+  {
+   "heading": "Coordination for a Remote 1031 Exchange",
+   "html": "<p>Coordinating a remote exchange still follows the same regulatory framework as a local one, but with extra attention to how information gets verified without an in-person visit. Coordination for a remote file typically covers:</p><ul><li>Video walkthrough and third-party inspection coordination in lieu of an in-person site visit</li><li>Written identification meeting the unambiguous-description standard under Treasury Regulation 1.1031(k)-1</li><li>Lease abstract and tenant credit review conducted remotely with local market data</li><li>Lender preflight adapted for out-of-state or out-of-market underwriting</li><li>Exchange agreement and assignment documents routed electronically to the qualified intermediary before funding</li></ul><p>This tracks documentation and timeline; it is not a substitute for the investor's own legal or tax review.</p>"
+  },
+  {
+   "heading": "Watchouts for Remote Exchange Investors",
+   "html": "<p>Skipping an in-person visit shifts more weight onto third-party inspection reports and local market knowledge, so working with someone who knows the target market, even remotely, matters more than it would for a local buyer who can walk the property personally. Time zone differences and local closing customs can also affect how quickly documents move, so building in a buffer against the 45-day and 180-day deadlines is worth doing on any fully remote exchange.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Do I need to visit San Antonio in person to complete a remote 1031 exchange?",
+   "a": "No. Property identification, lease and title review, and exchange documentation all move electronically, and video walkthroughs plus third-party inspection reports handle most of what an in-person visit historically covered."
+  },
+  {
+   "q": "Can I use this remote service to buy property outside of Texas?",
+   "a": "Yes. Our remote coordination process works the same way regardless of where the replacement property is located, so it's not limited to San Antonio or Texas markets."
+  },
+  {
+   "q": "What is a Delaware Statutory Trust and how does it fit a remote exchange?",
+   "a": "A DST offers fractional ownership in institutional-grade real estate, satisfying 1031 like-kind requirements without requiring you to select, close, or manage a specific property directly, which suits investors who want a fully passive, hands-off structure."
+  },
+  {
+   "q": "Are Delaware Statutory Trusts the right choice for every remote investor?",
+   "a": "Not necessarily. DSTs typically involve less control and different fee structures than direct ownership, so this option should be evaluated alongside direct property identification with your tax advisor rather than assumed as a default."
+  },
+  {
+   "q": "Does a remote exchange still need to meet the same 45-day and 180-day deadlines?",
+   "a": "Yes, the same regulatory timeline applies regardless of location, though time zone differences and local closing customs can affect how quickly documents move, so building in extra buffer is worth doing on a fully remote exchange."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 580
+}
