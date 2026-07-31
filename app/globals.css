@@ -14,6 +14,12 @@
   --color-muted: #6b6b6b;
   --color-dark: #1a1a1a;
   --color-darkpanel: #2a2a2a;
+  --color-brand-dark: var(--color-primary);
+  --color-brand-charcoal: color-mix(in srgb, var(--color-primary) 82%, black);
+  --color-brand-copper: var(--color-accent);
+  --color-brand-copper-light: color-mix(in srgb, var(--color-accent) 82%, white);
+  --color-brand-gold: var(--color-accent);
+  --color-brand-gold-dark: color-mix(in srgb, var(--color-accent) 82%, black);
 }
 
 :root {

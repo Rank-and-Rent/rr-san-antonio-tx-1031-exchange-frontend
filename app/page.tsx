@@ -1,4 +1,3 @@
-import ExchangeIntentSection from "../components/ExchangeIntentSection";
 import site from "@/content/site.json";
 import StickyCall from "@/components/StickyCall";
 import BottomCTA from "@/components/BottomCTA";
@@ -79,7 +78,7 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessStructuredData) }}
       />
       <HomePageContent />
-      <ExchangeIntentSection /><BottomCTA />
+      <BottomCTA />
       
       <StickyCall phone={site.phone} />
     </>
