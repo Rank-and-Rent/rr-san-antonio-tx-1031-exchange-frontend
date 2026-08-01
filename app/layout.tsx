@@ -19,8 +19,8 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "1031 Exchange San Antonio | NNN Retail Properties Nationwide",
-  description: "Find high-quality single tenant net lease properties for 1031 exchange across all 50 states. NNN investment property for sale, net lease property listings, and 1031 exchange NNN properties. Expert guidance for unrepresented buyers. Call 210-791-0823.",
+  title: "1031 Exchange San Antonio | Property & DST Options",
+  description: "Selling San Antonio investment property? Compare direct, net-lease, and passive DST replacements, then request a current property list.",
   keywords: [
     "single tenant retail for sale",
     "NNN investment property for sale",
@@ -53,19 +53,21 @@ export const metadata: Metadata = {
   },
   manifest: "/favicon/site.webmanifest",
   openGraph: {
-    title: "1031 Exchange San Antonio | NNN Retail Properties Nationwide",
-    description: "Find high-quality single tenant net lease properties for 1031 exchange across all 50 states. Expert guidance for unrepresented buyers.",
+    title: "1031 Exchange San Antonio | Property & DST Options",
+    description: "Selling San Antonio investment property? Compare direct, net-lease, and passive DST replacements, then request a current property list.",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "1031 Exchange San Antonio | NNN Retail Properties",
-    description: "Find high-quality single tenant net lease properties for 1031 exchange across all 50 states.",
+    title: "1031 Exchange San Antonio | Property & DST Options",
+    description: "Selling San Antonio investment property? Compare direct, net-lease, and passive DST replacements, then request a current property list.",
   },
   alternates: {
     canonical: "https://1031exchangesanantonio.com",
   },
+
+  metadataBase: new URL("https://1031exchangesanantonio.com"),
 };
 
 export default function RootLayout({
