@@ -89,15 +89,11 @@ export default function HomePageContent() {
             <h2 className="font-[family-name:var(--font-cormorant)] text-3xl md:text-4xl lg:text-[2.75rem] tracking-[0.08em] text-[#1a1a1a] mb-8 font-light leading-[1.2] normal-case">
               1031 Exchange<br />San Antonio
             </h2>
-            <p className="text-[#1a1a1a]/70 leading-relaxed mb-6 italic font-[family-name:var(--font-cormorant)] text-lg">
-              {site.company} specializes in helping 1031 exchange investors find high-quality single tenant NNN retail properties nationwide. For years we have been a trusted resource for investors seeking tax-deferred exchanges across all 50 states.
-            </p>
+            <p className="text-[#1a1a1a]/70 leading-relaxed mb-6 italic font-[family-name:var(--font-cormorant)] text-lg">A San Antonio owner may be selling rentals, retail, industrial property, or a long-held family asset to reduce management, diversify, or reset income. We help define what the next investment should change and compare direct, net-lease, and passive replacements against the same equity, debt, control, and timing goals.</p>
             <p className="text-[#1a1a1a]/70 leading-relaxed mb-6 italic font-[family-name:var(--font-cormorant)] text-lg">
               With deep expertise in net lease investments and closing transactions nationwide, the {site.company} team provides our clients with exceptional knowledge about NNN properties, which is backed by our commitment to service and integrity.
             </p>
-            <p className="text-[#1a1a1a]/70 leading-relaxed mb-10 italic font-[family-name:var(--font-cormorant)] text-lg">
-              Through our nationwide network, our ability to source and identify replacement properties is optimized with the most innovative tools and resources available in today&apos;s market.
-            </p>
+            <p className="text-[#1a1a1a]/70 leading-relaxed mb-10 italic font-[family-name:var(--font-cormorant)] text-lg">DST interests may provide fractional ownership in professionally managed, institutional-quality real estate without the investor taking on another set of tenants and repairs. Certain offerings can start near $100,000; availability, projected cash flow, fees, leverage, risk, illiquidity, eligibility, and suitability are specific to each offering.</p>
             <Link
               href="/about"
               className="inline-flex items-center justify-center px-10 py-4 border border-[#c9a96e] text-[#c9a96e] text-xs tracking-[0.3em] uppercase hover:bg-[#c9a96e] hover:text-white transition-all"
@@ -122,7 +118,7 @@ export default function HomePageContent() {
       <section className="py-20 bg-white">
         <div className="px-4">
           <h2 className="text-center text-3xl md:text-4xl tracking-[0.2em] text-[#1a1a1a] mb-10">
-            FEATURED PROPERTIES
+            INSTITUTIONAL REAL ESTATE WITHOUT DAILY MANAGEMENT
           </h2>
           <div className="grid md:grid-cols-2 gap-4">
             {featuredPropertyTypes.map((property, i) => {
@@ -154,11 +150,9 @@ export default function HomePageContent() {
           </div>
           <div className="text-center mt-12">
             <Link
-              href="/property-types"
+              href="/contact?request=guide"
               className="inline-flex items-center justify-center px-12 py-4 border border-[#1a1a1a] text-[#1a1a1a] text-xs tracking-[0.3em] uppercase hover:bg-[#1a1a1a] hover:text-white transition-all"
-            >
-              View All Property Types
-            </Link>
+            >Get Free San Antonio 1031 Information</Link>
           </div>
         </div>
       </section>
@@ -232,9 +226,7 @@ export default function HomePageContent() {
             <Link
               href="/contact"
               className="inline-flex items-center justify-center px-12 py-4 border border-white text-white text-xs tracking-[0.3em] uppercase hover:bg-white hover:text-[#1a1a1a] transition-all"
-            >
-              Contact Us
-            </Link>
+            >Talk Through the San Antonio Sale</Link>
           </div>
         </div>
       </section>
@@ -243,11 +235,9 @@ export default function HomePageContent() {
       <section className="py-24 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl tracking-[0.2em] text-[#1a1a1a] mb-6">
-              OUR SERVICES
-            </h2>
+            <h2 className="text-3xl md:text-4xl tracking-[0.2em] text-[#1a1a1a] mb-6">SAN ANTONIO 1031 EXCHANGE SOLUTIONS</h2>
             <p className="text-[#1a1a1a]/60 text-lg italic max-w-2xl mx-auto font-[family-name:var(--font-cormorant)]">
-              From property identification to exchange coordination, we guide 1031 exchange buyers through every step.
+              From property identification to exchange solutions, we guide 1031 exchange buyers through every step.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-0 max-w-6xl mx-auto">
@@ -271,11 +261,9 @@ export default function HomePageContent() {
           </div>
           <div className="text-center mt-14">
             <Link
-              href="/services"
+              href="/contact?request=properties"
               className="inline-flex items-center justify-center px-12 py-4 border border-[#1a1a1a] text-[#1a1a1a] text-xs tracking-[0.3em] uppercase hover:bg-[#1a1a1a] hover:text-white transition-all"
-            >
-              View All Services
-            </Link>
+            >Request the San Antonio Property List</Link>
           </div>
         </div>
       </section>
