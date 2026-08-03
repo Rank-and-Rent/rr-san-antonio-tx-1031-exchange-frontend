@@ -19,23 +19,21 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "1031 Exchange San Antonio | Property & DST Options",
-  description: "Selling San Antonio investment property? Compare direct, net-lease, and passive DST replacements, then request a current property list.",
+  title: "Turnkey 1031 Exchange Solutions | San Antonio, TX",
+  description: "Selling San Antonio investment property? Get free 1031 exchange guidance, compare direct, net-lease, and DST options, or request a property list.",
   keywords: [
-    "single tenant retail for sale",
-    "NNN investment property for sale",
-    "net lease property listings",
-    "1031 exchange NNN properties",
-    "single tenant net lease",
-    "triple net lease properties",
-    "1031 exchange replacement property",
-    "NNN properties nationwide",
-    "single tenant retail 1031 exchange",
-    "net lease investment properties",
     "1031 exchange San Antonio",
-    "sale leaseback",
-    "ground lease",
-    "zero cash flow 1031 exchange"
+    "San Antonio 1031 exchange services",
+    "turnkey 1031 exchange solutions",
+    "1031 exchange replacement property",
+    "1031 exchange property identification",
+    "DST replacement properties",
+    "passive 1031 exchange investments",
+    "qualified intermediary San Antonio",
+    "inherited property 1031 exchange",
+    "direct real estate replacement property",
+    "net lease replacement properties",
+    "NNN property 1031 exchange"
   ],
   icons: {
     icon: [
@@ -53,15 +51,15 @@ export const metadata: Metadata = {
   },
   manifest: "/favicon/site.webmanifest",
   openGraph: {
-    title: "1031 Exchange San Antonio | Property & DST Options",
-    description: "Selling San Antonio investment property? Compare direct, net-lease, and passive DST replacements, then request a current property list.",
+    title: "Turnkey 1031 Exchange Solutions | San Antonio, TX",
+    description: "Get free San Antonio 1031 exchange guidance, compare replacement-property paths, and request current property information.",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "1031 Exchange San Antonio | Property & DST Options",
-    description: "Selling San Antonio investment property? Compare direct, net-lease, and passive DST replacements, then request a current property list.",
+    title: "Turnkey 1031 Exchange Solutions | San Antonio, TX",
+    description: "Free San Antonio 1031 exchange guidance, direct and passive replacement options, and current property information.",
   },
   alternates: {
     canonical: "https://1031exchangesanantonio.com",

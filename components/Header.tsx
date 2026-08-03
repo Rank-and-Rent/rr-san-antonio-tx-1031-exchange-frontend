@@ -12,8 +12,8 @@ const tools = [
 ];
 
 const mobileLinks = [
-  { label: "Properties", href: "/property-types" },
   { label: "Services", href: "/services" },
+  { label: "Property Options", href: "/property-types" },
   { label: "Locations", href: "/locations" },
   { label: "Tools", href: "/tools" },
   { label: "Blog", href: "/blog" },
@@ -33,6 +33,13 @@ export default function Header() {
     window.addEventListener("keydown", handleEscape);
     return () => window.removeEventListener("keydown", handleEscape);
   }, []);
+
+  useEffect(() => {
+    document.body.style.overflow = menuOpen ? "hidden" : "";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [menuOpen]);
 
   const propertyTypePreview = propertyTypesData.slice(0, 6);
 
@@ -65,16 +72,16 @@ export default function Header() {
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-6 flex-shrink-0">
             <Link
-              href="/property-types"
-              className="text-xs font-medium uppercase tracking-[0.15em] text-[#1a1a1a]/80 hover:text-[#1a1a1a] transition-colors whitespace-nowrap"
-            >
-              Properties
-            </Link>
-            <Link
               href="/services"
               className="text-xs font-medium uppercase tracking-[0.15em] text-[#1a1a1a]/80 hover:text-[#1a1a1a] transition-colors whitespace-nowrap"
             >
               Services
+            </Link>
+            <Link
+              href="/property-types"
+              className="text-xs font-medium uppercase tracking-[0.15em] text-[#1a1a1a]/80 hover:text-[#1a1a1a] transition-colors whitespace-nowrap"
+            >
+              Property Options
             </Link>
             <Link
               href="/locations"
@@ -82,24 +89,24 @@ export default function Header() {
             >
               Service Areas
             </Link>
-            <Link
-              href="/contact"
-              className="text-xs font-medium uppercase tracking-[0.15em] text-[#1a1a1a]/80 hover:text-[#1a1a1a] transition-colors whitespace-nowrap"
-            >
-              Contact Us
-            </Link>
             <a
               href={`tel:${site.phoneDigits}`}
               className="text-xs tracking-[0.15em] text-[#1a1a1a]/70 hover:text-[#1a1a1a] transition-colors font-medium whitespace-nowrap"
             >
               {site.phone}
             </a>
+            <Link
+              href="/contact"
+              className="whitespace-nowrap bg-[#1a1a1a] px-5 py-3 text-[10px] font-semibold uppercase tracking-[0.15em] text-white transition-colors hover:bg-[#c9a96e] hover:text-[#1a1a1a]"
+            >
+              Free Guidance
+            </Link>
           </div>
 
           {/* Hamburger Menu Button - mobile only */}
           <button
             className="lg:hidden flex flex-col gap-[5px] p-2 hover:opacity-70 transition-opacity"
-            aria-label="Open navigation"
+            aria-label={menuOpen ? "Close navigation" : "Open navigation"}
             aria-expanded={menuOpen}
             onClick={() => setMenuOpen((prev) => !prev)}
           >
@@ -158,7 +165,7 @@ export default function Header() {
             </div>
             <div className="mt-10 pt-8 border-t border-[#e5e5e5] space-y-4">
               <p className="text-[10px] tracking-[0.3em] text-[#1a1a1a]/50 uppercase font-medium">
-                Property Types
+                Replacement Property Types
               </p>
               {propertyTypePreview.map((propertyType) => (
                 <Link
@@ -196,10 +203,11 @@ export default function Header() {
             <div className="mt-10 pt-8 border-t border-[#e5e5e5]">
               <a
                 href={`tel:${site.phoneDigits}`}
-                className="block text-sm font-medium tracking-[0.15em] text-[#1a1a1a]/80 hover:text-[#1a1a1a] mb-2"
+                className="flex min-h-12 items-center justify-center bg-[#c9a96e] px-5 text-sm font-semibold tracking-[0.12em] text-[#1a1a1a]"
               >
-                {site.phone}
+                Call {site.phone}
               </a>
+              <Link href="/contact?request=properties" onClick={() => setMenuOpen(false)} className="mt-3 flex min-h-12 items-center justify-center border border-[#1a1a1a] px-5 text-xs font-semibold uppercase tracking-[0.14em] text-[#1a1a1a]">Free Property List</Link>
             </div>
           </div>
         </div>

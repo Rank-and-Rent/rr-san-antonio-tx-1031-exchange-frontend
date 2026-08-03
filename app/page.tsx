@@ -26,19 +26,21 @@ export default function Home() {
     },
     "serviceType": [
       "1031 Exchange Services",
-      "NNN Property Sales",
-      "Single Tenant Retail Property Sales",
-      "Net Lease Property Sales",
-      "1031 Exchange Replacement Property Identification"
+      "1031 Exchange Replacement Property Identification",
+      "Direct Real Estate Replacement Options",
+      "Net Lease Replacement Properties",
+      "Delaware Statutory Trust Information",
+      "Qualified Intermediary Introductions",
+      "Inherited Investment Property Exchange Guidance"
     ],
-    "description": "Professional 1031 exchange services specializing in single tenant NNN retail properties nationwide. We help investors defer capital gains taxes by identifying high-quality replacement properties across all 50 states."
+    "description": "Turnkey 1031 exchange solutions for San Antonio property owners, including free exchange guidance, replacement-property identification, direct and passive property options, and professional introductions through closing."
   };
 
   const localBusinessStructuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": site.company,
-    "image": `https://${site.website}/logo.png`,
+    "image": `https://${site.website}/1031-exchange-san-antonio-tx-logo.png`,
     "telephone": site.phone,
     "email": site.email,
     "address": {

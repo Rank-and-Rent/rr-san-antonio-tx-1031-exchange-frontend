@@ -1,48 +1,16 @@
-"use client";
-
-import { useState } from "react";
-import Link from "next/link";
-import site from "@/content/site.json";
-
 export default function StickyCall({ phone }: { phone: string }) {
-  const [isOpen, setIsOpen] = useState(false);
-  const tel = "tel:" + phone.replace(/\D/g, "");
+  const tel = `tel:${phone.replace(/\D/g, "")}`;
 
   return (
-    <div className="fixed right-4 bottom-4 z-50">
-      {isOpen ? (
-        <div className="bg-paper border border-outline rounded-lg shadow-xl p-4 mb-2 min-w-[200px]">
-          <button
-            onClick={() => setIsOpen(false)}
-            className="absolute top-2 right-2 text-ink hover:text-heading"
-            aria-label="Close"
-          >
-            ×
-          </button>
-          <div className="space-y-2">
-            <a
-              href={tel}
-              className="block w-full text-center px-4 py-2 bg-primary text-primaryfg rounded-full hover:opacity-90 transition-opacity font-medium"
-            >
-              Call Now
-            </a>
-            <Link
-              href="/contact"
-              className="block w-full text-center px-4 py-2 border border-outline text-ink rounded-full hover:bg-panel transition-colors"
-            >
-              Contact Form
-            </Link>
-          </div>
-        </div>
-      ) : null}
-      <button
-        onClick={() => setIsOpen(!isOpen)}
-        className="inline-flex items-center gap-2 rounded-full px-5 py-3 shadow-xl border border-outline bg-primary text-primaryfg hover:opacity-90 transition-opacity"
-        aria-label="Call options"
-      >
-        <span className="hidden md:inline">Call Now</span>
-        <span className="md:hidden">Call</span>
-      </button>
-    </div>
+    <a
+      href={tel}
+      aria-label={`Call ${phone}`}
+      className="fixed bottom-4 right-4 z-50 inline-flex h-14 w-14 items-center justify-center rounded-full border-2 border-white bg-[#c9a96e] text-[#1a1a1a] shadow-2xl transition hover:bg-white md:h-auto md:w-auto md:gap-2 md:border-[#c9a96e] md:px-6 md:py-3"
+    >
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.9.33 1.78.62 2.63a2 2 0 0 1-.45 2.11L8 9.73a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.85.29 1.73.5 2.63.62A2 2 0 0 1 22 16.92z" />
+      </svg>
+      <span className="hidden text-xs font-semibold uppercase tracking-[0.16em] md:inline">Call {phone}</span>
+    </a>
   );
 }

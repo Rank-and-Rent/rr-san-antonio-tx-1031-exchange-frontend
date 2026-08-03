@@ -4,133 +4,135 @@ import SafeImage from "@/components/SafeImage";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata = {
-  title: "About Us | 1031 Exchange Property Identification Services",
-  description: "We help 1031 exchange buyers identify replacement properties nationwide. Learn about our secure intake process, property matching workflow, and coordination with Qualified Intermediaries and lenders.",
+  title: "About Our Turnkey 1031 Exchange Solutions | San Antonio",
+  description: "Learn how San Antonio property owners can get free 1031 exchange guidance, replacement-property help, and introductions to the appropriate independent professionals.",
 };
+
+const reasons = [
+  "A planned investment-property sale",
+  "A property already under contract",
+  "An inherited rental or commercial asset",
+  "A desire to leave active property management",
+  "A need to find primary and backup replacement properties",
+  "Questions about direct real estate, net lease, or DST interests",
+];
+
+const support = [
+  {
+    title: "Begin with the sale objective",
+    copy: "Clarify why the current property no longer fits, expected equity and debt, income goals, preferred workload, timing, and the professionals already involved.",
+  },
+  {
+    title: "Protect the exchange before closing",
+    copy: "Help the owner understand when an independent qualified intermediary must be engaged and which sale and closing facts need immediate attention.",
+  },
+  {
+    title: "Build a practical replacement search",
+    copy: "Compare direct property, net-lease real estate, and DST interests using the same criteria for income, control, risk, management, financing, and ability to close.",
+  },
+  {
+    title: "Keep professional handoffs visible",
+    copy: "Organize open questions for the qualified intermediary, CPA, attorney, brokers, lenders, inspectors, and licensed securities professionals required by the transaction.",
+  },
+];
 
 export default function AboutPage() {
   return (
-    <main className="min-h-screen">
-      {/* Hero Section */}
-      <section className="relative h-[50vh] min-h-[400px] overflow-hidden">
-        <SafeImage
-          src="/san-antonio-tx-1031-exchange-twilight-skyline.jpg"
-          alt="San Antonio skyline"
-          fill
-          className="object-cover"
-          priority
-        />
-        <div className="absolute inset-0 bg-black/60" />
+    <main className="min-h-screen bg-white">
+      <section className="relative h-[52vh] min-h-[430px] overflow-hidden">
+        <SafeImage src="/san-antonio-tx-1031-exchange-twilight-skyline.jpg" alt="San Antonio skyline" fill className="object-cover" priority />
+        <div className="absolute inset-0 bg-black/65" />
         <div className="absolute inset-0 flex items-center justify-center">
-          <div className="text-center px-6">
-            <p className="text-white/60 text-xs tracking-[0.5em] uppercase mb-4">
-              {site.company}
-            </p>
-            <h1 className="text-white text-4xl md:text-5xl lg:text-6xl tracking-[0.15em] font-light">
-              ABOUT US
-            </h1>
+          <div className="max-w-4xl px-6 text-center">
+            <p className="mb-4 text-xs uppercase tracking-[0.45em] text-[#c9a96e]">{site.company}</p>
+            <h1 className="font-[family-name:var(--font-cormorant)] text-5xl font-light leading-tight text-white md:text-7xl">A Complete Place to Start Your 1031 Exchange</h1>
           </div>
         </div>
       </section>
 
-      {/* Breadcrumbs */}
       <div className="container mx-auto px-6 pt-6">
         <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "About" }]} />
       </div>
 
-      {/* Content Section */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-6">
-          <div className="max-w-4xl mx-auto">
-            <p className="text-[#1a1a1a]/70 text-lg leading-relaxed mb-8 italic">
-              This site is focused on helping you identify 1031 exchange replacement properties.
-              We specialize in finding single tenant NNN retail and commercial properties nationwide
-              that qualify for tax deferred exchanges.
+      <section className="px-6 py-20 md:py-28">
+        <div className="mx-auto grid max-w-6xl gap-14 lg:grid-cols-[1.05fr_.95fr] lg:items-start">
+          <div>
+            <p className="text-xs uppercase tracking-[0.35em] text-[#a77c40]">Turnkey 1031 Exchange Solutions</p>
+            <h2 className="mt-5 font-[family-name:var(--font-cormorant)] text-4xl font-light leading-tight text-[#1a1a1a] md:text-5xl">Call with the entire property sale and the outcome you want next.</h2>
+            <p className="mt-7 font-[family-name:var(--font-cormorant)] text-xl italic leading-relaxed text-[#1a1a1a]/65">
+              San Antonio property owners can begin here whether the sale is still an idea, the property is already listed, a contract has been signed, or the replacement search is becoming urgent.
             </p>
-
-            <h2 className="text-2xl tracking-[0.15em] text-[#1a1a1a] mb-6 mt-12">
-              WHAT WE DO
-            </h2>
-            <p className="text-[#1a1a1a]/70 leading-relaxed mb-4 italic">
-              We help 1031 exchange buyers quickly find high quality single tenant NNN retail and
-              shopping center properties nationwide. Our property identification process focuses on
-              matching your timeline, credit strength requirements, lease term preferences, and yield
-              targets with available replacement properties.
+            <p className="mt-5 leading-8 text-[#1a1a1a]/62">
+              We help bring the sale facts, exchange timing, replacement criteria, direct and passive property options, and necessary professional introductions into one organized review. The goal is to make the next decision clearer and keep important questions from disappearing between separate providers.
             </p>
-            <p className="text-[#1a1a1a]/70 leading-relaxed mb-4 italic">
-              We spotlight single tenant net lease assets where the tenant handles taxes, insurance,
-              and maintenance, so you can collect rent without day to day management headaches. We
-              provide clear explanations of NNN structures, sale leasebacks, ground leases, and zero
-              cash flow options.
-            </p>
-
-            <h2 className="text-2xl tracking-[0.15em] text-[#1a1a1a] mb-6 mt-12">
-              OUR PROCESS
-            </h2>
-            <p className="text-[#1a1a1a]/70 leading-relaxed mb-4 italic">
-              Our secure intake process begins when you contact us about your 1031 exchange needs.
-              We gather information about your relinquished property, exchange timeline, investment
-              criteria, and location preferences.
-            </p>
-            <p className="text-[#1a1a1a]/70 leading-relaxed mb-4 italic">
-              Our property matching workflow uses your criteria to identify replacement properties
-              across all 50 states. We provide property details, financial information, and lease
-              terms for your review. We coordinate with third party Qualified Intermediaries and
-              lenders to ensure smooth transaction execution.
-            </p>
-
-            <h2 className="text-2xl tracking-[0.15em] text-[#1a1a1a] mb-6 mt-12">
-              IMPORTANT DISCLOSURES
-            </h2>
-            <p className="text-[#1a1a1a]/70 leading-relaxed mb-4 italic">
-              This site helps investors identify potential replacement properties for Section 1031
-              exchanges. We are not a Qualified Intermediary, law firm, broker, or CPA.
-            </p>
-            <p className="text-[#1a1a1a]/70 leading-relaxed mb-4 italic">
-              We can help you get in touch with tax professionals and Qualified Intermediaries, but
-              we are not a Qualified Intermediary ourselves. Users should consult a Qualified
-              Intermediary and tax advisor before acting on any 1031 exchange transaction.
-            </p>
-            <p className="text-[#1a1a1a]/70 leading-relaxed mb-4 italic">
-              All property information is provided for identification purposes only. We do not
-              provide legal or tax advice. You should work with qualified professionals for all
-              legal, tax, and exchange coordination matters.
-            </p>
-
-            <h2 className="text-2xl tracking-[0.15em] text-[#1a1a1a] mb-6 mt-12">
-              WHO WE SERVE
-            </h2>
-            <p className="text-[#1a1a1a]/70 leading-relaxed mb-4 italic">
-              We work with unrepresented 1031 exchange buyers who need trusted guidance and speed.
-              This includes landowners or business sellers with new liquidity who want stable brands
-              like convenience stores, quick service restaurants, pharmacies, and essential retail.
-            </p>
-            <p className="text-[#1a1a1a]/70 leading-relaxed mb-4 italic">
-              Our goal is simple. Bring motivated exchange buyers to the right inventory, educate
-              them on why single tenant triple net works for hands off ownership, and help them
-              connect with the resources needed to complete their transactions quickly and
-              professionally.
-            </p>
+            <div className="mt-9 flex flex-col gap-3 sm:flex-row">
+              <a href={`tel:${site.phoneDigits}`} className="inline-flex min-h-12 items-center justify-center bg-[#1a1a1a] px-7 text-xs font-semibold uppercase tracking-[0.16em] text-white">Call {site.phone}</a>
+              <Link href="/contact" className="inline-flex min-h-12 items-center justify-center border border-[#1a1a1a] px-7 text-xs font-semibold uppercase tracking-[0.16em] text-[#1a1a1a]">Start My Exchange</Link>
+            </div>
+          </div>
+          <div className="bg-[#f6f3ed] p-8 md:p-10">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#9c7135]">Owners contact us about</p>
+            <div className="mt-6 grid gap-5">
+              {reasons.map((reason) => (
+                <p key={reason} className="flex gap-4 border-b border-[#ded8cd] pb-5 font-[family-name:var(--font-cormorant)] text-xl text-[#1a1a1a]/75 last:border-0 last:pb-0">
+                  <span className="mt-3 h-px w-7 shrink-0 bg-[#c9a96e]" />
+                  {reason}
+                </p>
+              ))}
+            </div>
           </div>
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="relative py-24">
-        <div className="absolute inset-0 bg-[#1a1a1a]" />
-        <div className="relative z-10 container mx-auto px-6 text-center">
-          <h2 className="text-white text-2xl md:text-3xl tracking-[0.2em] mb-6">
-            READY TO FIND YOUR REPLACEMENT PROPERTY?
-          </h2>
-          <p className="text-white/60 text-lg italic mb-10 max-w-2xl mx-auto">
-            Contact us to discuss your 1031 exchange property identification needs.
+      <section className="bg-[#1a1a1a] px-6 py-20 text-white md:py-28">
+        <div className="mx-auto max-w-6xl">
+          <div className="mx-auto max-w-3xl text-center">
+            <p className="text-xs uppercase tracking-[0.35em] text-[#c9a96e]">How We Help</p>
+            <h2 className="mt-5 font-[family-name:var(--font-cormorant)] text-4xl font-light leading-tight md:text-5xl">From the planned sale through replacement closing</h2>
+          </div>
+          <div className="mt-12 grid gap-px bg-white/12 md:grid-cols-2">
+            {support.map((item) => (
+              <article key={item.title} className="bg-[#1a1a1a] p-8 md:p-10">
+                <span className="mb-6 block h-px w-10 bg-[#c9a96e]" />
+                <h3 className="font-[family-name:var(--font-cormorant)] text-2xl font-medium">{item.title}</h3>
+                <p className="mt-4 leading-7 text-white/58">{item.copy}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-[#f6f3ed] px-6 py-20 md:py-28">
+        <div className="mx-auto max-w-6xl">
+          <div className="grid gap-10 lg:grid-cols-3">
+            {[
+              ["Direct Real Estate", "Control the property, financing, leasing, business plan, management, and future disposition."],
+              ["Net-Lease Property", "Own real estate while the lease assigns specified operating responsibilities to the tenant."],
+              ["DST Interest", "Consider professionally managed institutional real estate without day-to-day landlord responsibilities."],
+            ].map(([title, copy]) => (
+              <article key={title} className="border-t-2 border-[#c9a96e] bg-white p-8">
+                <h2 className="font-[family-name:var(--font-cormorant)] text-3xl font-light text-[#1a1a1a]">{title}</h2>
+                <p className="mt-4 leading-7 text-[#1a1a1a]/60">{copy}</p>
+              </article>
+            ))}
+          </div>
+          <p className="mx-auto mt-10 max-w-4xl text-center text-sm leading-7 text-[#1a1a1a]/48">
+            Educational guidance only. Tax and legal conclusions belong to the property owner&apos;s CPA and counsel. Qualified-intermediary, brokerage, lending, and securities work must be performed by the appropriate independent professionals. DST interests involve offering-specific risks, fees, leverage, illiquidity, eligibility, and suitability review.
           </p>
-          <Link
-            href="/contact"
-            className="inline-flex items-center justify-center px-12 py-4 border border-white text-white text-xs tracking-[0.3em] uppercase hover:bg-white hover:text-[#1a1a1a] transition-all"
-          >
-            Contact Us
-          </Link>
+        </div>
+      </section>
+
+      <section className="relative overflow-hidden px-6 py-24 text-center text-white">
+        <SafeImage src="/san-antonio-tx-1031-exchange-cityscape.jpg" alt="" fill className="object-cover" sizes="100vw" />
+        <div className="absolute inset-0 bg-black/75" />
+        <div className="relative mx-auto max-w-3xl">
+          <p className="text-xs uppercase tracking-[0.35em] text-[#c9a96e]">Free Exchange Guidance</p>
+          <h2 className="mt-5 font-[family-name:var(--font-cormorant)] text-4xl font-light md:text-5xl">Talk through the San Antonio property sale.</h2>
+          <p className="mx-auto mt-5 max-w-2xl font-[family-name:var(--font-cormorant)] text-xl italic leading-relaxed text-white/65">Start the exchange, ask what needs to happen next, or request current direct, net-lease, and DST property information.</p>
+          <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
+            <a href={`tel:${site.phoneDigits}`} className="inline-flex min-h-12 items-center justify-center bg-[#c9a96e] px-7 text-xs font-semibold uppercase tracking-[0.16em] text-[#1a1a1a]">Call {site.phone}</a>
+            <Link href="/contact?request=properties" className="inline-flex min-h-12 items-center justify-center border border-white px-7 text-xs font-semibold uppercase tracking-[0.16em] text-white">Get a Free Property List</Link>
+          </div>
         </div>
       </section>
     </main>

@@ -217,7 +217,7 @@ function ContactForm() {
           </div>
 
           <button type="submit" className="w-full border border-brand-copper bg-brand-copper px-8 py-4 text-sm font-medium uppercase tracking-widest text-black transition-all duration-300 hover:bg-brand-copper-light disabled:opacity-50 disabled:cursor-not-allowed">
-            {status === "submitting" ? "Submitting..." : "Submit →"}
+            {status === "submitting" ? "Submitting..." : "Request Free 1031 Guidance"}
           </button>
           <p className="text-xs text-white/70 text-center">Educational content only. Not tax or legal advice.</p>
           {feedback && (
@@ -229,7 +229,8 @@ function ContactForm() {
   );
 }
 
-export function ContactFormWrapper(_props?: { heading?: string; subheading?: string; prefillProjectType?: string }) {
+export function ContactFormWrapper(props?: { heading?: string; subheading?: string; prefillProjectType?: string }) {
+  void props;
   return (
     <Suspense fallback={<div className="border border-white/25 bg-brand-charcoal/50 p-8 text-white/85">Loading form...</div>}>
       <ContactForm />
