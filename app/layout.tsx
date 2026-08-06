@@ -120,6 +120,7 @@ export default function RootLayout({
         {children}
         <Footer />
         <Analytics />
+              <script src="/turnstile-contact.js" defer></script>
       </body>
     </html>
   );
